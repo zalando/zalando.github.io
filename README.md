@@ -1,2 +1,2 @@
-# ost
-Project coordination for the Zalando Open Source Team
+# Zalando Open Source Team 
+
