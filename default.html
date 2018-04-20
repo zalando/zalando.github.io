@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <!-- Dress code css + fonts -->
+    <link href="node_modules/dress-code/dist/css/dress-code.min.css"
+        rel="stylesheet">
+
+  <link href="//fonts.googleapis.com/css?family=Ubuntu:300,500"
+        rel="stylesheet">
+
+    <script src="assets/js/index.js" type="text/javascript" ></script>
+    <script src="node_modules/mustache/mustache.min.js"> </script>
+  <title>Zalando Open Source Team</title>
+
+
+  <!-- todo, move to seperate css file -->
+  <style>
+        .t-header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 900;
+        }
+
+        .t-hero {
+        background: #ccc;
+        padding: 4rem;
+        min-height: 400px; 
+        }
+
+        .t-header img.t-logo{
+            height: 20px
+        }
+
+        .t-main{
+        box-sizing: border-box;
+        position: relative;
+        margin-top: 5rem;
+        z-index: 0;
+        min-height: calc(100vh - 6rem);
+        }
+
+        .t-projects-section .dc-card{
+            margin-bottom: 25px;
+            height: 160px;
+        }
+
+        
+  </style>
+</head>
+<body>
+  <header class="t-header">
+    <ul class="dc-tab">
+      <li class="dc-tab__element dc-tab__element--header">
+        
+        Open source @ <img class="t-logo"
+           src="node_modules/dress-code/dist/img/logo.svg"></li>
+
+      <li class="dc-tab__element">Projects</li>
+      <li class="dc-tab__element">The team</li>
+      <li class="dc-tab__element">Contact</li>
+    </ul>
+    <div class="dc-divider"></div>
+  
+</header>
+
+<main class="t-main">
+
+ <!-- Header -->
+<section class="t-hero">
+
+    <div class="dc-container dc-container--limited dc--text-center">
+            <h1>Zalando Open Source</h1>
+            <h2>Growing and promoting open source for the good of all</h2>
+    </div>
+
+</section> 
+
+<section class="dc-page">
+   
+    <!--  Projects and vanity mewtrics  -->
+    <div class="dc-container dc-container--limited dc--text-center t-projects-section">
+    
+      <h1>Zalando Open source projects</h1>
+
+      <p>
+          There are currently <strong>43</strong> active Zalando projects
+          written in <strong>14</strong> different languages, 
+          with <strong>1230</strong> stars 
+          and <strong>7272345</strong> from <strong>2345</strong> contributors.
+      </p>
+
+      <div class="dc-row">
+        <div class="dc-column">
+          <div class="dc-card">
+            <h2>Patroni</h2>
+            <p>A template for PostgreSQL High Availability with ZooKeeper, etcd, or Consul</p>
+          </div>
+        </div>
+        <div class="dc-column">
+          <div class="dc-card">
+            <h2>Nakadi</h2>
+            <p>A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="dc-row">
+        <div class="dc-column">
+          <div class="dc-card">
+            <h2>Patroni</h2>
+            <p>A template for PostgreSQL High Availability with ZooKeeper, etcd, or Consul</p>
+          </div>
+        </div>
+        <div class="dc-column">
+          <div class="dc-card">
+            <h2>Nakadi</h2>
+            <p>A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues</p>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+
+      <div class="dc-row">
+        <div class="dc-column">
+          <h3>Participating</h3>
+          <p>Zalando is an active contributor to open source projects which have strategic importance to us</p>
+        </div>
+        <div class="dc-column">
+          <h3>Share</h3>
+          <p>We share our work with the world</p>
+        </div>
+        <div class="dc-column">
+          <h3>Consume</h3>
+          <p>We prioritise open source solutions for everything we build</p>
+        </div>
+      </div>
+    </div><br>
+
+
+    <!-- Purpose - placeholder text for now -->
+    <div class="dc-container dc-container--limited dc--text-center">
+      <h1>Good for all</h1>
+      <p>Zalandos tech stack is open source centric, 
+        we stand on the shoulder of giants, and want our work to benefit as many as possible</p>
+      
+      
+      <div class="dc-row">
+        <div class="dc-column">
+          <h3>Participate</h3>
+          <p>Zalando is an active contributor to open source projects which have 
+              strategic value to us</p>
+        </div>
+        <div class="dc-column">
+          <h3>Share</h3>
+          <p>We share our work with the world in the hope it will benefit 
+            others like we have benefitted from open source</p>
+        </div>
+        <div class="dc-column">
+          <h3>Consume</h3>
+          <p>We prioritise open source solutions for everything we build </p>
+        </div>
+      </div>
+
+
+    
+      <h1>The Team</h1>
+      <div class="dc-card">
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+      </div>
+
+
+      <h1>The Team</h1>
+      <div class="dc-card">
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+      </div>
+
+
+      <h1>Get in touch</h1>
+      <div class="dc-card">
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+        <p>aksdjasjdlasjlkasldlasdlasldnaslndhasdjhvbmnabjh</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  content info, email, twitter , github orgs
+</footer>
+
+</body>
+</html>
