@@ -3,23 +3,36 @@
 <head>
   
   <!-- Dress code css + fonts -->
-    <link href="node_modules/dress-code/dist/css/dress-code.min.css"
+  <link href="node_modules/dress-code/dist/css/dress-code.min.css"
         rel="stylesheet">
 
   <link href="//fonts.googleapis.com/css?family=Ubuntu:300,500"
         rel="stylesheet">
 
-    <script src="assets/js/index.js" type="text/javascript" ></script>
-    <script src="node_modules/mustache/mustache.min.js"> </script>
+  <script src="assets/js/index.js" type="text/javascript" ></script>
+  <script src="node_modules/mustache/mustache.min.js"> </script>
 
-  <script id="catwatch-statistics" type="x-tmpl-mustache">
+  <script id="catwatch-statistics-template" type="x-tmpl-mustache">
       <p>
-          There are currently <strong>43</strong> active Zalando projects
-          written in <strong>14</strong> different languages, 
-          with <strong>1230</strong> stars 
-          and <strong>7272345</strong> from <strong>2345</strong> contributors.
+          There are currently <strong>{{ publicProjectCount }}</strong> active Zalando projects
+          written in <strong>{{ programLanguagesCount }}</strong> different languages, 
+          with <strong>{{ allStarsCount }}</strong> stars 
+          and <strong>{{ allContributorsCount }}</strong> active contributors.
       </p>
   </script>
+  <script id="catwatch-projects-template" type="x-tmpl-mustache">
+      <div class="dc-row">
+          {{#projects}}
+          <div class="dc-column">
+            <div class="dc-card">
+              <h2>{{name}}</h2>
+              <p>{{description}}</p>
+            </div>
+          </div>
+          {{/projects}}
+      </div>
+  </script>
+
 
   <title>Zalando Open Source Team</title>
 
@@ -50,6 +63,11 @@
         margin-top: 5rem;
         z-index: 0;
         min-height: calc(100vh - 6rem);
+        }
+        
+        .t-projects-section{
+          min-height: 400px;
+          background: red
         }
 
         .t-projects-section .dc-card{
@@ -88,53 +106,20 @@
 
 </section> 
 
+
+
+
 <section class="dc-page">
    
     <!--  Projects and vanity mewtrics  -->
     <div class="dc-container dc-container--limited dc--text-center t-projects-section">
-    
       <h1>Zalando Open source projects</h1>
+      <div id="catwatch-statistics"></div>
+      <div id="catwatch-projects"></div>
+    </div>
+  
 
-      <p>
-          There are currently <strong>43</strong> active Zalando projects
-          written in <strong>14</strong> different languages, 
-          with <strong>1230</strong> stars 
-          and <strong>7272345</strong> from <strong>2345</strong> contributors.
-      </p>
-
-      <div class="dc-row">
-        <div class="dc-column">
-          <div class="dc-card">
-            <h2>Patroni</h2>
-            <p>A template for PostgreSQL High Availability with ZooKeeper, etcd, or Consul</p>
-          </div>
-        </div>
-        <div class="dc-column">
-          <div class="dc-card">
-            <h2>Nakadi</h2>
-            <p>A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="dc-row">
-        <div class="dc-column">
-          <div class="dc-card">
-            <h2>Patroni</h2>
-            <p>A template for PostgreSQL High Availability with ZooKeeper, etcd, or Consul</p>
-          </div>
-        </div>
-        <div class="dc-column">
-          <div class="dc-card">
-            <h2>Nakadi</h2>
-            <p>A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues</p>
-          </div>
-        </div>
-      </div>
-
-      <hr>
-
-
+    <div class="dc-container dc-container--limited dc--text-center t-participation-section"></div>
       <div class="dc-row">
         <div class="dc-column">
           <h3>Participating</h3>
