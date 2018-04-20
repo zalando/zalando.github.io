@@ -18,7 +18,7 @@ email: opensource@zalando.de
 description: >- # this means to ignore newlines until "baseurl:"
   We develop Zalando’s Open Source strategy and consult the wider organisation on how to implement it safely,
   measurably and with impact in mind.
-baseurl: "/opensource" # the subpath of your site, e.g. /blog
+baseurl: "/ost" # the subpath of your site, e.g. /blog
 url: "https://zalando.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ZalandoTech
 github_username:  zalando
