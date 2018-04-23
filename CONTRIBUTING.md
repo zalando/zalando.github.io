@@ -11,7 +11,7 @@ The OST repository has two purposes:
 - Fork the repository
 - Create an issue
 - Open a PR and use the label - `pr: Work in Progress`
-- See below [template](#Example-template-for-PR))
+- See below [template](#example-template-for-pr))
 
 ## Making and submitting changes to the PR
 
