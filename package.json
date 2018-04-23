@@ -1,0 +1,15 @@
+{
+  "name": "teamwebsite",
+  "version": "0.0.1",
+  "description": "The Zalando Open Source Team website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zalando Open Source Team",
+  "license": "MIT",
+  "dependencies": {
+    "dress-code": "^2.4.0",
+    "mustache": "^2.3.0"
+  }
+}
