@@ -10,7 +10,8 @@ The OST repository has two purposes:
 
 - Fork the repository
 - Create an issue
-- Open a PR and use the label - `pr: Work in Progress` (See below [template](#Example template for PR))
+- Open a PR and use the label - `pr: Work in Progress`
+- See below [template](#Example-template-for-PR))
 
 ## Making and submitting changes to the PR
 
@@ -18,6 +19,7 @@ The OST repository has two purposes:
 - Use the corresponding issue number in the commit message (See below template)
 - Sign the Commit
 - Once the PR is ready, please use the label - `pr: Needs a Review` and remove the label - `pr: Work in Progress`
+- See below [template](#Example-template-for-commit-message))
 
 ## Example template for PR
 
