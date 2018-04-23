@@ -1,0 +1,56 @@
+.t-header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 900;
+}
+
+.t-hero {
+  background: #ccc;
+  padding: 10rem;
+  min-height: 400px;
+  /*this is temporary untill we find a suitable zalando specific image */
+  background: url(https://blog.buckitdream.com/wp-content/uploads/2017/11/destination_carousel_berlin.jpeg);
+  background-size: cover;
+  color: white;
+  font-size: 200%;
+  font-weight: 200
+}
+
+.t-header img.t-logo{
+  height: 20px
+}
+
+#catwatch-statistics{
+  font-size: 130%
+}
+
+.t-main{
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 5rem;
+  z-index: 0;
+  min-height: calc(100vh - 6rem);
+}
+
+.t-projects-section{
+  min-height: 400px;
+}
+
+.t-projects-section .dc-card{
+  margin-bottom: 5rem;
+  height: 160px;
+}
+
+.t-participation-section{
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+
+.t-footer{
+  min-height: 20rem;
+  background: #4a4a4a;
+  color: white;
+  padding-top: 3rem
+}
