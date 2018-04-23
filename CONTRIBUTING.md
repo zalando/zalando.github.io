@@ -8,8 +8,6 @@ The OST repository has two purposes:
 - Maintaining the OST website
 - Storing documentation related to the team goals and strategy
 
-# Process
-
 ## Creating issue and PR
 
 - Fork the repository
