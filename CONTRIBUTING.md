@@ -45,5 +45,5 @@ The `-s` in the above commit message signs your commit.
 
 # Contact
 
-**Email**: opensource@zalando.de
-**Issue tracker**: https://github.com/zalando/ost/issues
+- **Email**: opensource@zalando.de
+- **Issue tracker**: https://github.com/zalando/ost/issues
