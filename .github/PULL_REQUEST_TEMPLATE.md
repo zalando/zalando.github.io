@@ -1,13 +1,27 @@
 Issue: #`<issue number>` - `<PR Heading>`
 
-**Description**:
-- PR description message
+## Description
+- PR description message describing the motivation and context for the change
+  being proposed.
 
-**Tasks**:
+## Types of Changes
+_What types of changes does your code introduce? Put an `x` in all the boxes that apply:_
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Configuration change
+- [ ] Refactor/improvements
+
+## Tasks
   - [x] Created Task 1
   - [x] Created Task 2
   - [ ] To-do Task 3
 
-**Screenshots/Videos**: (OPTIONAL)
+## Checklist
+_Go over all the following points, and put an `x` in all the boxes that apply:_
+- [ ] My change requires a change to the documentation & I have updated it accordingly.
+- [ ] My change requires updating the monitoring dashboard & I have updated it accordingly.
+
+## Screenshots/Videos (OPTIONAL)
 
 Here's a nice PR template - [Link](../blob/master/CONTRIBUTING.md#example-template-for-pr)
