@@ -20,7 +20,7 @@ Submitting changes requires an issue to describe what you want to change and why
 
 ## Making and submitting changes to the PR
 
-As you work through the issue, make sure you commit your changes in logical chunks, include a commit messages that describe what you changed and why. 
+As you work through the issue, make sure you commit your changes in logical chunks, include a commit message that describe what you changed and why. 
 
 - Commit with a meaningful message
 - Sign the commit
@@ -30,22 +30,36 @@ As you work through the issue, make sure you commit your changes in logical chun
 
 ### Example template for PR
 
-We include a template on github for creating new pull requests. An exemple is showed below to give you an idea of what infomation we need to understand your submitted changes. A pull request should have:
+We include a template on github for creating new pull requests. An example is shown below to give you an idea of what infomation we need to understand your submitted changes. A pull request should:
 
-- A clear title
-- A reference to the issue it is fixing
-- A description that explains the changes being made
-- A list of tasks that outlines what changes are being made
+- Use a clear title
+- Have a reference to the issue it is fixing
+- Have a description of 2-3 sentences to explain the changes being made
+- Indicate if it's a new feature, bug fix or refactor
+- Outline the tasks being done to solve the issue
 
 ```
 Issue #15 - Initial website layout
 This PR creates the initial scaffold structure for the team website. The Catwatch data is called via the `fetch` API and 
 displayed in `index.html` page. CSS Flexbox is used as the CSS layout model.
 
+Types of Changes
+What types of changes does your code introduce? Put an `x` in all the boxes that apply:
+- [x] New feature (non-breaking change which adds functionality)
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] Configuration change
+- [ ] Refactor/improvements
+- [ ] Documentation / non-code 
+
 Tasks:
   - [x] Create index.html
   - [x] Setup css and js code
   - [ ] Follow Zalando dress-code standard
+
+Checklist
+Go over all the following points, and put an `x` in all the boxes that apply:
+- [ ] My change requires a change to the documentation & I have updated it accordingly.
+
 
 Screenshot: (optional)
   - Attach a screenshot image file
