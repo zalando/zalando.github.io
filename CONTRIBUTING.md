@@ -49,6 +49,7 @@ What types of changes does your code introduce? Put an `x` in all the boxes that
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] Configuration change
 - [ ] Refactor/improvements
+- [ ] Documentation / non-code 
 
 Tasks:
   - [x] Create index.html
