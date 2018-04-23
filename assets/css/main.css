@@ -55,7 +55,8 @@ body {
   margin: 0;
 }
 
-.statistics {
+.statistics,
+.projects {
   display: flex;
   flex-flow: wrap;
   padding: 20px 0;
@@ -87,19 +88,25 @@ body {
   margin-left: auto;
 }
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
-
 .project {
   flex-grow: 1;
+  max-width: 33%;
+  height: 250px;
 }
 
 .project span {
   display: block;
+}
+
+.project p {
+  text-overflow: ellipsis;
+}
+
+.project__statistics {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.project__statistics span {
+  flex-grow: 1;
 }

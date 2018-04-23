@@ -25,11 +25,15 @@ async function getStats(url) {
 };
 
 function setProject(project) {
-  const domElement = `<div class="project">
-    <span>Name: ${project.name}</span>
-    <span>Language: ${project.primaryLanguage}</span>
-    <span>Forks: ${project.forksCount}</span>
-    <span>Stars: ${project.starsCount}</span>
+  const domElement = `<div class="project dc-card">
+    <span class="dc-h2">${project.name}</span>
+    <p>${project.description}</p>
+    <span class="dc-h3">${project.primaryLanguage}</span>
+    <div class="project__statistics">
+      <span>Forks: ${project.forksCount}</span>
+      <span>Stars: ${project.starsCount}</span>
+      <span>Contributors: ${project.contributorsCount}</span>
+    </div>
   </div>`;
 
   return domElement;
