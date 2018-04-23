@@ -1,0 +1,30 @@
+{
+  "name": "open-source-team-website",
+  "version": "0.0.1",
+  "description": "The Zalando Open Source team website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zalando/ost.git"
+  },
+  "keywords": [
+    "opensource",
+    "website"
+  ],
+  "contributors": [
+    "Paul",
+    "Per",
+    "Princiya"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/princiya/ost/issues"
+  },
+  "homepage": "https://github.com/princiya/ost#readme",
+  "dependencies": {
+    "dress-code": "^2.4.0"
+  }
+}
