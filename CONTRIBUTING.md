@@ -26,7 +26,8 @@ The OST repository has two purposes:
 
 ```
 - Issue #15 - Initial website layout
-- **Description**: This PR creates the initial scaffold structure for the team website.
+- **Description**:
+  - This PR creates the initial scaffold structure for the team website. The Catwatch data is called via the `fetch` API and displayed in `index.html` page. CSS Flexbox is used as the CSS layout model.
 - **Tasks**:
   - [x] Create index.html
   - [x] Setup css and js code
