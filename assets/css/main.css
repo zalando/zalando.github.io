@@ -1,3 +1,7 @@
+body {
+  line-height: 1;
+}
+
 .t-header {
   position: fixed;
   top: 0;
@@ -48,6 +52,10 @@
   background: #4a4a4a;
   color: white;
   padding-top: 3rem
+}
+
+.t-footer .dc-row {
+  margin: 0;
 }
 
 .statistics {
