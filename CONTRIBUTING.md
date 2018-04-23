@@ -1,3 +1,7 @@
+# Contributing guide
+
+👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+
 # Getting started
 
 The OST repository has two purposes:
@@ -16,7 +20,7 @@ The OST repository has two purposes:
 ## Making and submitting changes to the PR
 
 - Commit with a meaningful message
-- Sign the Commit
+- Sign the commit
 - Once the PR is ready, please use the label - `pr: Needs a Review` and remove the label - `pr: Work in Progress`
 - See below [template](#example-template-for-commit-message)
 
