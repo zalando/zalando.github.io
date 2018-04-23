@@ -48,10 +48,12 @@ body {
 }
 
 .t-footer {
-  min-height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
   background: #4a4a4a;
-  color: white;
-  padding-top: 3rem
+  color: #fff;
 }
 
 .t-footer .dc-row {
