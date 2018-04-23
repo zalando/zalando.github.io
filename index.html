@@ -4,63 +4,8 @@
   <!-- Dress code css + fonts -->
   <link href="node_modules/dress-code/dist/css/dress-code.min.css" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Ubuntu:300,500" rel="stylesheet">
-  <script src="assets/js/index.js" type="text/javascript"></script>
+  <link href="assets/css/main.css" rel="stylesheet">
   <title>Zalando Open Source</title>
-
-  <style>
-        .t-header{
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 900;
-        }
-        .t-hero {
-        background: #ccc;
-        padding: 10rem;
-        min-height: 400px;
-        /*this is temporary untill we find a suitable zalando specific image */
-        background: url(https://blog.buckitdream.com/wp-content/uploads/2017/11/destination_carousel_berlin.jpeg);
-        background-size: cover;
-        color: white;
-        font-size: 200%;
-        font-weight: 200
-        }
-        .t-header img.t-logo{
-            height: 20px
-        }
-
-        #catwatch-statistics{
-          font-size: 130%
-        }
-        .t-main{
-        box-sizing: border-box;
-        position: relative;
-        margin-top: 5rem;
-        z-index: 0;
-        min-height: calc(100vh - 6rem);
-        }
-
-        .t-projects-section{
-          min-height: 400px;
-        }
-        .t-projects-section .dc-card{
-            margin-bottom: 5rem;
-            height: 160px;
-        }
-
-        .t-participation-section{
-          margin-top: 9rem;
-          margin-bottom: 9rem;
-        }
-        .t-footer{
-          min-height: 20rem;
-          background: #4a4a4a;
-          color: white;
-          padding-top: 3rem
-        }
-
-  </style>
 </head>
 <body>
   <header class="t-header">
@@ -74,7 +19,6 @@
     <div class="dc-divider"></div>
   </header>
   <main class="t-main">
-    <!-- Header -->
     <section class="t-hero">
       <div class="dc-container dc-container--limited dc--text-center">
         <h1>Zalando Open Source</h1>
@@ -82,21 +26,19 @@
       </div>
     </section>
     <section class="dc-page">
-      <!--  Projects and  metrics  -->
       <div class="dc-container dc-container--limited dc--text-center t-projects-section">
         <h1>Zalando Open source projects</h1>
         <div id="catwatch-statistics">
           <p>
-              There are currently <strong>265</strong> active Zalando projects
-              written in <strong>12</strong> different languages.
+              There are currently <span class="statistics" id="catwatch-statistics-projects">265</span> active Zalando projects
+              written in <span class="statistics" id="catwatch-statistics-languages">12</span> different languages.
           </p>
         </div>
-        <div id="catwatch-projects">
-        </div>
+        <div id="catwatch-projects" class="projects"></div>
         <a class="dc-btn dc-btn--primary" href="http://zalando.github.io/#repositories">Explore all projects</a>
       </div>
       <div class="dc-container dc-container--limited dc--text-center t-participation-section">
-        <h1>For Good of all</h1>
+        <h1>For good of all</h1>
         <p>Zalandos tech stack is open source centric, we stand on the shoulder of giants, and want our work to benefit as many as possible</p>
         <div class="dc-divider"></div>
         <div class="dc-row">
@@ -153,5 +95,6 @@
       </div>
     </div>
   </footer>
+  <script src="assets/js/index.js" type="text/javascript"></script>
 </body>
 </html>

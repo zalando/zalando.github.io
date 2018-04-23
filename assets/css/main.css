@@ -1,4 +1,4 @@
-.t-header{
+.t-header {
   position: fixed;
   top: 0;
   right: 0;
@@ -18,15 +18,15 @@
   font-weight: 200
 }
 
-.t-header img.t-logo{
+.t-header img.t-logo {
   height: 20px
 }
 
-#catwatch-statistics{
+#catwatch-statistics {
   font-size: 130%
 }
 
-.t-main{
+.t-main {
   box-sizing: border-box;
   position: relative;
   margin-top: 5rem;
@@ -34,23 +34,39 @@
   min-height: calc(100vh - 6rem);
 }
 
-.t-projects-section{
-  min-height: 400px;
-}
-
-.t-projects-section .dc-card{
+.t-projects-section .dc-card {
   margin-bottom: 5rem;
   height: 160px;
 }
 
-.t-participation-section{
-  margin-top: 9rem;
+.t-participation-section {
   margin-bottom: 9rem;
 }
 
-.t-footer{
+.t-footer {
   min-height: 20rem;
   background: #4a4a4a;
   color: white;
   padding-top: 3rem
+}
+
+.statistics {
+  font-weight: bold;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.project {
+  flex-grow: 1;
+}
+
+.project span {
+  display: block;
 }
