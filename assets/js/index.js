@@ -18,8 +18,10 @@ async function getStats(url) {
     const data = await getData(catwatch.statistics);
     const stats = data[0];
 
-    setStats('catwatch-statistics-languages', stats.programLanguagesCount);
-    setStats('catwatch-statistics-projects', stats.publicProjectCount);
+    setStats('statistic-languages', stats.programLanguagesCount);
+    setStats('statistic-repositories', stats.publicProjectCount);
+    setStats('statistic-contributors', stats.allContributorsCount);
+    setStats('statistic-stars', stats.allStarsCount);
 };
 
 function setProject(project) {

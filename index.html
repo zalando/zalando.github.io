@@ -26,9 +26,27 @@
     </section>
     <section class="dc-page">
       <div class="dc-container dc--text-center">
-        <div id="catwatch-statistics">
-          There are currently <span class="statistics" id="catwatch-statistics-projects">265</span> active Zalando projects
-          written in <span class="statistics" id="catwatch-statistics-languages">12</span> different languages.
+        <div class="statistics">
+          <div class="statistic dc-card">
+            <span class="statistic__icon dc-icon dc-icon--users"></span>
+            <span class="statistic__key">Contributors</span>
+            <span class="statistic__value" id="statistic-contributors"></span>
+          </div>
+          <div class="statistic dc-card">
+            <span class="statistic__icon dc-icon dc-icon--play"></span>
+            <span class="statistic__key">Stars</span>
+            <span class="statistic__value" id="statistic-stars"></span>
+          </div>
+          <div class="statistic dc-card">
+            <span class="statistic__icon dc-icon dc-icon--menu"></span>
+            <span class="statistic__key">Repositories</span>
+            <span class="statistic__value" id="statistic-repositories"></span>
+          </div>
+          <div class="statistic dc-card">
+            <span class="statistic__icon dc-icon dc-icon--cog"></span>
+            <span class="statistic__key">Languages</span>
+            <span class="statistic__value" id="statistic-languages"></span>
+          </div>
         </div>
         <div id="catwatch-projects" class="projects"></div>
         <a class="dc-btn dc-btn--primary" href="http://zalando.github.io/#repositories">Explore all projects</a>
