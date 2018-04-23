@@ -1,4 +1,4 @@
-Issue: #<issue number> - <PR Heading>
+Issue: #`<issue number>` - `<PR Heading>`
 
 **Description**:
 - PR description message
