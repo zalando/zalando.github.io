@@ -8,7 +8,6 @@ Issue: #`<issue number>` - `<PR Heading>`
 _What types of changes does your code introduce? Put an `x` in all the boxes that apply:_
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] Configuration change
 - [ ] Refactor/improvements
 
@@ -20,7 +19,6 @@ _What types of changes does your code introduce? Put an `x` in all the boxes tha
 ## Checklist
 _Go over all the following points, and put an `x` in all the boxes that apply:_
 - [ ] My change requires a change to the documentation & I have updated it accordingly.
-- [ ] My change requires updating the monitoring dashboard & I have updated it accordingly.
 
 ## Screenshots/Videos (OPTIONAL)
 
