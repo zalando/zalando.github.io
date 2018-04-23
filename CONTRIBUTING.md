@@ -20,7 +20,7 @@ Submitting changes requires an issue to describe what you want to change and why
 
 ## Making and submitting changes to the PR
 
-As you work through the issue, make sure you commit your changes in logical chunks, include a commit messages that describe what you changed and why. 
+As you work through the issue, make sure you commit your changes in logical chunks, include a commit message that describe what you changed and why. 
 
 - Commit with a meaningful message
 - Sign the commit
@@ -30,11 +30,11 @@ As you work through the issue, make sure you commit your changes in logical chun
 
 ### Example template for PR
 
-We include a template on github for creating new pull requests. An exemple is showed below to give you an idea of what infomation we need to understand your submitted changes. A pull request should:
+We include a template on github for creating new pull requests. An example is shown below to give you an idea of what infomation we need to understand your submitted changes. A pull request should:
 
 - Use a clear title
 - Have a reference to the issue it is fixing
-- Have a description of 2-3 senteces to explain the changes being made
+- Have a description of 2-3 sentences to explain the changes being made
 - Indicate if it's a new feature, bug fix or refactor
 - Outline the tasks being done to solve the issue
 
