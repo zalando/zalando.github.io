@@ -10,8 +10,35 @@ body {
   line-height: 1;
 }
 
-.t-header img.t-logo {
-  height: 20px
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.header__logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo img {
+  height: 20px;
+}
+
+.header__links {
+  display: flex;
+}
+
+.header__links li {
+  list-style-type: none;
+  margin-left: 2rem;
+}
+
+.header__links li a {
+  color: #000;
+  text-decoration: none;
 }
 
 .t-footer {
