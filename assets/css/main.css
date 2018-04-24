@@ -124,15 +124,61 @@ body {
 .project {
   flex-grow: 1;
   max-width: 33%;
-  height: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-right: 2rem;
 }
 
-.project span {
-  display: block;
+.project.dc-card {
+  padding: 0;
 }
 
-.project p {
+.project__header {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 110px;
+}
+
+.project__header-icon,
+.project__header-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+}
+
+.project__header-icon {
+  width: 110px;
+  color: #fff;
+  background-color: #26aafe;
+}
+
+.project__header-content {
+  flex-grow: 1;
+  background-color: #d8d8d8;
+  color: #fff;
+}
+
+.project__language {
+  position: absolute;
+  right: 0;
+  background-color: #26aafe;
+  padding: 4px;
+  color: #fff;
+}
+
+.project__content {
+  padding: 2.4rem;
+}
+
+.project__description {
+  line-height: 26px;
+  overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .project__statistics {
@@ -142,6 +188,7 @@ body {
 
 .project__statistics span {
   flex-grow: 1;
+  font-weight: bold;
 }
 
 .goal__icon {

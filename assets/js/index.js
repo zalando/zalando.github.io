@@ -24,15 +24,20 @@ async function getStats(url) {
     setStats('statistic-stars', stats.allStarsCount);
 };
 
-function setProject(project) {
+function setProject(project, index) {
   const domElement = `<div class="project dc-card">
-    <span class="dc-h2">${project.name}</span>
-    <p>${project.description}</p>
-    <span class="dc-h3">${project.primaryLanguage}</span>
-    <div class="project__statistics">
-      <span>Forks: ${project.forksCount}</span>
-      <span>Stars: ${project.starsCount}</span>
-      <span>Contributors: ${project.contributorsCount}</span>
+    <div class="project__header">
+      <div class="project__header-icon">${index + 1}</div>
+      <div class="project__header-content">${project.name}</div>
+      <div class="project__language">${project.primaryLanguage}</div>
+    </div>
+    <div class="project__content">
+      <p class="dc-p project__description">${project.description}</p>
+      <div class="project__statistics">
+        <span>Forks: ${project.forksCount}</span>
+        <span>Stars: ${project.starsCount}</span>
+        <span>Contributors: ${project.contributorsCount}</span>
+      </div>
     </div>
   </div>`;
 
@@ -43,8 +48,8 @@ async function getProjects(url) {
     const data = await getData(catwatch.projects);
     const projects = [];
 
-    data.forEach(project => {
-      projects.push(setProject(project));
+    data.forEach((project, index) => {
+      projects.push(setProject(project, index));
     });
 
     document.getElementById('catwatch-projects').innerHTML = projects;
