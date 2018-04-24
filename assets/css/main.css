@@ -2,44 +2,8 @@ body {
   line-height: 1;
 }
 
-.t-header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 900;
-}
-
-.t-hero {
-  background: #ccc;
-  padding: 10rem;
-  min-height: 400px;
-  background: url(https://blog.buckitdream.com/wp-content/uploads/2017/11/destination_carousel_berlin.jpeg);
-  background-size: cover;
-  color: white;
-  font-size: 200%;
-  font-weight: 200
-}
-
 .t-header img.t-logo {
   height: 20px
-}
-
-.t-main {
-  box-sizing: border-box;
-  position: relative;
-  margin-top: 5rem;
-  z-index: 0;
-  min-height: calc(100vh - 6rem);
-}
-
-.t-projects-section .dc-card {
-  margin-bottom: 5rem;
-  height: 160px;
-}
-
-.t-participation-section {
-  margin-bottom: 9rem;
 }
 
 .t-footer {
@@ -55,11 +19,33 @@ body {
   margin: 0;
 }
 
+.page-section {
+  margin-bottom: 1rem;
+}
+
+.page-section:first-child {
+  margin-top: 1rem;
+}
+
+.page-section:last-child {
+  margin-bottom: 0;
+}
+
+.banner {
+  padding: 10rem;
+  min-height: 400px;
+  background: url(https://blog.buckitdream.com/wp-content/uploads/2017/11/destination_carousel_berlin.jpeg);
+  background-size: cover;
+  color: white;
+  font-size: 200%;
+  font-weight: 200;
+}
+
 .statistics,
 .projects {
   display: flex;
   flex-flow: wrap;
-  padding: 20px 0;
+  padding-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -108,5 +94,14 @@ body {
 }
 
 .project__statistics span {
+  flex-grow: 1;
+}
+
+.goals {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.goal {
   flex-grow: 1;
 }

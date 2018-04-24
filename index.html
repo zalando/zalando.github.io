@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link href="node_modules/dress-code/dist/css/dress-code.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,500" rel="stylesheet">
-  <link href="assets/css/main.css" rel="stylesheet">
-  <title>Zalando Open Source</title>
-</head>
-<body>
-  <header class="t-header">
-    <ul class="dc-tab">
-      <li class="dc-tab__element dc-tab__element--header">Open Source @ <img class="t-logo"
-           src="node_modules/dress-code/dist/img/logo.svg"></li>
-      <li class="dc-tab__element">Projects</li>
-      <li class="dc-tab__element">The team</li>
-      <li class="dc-tab__element">Contact</li>
-    </ul>
-    <div class="dc-divider"></div>
-  </header>
-  <main class="t-main">
-    <section class="t-hero">
-      <div class="dc-container dc--text-center">
-        <h1>Zalando Open Source</h1>
-        <h2>Growing and promoting open source for the good of all</h2>
-      </div>
+  <head>
+    <link href="node_modules/dress-code/dist/css/dress-code.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,500" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <title>Zalando Open Source</title>
+  </head>
+  <body>
+    <header class="t-header">
+      <ul class="dc-tab">
+        <li class="dc-tab__element dc-tab__element--header">Open Source @ <img class="t-logo"
+             src="node_modules/dress-code/dist/img/logo.svg"></li>
+        <li class="dc-tab__element">Projects</li>
+        <li class="dc-tab__element">The team</li>
+        <li class="dc-tab__element">Contact</li>
+      </ul>
+    </header>
+
+    <section class="dc-container dc--text-center banner">
+      <h1>Zalando Open Source</h1>
+      <h2>Growing and promoting open source for the good of all</h2>
     </section>
-    <section class="dc-page">
-      <div class="dc-container dc--text-center">
+
+    <main class="dc-page">
+      <section class="dc-container dc--text-center dc-card page-section os-data">
         <div class="statistics">
           <div class="statistic dc-card">
             <span class="statistic__icon dc-icon dc-icon--users"></span>
@@ -50,27 +48,29 @@
         </div>
         <div id="catwatch-projects" class="projects"></div>
         <a class="dc-btn dc-btn--primary" href="http://zalando.github.io/#repositories">Explore all projects</a>
-      </div>
-      <div class="dc-container dc-container--limited dc--text-center t-participation-section">
+      </section>
+
+      <section class="dc-container dc--text-center dc-card page-section strategy">
         <h1>For good of all</h1>
         <p>Zalandos tech stack is open source centric, we stand on the shoulder of giants, and want our work to benefit as many as possible</p>
         <div class="dc-divider"></div>
-        <div class="dc-row">
-          <div class="dc-column">
-            <h3>Participate</h3>
-            <p>Zalando is an active contributor to open source projects which have strategic importance to us. We expect Zalandos engage in and contribute to open source.</p>
+        <div class="goals">
+          <div class="goal">
+            <span class="goal__icon dc-icon dc-icon--pointer"></span>
+            <span>Participate</span>
           </div>
-          <div class="dc-column">
-            <h3>Share</h3>
-            <p>We share our work with the world and believe it should benefit as many people as possible</p>
+          <div class="goal">
+            <span class="goal__icon dc-icon dc-icon--pointer"></span>
+            <span>Share</span>
           </div>
-          <div class="dc-column">
-            <h3>Promote</h3>
-            <p>We prioritise open source solutions for everything we build and we promote an open and collaborative culture internally and externally for all Zalandos.</p>
+          <div class="goal">
+            <span class="goal__icon dc-icon dc-icon--pointer"></span>
+            <span>Promote</span>
           </div>
         </div>
-      </div>
-      <div class="dc-container dc-container--limited dc--text-center t-team-section">
+      </section>
+
+      <section class="dc-container dc--text-center dc-card page-section team">
         <h1>The team</h1>
         <div class="dc-row">
           <div class="dc-column">
@@ -86,13 +86,13 @@
             <p>Open Source Advocate</p>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
-  <footer class="t-footer">
-    <p>Zalando Open Source</p>
-    <p>opensource@zalando.de</p>
-  </footer>
-  <script src="assets/js/index.js" type="text/javascript"></script>
-</body>
+      </section>
+    </main>
+
+    <footer class="t-footer">
+      <p>Zalando Open Source</p>
+      <p>opensource@zalando.de</p>
+    </footer>
+    <script src="assets/js/index.js" type="text/javascript"></script>
+  </body>
 </html>
