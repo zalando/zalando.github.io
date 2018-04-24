@@ -28,7 +28,7 @@ body {
 }
 
 .page {
-  padding: 0 20rem;
+  padding: 0 15rem;
   background: #fff;
 }
 
@@ -44,7 +44,7 @@ body {
   right: 0;
   background: url(../img/zalando-purpose.jpg);
   background-size: cover;
-  opacity: 0.1;
+  opacity: 0.06;
 }
 
 .page-section {
@@ -92,6 +92,7 @@ body {
 .projects {
   display: flex;
   flex-flow: wrap;
+  justify-content: space-around;
   padding-top: 20px;
   margin-bottom: 20px;
 }
@@ -123,12 +124,16 @@ body {
 
 .project {
   flex-grow: 1;
-  max-width: 33%;
+  max-width: calc(33% - 10px);
   height: 200px;
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-right: 2rem;
+  margin-right: 10px;
+}
+
+.project:last-child {
+  margin: 0;
 }
 
 .project.dc-card {
