@@ -1,3 +1,11 @@
+:root {
+  --page-section-header-underline: #ff8e25;
+  --page-section-border: #f7f7f7;
+  --user-icon-background: #66380e;
+  --user-icon-size: 60px;
+  --user-icon-border-size: 30px;
+}
+
 body {
   line-height: 1;
 }
@@ -19,26 +27,65 @@ body {
   margin: 0;
 }
 
+.page {
+  padding: 0 20rem;
+  background: #fff;
+}
+
+.page-section__wrapper {
+  position: relative;
+}
+
+.page-section__wrapper-purpose {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../img/zalando-purpose.jpg);
+  background-size: cover;
+  opacity: 0.1;
+}
+
 .page-section {
-  margin-bottom: 1rem;
+  padding: 4rem;
 }
 
-.page-section:first-child {
-  margin-top: 1rem;
+.page-section--border-bottom {
+  border-bottom: 1px solid var(--page-section-border);
 }
 
-.page-section:last-child {
-  margin-bottom: 0;
+.page-section__header {
+  position: relative;
+}
+
+.page-section__header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  background: var(--page-section-header-underline);
+  bottom: -15px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .banner {
   padding: 10rem;
-  min-height: 400px;
-  background: url(https://blog.buckitdream.com/wp-content/uploads/2017/11/destination_carousel_berlin.jpeg);
+  background: url(../img/zalando-building.jpg);
   background-size: cover;
   color: white;
   font-size: 200%;
   font-weight: 200;
+}
+
+.banner__content {
+  padding: 3rem;
+  background-color: #000;
+  opacity: 0.6;
+  border-radius: 4px;
 }
 
 .statistics,
@@ -97,11 +144,19 @@ body {
   flex-grow: 1;
 }
 
-.goals {
-  display: flex;
-  flex-flow: wrap;
+.goal__icon {
+  font-size: 3rem;
 }
 
-.goal {
-  flex-grow: 1;
+.user__icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--user-icon-size);
+  width: var(--user-icon-size);
+  margin-bottom: 2.4rem;
+  border-radius: var(--user-icon-border-size);
+  background-color: var(--user-icon-background);
+  color: #fff;
+  font-size: 3rem;
 }

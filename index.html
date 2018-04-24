@@ -18,12 +18,16 @@
     </header>
 
     <section class="dc-container dc--text-center banner">
-      <h1>Zalando Open Source</h1>
-      <h2>Growing and promoting open source for the good of all</h2>
+      <div class="banner__content">
+        <h1>Zalando Open Source</h1>
+        <h2>Growing and promoting open source for the good of all</h2>
+      </div>
     </section>
 
-    <main class="dc-page">
-      <section class="dc-container dc--text-center dc-card page-section os-data">
+    <main class="page">
+      <section class="dc-container dc--text-center page-section os-data">
+        <h1 class="dc-h1 page-section__header">Projects & Statistics</h1>
+        <div id="catwatch-projects" class="projects"></div>
         <div class="statistics">
           <div class="statistic dc-card">
             <span class="statistic__icon dc-icon dc-icon--users"></span>
@@ -46,47 +50,54 @@
             <span class="statistic__value" id="statistic-languages"></span>
           </div>
         </div>
-        <div id="catwatch-projects" class="projects"></div>
         <a class="dc-btn dc-btn--primary" href="http://zalando.github.io/#repositories">Explore all projects</a>
       </section>
 
-      <section class="dc-container dc--text-center dc-card page-section strategy">
-        <h1>For good of all</h1>
-        <p>Zalandos tech stack is open source centric, we stand on the shoulder of giants, and want our work to benefit as many as possible</p>
-        <div class="dc-divider"></div>
-        <div class="goals">
-          <div class="goal">
-            <span class="goal__icon dc-icon dc-icon--pointer"></span>
-            <span>Participate</span>
+      <div class="page-section__wrapper">
+        <div class="page-section__wrapper-purpose"></div>
+        <section class="dc-container dc--text-center page-section page-section--border-bottom strategy">
+          <h1 class="dc-h1 page-section__header">For good of all</h1>
+          <p class="dc-p">Zalandos tech stack is open source centric, we stand on the shoulder of giants, and want our work to benefit as many as possible</p>
+          <div class="dc-row">
+            <div class="goal dc-column">
+              <div class="goal__icon dc-icon dc-icon--pointer"></div>
+              <div class="dc-h2">Participate</div>
+              <div class="dc-p">We engage in and contribute to open source.</div>
+            </div>
+            <div class="goal dc-column">
+              <div class="goal__icon dc-icon dc-icon--pointer"></div>
+              <div class="dc-h2">Share</div>
+              <div class="dc-p">We share our work with the world.</div>
+            </div>
+            <div class="goal dc-column">
+              <div class="goal__icon dc-icon dc-icon--pointer"></div>
+              <div class="dc-h2">Promote</div>
+              <div class="dc-p">We promote an open and collaborative culture.</div>
+            </div>
           </div>
-          <div class="goal">
-            <span class="goal__icon dc-icon dc-icon--pointer"></span>
-            <span>Share</span>
-          </div>
-          <div class="goal">
-            <span class="goal__icon dc-icon dc-icon--pointer"></span>
-            <span>Promote</span>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="dc-container dc--text-center dc-card page-section team">
-        <h1>The team</h1>
-        <div class="dc-row">
-          <div class="dc-column">
-            <h3>Paul Adams</h3>
-            <p>Open Source Lead</p>
+        <section class="dc-container dc--text-center page-section team">
+          <h1 class="dc-h1 page-section__header">The team</h1>
+          <div class="dc-row">
+            <div class="dc-column user">
+              <h3 class="dc-h3">Paul Adams</h3>
+              <div class="user__icon">PA</div>
+              <p class="dc-p">Open Source Lead</p>
+            </div>
+            <div class="dc-column user">
+              <h3 class="dc-h3">Per Ploug</h3>
+              <div class="user__icon">PP</div>
+              <p class="dc-p">Open Source Community Manager</p>
+            </div>
+            <div class="dc-column user">
+              <h3 class="dc-h3">Princiya Sequeira</h3>
+              <div class="user__icon">PS</div>
+              <p class="dc-p">Open Source Advocate</p>
+            </div>
           </div>
-          <div class="dc-column">
-            <h3>Per Ploug</h3>
-            <p>Open Source Community Manager</p>
-          </div>
-          <div class="dc-column">
-            <h3>Princiya Marina Sequeira</h3>
-            <p>Open Source Advocate</p>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <footer class="t-footer">
