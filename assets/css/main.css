@@ -159,7 +159,6 @@ body {
 .project__header-content {
   flex-grow: 1;
   background-color: #d8d8d8;
-  color: #fff;
 }
 
 .project__language {
