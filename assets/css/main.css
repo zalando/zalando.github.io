@@ -92,8 +92,7 @@ body {
 .projects {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-around;
-  padding-top: 20px;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -101,6 +100,9 @@ body {
   display: flex;
   flex-grow: 1;
   margin-right: 10px;
+  margin-top: 20px;
+  min-width: 240px;
+  max-width: 25%;
 }
 
 .statistic:last-child {
@@ -124,16 +126,17 @@ body {
 
 .project {
   flex-grow: 1;
+  min-width: 280px;
   max-width: calc(33% - 10px);
-  height: 200px;
   display: flex;
   flex-direction: column;
   position: relative;
   margin-right: 10px;
+  margin-top: 20px;
 }
 
 .project:last-child {
-  margin: 0;
+  margin-right: 0;
 }
 
 .project.dc-card {
@@ -143,7 +146,7 @@ body {
 .project__header {
   display: flex;
   flex-flow: row nowrap;
-  height: 110px;
+  height: 100px;
 }
 
 .project__header-icon,
@@ -152,11 +155,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .project__header-icon {
-  width: 110px;
+  min-width: 110px;
+  max-width: 110px;
   color: #fff;
   background-color: #26aafe;
 }
@@ -164,6 +168,13 @@ body {
 .project__header-content {
   flex-grow: 1;
   background-color: #d8d8d8;
+  overflow: hidden;
+}
+
+.project__header-content-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .project__language {
