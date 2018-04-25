@@ -146,8 +146,8 @@ header {
   margin-left: 10px;
 }
 
-.statistic__key,
 .statistic__value {
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -226,16 +226,6 @@ header {
   max-height: 50px;
   overflow: hidden;
   text-align: left;
-}
-
-.project__statistics {
-  display: flex;
-  flex-flow: wrap;
-}
-
-.project__statistics span {
-  flex-grow: 1;
-  font-weight: bold;
 }
 
 .project__header-content-text::first-letter,
