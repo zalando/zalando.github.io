@@ -4,6 +4,7 @@
   --user-icon-background: #66380e;
   --user-icon-size: 60px;
   --user-icon-border-size: 30px;
+  --header-element-underline: var(--page-section-header-underline);
 }
 
 body {
@@ -20,6 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  padding: 2rem;
 }
 
 .header__logo {
@@ -80,6 +82,15 @@ header {
 
 .page-section {
   padding: 4rem;
+}
+
+.page-section--background-white {
+  background-color: #fff;
+}
+
+.page-section--padding {
+  padding-left: 15rem;
+  padding-right: 15rem;
 }
 
 .page-section--border-bottom {
@@ -248,4 +259,9 @@ header {
   background-color: var(--user-icon-background);
   color: #fff;
   font-size: 3rem;
+}
+
+.jobs {
+  position: relative;
+  z-index: 1;
 }
