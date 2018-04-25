@@ -215,14 +215,14 @@ header {
 }
 
 .project__content {
+  flex-grow: 1;
   padding: 2.4rem;
 }
 
 .project__description {
-  line-height: 26px;
+  max-height: 50px;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  text-align: left;
 }
 
 .project__statistics {
