@@ -10,6 +10,10 @@ body {
   line-height: 1;
 }
 
+body a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +43,6 @@ header {
 
 .header__links li a {
   color: #000;
-  text-decoration: none;
 }
 
 .t-footer {
@@ -233,6 +236,11 @@ header {
 .project__statistics span {
   flex-grow: 1;
   font-weight: bold;
+}
+
+.project__header-content-text::first-letter,
+.statistic__key::first-letter {
+  text-transform: capitalize;
 }
 
 .goal__icon {

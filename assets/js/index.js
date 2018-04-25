@@ -16,7 +16,7 @@ async function displayProjects(url) {
       projects.push(project(repo, index));
     });
 
-    document.getElementById('catwatch-projects').innerHTML = projects;
+    document.getElementById('catwatch-projects').innerHTML = projects.join('');
 };
 
 async function displayStatistics(url) {
@@ -42,7 +42,7 @@ async function displayStatistics(url) {
     const statistics = [];
 
     metrics.forEach(metric => statistics.push(statistic(metric)));
-    document.getElementById('catwatch-statistics').innerHTML = statistics;
+    document.getElementById('catwatch-statistics').innerHTML = statistics.join('');
 };
 
 displayProjects(catwatch.projects);
