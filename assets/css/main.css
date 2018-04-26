@@ -1,5 +1,6 @@
 :root {
-  --page-section-header-underline: #ff8e25;
+  --zalando-orange: #ff8e25;
+  --page-section-header-underline: var(--zalando-orange);
   --page-section-border: #f7f7f7;
   --user-icon-background: #66380e;
   --user-icon-size: 60px;
@@ -7,6 +8,7 @@
   --primary-font-color: #4a4a4a;
   --page-side-padding: 15rem;
   --background-color-secondary: #e1e1e1;
+  --logo-height: 20px;
 }
 
 body {
@@ -15,6 +17,10 @@ body {
 
 body a {
   text-decoration: none;
+}
+
+body li {
+  list-style-type: none;
 }
 
 .header {
@@ -33,7 +39,7 @@ body a {
 }
 
 .header__logo img {
-  height: 20px;
+  height: var(--logo-height);
 }
 
 .header li a {
@@ -44,19 +50,6 @@ body a {
 
 .header li:hover {
   box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
-}
-
-.t-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 var(--page-side-padding);
-  background: #4a4a4a;
-  color: #fff;
-}
-
-.t-footer .dc-row {
-  margin: 0;
 }
 
 .page {
@@ -264,7 +257,77 @@ body a {
   font-size: 3rem;
 }
 
-.jobs {
-  position: relative;
-  z-index: 1;
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem var(--page-side-padding);
+  background: linear-gradient(var(--zalando-orange), var(--background-color-secondary));
+}
+
+.footer__column {
+  margin-right: 100px;
+}
+
+.footer__column:last-child {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.footer__title {
+  display: flex;
+  align-items: center;
+}
+
+.footer__icon {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.footer__icon object svg path {
+  fill: #fff;
+}
+
+.footer__title h2 {
+  margin-bottom: 0;
+}
+
+.footer__logo img {
+  height: var(--logo-height);
+}
+
+.footer__list {
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.footer__list li {
+  padding: 1rem 0;
+}
+
+.footer__list li a {
+  padding-bottom: 1rem;
+  color: var(--primary-font-color);
+}
+
+.footer__list li a:hover,
+.footer__list--social li:hover {
+  box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
+}
+
+.footer__list--social li {
+  display: flex;
+  align-items: center;
+}
+
+.footer__list--social li:first-child {
+  padding-top: 0;
+}
+
+.footer__list--social li a {
+  padding: 0;
+}
+
+.footer__list--social li a:hover {
+  box-shadow: none;
 }
