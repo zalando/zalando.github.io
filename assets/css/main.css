@@ -207,7 +207,8 @@ body li {
   margin-top: 20px;
 }
 
-.project:last-child {
+.project:last-child,
+.project:nth-child(3) {
   margin-right: 0;
 }
 

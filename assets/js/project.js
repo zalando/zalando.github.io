@@ -1,4 +1,5 @@
 function project(project, index) {
+  const language = project.primaryLanguage || '';
   return `
     <div class="project dc-card">
       <div class="project__header">
@@ -7,7 +8,7 @@ function project(project, index) {
             ${project.name}
           </div>
         </div>
-        <div class="project__language">${project.primaryLanguage}</div>
+        <div class="project__language">${language}</div>
       </div>
       <div class="project__content">
         <p class="dc-p project__description">${project.description}</p>
