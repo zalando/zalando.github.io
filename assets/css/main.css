@@ -5,6 +5,7 @@
   --user-icon-size: 60px;
   --user-icon-border-size: 30px;
   --header-element-underline: var(--page-section-header-underline);
+  --primary-font-color: #4a4a4a;
 }
 
 body {
@@ -15,36 +16,31 @@ body a {
   text-decoration: none;
 }
 
-header {
+.header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  height: 50px;
-  padding: 2rem;
+  height: 38px;
 }
 
 .header__logo {
   height: 100%;
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header__logo img {
   height: 20px;
 }
 
-.header__links {
-  display: flex;
+.header li a {
+  color: var(--primary-font-color);
 }
 
-.header__links li {
-  list-style-type: none;
-  margin-left: 2rem;
-}
-
-.header__links li a {
-  color: #000;
+.header li:hover {
+  box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
 }
 
 .t-footer {
