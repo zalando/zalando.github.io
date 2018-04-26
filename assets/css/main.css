@@ -3,9 +3,10 @@
   --page-section-border: #f7f7f7;
   --user-icon-background: #66380e;
   --user-icon-size: 60px;
-  --user-icon-border-size: 30px;
   --header-element-underline: var(--page-section-header-underline);
   --primary-font-color: #4a4a4a;
+  --page-side-padding: 15rem;
+  --background-color-secondary: #e1e1e1;
 }
 
 body {
@@ -18,10 +19,10 @@ body a {
 
 .header {
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
   height: 38px;
+  padding: 0 var(--page-side-padding);
 }
 
 .header__logo {
@@ -36,6 +37,8 @@ body a {
 }
 
 .header li a {
+  font-size: 2rem;
+  padding: 1rem;
   color: var(--primary-font-color);
 }
 
@@ -47,7 +50,7 @@ body a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: 0 var(--page-side-padding);
   background: #4a4a4a;
   color: #fff;
 }
@@ -57,7 +60,7 @@ body a {
 }
 
 .page {
-  padding: 0 15rem;
+  padding: 0 var(--page-side-padding);
   background: #fff;
 }
 
@@ -84,9 +87,13 @@ body a {
   background-color: #fff;
 }
 
+.page-section--background-secondary {
+  background-color: var(--background-color-secondary);
+}
+
 .page-section--padding {
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding-left: var(--page-side-padding);
+  padding-right: var(--page-side-padding);
 }
 
 .page-section--border-bottom {
@@ -111,7 +118,7 @@ body a {
 }
 
 .banner {
-  padding: 10rem;
+  padding: var(--page-side-padding);
   background: url(../img/zalando-people.jpg);
   background-size: cover;
   color: white;
@@ -250,8 +257,8 @@ body a {
   align-items: center;
   height: var(--user-icon-size);
   width: var(--user-icon-size);
+  border-radius: calc(var(--user-icon-size) / 2);
   margin-bottom: 2.4rem;
-  border-radius: var(--user-icon-border-size);
   background-color: var(--user-icon-background);
   color: #fff;
   font-size: 3rem;
