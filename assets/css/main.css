@@ -3,7 +3,7 @@
   --page-section-header-underline: var(--zalando-orange);
   --page-section-border: #f7f7f7;
   --user-icon-background: #66380e;
-  --user-icon-size: 60px;
+  --user-icon-size: 200px;
   --header-element-underline: var(--page-section-header-underline);
   --primary-font-color: #4a4a4a;
   --page-side-padding: 15rem;
@@ -27,7 +27,7 @@ body li {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 50px;
+  height: 60px;
   padding: 0 var(--page-side-padding);
 }
 
@@ -319,6 +319,16 @@ body li {
   color: var(--primary-font-color);
 }
 
+.users {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: var(--page-section-header-spacing-bottom);
+}
+
+.user a {
+  color: var(--primary-font-color);
+}
+
 .user__icon {
   display: inline-flex;
   justify-content: center;
@@ -328,6 +338,8 @@ body li {
   border-radius: calc(var(--user-icon-size) / 2);
   margin-bottom: 2.4rem;
   background-color: var(--user-icon-background);
+  background-size: cover;
+  background-position: center;
   color: #fff;
   font-size: 3rem;
 }
@@ -414,9 +426,9 @@ body li {
 }
 
 .footer__list li a:hover,
-.footer__list--social li:hover,
 .job h3:hover,
 .blog .dc-h2:hover,
+.user__name:hover,
 .footer__stamp div:hover {
   box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
 }

@@ -1,26 +1,45 @@
-const catwatch = {
+const api = {
   statistics: 'https://catwatch.opensource.zalan.do/statistics?organizations=zalando',
-  projects: 'https://catwatch.opensource.zalan.do/projects?organizations=zalando&limit=6&sortBy=-stars'
+  projects: 'https://catwatch.opensource.zalan.do/projects?organizations=zalando&limit=6&sortBy=-stars',
+  team: 'https://api.github.com/users'
 };
+
+const team = [
+  {
+    username: 'therealpadams',
+    title: 'Open Source Lead'
+  },
+  {
+    username: 'perploug',
+    title: 'Open Source Community Manager'
+  },
+  {
+    username: 'princiya',
+    title: 'Open Source Advocate'
+  }
+];
+
+function render(id, data) {
+  document.getElementById(id).innerHTML = data.join('');
+}
 
 async function getData(url) {
   const response = await fetch(url);
   return await response.json();
 }
 
-async function displayProjects(url) {
-    const data = await getData(catwatch.projects);
+async function displayProjects() {
+    const data = await getData(api.projects);
     const projects = [];
 
     data.forEach((repo, index) => {
       projects.push(project(repo, index));
     });
-
-    document.getElementById('catwatch-projects').innerHTML = projects.join('');
+    render('catwatch-projects', projects);
 };
 
-async function displayStatistics(url) {
-    const response = await getData(catwatch.statistics);
+async function displayStatistics() {
+    const response = await getData(api.statistics);
     const data = response[0];
     const metrics = [{
         key: 'contributors',
@@ -42,9 +61,22 @@ async function displayStatistics(url) {
     const statistics = [];
 
     metrics.forEach(metric => statistics.push(statistic(metric)));
-    document.getElementById('catwatch-statistics').innerHTML = statistics.join('');
+    render('catwatch-statistics', statistics);
 };
 
-displayProjects(catwatch.projects);
-displayStatistics(catwatch.statistics);
-// displayTeam('https://api.github.com');
+async function displayTeam() {
+  const users = [];
+  let response;
+
+  for (let member of team) {
+    response = await getData(`${api.team}/${member.username}`);
+    response.title = member.title;
+    users.push(user(response));
+  }
+
+  render('os-team-data', users);
+};
+
+displayProjects();
+displayStatistics();
+displayTeam();
