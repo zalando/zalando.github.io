@@ -1,6 +1,6 @@
 const catwatch = {
   statistics: 'https://catwatch.opensource.zalan.do/statistics?organizations=zalando',
-  projects: 'https://catwatch.opensource.zalan.do/projects?organizations=zalando&limit=3&sortBy=-stars'
+  projects: 'https://catwatch.opensource.zalan.do/projects?organizations=zalando&limit=6&sortBy=-stars'
 };
 
 async function getData(url) {

@@ -161,6 +161,10 @@ body li {
   margin-bottom: 20px;
 }
 
+.statistic.dc-card {
+  box-shadow: none;
+}
+
 .statistic {
   display: flex;
   flex-grow: 1;
@@ -169,10 +173,12 @@ body li {
   margin-top: 20px;
   min-width: 240px;
   max-width: 25%;
+  border-right: 1px solid var(--primary-font-color);
 }
 
 .statistic:last-child {
   margin-right: 0;
+  border-right: 0;
 }
 
 .statistic__key {
@@ -212,7 +218,7 @@ body li {
 .project__header {
   display: flex;
   flex-flow: row nowrap;
-  height: 100px;
+  height: 70px;
 }
 
 .project__header-icon,
@@ -220,7 +226,6 @@ body li {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   font-size: 2.5rem;
 }
 
@@ -241,6 +246,7 @@ body li {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  padding-left: 2.4rem;
 }
 
 .project__language {
@@ -257,9 +263,10 @@ body li {
 }
 
 .project__description {
-  max-height: 50px;
+  max-height: 80px;
   overflow: hidden;
   text-align: left;
+  margin-bottom: 0;
 }
 
 .project__header-content-text::first-letter,
