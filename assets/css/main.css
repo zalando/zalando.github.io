@@ -9,6 +9,7 @@
   --page-side-padding: 15rem;
   --background-color-secondary: #e1e1e1;
   --logo-height: 20px;
+  --page-section-header-spacing-bottom: 4rem;
 }
 
 body {
@@ -250,7 +251,7 @@ body li {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-left: 2.4rem;
+  padding: 0 2.4rem;
 }
 
 .project__language {
@@ -276,10 +277,6 @@ body li {
   text-transform: capitalize;
 }
 
-.strategy__subtitle {
-  margin-top: 4rem;
-}
-
 .goal__icon {
   display: inline-block;
   width: 50px;
@@ -289,6 +286,10 @@ body li {
 
 .job {
   margin: 0;
+}
+
+.strategy__subtitle {
+  margin-top: var(--page-section-header-spacing-bottom);
 }
 
 .blog {
@@ -382,14 +383,6 @@ body li {
   font-size: 1.5rem;
 }
 
-.footer__list li a:hover,
-.footer__list--social li:hover,
-.job h3:hover,
-.blog .dc-h2:hover,
-.footer__stamp div:hover {
-  box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
-}
-
 .footer__list--social li {
   display: flex;
   align-items: center;
@@ -418,4 +411,12 @@ body li {
 
 .footer__stamp .footer__icon {
   margin-left: 1rem;
+}
+
+.footer__list li a:hover,
+.footer__list--social li:hover,
+.job h3:hover,
+.blog .dc-h2:hover,
+.footer__stamp div:hover {
+  box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
 }

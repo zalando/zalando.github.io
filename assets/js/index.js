@@ -47,3 +47,4 @@ async function displayStatistics(url) {
 
 displayProjects(catwatch.projects);
 displayStatistics(catwatch.statistics);
+// displayTeam('https://api.github.com');
