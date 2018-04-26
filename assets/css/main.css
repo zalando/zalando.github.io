@@ -159,7 +159,7 @@ body li {
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin: var(--page-section-header-spacing-bottom) 0;
 }
 
 .statistic.dc-card {
@@ -168,18 +168,19 @@ body li {
 
 .statistic {
   display: flex;
-  flex-grow: 1;
+  flex-direction: column;
   align-items: center;
-  margin-right: 10px;
+  justify-content: center;
   margin-top: 20px;
-  min-width: 240px;
-  max-width: 25%;
-  border-right: 1px solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background: linear-gradient(60deg, var(--zalando-orange), #fff);
 }
 
-.statistic:last-child {
-  margin-right: 0;
-  border-right: 0;
+.statistic__icon {
+  display: inline-block;
+  width: 40px;
 }
 
 .statistic__key {
@@ -188,13 +189,14 @@ body li {
 }
 
 .statistic__value {
+  display: inline-block;
+  margin-top: 1rem;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 300;
 }
 
-.statistic span:last-child {
-  display: inline-block;
-  margin-left: auto;
+.projects {
+  margin-top: 0;
 }
 
 .project {
@@ -205,7 +207,7 @@ body li {
   flex-direction: column;
   position: relative;
   margin-right: 10px;
-  margin-top: 20px;
+  margin-top: var(--page-section-header-spacing-bottom);
 }
 
 .project:last-child,

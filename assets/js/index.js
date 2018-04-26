@@ -60,6 +60,7 @@ async function displayStatistics() {
     ];
     const statistics = [];
 
+    // statistics.push(statistic(data));
     metrics.forEach(metric => statistics.push(statistic(metric)));
     render('catwatch-statistics', statistics);
 };
