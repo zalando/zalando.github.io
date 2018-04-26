@@ -208,6 +208,9 @@ body li {
   position: relative;
   margin-right: 10px;
   margin-top: var(--page-section-header-spacing-bottom);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 50%;
 }
 
 .project:last-child,
