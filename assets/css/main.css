@@ -283,10 +283,6 @@ body li {
   margin: 0;
 }
 
-.jobs .dc-divider {
-  margin-bottom: 1rem;
-}
-
 .blog {
   display: flex;
   align-items: center;
@@ -295,6 +291,10 @@ body li {
 
 .blog div {
   margin-right: 2rem;
+}
+
+.job a, .blog a {
+  color: var(--primary-font-color);
 }
 
 .user__icon {
