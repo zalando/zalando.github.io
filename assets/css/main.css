@@ -123,6 +123,7 @@ body li {
   padding: var(--page-side-padding);
   background: url(../img/zalando-people.jpg);
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
