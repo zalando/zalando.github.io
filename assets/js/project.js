@@ -5,17 +5,19 @@ function project(project, index) {
 
   return `
     <div class="project dc-card">
-      <div class="project__header">
-        <div class="project__header-content">
-          <div class="project__header-content-text">
-            ${project.name}
+      <a href="${project.url}" target="_blank">
+        <div class="project__header">
+          <div class="project__header-content">
+            <div class="project__header-content-text">
+              ${project.name}
+            </div>
           </div>
+          ${language}
         </div>
-        ${language}
-      </div>
-      <div class="project__content">
-        <p class="dc-p project__description">${project.description}</p>
-      </div>
+        <div class="project__content">
+          <p class="dc-p project__description">${project.description}</p>
+        </div>
+      </a>
     </div>
   `;
 }

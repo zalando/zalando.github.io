@@ -216,6 +216,10 @@ body li {
   padding: 0;
 }
 
+.project.dc-card:hover {
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,.06);
+}
+
 .project__header {
   display: flex;
   flex-flow: row nowrap;
@@ -293,7 +297,7 @@ body li {
   margin-right: 2rem;
 }
 
-.job a, .blog a {
+.job a, .blog a, .project.dc-card a {
   color: var(--primary-font-color);
 }
 
