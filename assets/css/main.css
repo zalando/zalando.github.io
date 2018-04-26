@@ -285,6 +285,19 @@ body li {
 }
 
 .job {
+  margin: var(--page-section-header-spacing-bottom) 0 0;
+  padding:  0;
+}
+
+.job .dc-p {
+  margin-bottom: var(--page-section-header-spacing-bottom);
+}
+
+.job:last-child .dc-p {
+  margin: 0;
+}
+
+.jobs .dc-divider {
   margin: 0;
 }
 
