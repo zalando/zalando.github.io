@@ -348,6 +348,10 @@ body li {
   font-size: 3rem;
 }
 
+.user__title {
+  font-size: 2rem;
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
