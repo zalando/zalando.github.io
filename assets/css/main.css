@@ -75,8 +75,7 @@ body li {
 }
 
 .page-section {
-  padding: 4rem;
-  margin-bottom: var(--page-section-spacing-bottom);
+  padding: var(--page-section-spacing-bottom) 0;
 }
 
 .page-section--background-white {
