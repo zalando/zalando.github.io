@@ -12,7 +12,7 @@ We advice and assist on:
 
 - Creating and nurturing Open Source communities around Zalando Open Source projects
 - Align community interests with Zalando business interests
-- Efficient and compliant adobtion of Open Source code by Zalando teams
+- Efficient and compliant adoption of Open Source code by Zalando teams
 - Recruiting from Spen Source communities 
 - Best practices for applying open source to internal projects
 
@@ -35,7 +35,7 @@ Please read [CONTRIBUTING.md] for details on our code of conduct, and the proces
 ## Team members
 
 * **Paul Adams** - paul.adams@zalando.de - [@therealpadams](https://github.com/therealpadams)
-* **Per Ploug** - per.ploug@zalando.de - [@pploug](https://github.com/perploug)
+* **Per Ploug** - per.ploug@zalando.de - [@perploug](https://github.com/perploug)
 * **Princiya Sequeira** - princiya.marina.sequeira@zalando.de  - [@princiya](https://github.com/princiya)
 
 
