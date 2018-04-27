@@ -1,14 +1,14 @@
-# Contributing guide
+# Contributing Guide
 
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
-# Getting started
+# Getting Started
 
 This repository has two purposes:
 - Maintaining the OST website
 - Storing documentation related to the team goals and strategy
 
-## Creating issue and pull request
+## Creating Issue and Pull Request
 
 Submitting changes requires an issue to describe what you want to change and why. Secondly you will need to start a new pull request where your progress is tracked and all discussions related to your implementation is kept.
 
@@ -18,19 +18,19 @@ Submitting changes requires an issue to describe what you want to change and why
 - See below [template](#example-template-for-pr)
 
 
-## Making and submitting changes to the PR
+## Making and Submitting Changes to the Pull Request
 
-As you work through the issue, make sure you commit your changes in logical chunks, include a commit message that describe what you changed and why. 
+As you work through the issue, make sure you commit your changes in logical chunks, include a commit message that describe what you changed and why.
 
 - Commit with a meaningful message
 - Sign the commit
-- Once the PR is ready, please use the label - `pr: Needs a Review` and remove the label - `pr: Work in Progress`
+- Once the PR is ready, please remove the label - `pr: Work in Progress`
 - See below [template](#example-template-for-commit-message)
 
 
-### Example template for PR
+### Example Template for Pull Request
 
-We include a template on github for creating new pull requests. An example is shown below to give you an idea of what infomation we need to understand your submitted changes. A pull request should:
+We have included a template on Github for creating new pull requests. An example is shown below to give you an idea of what information we need, to understand your submitted changes. A pull request should:
 
 - Use a clear title
 - Have a reference to the issue it is fixing
@@ -40,28 +40,35 @@ We include a template on github for creating new pull requests. An example is sh
 
 ```
 Issue #15 - Initial website layout
-This PR creates the initial scaffold structure for the team website. The Catwatch data is called via the `fetch` API and 
+
+This PR creates the initial scaffold structure for the team website. The Catwatch data is called via the `fetch` API and
 displayed in `index.html` page. CSS Flexbox is used as the CSS layout model.
 
 Types of Changes
-What types of changes does your code introduce? Put an `x` in all the boxes that apply:
+
+What types of changes does your code introduce? Put an `x` in all the boxes that apply and remove the other points which aren't applicable:
+
 - [x] New feature (non-breaking change which adds functionality)
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] Configuration change
 - [ ] Refactor/improvements
-- [ ] Documentation / non-code 
+- [ ] Documentation / non-code
 
 Tasks:
+
   - [x] Create index.html
   - [x] Setup css and js code
   - [ ] Follow Zalando dress-code standard
 
 Checklist
+
 Go over all the following points, and put an `x` in all the boxes that apply:
+
 - [ ] My change requires a change to the documentation & I have updated it accordingly.
 
 
 Screenshot: (optional)
+
   - Attach a screenshot image file
 ```
 
