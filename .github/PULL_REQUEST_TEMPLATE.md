@@ -14,6 +14,7 @@ _What types of changes does your code introduce? Put an `x` in all the boxes tha
 - [ ] Refactor/improvements
 
 ## Tasks
+
   - [x] Created Task 1
   - [x] Created Task 2
   - [ ] To-do Task 3
