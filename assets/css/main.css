@@ -166,17 +166,11 @@ body li {
 }
 
 .statistic__value {
-  display: inline-block;
-  margin: 0 4px;
-  font-size: 3rem;
-  font-weight: 300;
-}
-
-.statistic__key {
+  font-weight: 400;
 }
 
 .statistic {
-  font-size: 2rem;
+  font-size: 130%
 }
 
 .statistics,
