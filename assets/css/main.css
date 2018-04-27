@@ -291,6 +291,8 @@ body li {
 
 .strategy__subtitle {
   margin-top: var(--page-section-header-spacing-bottom);
+  margin-bottom: var(--page-section-header-spacing-bottom);
+  font-size: 120%
 }
 
 .blog {
