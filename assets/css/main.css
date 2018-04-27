@@ -10,9 +10,11 @@
   --background-color-secondary: #e1e1e1;
   --logo-height: 20px;
   --page-section-header-spacing-bottom: 4rem;
+  --page-section-spacing-bottom: 10rem;
 }
 
 body {
+  background: white
 }
 
 body a {
@@ -74,6 +76,7 @@ body li {
 
 .page-section {
   padding: 4rem;
+  margin-bottom: var(--page-section-spacing-bottom);
 }
 
 .page-section--background-white {
