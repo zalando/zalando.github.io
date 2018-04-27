@@ -162,37 +162,23 @@ body li {
   margin: var(--page-section-header-spacing-bottom) 0;
 }
 
-.statistic.dc-card {
-  box-shadow: none;
-}
-
-.statistic {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
-  background: linear-gradient(60deg, var(--zalando-orange), #fff);
-}
-
-.statistic__icon {
+.statistic__value {
   display: inline-block;
-  width: 40px;
+  margin: 0 4px;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .statistic__key {
-  display: inline-block;
-  margin-left: 10px;
 }
 
-.statistic__value {
-  display: inline-block;
-  margin-top: 1rem;
+.statistic {
   font-size: 2rem;
-  font-weight: 300;
+}
+
+.statistics,
+.statistic {
+  margin-bottom: 0;
 }
 
 .projects {

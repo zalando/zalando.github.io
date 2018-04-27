@@ -41,27 +41,9 @@ async function displayProjects() {
 async function displayStatistics() {
     const response = await getData(api.statistics);
     const data = response[0];
-    const metrics = [{
-        key: 'contributors',
-        value: data.allContributorsCount
-      },
-      {
-        key: 'stars',
-        value: data.allStarsCount
-      },
-      {
-        key: 'repositories',
-        value: data.publicProjectCount
-      },
-      {
-        key: 'languages',
-        value: data.programLanguagesCount
-      }
-    ];
     const statistics = [];
 
-    // statistics.push(statistic(data));
-    metrics.forEach(metric => statistics.push(statistic(metric)));
+    statistics.push(statistic(data));
     render('catwatch-statistics', statistics);
 };
 
