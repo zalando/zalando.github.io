@@ -364,11 +364,6 @@ body li {
   margin-right: 100px;
 }
 
-.footer__column:last-child {
-  margin-left: auto;
-  margin-right: 0;
-}
-
 .footer__title {
   display: flex;
   align-items: center;
