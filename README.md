@@ -13,7 +13,7 @@ We advice and assist on:
 - Creating and nurturing Open Source communities around Zalando Open Source projects
 - Align community interests with Zalando business interests
 - Efficient and compliant adoption of Open Source code by Zalando teams
-- Recruiting from Spen Source communities 
+- Recruiting from Open Source communities 
 - Best practices for applying open source to internal projects
 
 We are also here to demystify and simply answer questions, so no matter if you are working at Zalando or not, get in touch: opensource@zalando.de
