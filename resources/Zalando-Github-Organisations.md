@@ -26,7 +26,7 @@ There are currently multiple organisations, this is not currently changing, the 
 The main organisation for open source projects by Zalando teams - notice that Zalando also have a github enterprise setup
 which is reserved for internal projects. Projects in the Zalando org are projects which have graduated from Zalando-Incubator
 
-
+**47 repos, 547 members spread over 156 teams**
 
 
 ## Zalando-Incubator
