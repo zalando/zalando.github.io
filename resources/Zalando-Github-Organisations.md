@@ -28,15 +28,29 @@ There are currently multiple organisations, this is not currently changing, the 
 - 151 teams have legacy admin rights
 - Members can delete, fork and change visibility for repos
 - there are many integrations (31 registered) on each organisation which should be reviewed
+- there are no repository automation - consider added a boilerplate and automate repo creation to it follows best practices
+    - this can all be done via the github api
+
+
+## General effects on workflow
+
+- Master branch is not protected by default
+  - Review is not required by default
+  - branching best practices is not enforced due unprotected master
+  - Pull Requests are not encouraged as the team can work direcly on master
+  - CODEOWNERS file is not enforced by default 
+  - Git Flow best practices not enforced due to above - altho somewhat covered with Zappr
+  - Code Reviews are exposed to the entire organisation 
+  - no status checks are added by default
+
+While the above does not hinder team collaboration, nor represents a security treat, it does
+limit visibility into a project and how it is being built. When developers do not follow
+the process of opening a pull request to submit changes and thereby open up their work for review 
+and conversation, it increases the chance of mistakes, lowers quality, results in less documentation.
+
+Furthermore, by not enforcing the standard git flow, we have 2 standards for how work should be done, this is not ideal.
 
 ---- 
-
-## Zalando
-
-The main organisation for open source projects by Zalando teams - notice that Zalando also have a github enterprise setup
-which is reserved for internal projects. Projects in the Zalando org are projects which have graduated from Zalando-Incubator
-
-**47 repos, 547 members spread over 156 teams**
 
 
 ## Zalando-Incubator
@@ -71,6 +85,14 @@ open source citizens, they graduate to the main zalando org
 - No webhooks configured
 - There is an active bot setting up members and teams for the org automatically
 - No automated member or team deletion setup
+
+
+## Zalando
+
+The main organisation for open source projects by Zalando teams - notice that Zalando also have a github enterprise setup
+which is reserved for internal projects. Projects in the Zalando org are projects which have graduated from Zalando-Incubator
+
+**47 repos, 547 members spread over 156 teams**
 
 
 
