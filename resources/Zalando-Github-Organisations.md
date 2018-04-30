@@ -20,6 +20,16 @@ There are currently multiple organisations, this is not currently changing, the 
 - Zalando-nakadi
 - Zalando-research
 
+## General observations
+
+- Teams are not used correctly and are out of sync with the organisation
+- Teams are created automatically and members are assigned automatically, not based on actual need
+- There are too many owners of the organisation
+- 151 teams have legacy admin rights
+- Members can delete, fork and change visibility for repos
+- there are many integrations (31 registered) on each organisation which should be reviewed
+
+---- 
 
 ## Zalando
 
@@ -50,6 +60,7 @@ open source citizens, they graduate to the main zalando org
 - Members are allowed to change repo visibility
 - Forking of private repos are allowed
 - Members have read permissions by default
+- Currently 10 people are set as owners, 151 teams have legacy admin rights
 
 #### Integrations
 
@@ -60,7 +71,6 @@ open source citizens, they graduate to the main zalando org
 - No webhooks configured
 - There is an active bot setting up members and teams for the org automatically
 - No automated member or team deletion setup
-
 
 
 
