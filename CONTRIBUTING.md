@@ -56,9 +56,9 @@ What types of changes does your code introduce? Put an `x` in all the boxes that
 
 Tasks:
 
-  - [x] Create index.html
-  - [x] Setup css and js code
-  - [ ] Follow Zalando dress-code standard
+- [x] Create index.html
+- [x] Setup css and js code
+- [ ] Follow Zalando dress-code standard
 
 Checklist
 
