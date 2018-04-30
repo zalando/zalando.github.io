@@ -29,13 +29,13 @@ async function getData(url) {
 }
 
 async function displayProjects() {
-    const data = await getData(api.projects);
-    const projects = [];
+    const data = await getData(`${api.projects}&offset=${store.offset}`);
+    store.offset += store.limit;
 
     data.forEach((repo, index) => {
-      projects.push(project(repo, index));
+      store.projects.push(project(repo, index));
     });
-    render('catwatch-projects', projects);
+    render('catwatch-projects', store.projects);
 };
 
 async function displayStatistics() {
@@ -62,4 +62,3 @@ async function displayTeam() {
 
 displayProjects();
 displayStatistics();
-displayTeam();
