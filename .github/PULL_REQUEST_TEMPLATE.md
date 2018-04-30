@@ -1,4 +1,4 @@
-Issue: #`<issue number>` - `<PR Heading>`
+Issue: # 
 
 ## Description
 
@@ -6,12 +6,12 @@ PR description message describing the motivation and context for the change bein
 
 ## Types of Changes
 
-_What types of changes does your code introduce? Put an `x` in all the boxes that apply and remove the other points which aren't applicable:_
+_What types of changes does your code introduce? remove the points which aren't applicable:_
 
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] Configuration change
-- [ ] Refactor/improvements
+- New feature (non-breaking change which adds functionality)
+- Bug fix (non-breaking change which fixes an issue)
+- Configuration change
+- Refactor/improvements
 
 ## Tasks
 
