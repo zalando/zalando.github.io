@@ -20,7 +20,7 @@ const team = [
 ];
 
 function render(id, data) {
-  document.getElementById(id).innerHTML = data.join('');
+  document.getElementById(id).innerHTML = data;
 }
 
 async function getData(url) {
@@ -32,19 +32,39 @@ async function displayProjects() {
     const data = await getData(`${api.projects}&offset=${store.offset}`);
     store.offset += store.limit;
 
+
     data.forEach((repo, index) => {
-      store.projects.push(project(repo, index));
+      store.projects.add(project(repo, index));
+
+      if (store.languages.has(repo.primaryLanguage)) {
+        let projectsPerLanguage = new Set();
+        projectsPerLanguage = store.languages.get(repo.primaryLanguage);
+        projectsPerLanguage.add(repo);
+        store.languages.set(repo.primaryLanguage, projectsPerLanguage);
+      } else {
+        let projectsPerLanguage = new Set();
+        projectsPerLanguage.add(repo);
+        store.languages.set(repo.primaryLanguage, projectsPerLanguage);
+      }
     });
-    render('catwatch-projects', store.projects);
+    render('catwatch-projects', [...store.projects].join(''));
+    // render('catwatch-projects', store.projects.join(''));
+
+    if (store.offset < store.totalProjects) {
+      render('load-more-projects-button', loadMoreProjects());
+    } else {
+      render('load-more-projects-button', '');
+    }
 };
 
 async function displayStatistics() {
     const response = await getData(api.statistics);
     const data = response[0];
     const statistics = [];
+    store.totalProjects = data.publicProjectCount;
 
-    statistics.push(statistic(data));
-    render('catwatch-statistics', statistics);
+    // statistics.push(statistic(data));
+    // render('catwatch-statistics', statistics.join(''));
 };
 
 async function displayTeam() {

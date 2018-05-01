@@ -3,8 +3,8 @@ function project(project, index) {
   const languageLabel = language ?
     `<div class="project__language">${language}</div>` :
     '';
-  const bgImage = language ?
-    `background-image: url('assets/svg/languages/${language}.svg')` :
+  const bgImage = /* language ?
+    `background-image: url('../assets/svg/languages/${language}.svg')` : */
     '';
 
   return `
