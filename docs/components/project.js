@@ -1,10 +1,11 @@
-function project(project, index) {
+function project(project, index, folder) {
   const language = project.primaryLanguage;
   const languageLabel = language ?
     `<div class="project__language">${language}</div>` :
     '';
+  const path = folder || '';
   const bgImage = /* language ?
-    `background-image: url('../assets/svg/languages/${language}.svg')` : */
+    `background-image: url('${path}assets/svg/languages/${language}.svg')` :*/
     '';
 
   return `

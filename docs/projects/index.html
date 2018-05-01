@@ -9,28 +9,7 @@
     <title>Zalando Open Source Projects</title>
   </head>
   <body>
-    <header>
-      <ul class="dc-tab header">
-      	<li class="dc-tab__element dc-tab__element--header header__logo">
-          <a href="index.html">
-            <img src="../assets/svg/logo.svg" />
-          </a>
-        </li>
-      	<li class="dc-tab__element dc-tab__element--active"><a href="#os-projects">Projects</a></li>
-      	<li class="dc-tab__element"><a href="#os-goals">Purpose</a></li>
-      	<li class="dc-tab__element"><a href="#os-jobs">Jobs</a></li>
-        <li class="dc-tab__element"><a href="#os-articles">Articles</a></li>
-      	<li class="dc-tab__element"><a href="#os-team">Team</a></li>
-      </ul>
-    </header>
-
-    <section class="dc-container dc--text-center banner">
-      <div class="banner__overlay"></div>
-      <div class="banner__content">
-        <h1 class="dc-h1">Zalando Open Source</h1>
-        <h2 class="dc-h2">Scaling Open Culture</h2>
-      </div>
-    </section>
+    <header id="header"></header>
 
     <main>
       <section class="dc-container dc--text-center page-section page-section--padding page-section--background-white" id="os-projects">
@@ -44,14 +23,25 @@
       </section>
     </main>
 
-    <footer>
-    </footer>
+    <footer id="footer"></footer>
+
+    <script src="../components/header.js" type="text/javascript"></script>
+    <script src="../components/project.js" type="text/javascript"></script>
+    <script src="../components/filterLabel.js" type="text/javascript"></script>
+    <script src="../components/loadMoreProjects.js" type="text/javascript"></script>
+    <script src="../components/footer.js" type="text/javascript"></script>
 
     <script src="../assets/js/config.js" type="text/javascript"></script>
     <script src="../assets/js/store.js" type="text/javascript"></script>
-    <script src="../assets/js/project.js" type="text/javascript"></script>
-    <script src="../assets/js/filterLabel.js" type="text/javascript"></script>
     <script src="../assets/js/index.js" type="text/javascript"></script>
-    <script src="../components/loadMoreProjects.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      render('header', header('../'));
+      render('footer', footer('../'));
+      displayStatistics();
+      displayProjects();
+      displayProjectLabels();
+      displayOrganisationLabels();
+    </script>
   </body>
 </html>

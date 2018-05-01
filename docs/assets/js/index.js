@@ -2,6 +2,18 @@ function render(id, data) {
   document.getElementById(id).innerHTML = data;
 }
 
+function renderProjects(projects, doMapProjectToLanguage = false) {
+  projects.forEach((repo, index) => {
+    store.projects.add(project(repo, index));
+
+    if (doMapProjectToLanguage) {
+      mapProjectToLanguage(repo);
+    }
+  });
+
+  render('catwatch-projects', [...store.projects].join(''));
+}
+
 async function getData(url) {
   const response = await fetch(url);
   return await response.json();
@@ -23,7 +35,8 @@ function mapProjectToLanguage(repo) {
 }
 
 async function displayProjects(doLoadMoreProjects = false) {
-    const organisation = document.getElementById('organisation-labels').value ||
+    const organisation = document.getElementById('organisation-labels') &&
+      document.getElementById('organisation-labels').value ||
       store.organisations[0];
 
     if (!doLoadMoreProjects) {
@@ -37,23 +50,12 @@ async function displayProjects(doLoadMoreProjects = false) {
 
     renderProjects(data, true);
 
-    if (store.offset < store.totalProjects) {
+    /* if (store.offset < store.totalProjects) {
       render('load-more-projects-button', loadMoreProjects());
     } else {
       render('load-more-projects-button', '');
-    }
+    } */
 };
-
-function renderProjects(projects, doMapProjectToLanguage = false) {
-  projects.forEach((repo, index) => {
-    store.projects.add(project(repo, index));
-
-    if (doMapProjectToLanguage) {
-      mapProjectToLanguage(repo);
-    }
-  });
-  render('catwatch-projects', [...store.projects].join(''));
-}
 
 function displayProjectLabels() {
   const labels = [];
@@ -82,11 +84,14 @@ function filterByLanguage() {
 async function displayStatistics() {
     const response = await getData(api.statistics);
     const data = response[0];
-    const statistics = [];
     store.totalProjects = data.publicProjectCount;
 
-    // statistics.push(statistic(data));
-    // render('catwatch-statistics', statistics.join(''));
+    const statisticDomElement = document.getElementById('catwatch-statistics');
+    if (statisticDomElement) {
+      const statistics = [];
+      statistics.push(statistic(data));
+      render('catwatch-statistics', statistics.join(''));
+    }
 };
 
 async function displayTeam() {
@@ -101,11 +106,3 @@ async function displayTeam() {
 
   render('os-team-data', users);
 };
-
-function init() {
-  displayStatistics();
-  displayProjects();
-  displayProjectLabels();
-  displayOrganisationLabels();
-};
-init();

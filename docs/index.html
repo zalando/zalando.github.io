@@ -8,20 +8,7 @@
     <title>Zalando Open Source</title>
   </head>
   <body>
-    <header>
-      <ul class="dc-tab header">
-      	<li class="dc-tab__element dc-tab__element--header header__logo">
-          <a href="index.html">
-            <img src="assets/svg/logo.svg" />
-          </a>
-        </li>
-      	<li class="dc-tab__element"><a href="#os-projects">Projects</a></li>
-      	<li class="dc-tab__element"><a href="#os-goals">Purpose</a></li>
-      	<li class="dc-tab__element"><a href="#os-jobs">Jobs</a></li>
-        <li class="dc-tab__element"><a href="#os-articles">Articles</a></li>
-      	<li class="dc-tab__element"><a href="#os-team">Team</a></li>
-      </ul>
-    </header>
+    <header id="header"></header>
 
     <section class="dc-container dc--text-center banner">
       <div class="banner__overlay"></div>
@@ -53,48 +40,39 @@
 
         <br>
 
-
         <div class="dc-row">
           <div class="goal dc-column">
-
             <div class="goal__icon">
               <object id="goal-participate" data="assets/svg/slideshare.svg" type="image/svg+xml"></object>
             </div>
-
             <h2 class="dc-h2">Participate</h2>
             <p class="dc-p">
                 We invest in and contribute to Open Source projects which are important to us.
                 We encourage Zalando employees to get involved in Open Source.
             </p>
-
           </div>
 
           <div class="goal dc-column">
             <div class="goal__icon">
               <object id="goal-share" data="assets/svg/handshake-o.svg" type="image/svg+xml"></object>
             </div>
-
             <h2 class="dc-h2">Share</h2>
             <p class="dc-p">
                 We share our code and processes with the rest of the world as we want technology to
                 benefit as many people as possible.
             </p>
-
           </div>
 
           <div class="goal dc-column">
-
             <div class="goal__icon">
               <object id="goal-promote" data="assets/svg/gg.svg" type="image/svg+xml"></object>
             </div>
-
             <h2 class="dc-h2">Promote</h2>
             <p class="dc-p">
               We enable and prioritize Open Source code in our engineering teams.
               We encourage an open culture as we see the practices of the Open Source movement
               as the best way to collaborate.
             </p>
-
           </div>
         </div>
       </section>
@@ -162,90 +140,23 @@
       </section>
     </main>
 
-    <footer>
-      <div class="footer">
-        <div class="footer__column">
-          <div class="footer__title">
-            <h2 class="dc-h2">Organisations</h2>
-          </div>
-          <ul class="footer__list">
-            <li><a href="https://github.com/zalando" target="_blank">Zalando</a></li>
-            <li><a href="https://github.com/zalando-incubator" target="_blank">Zalando Incubator</a></li>
-            <li><a href="https://github.com/zalandoresearch" target="_blank">Zalando Research</a></li>
-            <li><a href="https://github.com/zalando-nakadi" target="_blank">Nakadi</a></li>
-            <li><a href="https://github.com/zalando-stups" target="_blank">STUPS</a></li>
-            <li><a href="https://github.com/zalando-zmon" target="_blank">ZMON</a></li>
-          </ul>
-        </div>
-        <div class="footer__column">
-          <div class="footer__title">
-            <h2 class="dc-h2">Outreach</h2>
-          </div>
-          <ul class="footer__list">
-            <li><a href="https://www.cncf.io/" target="_blank">Cloud Native Computing Foundation</a></li>
-          </ul>
-        </div>
-        <div class="footer__column">
-          <div class="footer__title">
-            <h2 class="dc-h2">Connect with us</h2>
-          </div>
-          <ul class="footer__list footer__list--social">
-            <li>
-              <span class="footer__icon">
-                <object data="assets/svg/mail-alt.svg" type="image/svg+xml"></object>
-              </span>
-              <a href="mailto: opensource@zalando.de">
-                opensource@zalando.de
-              </a>
-            </li>
-            <li>
-              <span class="footer__icon">
-                <object data="assets/svg/twitter.svg" type="image/svg+xml"></object>
-              </span>
-              <a href="https://twitter.com/ZalandoTech" target="_blank">
-                @ZalandoTech
-              </a>
-            </li>
-            <li>
-              <span class="footer__icon">
-                <object data="assets/svg/rss.svg" type="image/svg+xml"></object>
-              </span>
-              <a href="https://jobs.zalando.com/tech/blog/?tags=open%20source" target="_blank">
-                Blog
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__column">
-          <div class="footer__title">
-            <h2 class="dc-h2">Links</h2>
-          </div>
-          <ul class="footer__list">
-            <li><a href="#os-projects">Projects</a></li>
-            <li><a href="#os-goals">Purpose</a></li>
-            <li><a href="#os-jobs">Jobs</a></li>
-            <li><a href="#os-articles">Articles</a></li>
-            <li><a href="#os-team">Team</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer__stamp">
-        <div>
-          <a href="https://github.com/zalando/dress-code/" target="_blank">
-            Built using
-            <span class="footer__icon">
-              <object data="assets/svg/logo--no-text.svg" type="image/svg+xml"></object>
-            </span>
-            Dress Code
-          </a>
-        </div>
-      </div>
-    </footer>
+    <footer id="footer"></footer>
 
+    <script src="components/header.js" type="text/javascript"></script>
+    <script src="components/project.js" type="text/javascript"></script>
+    <script src="components/statistic.js" type="text/javascript"></script>
+    <script src="components/user.js" type="text/javascript"></script>
+    <script src="components/footer.js" type="text/javascript"></script>
+
+    <script src="assets/js/config.js" type="text/javascript"></script>
     <script src="assets/js/store.js" type="text/javascript"></script>
-    <script src="assets/js/project.js" type="text/javascript"></script>
-    <script src="assets/js/statistic.js" type="text/javascript"></script>
-    <script src="assets/js/user.js" type="text/javascript"></script>
     <script src="assets/js/index.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      render('header', header());
+      render('footer', footer());
+      displayStatistics();
+      displayProjects();
+    </script>
   </body>
 </html>

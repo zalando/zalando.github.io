@@ -23,3 +23,23 @@ const store = {
    'zalando-stups' // 77
   ]
 };
+
+/*
+@TODO
+- add ESLINT
+- add options {
+    showStaticButton
+    loadMoreButton
+    folder
+  } as param to displayProjects
+- get svg icons for all programmingLanguages
+- change catwatch endpoints
+  - get all Organisations
+  - get all languages per organisation
+  - get statistics per organisations
+- show project based statistics
+- rename languages in store to projectLanguageMap
+- component to load all JS files
+- benchmark performance for Map, Set
+- browser support for Map, Set
+*/
