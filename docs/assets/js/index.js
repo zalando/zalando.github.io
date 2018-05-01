@@ -41,7 +41,6 @@ function mapProjectToLanguage(repo) {
 
 async function displayProjects() {
     const data = await getData(`${api.projects}&offset=${store.offset}`);
-
     store.offset += store.limit;
 
     data.forEach((repo, index) => {
@@ -49,14 +48,36 @@ async function displayProjects() {
       mapProjectToLanguage(repo);
     });
     render('catwatch-projects', [...store.projects].join(''));
-    // render('catwatch-projects', store.projects.join(''));
 
     if (store.offset < store.totalProjects) {
       render('load-more-projects-button', loadMoreProjects());
     } else {
       render('load-more-projects-button', '');
     }
+
+    displayProjectLabels();
 };
+
+function displayProjectLabels() {
+  const labels = [];
+  for (const language of store.languages.keys()) {
+    labels.push(projectLabel(language));
+  }
+  render('project-labels', labels.join(''));
+}
+
+function filterByLanguage() {
+  const language = document.getElementById('project-labels').value;
+  const projects = store.languages.get(language);
+  const projectArray = [...projects];
+  console.log('projects', projects);
+  const displayProjects = []
+
+  projectArray.forEach((repo, index) => {
+    displayProjects.push(project(repo, index));
+  });
+  render('catwatch-projects', displayProjects.join(''));
+}
 
 async function displayStatistics() {
     const response = await getData(api.statistics);
@@ -81,5 +102,9 @@ async function displayTeam() {
   render('os-team-data', users);
 };
 
-displayProjects();
-displayStatistics();
+async function init() {
+  await displayStatistics();
+  await displayProjects();
+  // displayProjectLabels();
+};
+init();
