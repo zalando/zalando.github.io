@@ -1,6 +1,6 @@
 const api = {
   statistics: 'https://catwatch.opensource.zalan.do/statistics?organizations=zalando',
-  projects: 'https://catwatch.opensource.zalan.do/projects?organizations=zalando&limit=6&sortBy=-stars',
+  projects: 'https://catwatch.opensource.zalan.do/projects?sortBy=-stars',
   team: 'https://api.github.com/users'
 };
 
@@ -39,8 +39,12 @@ function mapProjectToLanguage(repo) {
   store.languages.set(repo.primaryLanguage, projectsPerLanguage);
 }
 
-async function displayProjects() {
-    const data = await getData(`${api.projects}&offset=${store.offset}`);
+async function getProjects(organization) {
+  return await getData(`${api.projects}&offset=${store.offset}&organizations=${organization}&limit=${store.limit}`)
+}
+
+async function displayProjects(organization) {
+    const data = await getProjects(organization || store.organizations[0]);
     store.offset += store.limit;
 
     data.forEach((repo, index) => {
@@ -54,16 +58,22 @@ async function displayProjects() {
     } else {
       render('load-more-projects-button', '');
     }
-
-    displayProjectLabels();
 };
 
 function displayProjectLabels() {
-  const labels = [];
-  for (const language of store.languages.keys()) {
+  const labels = ['All'];
+  for (const language of store.programmingLanguages) {
     labels.push(projectLabel(language));
   }
   render('project-labels', labels.join(''));
+}
+
+function displayOrganisationLabels() {
+  const labels = [];
+  for (const language of store.organizations) {
+    labels.push(projectLabel(language));
+  }
+  render('organization-labels', labels.join(''));
 }
 
 function filterByLanguage() {
@@ -77,6 +87,17 @@ function filterByLanguage() {
     displayProjects.push(project(repo, index));
   });
   render('catwatch-projects', displayProjects.join(''));
+}
+
+async function filterByOrganisation() {
+  const organization = document.getElementById('organization-labels').value;
+  const projects = await getProjects(organization, 0);
+  projects.forEach((repo, index) => {
+    store.projects = new Set();
+    store.projects.add(project(repo, index));
+    // mapProjectToLanguage(repo);
+  });
+  render('catwatch-projects', [...store.projects].join(''));
 }
 
 async function displayStatistics() {
@@ -105,6 +126,7 @@ async function displayTeam() {
 async function init() {
   await displayStatistics();
   await displayProjects();
-  // displayProjectLabels();
+  displayProjectLabels();
+  displayOrganisationLabels();
 };
 init();
