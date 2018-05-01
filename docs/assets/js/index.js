@@ -28,24 +28,25 @@ async function getData(url) {
   return await response.json();
 }
 
+function mapProjectToLanguage(repo) {
+  let projectsPerLanguage = new Set();
+
+  if (store.languages.has(repo.primaryLanguage)) {
+    projectsPerLanguage = store.languages.get(repo.primaryLanguage);
+  }
+
+  projectsPerLanguage.add(repo);
+  store.languages.set(repo.primaryLanguage, projectsPerLanguage);
+}
+
 async function displayProjects() {
     const data = await getData(`${api.projects}&offset=${store.offset}`);
-    store.offset += store.limit;
 
+    store.offset += store.limit;
 
     data.forEach((repo, index) => {
       store.projects.add(project(repo, index));
-
-      if (store.languages.has(repo.primaryLanguage)) {
-        let projectsPerLanguage = new Set();
-        projectsPerLanguage = store.languages.get(repo.primaryLanguage);
-        projectsPerLanguage.add(repo);
-        store.languages.set(repo.primaryLanguage, projectsPerLanguage);
-      } else {
-        let projectsPerLanguage = new Set();
-        projectsPerLanguage.add(repo);
-        store.languages.set(repo.primaryLanguage, projectsPerLanguage);
-      }
+      mapProjectToLanguage(repo);
     });
     render('catwatch-projects', [...store.projects].join(''));
     // render('catwatch-projects', store.projects.join(''));
