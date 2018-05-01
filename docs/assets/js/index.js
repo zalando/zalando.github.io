@@ -1,24 +1,3 @@
-const api = {
-  statistics: 'https://catwatch.opensource.zalan.do/statistics?organizations=zalando',
-  projects: 'https://catwatch.opensource.zalan.do/projects?sortBy=-stars',
-  team: 'https://api.github.com/users'
-};
-
-const team = [
-  {
-    username: 'therealpadams',
-    title: 'Open Source Lead'
-  },
-  {
-    username: 'perploug',
-    title: 'Open Source Community Manager'
-  },
-  {
-    username: 'princiya',
-    title: 'Open Source Advocate'
-  }
-];
-
 function render(id, data) {
   document.getElementById(id).innerHTML = data;
 }
@@ -26,6 +5,10 @@ function render(id, data) {
 async function getData(url) {
   const response = await fetch(url);
   return await response.json();
+}
+
+async function getProjects(organisation) {
+  return await getData(`${api.projects}&offset=${store.offset}&organizations=${organisation}&limit=${store.limit}`)
 }
 
 function mapProjectToLanguage(repo) {
@@ -39,19 +22,20 @@ function mapProjectToLanguage(repo) {
   store.languages.set(repo.primaryLanguage, projectsPerLanguage);
 }
 
-async function getProjects(organization) {
-  return await getData(`${api.projects}&offset=${store.offset}&organizations=${organization}&limit=${store.limit}`)
-}
+async function displayProjects(doLoadMoreProjects = false) {
+    const organisation = document.getElementById('organisation-labels').value ||
+      store.organisations[0];
 
-async function displayProjects(organization) {
-    const data = await getProjects(organization || store.organizations[0]);
-    store.offset += store.limit;
+    if (!doLoadMoreProjects) {
+      store.offset = 0;
+      store.projects = new Set();
+    } else {
+      store.offset += store.limit;
+    }
 
-    data.forEach((repo, index) => {
-      store.projects.add(project(repo, index));
-      mapProjectToLanguage(repo);
-    });
-    render('catwatch-projects', [...store.projects].join(''));
+    const data = await getProjects(organisation);
+
+    renderProjects(data, true);
 
     if (store.offset < store.totalProjects) {
       render('load-more-projects-button', loadMoreProjects());
@@ -60,44 +44,39 @@ async function displayProjects(organization) {
     }
 };
 
+function renderProjects(projects, doMapProjectToLanguage = false) {
+  projects.forEach((repo, index) => {
+    store.projects.add(project(repo, index));
+
+    if (doMapProjectToLanguage) {
+      mapProjectToLanguage(repo);
+    }
+  });
+  render('catwatch-projects', [...store.projects].join(''));
+}
+
 function displayProjectLabels() {
-  const labels = ['All'];
+  const labels = [];
   for (const language of store.programmingLanguages) {
-    labels.push(projectLabel(language));
+    labels.push(filterLabel(language));
   }
   render('project-labels', labels.join(''));
 }
 
 function displayOrganisationLabels() {
   const labels = [];
-  for (const language of store.organizations) {
-    labels.push(projectLabel(language));
+  for (const organisation of store.organisations) {
+    labels.push(filterLabel(organisation));
   }
-  render('organization-labels', labels.join(''));
+  render('organisation-labels', labels.join(''));
 }
 
 function filterByLanguage() {
   const language = document.getElementById('project-labels').value;
   const projects = store.languages.get(language);
-  const projectArray = [...projects];
-  console.log('projects', projects);
-  const displayProjects = []
 
-  projectArray.forEach((repo, index) => {
-    displayProjects.push(project(repo, index));
-  });
-  render('catwatch-projects', displayProjects.join(''));
-}
-
-async function filterByOrganisation() {
-  const organization = document.getElementById('organization-labels').value;
-  const projects = await getProjects(organization, 0);
-  projects.forEach((repo, index) => {
-    store.projects = new Set();
-    store.projects.add(project(repo, index));
-    // mapProjectToLanguage(repo);
-  });
-  render('catwatch-projects', [...store.projects].join(''));
+  store.projects = new Set();
+  renderProjects(projects, false);
 }
 
 async function displayStatistics() {
@@ -123,9 +102,9 @@ async function displayTeam() {
   render('os-team-data', users);
 };
 
-async function init() {
-  await displayStatistics();
-  await displayProjects();
+function init() {
+  displayStatistics();
+  displayProjects();
   displayProjectLabels();
   displayOrganisationLabels();
 };

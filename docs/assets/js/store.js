@@ -17,9 +17,9 @@ const store = {
     'Kotlin',
     'Clojure'
   ],
-  organizations: [
-   'zalando',
-   'zalando-incubator',
-   'zalando-stups'
+  organisations: [
+   'zalando', // 43
+   'zalando-incubator', // 22
+   'zalando-stups' // 77
   ]
 };

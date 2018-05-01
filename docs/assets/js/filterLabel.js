@@ -1,4 +1,4 @@
-function projectLabel(label, index) {
+function filterLabel(label, index) {
   return `
     <option value="${label}">${label}</option>
   `;
