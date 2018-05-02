@@ -1,5 +1,5 @@
-function filterLabel(label, index) {
+function filterLabel(label) {
   return `
-    <option value="${label}">${label}</option>
+    <div class="filter-label" onclick="filterByLanguage('${label}')">${label}</div>
   `;
 }

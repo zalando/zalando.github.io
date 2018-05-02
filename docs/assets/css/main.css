@@ -350,6 +350,16 @@ body li {
   font-size: 2rem;
 }
 
+.filter-label {
+  display: inline-block;
+  margin-left: 4px;
+  line-height: 16px;
+  background-color: #26aafe;
+  padding: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;

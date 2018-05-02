@@ -35,8 +35,8 @@ function mapProjectToLanguage(repo) {
 }
 
 async function displayProjects(doLoadMoreProjects = false) {
-    const organisation = document.getElementById('organisation-labels') &&
-      document.getElementById('organisation-labels').value ||
+    const organisation = /* document.getElementById('organisation-options') &&
+      document.getElementById('organisation-options').value || */
       store.organisations[0];
 
     if (!doLoadMoreProjects) {
@@ -60,25 +60,33 @@ async function displayProjects(doLoadMoreProjects = false) {
 function displayProjectLabels() {
   const labels = [];
   for (const language of store.programmingLanguages) {
-    labels.push(filterLabel(language));
+    labels.push(filterOption(language));
   }
-  render('project-labels', labels.join(''));
+  render('language-options', labels.join(''));
 }
 
 function displayOrganisationLabels() {
   const labels = [];
   for (const organisation of store.organisations) {
-    labels.push(filterLabel(organisation));
+    labels.push(filterOption(organisation));
   }
-  render('organisation-labels', labels.join(''));
+  render('organisation-options', labels.join(''));
 }
 
-function filterByLanguage() {
-  const language = document.getElementById('project-labels').value;
-  const projects = store.languages.get(language);
+function filterByLanguage(language) {
+  const filterOption = language || document.getElementById('language-options').value;
+  const projects = store.languages.get(filterOption);
 
   store.projects = new Set();
   renderProjects(projects, false);
+}
+
+function displayTopProgrammingLanguages() {
+  const labels = [];
+  for (const language of store.topProgrammingLanguages) {
+    labels.push(filterLabel(language));
+  }
+  render('top-programming-languages', labels.join(''));
 }
 
 async function displayStatistics() {

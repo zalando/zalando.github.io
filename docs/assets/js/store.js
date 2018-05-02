@@ -17,6 +17,13 @@ const store = {
     'Kotlin',
     'Clojure'
   ],
+  topProgrammingLanguages: [
+    'Java',
+    'Python',
+    'Scala',
+    'CSS',
+    'Go'
+  ],
   organisations: [
    'zalando', // 43
    'zalando-incubator', // 22
@@ -49,4 +56,8 @@ const store = {
 - api limit in index.html and projects/index.html
 - filter UI
 - refactor loadMoreProjects to accept any button
+- css cleanup for project card header
+  - remove unused flex classes
+- setup test environment
+  - tape.js for vanilla js
 */
