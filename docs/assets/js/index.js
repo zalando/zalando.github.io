@@ -2,16 +2,33 @@ function render(id, data) {
   document.getElementById(id).innerHTML = data;
 }
 
-function renderProjects(projects, doMapProjectToLanguage = false) {
+function updateProjectsToDisplay(projects) {
+  let projectsToDisplay = new Set();
+
   projects.forEach((repo, index) => {
-    store.projects.add(project(repo, index));
+    projectsToDisplay.add(project(repo, index));
+  });
+
+  return projectsToDisplay;
+}
+
+function renderProjects(projects, doMapProjectToLanguage = false) {
+  let projectsToDisplay = new Set();
+
+  if (doMapProjectToLanguage) {
+    projectsToDisplay = updateProjectsToDisplay(store.projects);
+  }
+
+  projects.forEach((repo, index) => {
+    projectsToDisplay.add(project(repo, index));
 
     if (doMapProjectToLanguage) {
       mapProjectToLanguage(repo);
+      store.projects.add(repo);
     }
   });
 
-  render('catwatch-projects', [...store.projects].join(''));
+  render('catwatch-projects', [...projectsToDisplay].join(''));
 }
 
 async function getData(url) {
@@ -35,13 +52,12 @@ function mapProjectToLanguage(repo) {
 }
 
 async function displayProjects(doLoadMoreProjects = false) {
-    const organisation = /* document.getElementById('organisation-options') &&
-      document.getElementById('organisation-options').value || */
-      store.organisations[0];
+    const organisation = store.organisations[0];
+    let projectsToDisplay;
 
     if (!doLoadMoreProjects) {
       store.offset = 0;
-      store.projects = new Set();
+      projectsToDisplay = new Set();
     } else {
       store.offset += store.limit;
     }
@@ -49,36 +65,28 @@ async function displayProjects(doLoadMoreProjects = false) {
     const data = await getProjects(organisation);
 
     renderProjects(data, true);
-
-    /* if (store.offset < store.totalProjects) {
-      render('load-more-projects-button', loadMoreProjects());
-    } else {
-      render('load-more-projects-button', '');
-    } */
+    displayLoadMoreProjects();
 };
 
-function displayProjectLabels() {
+function displayLanguageOptions() {
   const labels = [];
+
+  labels.push(filterOption('All'));
   for (const language of store.programmingLanguages) {
     labels.push(filterOption(language));
   }
   render('language-options', labels.join(''));
 }
 
-function displayOrganisationLabels() {
-  const labels = [];
-  for (const organisation of store.organisations) {
-    labels.push(filterOption(organisation));
-  }
-  render('organisation-options', labels.join(''));
-}
-
 function filterByLanguage(language) {
   const filterOption = language || document.getElementById('language-options').value;
-  const projects = store.languages.get(filterOption);
 
-  store.projects = new Set();
-  renderProjects(projects, false);
+  if (filterOption === 'All') {
+    displayProjects(true);
+  } else {
+    const projects = store.languages.get(filterOption);
+    renderProjects(projects, false);
+  }
 }
 
 function displayTopProgrammingLanguages() {
@@ -87,6 +95,14 @@ function displayTopProgrammingLanguages() {
     labels.push(filterLabel(language));
   }
   render('top-programming-languages', labels.join(''));
+}
+
+function displayLoadMoreProjects() {
+  if (store.offset < store.totalProjects) {
+    render('load-more-projects-button', loadMoreProjects());
+  } else {
+    render('load-more-projects-button', '');
+  }
 }
 
 async function displayStatistics() {

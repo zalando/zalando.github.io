@@ -60,4 +60,5 @@ const store = {
   - remove unused flex classes
 - setup test environment
   - tape.js for vanilla js
+- make store immutable
 */

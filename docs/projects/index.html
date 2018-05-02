@@ -15,7 +15,6 @@
       <section class="dc-container dc--text-center page-section page-section--padding page-section--background-white" id="os-projects">
         <h1 class="dc-h1 page-section__header">Projects</h1>
         <div class="dc-row filter-panel">
-          <!-- <label>Organisation</label><select id="organisation-options" onchange="displayProjects()"></select> -->
           <div class="dc-column filter-dropdown">
             <label>Filter by Programming Language</label>
             <select id="language-options" onchange="filterByLanguage()"></select>
@@ -48,9 +47,9 @@
       render('footer', footer('../'));
       displayStatistics();
       displayProjects();
-      displayProjectLabels();
-      // displayOrganisationLabels();
+      displayLanguageOptions();
       displayTopProgrammingLanguages();
+      displayLoadMoreProjects();
     </script>
   </body>
 </html>
