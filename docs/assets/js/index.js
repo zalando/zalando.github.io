@@ -100,7 +100,7 @@ function displayTopProgrammingLanguages() {
 }
 
 function displayLoadMoreProjects() {
-  if (store.offset + store.limit < store.totalProjects) {
+  if (store.offset < store.totalProjects) {
     render('load-more-projects-button', loadMoreProjects());
   } else {
     hideLoadMoreProjects();
