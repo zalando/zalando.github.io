@@ -3,7 +3,7 @@ const store = {
   offset: 0,
   limit: 10,
   projects: new Set,
-  languages: new Map,
+  languages: new Map, // projectLanguageMap
   programmingLanguages: [
     'Python',
     'Swift',
@@ -41,5 +41,12 @@ const store = {
 - rename languages in store to projectLanguageMap
 - component to load all JS files
 - benchmark performance for Map, Set
+- measure page load time
+  - https://codeburst.io/performance-metrics-whats-this-all-about-1128461ad6b
+  - https://www.sitepoint.com/javascript-performance-optimization-tips-an-overview/
 - browser support for Map, Set
+- spinner icon to show loading behaviour
+- api limit in index.html and projects/index.html
+- filter UI
+- refactor loadMoreProjects to accept any button
 */
