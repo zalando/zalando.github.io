@@ -40,7 +40,9 @@ There are currently multiple organisations, this is not currently changing, the 
   - Pull Requests are not encouraged as the team can work direcly on master
   - CODEOWNERS file is not enforced by default 
   - Git Flow best practices not enforced due to above - altho somewhat covered with Zappr
-  - Code Reviews are exposed to the entire organisation 
+  - Code Reviews are exposed to the entire organisation
+    - this makes it hard to assign to the right person
+    - ideally only team members or collaborators for this project is a reviewer
   - no status checks are added by default
 
 While the above does not hinder team collaboration, nor represents a security treat, it does
