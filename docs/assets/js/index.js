@@ -4,10 +4,12 @@ async function getData(url) {
 }
 
 async function getProjects(organisation, language) {
-  let url = `${api.projects}&offset=${store.offset}&organizations=${organisation}&limit=${store.limit}`;
+  let url = `${api.projects}&organizations=${organisation}`;
 
   if (language) {
-    url = `${url}&language=${language}`;
+    url = `${url}&language=${language}&limit=20`;
+  } else {
+    url = `${url}&offset=${store.offset}&limit=${store.limit}`;
   }
 
   return await getData(url);
@@ -27,7 +29,7 @@ function updateProjectsToDisplay(projects) {
   return projectsToDisplay;
 }
 
-function renderProjects(projects, isMapProjectToLanguage = false, isShowAll = true) {
+function renderProjects(projects, isShowAll = true) {
   let projectsToDisplay = new Set();
 
   if (isShowAll) {
@@ -37,8 +39,7 @@ function renderProjects(projects, isMapProjectToLanguage = false, isShowAll = tr
   projects.forEach((repo, index) => {
     projectsToDisplay.add(project(repo, index));
 
-    if (isMapProjectToLanguage) {
-      mapProjectToLanguage(repo);
+    if (isShowAll) {
       store.projects.add(repo);
     }
   });
@@ -46,29 +47,28 @@ function renderProjects(projects, isMapProjectToLanguage = false, isShowAll = tr
   render('catwatch-projects', [...projectsToDisplay].join(''));
 }
 
-function mapProjectToLanguage(repo) {
-  let projectsPerLanguage = new Set();
-
-  if (store.languages.has(repo.primaryLanguage)) {
-    projectsPerLanguage = store.languages.get(repo.primaryLanguage);
-  }
-
-  projectsPerLanguage.add(repo);
-  store.languages.set(repo.primaryLanguage, projectsPerLanguage);
-}
-
 async function displayProjects(language) {
     const organisation = store.organisations[0];
+    const isShowAll = !language;
+    let data;
 
-    if (language) {
-      store.offset = 0;
+    if (language || store.offset < store.totalProjects) {
+      data = await getProjects(organisation, language);
     } else {
+      data = store.projects;
+    }
+
+    if (isShowAll && store.offset < store.totalProjects) {
       store.offset += store.limit;
     }
 
-    const data = await getProjects(organisation, language);
-    renderProjects(data, true, !language);
-    displayLoadMoreProjects();
+    renderProjects(data, isShowAll);
+
+    if (language) {
+      hideLoadMoreProjects();
+    } else {
+      displayLoadMoreProjects();
+    }
 };
 
 function filterByLanguage(language) {
@@ -77,12 +77,7 @@ function filterByLanguage(language) {
   if (filterOption === 'All') {
     displayProjects();
   } else {
-    if (store.offset + store.limit < store.totalProjects) {
-      displayProjects(filterOption);
-    } else {
-      const projects = store.languages.get(filterOption);
-      renderProjects(projects, false);
-    }
+    displayProjects(filterOption);
   }
 }
 
@@ -108,8 +103,12 @@ function displayLoadMoreProjects() {
   if (store.offset + store.limit < store.totalProjects) {
     render('load-more-projects-button', loadMoreProjects());
   } else {
-    render('load-more-projects-button', '');
+    hideLoadMoreProjects();
   }
+}
+
+function hideLoadMoreProjects() {
+  render('load-more-projects-button', '');
 }
 
 async function displayStatistics() {

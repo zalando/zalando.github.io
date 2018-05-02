@@ -3,7 +3,6 @@ const store = {
   offset: 0,
   limit: 10,
   projects: new Set,
-  languages: new Map, // projectLanguageMap
   programmingLanguages: [
     'Python',
     'Swift',
