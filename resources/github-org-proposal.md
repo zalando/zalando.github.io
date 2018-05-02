@@ -66,15 +66,26 @@ No Changes required, Zalando and Zalando-Incubator keep their current purpose an
     - CDObot can check for signed comiits
     - Zappr can do policy checks - altho it does not seemed used atm
 
+## Branching and pull requests
+- Follow github flow
+- Create an issue or pick and existing issue
+- Create a fork
+- Create a topic branch for the specific feature ex: `website-header`
+- Open a pull request outlining changes
+    - include a what + why description
+    - include a list of tasks to complete this pull request
+    - include expected delivery
+    - Pull request is automatically assigned reviewers from CODEOWNERS
+    - Mark Pull request with appropriate labels for type of work - avoid acronyms
+    - add `work in progress` label
+- Make commits
+- Remove `work in progress` label
+- Notify CODEOWNERS of completed pull request via pull request message
+- Participate in code review and discuss changes
+- CODEOWNERS will approve and merge changes
+- Mark issue as closed
+- Delete branch
 
-
-## Pull Requests
-- All pull requests are made from a fork, not within the repository
-- As soon as work start on a change, a pull request is opened (template available)
-- A new pull request is marked with the label `pr: work in progress`
-- When work has completed, the `pr: work in progress` is removed and the team is pinged 
-- Pull request is marked with appropriate labels for type of work - avoid acronyms
-- Pull request is automatically assigned reviewers from CODEOWNERS
 
 
 ----- 
