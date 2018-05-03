@@ -1,6 +1,6 @@
 # Proposed Zalando Github Structure
 
-This document outlines the proposed new structure for all teams and projects on the Zalando, Zalando-Incubator, Zalando-Stups, Zalando-Nakadi organisations. 
+This document outlines the proposed new structure for all teams and projects on the Zalando, Zalando-Incubator, Zalando-Stups, Zalando-Nakadi and Zalando-Zmon organisations. 
 
 **note:** This structure is currently not possible to apply to enterprise github due to missing features
 in the enterprise version - however, the long term goal is to align way of working between the
@@ -39,7 +39,7 @@ No Changes required, all organisations  keep their current purpose and the same 
 - Limited number of organisation Admins
 - Members are not allowed to create repositories
 - Members are not allowed to delete, rename or publicize repos
-- 2FA is enabled
+- 2FA is enforced
 - All legacy admin teams are migrated to member status
 
 
