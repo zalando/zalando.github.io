@@ -45,9 +45,12 @@ function renderProjects(projects, isShowAll = true) {
   });
 
   render('catwatch-projects', [...projectsToDisplay].join(''));
+  hideSpinner();
 }
 
 async function displayProjects(language) {
+    showSpinner();
+
     const organisation = store.organisations[0];
     const isShowAll = !language;
     const isMainPage = !store.path;
@@ -68,7 +71,7 @@ async function displayProjects(language) {
     if (isMainPage || language) {
       hideLoadMoreProjects(isMainPage);
     } else {
-      displayLoadMoreProjects();
+      showLoadMoreProjects();
     }
 };
 
@@ -100,7 +103,7 @@ function displayTopProgrammingLanguages() {
   render('top-programming-languages', labels.join(''));
 }
 
-function displayLoadMoreProjects() {
+function showLoadMoreProjects() {
   if (store.offset < store.totalProjects) {
     render('load-more-projects-button', loadMoreProjects());
   } else {
@@ -112,6 +115,16 @@ function hideLoadMoreProjects(isMainPage) {
   if (!isMainPage) {
     render('load-more-projects-button', '');
   }
+}
+
+function showSpinner() {
+  const spinner = document.getElementById('spinner');
+  spinner.style.display = 'flex';
+}
+
+function hideSpinner() {
+  const spinner = document.getElementById('spinner');
+  spinner.style.display = 'none';
 }
 
 async function displayStatistics() {

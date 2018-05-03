@@ -177,6 +177,11 @@ body li {
   margin-bottom: 0;
 }
 
+.projects-wrapper {
+  min-height: 200px;
+  position: relative;
+}
+
 .projects {
   margin-top: 0;
 }
@@ -452,6 +457,21 @@ body li {
 
 .footer__stamp .footer__icon {
   margin-left: 1rem;
+}
+
+.spinner-overlay {
+  margin-top: 1rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
 }
 
 .footer__list li a:hover,
