@@ -219,7 +219,7 @@ body li {
   height: 100%;
   display: flex;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .project__header-icon {
@@ -257,11 +257,28 @@ body li {
 .project__description {
   text-align: left;
   margin-bottom: 0;
+  height: 72px;
 }
 
 .project__header-content-text::first-letter,
 .statistic__key::first-letter {
   text-transform: capitalize;
+}
+
+.project__metrics {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.project__metric {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.project__metric-icon img {
+  width: 20px;
+  height: 20px;
 }
 
 .goal__icon {
