@@ -129,6 +129,14 @@ body li {
   position: relative;
 }
 
+.banner--projects {
+  display: flex;
+  align-items: center;
+  min-height: 250px;
+  max-height: 250px;
+  background: url(../img/laptop.jpg);
+}
+
 .banner__overlay {
   position: absolute;
   top: 0;
@@ -154,6 +162,11 @@ body li {
   color: white;
   font-size: 200%;
   font-weight: 200;
+}
+
+.banner--projects .banner__content .dc-h2 {
+  margin-bottom: 0;
+  font-size: 2.5rem;
 }
 
 .statistics,

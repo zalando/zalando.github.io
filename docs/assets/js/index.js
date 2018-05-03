@@ -132,12 +132,9 @@ async function displayStatistics() {
     const data = response[0];
     store.totalProjects = data.publicProjectCount;
 
-    const statisticDomElement = document.getElementById('catwatch-statistics');
-    if (statisticDomElement) {
-      const statistics = [];
-      statistics.push(statistic(data));
-      render('catwatch-statistics', statistics.join(''));
-    }
+    const statistics = [];
+    statistics.push(statistic(data));
+    render('catwatch-statistics', statistics.join(''));
 };
 
 async function displayTeam() {
