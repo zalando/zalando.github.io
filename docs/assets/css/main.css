@@ -11,6 +11,8 @@
   --logo-height: 20px;
   --page-section-header-spacing-bottom: 4rem;
   --page-section-spacing-bottom: 10rem;
+  --language-label-color: #26aafe;
+  --language-label-color-active: #75c6ff;
 }
 
 body {
@@ -93,6 +95,11 @@ body li {
 .page-section--padding {
   padding-left: var(--page-side-padding);
   padding-right: var(--page-side-padding);
+}
+
+.page-section--padding-small {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .page-section--border-bottom {
@@ -190,7 +197,7 @@ body li {
   margin-bottom: 0;
 }
 
-.projects-wrapper {
+.projects__wrapper {
   min-height: 200px;
   position: relative;
 }
@@ -211,11 +218,6 @@ body li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50% 50%;
-}
-
-.project:last-child,
-.project:nth-child(3) {
-  margin-right: 0;
 }
 
 .project.dc-card {
@@ -244,7 +246,6 @@ body li {
   min-width: 110px;
   max-width: 110px;
   color: #fff;
-  background-color: #26aafe;
 }
 
 .project__header-content {
@@ -262,7 +263,7 @@ body li {
 .project__language {
   position: absolute;
   right: 0;
-  background-color: #26aafe;
+  background-color: var(--language-label-color);
   padding: 4px;
   color: #fff;
 }
@@ -386,14 +387,36 @@ body li {
   font-size: 2rem;
 }
 
+.filter-panel {
+  text-align: left;
+}
+
+.filter-labels {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.filter-labels__title {
+  font-weight: bold;
+}
+
 .filter-label {
   display: inline-block;
   margin-left: 4px;
   line-height: 16px;
-  background-color: #26aafe;
+  background-color: var(--language-label-color);
   padding: 4px;
   color: #fff;
   cursor: pointer;
+}
+
+.filter-label:hover {
+  background-color: var(--language-label-color-active);
+}
+
+.filter-dropdown {
+  width: 400px;
+  height: 40px;
 }
 
 .footer {
@@ -473,10 +496,10 @@ body li {
 }
 
 .spinner-overlay {
-  margin-top: 1rem;
+  margin: 1rem 0;
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: -4rem;
   right: 0;
   left: 0;
   background-color: #000;

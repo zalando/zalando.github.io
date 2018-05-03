@@ -19,21 +19,21 @@
     </section>
 
     <main>
-      <section class="dc-container dc--text-center page-section page-section--padding page-section--background-white" id="os-projects">
+      <section class="dc-container dc--text-center page-section page-section--padding page-section--padding-small page-section--background-white" id="os-projects">
         <h1 class="dc-h1 page-section__header">Projects</h1>
 
-        <div class="dc-row filter-panel">
-          <div class="dc-column filter-dropdown">
-            <label>Filter by Programming Language</label>
-            <select id="language-options" onchange="filterByLanguage()"></select>
+        <div class="filter-panel">
+          <div class="filter-dropdown__wrapper">
+            <!-- <label>Filter by Programming Language</label> -->
+            <select class="dc-select filter-dropdown" id="language-options" onchange="filterByLanguage()"></select>
           </div>
-          <div class="dc-column filter-labels-wrapper">
-            <label>Top Programming Languages</label>
+          <div class="filter-labels__wrapper">
+            <label class="filter-labels__title">Top Programming Languages</label>
             <div class="filter-labels" id="top-programming-languages"></div>
           </div>
         </div>
 
-        <div class="projects-wrapper">
+        <div class="projects__wrapper">
           <div class="spinner-overlay" id="spinner">
             <div class="dc-spinner"></div>
           </div>

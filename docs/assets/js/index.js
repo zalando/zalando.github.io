@@ -75,7 +75,16 @@ async function displayProjects(language) {
     }
 };
 
+function updateSelectOption(language) {
+  const element = document.getElementById('language-options');
+  element.value = language;
+}
+
 function filterByLanguage(language) {
+  if (language) {
+    updateSelectOption(language);
+  }
+
   const filterOption = language || document.getElementById('language-options').value;
 
   if (filterOption === 'All') {
