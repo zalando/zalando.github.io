@@ -137,13 +137,13 @@ function hideSpinner() {
 }
 
 async function displayStatistics() {
-    const response = await getData(api.statistics);
-    const data = response[0];
-    store.totalProjects = data.publicProjectCount;
+  const response = await getData(api.statistics);
+  const data = response[0];
+  store.totalProjects = data.publicProjectCount;
 
-    const statistics = [];
-    statistics.push(statistic(data));
-    render('catwatch-statistics', statistics.join(''));
+  const statistics = [];
+  statistics.push(statistic(data));
+  render('catwatch-statistics', statistics.join(''));
 };
 
 async function displayTeam() {

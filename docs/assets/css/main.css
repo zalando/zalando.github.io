@@ -263,7 +263,7 @@ body li {
 .project__language {
   position: absolute;
   right: 0;
-  background-color: var(--language-label-color);
+  background-color: var(--language-label-color-active);
   padding: 4px;
   color: #fff;
 }
@@ -387,17 +387,22 @@ body li {
   font-size: 2rem;
 }
 
-.filter-panel {
+.filter__panel {
   text-align: left;
+  margin-top: 4rem;
+}
+
+.filter-labels__wrapper {
+  margin-top: 4rem;
 }
 
 .filter-labels {
   display: inline-block;
-  margin-top: 2rem;
 }
 
-.filter-labels__title {
-  font-weight: bold;
+.filter__title {
+  font-weight: 300;
+  font-size: 1.6rem;
 }
 
 .filter-label {
@@ -405,7 +410,7 @@ body li {
   margin-left: 4px;
   line-height: 16px;
   background-color: var(--language-label-color);
-  padding: 4px;
+  padding: 8px 10px;
   color: #fff;
   cursor: pointer;
 }
@@ -498,7 +503,7 @@ body li {
 .spinner-overlay {
   margin: 1rem 0;
   position: absolute;
-  top: 0;
+  top: 20px;
   bottom: -4rem;
   right: 0;
   left: 0;
