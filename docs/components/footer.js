@@ -1,5 +1,5 @@
 function footer(folder) {
-  const path = folder || '';
+  const path = store.path;
 
   return `
     <div class="footer">

@@ -153,11 +153,16 @@
     <script src="assets/js/index.js" type="text/javascript"></script>
 
     <script type="text/javascript">
-      render('header', header());
-      render('footer', footer());
-      displayStatistics();
-      displayProjects();
-      displayTeam();
+      async function init() {
+        store.setLimit(6);
+        render('header', header());
+        render('footer', footer());
+        await displayStatistics();
+        await displayProjects();
+        displayTeam();
+      }
+
+      init();
     </script>
   </body>
 </html>

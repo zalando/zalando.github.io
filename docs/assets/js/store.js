@@ -27,7 +27,16 @@ const store = {
    'zalando', // 43
    'zalando-incubator', // 22
    'zalando-stups' // 77
-  ]
+  ],
+  path: '',
+
+  setLimit(value) {
+    this.limit = value;
+  },
+
+  setPath(value) {
+    this.path = value;
+  }
 };
 
 /*

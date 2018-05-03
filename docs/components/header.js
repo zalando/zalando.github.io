@@ -1,5 +1,5 @@
-function header(folder) {
-  const path = folder || '';
+function header() {
+  const path = store.path;
 
   return `
     <ul class="dc-tab header">

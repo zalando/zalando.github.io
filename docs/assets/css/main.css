@@ -258,6 +258,7 @@ body li {
   text-align: left;
   margin-bottom: 0;
   height: 72px;
+  overflow: hidden;
 }
 
 .project__header-content-text::first-letter,

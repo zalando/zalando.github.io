@@ -50,6 +50,7 @@ function renderProjects(projects, isShowAll = true) {
 async function displayProjects(language) {
     const organisation = store.organisations[0];
     const isShowAll = !language;
+    const isMainPage = !store.path;
     let data;
 
     if (language || store.offset < store.totalProjects) {
@@ -64,8 +65,8 @@ async function displayProjects(language) {
 
     renderProjects(data, isShowAll);
 
-    if (language) {
-      hideLoadMoreProjects();
+    if (isMainPage || language) {
+      hideLoadMoreProjects(isMainPage);
     } else {
       displayLoadMoreProjects();
     }
@@ -107,8 +108,10 @@ function displayLoadMoreProjects() {
   }
 }
 
-function hideLoadMoreProjects() {
-  render('load-more-projects-button', '');
+function hideLoadMoreProjects(isMainPage) {
+  if (!isMainPage) {
+    render('load-more-projects-button', '');
+  }
 }
 
 async function displayStatistics() {

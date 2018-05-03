@@ -44,13 +44,13 @@
 
     <script type="text/javascript">
       async function init() {
-        render('header', header('../'));
-        render('footer', footer('../'));
+        store.setPath('../');
+        render('header', header());
+        render('footer', footer());
         displayLanguageOptions();
         displayTopProgrammingLanguages();
         await displayStatistics();
         await displayProjects();
-        displayLoadMoreProjects();
       }
       init();
     </script>

@@ -1,38 +1,38 @@
-function project(project, index, folder) {
-  const language = project.primaryLanguage;
+function project(repo) {
+  const language = repo.primaryLanguage;
   const languageLabel = language ?
     `<div class="project__language">${language}</div>` :
     '';
-  const path = folder || '';
-  const bgImage = /* language ?
-    `background-image: url('${path}assets/svg/languages/${language}.svg')` :*/
+  const path = store.path;
+  const bgImage = language ?
+    `background-image: url('${path}assets/svg/languages/${language}.svg')` :
     '';
 
   return `
     <div class="project dc-card" style="${bgImage}">
-      <a href="${project.url}" target="_blank">
+      <a href="${repo.url}" target="_blank">
         <div class="project__header">
           <div class="project__header-content">
             <div class="project__header-content-text">
-              ${project.name}
+              ${repo.name}
             </div>
           </div>
           ${languageLabel}
         </div>
         <div class="project__content">
-          <p class="dc-p project__description">${project.description}</p>
+          <p class="dc-p project__description">${repo.description}</p>
           <div class="project__metrics">
             <div class="project__metric" title="Stars">
-              <div class="project__metric-icon"><img src="../assets/svg/star.svg" /></div>
-              <div class="project__metric-value">${project.starsCount}</div>
+              <div class="project__metric-icon"><img src="${path}assets/svg/star.svg" /></div>
+              <div class="project__metric-value">${repo.starsCount}</div>
             </div>
             <div class="project__metric" title="Forks">
-              <div class="project__metric-icon"><img src="../assets/svg/fork.svg" /></div>
-              <div class="project__metric-value">${project.forksCount}</div>
+              <div class="project__metric-icon"><img src="${path}assets/svg/fork.svg" /></div>
+              <div class="project__metric-value">${repo.forksCount}</div>
             </div>
             <div class="project__metric" title="Contributors">
-              <div class="project__metric-icon"><img src="../assets/svg/user.svg" /></div>
-              <div class="project__metric-value">${project.contributorsCount}</div>
+              <div class="project__metric-icon"><img src="${path}assets/svg/user.svg" /></div>
+              <div class="project__metric-value">${repo.contributorsCount}</div>
             </div>
           </div>
         </div>
