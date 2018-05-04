@@ -11,6 +11,8 @@
   --logo-height: 20px;
   --page-section-header-spacing-bottom: 4rem;
   --page-section-spacing-bottom: 10rem;
+  --language-label-color: #26aafe;
+  --language-label-color-active: #75c6ff;
 }
 
 body {
@@ -33,10 +35,13 @@ body li {
   padding: 0 var(--page-side-padding);
 }
 
-.header__logo {
+.header li {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.header__logo {
   margin-right: auto;
 }
 
@@ -48,10 +53,6 @@ body li {
   font-size: 1.5rem;
   padding: 1rem;
   color: var(--primary-font-color);
-}
-
-.header li:hover {
-  box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
 }
 
 .page {
@@ -95,6 +96,11 @@ body li {
   padding-right: var(--page-side-padding);
 }
 
+.page-section--padding-small {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .page-section--border-bottom {
   border-bottom: 1px solid var(--page-section-border);
 }
@@ -129,6 +135,14 @@ body li {
   position: relative;
 }
 
+.banner--projects {
+  display: flex;
+  align-items: center;
+  min-height: 250px;
+  max-height: 250px;
+  background: url(../img/laptop.jpg);
+}
+
 .banner__overlay {
   position: absolute;
   top: 0;
@@ -156,6 +170,11 @@ body li {
   font-weight: 200;
 }
 
+.banner--projects .banner__content .dc-h2 {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
 .statistics,
 .projects {
   display: flex;
@@ -177,6 +196,11 @@ body li {
   margin-bottom: 0;
 }
 
+.projects__wrapper {
+  min-height: 200px;
+  position: relative;
+}
+
 .projects {
   margin-top: 0;
 }
@@ -193,11 +217,6 @@ body li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50% 50%;
-}
-
-.project:last-child,
-.project:nth-child(3) {
-  margin-right: 0;
 }
 
 .project.dc-card {
@@ -219,14 +238,13 @@ body li {
   height: 100%;
   display: flex;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .project__header-icon {
   min-width: 110px;
   max-width: 110px;
   color: #fff;
-  background-color: #26aafe;
 }
 
 .project__header-content {
@@ -244,7 +262,7 @@ body li {
 .project__language {
   position: absolute;
   right: 0;
-  background-color: #26aafe;
+  background-color: var(--language-label-color-active);
   padding: 4px;
   color: #fff;
 }
@@ -257,11 +275,29 @@ body li {
 .project__description {
   text-align: left;
   margin-bottom: 0;
+  height: 72px;
+  overflow: hidden;
 }
 
 .project__header-content-text::first-letter,
 .statistic__key::first-letter {
   text-transform: capitalize;
+}
+
+.project__metrics {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.project__metric {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.project__metric-icon img {
+  width: 20px;
+  height: 20px;
 }
 
 .goal__icon {
@@ -350,6 +386,43 @@ body li {
   font-size: 2rem;
 }
 
+.filter__panel {
+  text-align: left;
+  margin-top: 4rem;
+}
+
+.filter-labels__wrapper {
+  margin-top: 4rem;
+}
+
+.filter-labels {
+  display: inline-block;
+}
+
+.filter__title {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.filter-label {
+  display: inline-block;
+  margin-left: 4px;
+  line-height: 16px;
+  background-color: var(--language-label-color);
+  padding: 8px 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.filter-label:hover {
+  background-color: var(--language-label-color-active);
+}
+
+.filter-dropdown {
+  width: 400px;
+  height: 40px;
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -426,10 +499,26 @@ body li {
   margin-left: 1rem;
 }
 
+.spinner-overlay {
+  margin: 1rem 0;
+  position: absolute;
+  top: 20px;
+  bottom: -4rem;
+  right: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
 .footer__list li a:hover,
 .job h3:hover,
 .blog .dc-h2:hover,
 .user__name:hover,
-.footer__stamp div:hover {
+.footer__stamp div:hover,
+.header li:hover {
   box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
 }
