@@ -36,13 +36,15 @@ function renderProjects(projects, isShowAll = true) {
     projectsToDisplay = updateProjectsToDisplay(store.projects);
   }
 
-  projects.forEach((repo, index) => {
-    projectsToDisplay.add(project(repo, index));
+  if (projectsToDisplay.size < store.totalProjects) {
+    projects.forEach((repo, index) => {
+      projectsToDisplay.add(project(repo, index));
 
-    if (isShowAll) {
-      store.projects.add(repo);
-    }
-  });
+      if (isShowAll && store.projects.size < store.totalProjects) {
+        store.projects.add(repo);
+      }
+    });
+  }
 
   render('catwatch-projects', [...projectsToDisplay].join(''));
   hideSpinner();
