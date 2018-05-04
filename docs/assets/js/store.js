@@ -29,6 +29,7 @@ const store = {
    'zalando-stups' // 77
   ],
   path: '',
+  trackingId: 'UA-53633993-31',
 
   setLimit(value) {
     this.limit = value;
