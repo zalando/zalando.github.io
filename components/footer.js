@@ -72,9 +72,7 @@ function footer(folder) {
       <div>
         <a href="https://github.com/zalando/dress-code/" target="_blank">
           Built using
-          <span class="footer__icon">
-            <object data="${path}assets/svg/logo--no-text.svg" type="image/svg+xml"></object>
-          </span>
+          <img class="footer__icon" src="${path}assets/svg/logo.svg" />
           Dress Code
         </a>
       </div>

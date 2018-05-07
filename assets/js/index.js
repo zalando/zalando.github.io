@@ -158,5 +158,5 @@ async function displayTeam() {
     users.push(user(response));
   }
 
-  render('os-team-data', users);
+  render('os-team-data', users.join(''));
 };
