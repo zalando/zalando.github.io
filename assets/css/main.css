@@ -16,7 +16,8 @@
 }
 
 body {
-  background: white
+  background: white;
+  font-family: "Arial";
 }
 
 body a {
@@ -47,6 +48,10 @@ body li {
 
 .header__logo img {
   height: var(--logo-height);
+}
+
+.header__logo a {
+  display: flex;
 }
 
 .header li a {
@@ -497,6 +502,10 @@ body li {
 
 .footer__stamp .footer__icon {
   margin-left: 1rem;
+}
+
+.footer__stamp .footer__icon {
+  width: 50px;
 }
 
 .spinner-overlay {
