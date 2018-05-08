@@ -2,3 +2,4 @@ docs/node_modules/
 .DS_Store
 _site
 .jekyll-metadata
+Gemfile.lock
