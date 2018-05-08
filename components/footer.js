@@ -1,5 +1,8 @@
 function footer(folder) {
   const path = store.path;
+  const href = store.path ?
+    `${path}index.html` :
+    '';
 
   return `
     <div class="footer">
@@ -16,6 +19,7 @@ function footer(folder) {
           <li><a href="https://github.com/zalando-zmon" target="_blank">ZMON</a></li>
         </ul>
       </div>
+
       <div class="footer__column">
         <div class="footer__title">
           <h2 class="dc-h2">Outreach</h2>
@@ -24,6 +28,7 @@ function footer(folder) {
           <li><a href="https://www.cncf.io/" target="_blank">Cloud Native Computing Foundation</a></li>
         </ul>
       </div>
+
       <div class="footer__column">
         <div class="footer__title">
           <h2 class="dc-h2">Connect with us</h2>
@@ -55,16 +60,17 @@ function footer(folder) {
           </li>
         </ul>
       </div>
+
       <div class="footer__column">
         <div class="footer__title">
           <h2 class="dc-h2">Links</h2>
         </div>
         <ul class="footer__list">
-          <li><a href="${path}index.html#os-projects">Projects</a></li>
-          <li><a href="${path}index.html#os-goals">Purpose</a></li>
-          <li><a href="${path}index.html#os-jobs">Jobs</a></li>
-          <li><a href="${path}index.html#os-articles">Articles</a></li>
-          <li><a href="${path}index.html#os-team">Team</a></li>
+          <li><a href="${href}#os-projects">Projects</a></li>
+          <li><a href="${href}#os-goals">Purpose</a></li>
+          <li><a href="${href}#os-jobs">Jobs</a></li>
+          <li><a href="${href}#os-articles">Articles</a></li>
+          <li><a href="${href}#os-team">Team</a></li>
         </ul>
       </div>
     </div>

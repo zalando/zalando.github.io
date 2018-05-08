@@ -1,10 +1,11 @@
 function header() {
   const path = store.path;
-  const activeTab = path || '';
   let projectClasses = 'dc-tab__element';
+  let href = '';
 
   if (path) {
     projectClasses = `${projectClasses} dc-tab__element--active`;
+    href = `${path}index.html`;
   }
 
   return `
@@ -14,11 +15,11 @@ function header() {
           <img src="${path}assets/svg/logo.svg" />
         </a>
       </li>
-      <li class="${projectClasses}"><a href="${path}index.html#os-projects">Projects</a></li>
-      <li class="dc-tab__element"><a href="${path}index.html#os-goals">Purpose</a></li>
-      <li class="dc-tab__element"><a href="${path}index.html#os-jobs">Jobs</a></li>
-      <li class="dc-tab__element"><a href="${path}index.html#os-articles">Articles</a></li>
-      <li class="dc-tab__element"><a href="${path}index.html#os-team">Team</a></li>
+      <li class="${projectClasses}"><a href="${href}#os-projects">Projects</a></li>
+      <li class="dc-tab__element"><a href="${href}#os-goals">Purpose</a></li>
+      <li class="dc-tab__element"><a href="${href}#os-jobs">Jobs</a></li>
+      <li class="dc-tab__element"><a href="${href}#os-articles">Articles</a></li>
+      <li class="dc-tab__element"><a href="${href}#os-team">Team</a></li>
     </ul>
   `;
 }
