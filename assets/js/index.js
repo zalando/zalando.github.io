@@ -150,12 +150,9 @@ async function displayStatistics() {
 
 async function displayTeam() {
   const users = [];
-  let response;
 
   for (let member of team) {
-    response = await getData(`${api.team}/${member.username}`);
-    response.title = member.title;
-    users.push(user(response));
+    users.push(user(member));
   }
 
   render('os-team-data', users.join(''));
