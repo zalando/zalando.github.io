@@ -15,11 +15,23 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/zalando.ico">
     <link href="/assets/css/main.css" rel="stylesheet">
 
-    <meta property="og:url" content="https://opensource.zalando.com" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Zalando Open Source" />
-    <meta property="og:description" content="Scaling open source culture at Zalando" />
-    <meta property="og:image" content="https://opensource.zalando.com/assets/img/zalando-logo.png" />
+    {% if page.title %}
+    <meta property="og:title" content="{{site.title}} | {{page.title}}" />
+    {% else %}
+    <meta property="og:title" content="{{site.title}}" />
+    {% endif %}
+    {% if page.description %} 
+    <meta property="og:description" content="{{page.description}}" />
+    {% else %}
+    <meta property="og:description" content="{{site.description}}" />
+    {% endif %}
+    {% if page.banner.image %}
+    <meta property="og:image" content="/assets/img/{{page.banner.image}}" />
+    {% else %}
+    <meta property="og:image" content="/assets/img/zalando-logo.png" />
+    {% endif %}
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@ZalandoTech">
