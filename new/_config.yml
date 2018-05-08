@@ -1,7 +1,7 @@
 title: Zalando Open Source
 description: Scaling Open Culture
 email: opensource@zalando.de
-twitter: @ZalandoTech
+twitter: ZalandoTech # Do not use the leading @ here
 
 url: "https://opensource.zalando.com"
 baseurl: "/"
