@@ -2,6 +2,8 @@
     <section class="dc-container dc--text-center banner" style="background-image: url('/assets/img/{{page.banner.image}}'); max-height: {{page.banner.height}}; min-height: {{page.banner.height}}">
     {% elsif page.banner.image %}
     <section class="dc-container dc--text-center banner" style="background-image: url('/assets/img/{{page.banner.image}}')">
+    {% elsif page.banner.height %}
+    <section class="dc-container dc--text-center banner" style="max-height: {{page.banner.height}}; min-height: {{page.banner.height}}">
     {% else %}
     <section class="dc-container dc--text-center banner">
     {% endif %}

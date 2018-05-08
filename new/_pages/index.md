@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /
+banner:
+  height: 450px
 ---
       <section class="dc-container dc--text-center page-section page-section--padding page-section--background-white" id="os-projects">
         <h1 class="dc-h1 page-section__header">Projects</h1>

@@ -5,7 +5,6 @@ description: Zalando's Repositories On GitHub
 permalink: /projects
 banner:
   image: laptop.jpg
-  height: 250px
 ---
       <section class="dc-container dc--text-center page-section page-section--padding page-section--padding-small page-section--background-white" id="os-projects">
 

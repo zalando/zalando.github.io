@@ -135,7 +135,8 @@ body li {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 450px;
+  min-height: 250px;
+  max-height: 250px;
   padding: var(--page-side-padding);
   background: url(../img/zalando-people.jpg);
   background-size: cover;
