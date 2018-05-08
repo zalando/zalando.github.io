@@ -1,0 +1,24 @@
+title: Zalando Open Source
+description: Scaling Open Culture
+email: opensource@zalando.de
+
+url: "https://opensource.zalando.com"
+baseurl: "/"
+
+markdown: kramdown
+destination: '_site'
+paginate: 5
+permalink: /:year/:month/:title/
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-paginate
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+
+include:
+  - '_pages'

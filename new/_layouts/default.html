@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <script src="assets/js/store.js" type="text/javascript"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', store.trackingId, 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+
+    <link href="https://cdn.jsdelivr.net/npm/dress-code@2.4.0/dist/css/dress-code.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/zalando.ico">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <meta property="og:url" content="https://opensource.zalando.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Zalando Open Source" />
+    <meta property="og:description" content="Scaling open source culture at Zalando" />
+    <meta property="og:image" content="https://opensource.zalando.com/assets/img/zalando-logo.png" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ZalandoTech">
+    <meta name="twitter:title" content="Zalando Open Source">
+    <meta name="twitter:description" content="Scaling open source culture at Zalando">
+    <meta name="twitter:image" content="https://opensource.zalando.com/assets/img/zalando-logo.png">
+
+    <title>Zalando Open Source</title>
+  </head>
+  <body>
+    <header id="header"></header>
+
+    <section class="dc-container dc--text-center banner">
+      <div class="banner__overlay"></div>
+      <div class="banner__content">
+        {% if page.title %}
+        <h1 class="dc-h1">{{page.title}}</h1>
+	{% else %}
+        <h1 class="dc-h1">{{site.title}}</h1>
+	{% endif %}
+	{% if page.description %}
+        <h2 class="dc-h2">{{page.description}}</h2>
+	{% else %}
+        <h2 class="dc-h2">{{site.description}}</h2>
+	{% endif %}
+      </div>
+    </section>
+
+    <main>
+      {{page.content}}
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="components/header.js" type="text/javascript"></script>
+    <script src="components/project.js" type="text/javascript"></script>
+    <script src="components/statistic.js" type="text/javascript"></script>
+    <script src="components/user.js" type="text/javascript"></script>
+    <script src="components/footer.js" type="text/javascript"></script>
+
+    <script src="assets/js/config.js" type="text/javascript"></script>
+    <script src="assets/js/index.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      async function init() {
+        store.setLimit(6);
+        render('header', header());
+        render('footer', footer());
+        await displayStatistics();
+        await displayProjects();
+        displayTeam();
+      }
+
+      init();
+    </script>
+  </body>
+</html>
