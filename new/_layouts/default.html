@@ -12,7 +12,7 @@
     <!-- End Google Analytics -->
 
     <link href="https://cdn.jsdelivr.net/npm/dress-code@2.4.0/dist/css/dress-code.min.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/zalando.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/zalando.ico">
     <link href="/assets/css/main.css" rel="stylesheet">
 
     <meta property="og:url" content="{{site.url}}{{page.url}}" />
@@ -28,18 +28,34 @@
     <meta property="og:description" content="{{site.description}}" />
     {% endif %}
     {% if page.banner.image %}
-    <meta property="og:image" content="/assets/img/{{page.banner.image}}" />
+    <meta property="og:image" content="{{site.url}}/assets/img/{{page.banner.image}}" />
     {% else %}
-    <meta property="og:image" content="/assets/img/zalando-logo.png" />
+    <meta property="og:image" content="{{site.url}}/assets/img/zalando-logo.png" />
     {% endif %}
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@ZalandoTech">
-    <meta name="twitter:title" content="Zalando Open Source">
-    <meta name="twitter:description" content="Scaling open source culture at Zalando">
-    <meta name="twitter:image" content="https://opensource.zalando.com/assets/img/zalando-logo.png">
-
-    <title>Zalando Open Source</title>
+    <meta name="twitter:site" content="{{site.twitter}}">
+    {% if page.title %}
+    <meta name="twitter:title" content="{{site.title}} | {{page.title}}">
+    {% else %}
+    <meta name="twitter:title" content="{{site.title}}">
+    {% endif %}
+    {% if page.description %}
+    <meta name="twitter:description" content="{{page.description}}">
+    {% else %}    
+    <meta name="twitter:description" content="{{site.description}}">
+    {% endif %}
+    {% if page.banner.image %}
+    <meta name="twitter:image" content="{{site.url}}/assets/img/{{page.banner.image}}">
+    {% else %}    
+    <meta name="twitter:image" content="{{site.url}}/assets/img/zalando-logo.png">
+    {% endif %}
+    
+    {% if page.title %}	
+    <title>{{site.title}} | {{page.title}}</title>
+    {% else %}
+    <title>{{site.title}}</title>
+    {% endif %}
   </head>
   <body>
     {% include header.html %}
