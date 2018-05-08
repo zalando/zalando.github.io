@@ -8,7 +8,8 @@ banner:
   height: 250px
 ---
       <section class="dc-container dc--text-center page-section page-section--padding page-section--padding-small page-section--background-white" id="os-projects">
-        <h1 class="dc-h1 page-section__header">Projects</h1>
+
+        <div id="catwatch-statistics" class="statistics"></div>
 
         <div class="filter__panel">
           <div class="filter-dropdown__wrapper">
