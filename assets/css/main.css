@@ -507,6 +507,7 @@ body li {
 
 .footer__stamp .footer__icon {
   width: 50px;
+  height: 10px;
 }
 
 .spinner-overlay {
