@@ -452,6 +452,7 @@ body li {
 .footer__icon {
   display: inline-block;
   width: 20px;
+  height: 20px;
   margin-right: 1rem;
 }
 
@@ -506,10 +507,8 @@ body li {
 
 .footer__stamp .footer__icon {
   margin-left: 1rem;
-}
-
-.footer__stamp .footer__icon {
   width: 50px;
+  height: 10px;
 }
 
 .spinner-overlay {
