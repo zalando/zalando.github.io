@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 description: Zalando's Repositories On GitHub
-permalink: /projects
+permalink: /projects/
 banner:
   image: laptop.jpg
 ---
