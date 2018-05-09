@@ -1,6 +1,11 @@
 <html>
   <head>
     <script src="/assets/js/store.js" type="text/javascript"></script>
+    <script src="/assets/js/config.js" type="text/javascript"></script>
+    <script src="/assets/js/index.js" type="text/javascript"></script>
+
+    <script src="/components/project.js" type="text/javascript"></script>
+    <script src="/components/statistic.js" type="text/javascript"></script>
 
     <!-- Google Analytics -->
     <script>
@@ -22,7 +27,7 @@
     {% else %}
     <meta property="og:title" content="{{site.title}}" />
     {% endif %}
-    {% if page.description %} 
+    {% if page.description %}
     <meta property="og:description" content="{{page.description}}" />
     {% else %}
     <meta property="og:description" content="{{site.description}}" />
@@ -42,16 +47,16 @@
     {% endif %}
     {% if page.description %}
     <meta name="twitter:description" content="{{page.description}}">
-    {% else %}    
+    {% else %}
     <meta name="twitter:description" content="{{site.description}}">
     {% endif %}
     {% if page.banner.image %}
     <meta name="twitter:image" content="{{site.url}}/assets/img/{{page.banner.image}}">
-    {% else %}    
+    {% else %}
     <meta name="twitter:image" content="{{site.url}}/assets/img/zalando-logo.png">
     {% endif %}
-    
-    {% if page.title %}	
+
+    {% if page.title %}
     <title>{{site.title}} | {{page.title}}</title>
     {% else %}
     <title>{{site.title}}</title>
@@ -67,23 +72,5 @@
     </main>
 
     {% include footer.html %}
-
-    <script src="components/project.js" type="text/javascript"></script>
-    <script src="components/statistic.js" type="text/javascript"></script>
-    <script src="components/user.js" type="text/javascript"></script>
-
-    <script src="/assets/js/config.js" type="text/javascript"></script>
-    <script src="/assets/js/index.js" type="text/javascript"></script>
-
-    <script type="text/javascript">
-      async function init() {
-        store.setLimit(6);
-        await displayStatistics();
-        await displayProjects();
-        displayTeam();
-      }
-
-      init();
-    </script>
   </body>
 </html>
