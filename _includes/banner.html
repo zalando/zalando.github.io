@@ -16,6 +16,8 @@
         {% endif %}
         {% if page.description %}
         <h2 class="dc-h2">{{page.description}}</h2>
+	{% elsif page.author %}
+	<h2 class="dc-h2">{{page.author}}, {{page.date | date_to_long_string}}</h2>
         {% else %}
         <h2 class="dc-h2">{{site.description}}</h2>
         {% endif %}
