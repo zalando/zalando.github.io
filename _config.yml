@@ -11,10 +11,17 @@ baseurl: "/"
 markdown: kramdown
 destination: '_site'
 paginate: 5
-permalink: /:year/:month/:title/
+permalink: /articles/:year/:month/:title/
 kramdown:
   input: GFM
   hard_wrap: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
 
 plugins:
   - jekyll-paginate
@@ -25,3 +32,4 @@ exclude:
 
 include:
   - '_pages'
+  - '_posts'
