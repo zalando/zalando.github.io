@@ -3,7 +3,7 @@
     {% for article in site.posts limit:4 %}
     <div class="dc-row blog">
       <div class="dc-h2">
-        <a href="" target="_blank">
+        <a href="{{article.url}}" target="_blank">
           {{article.title}}
         </a>
       <div class="dc-h3">by {{article.author}}, {{article.date | date_to_long_string}}</div>
