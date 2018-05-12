@@ -5,8 +5,6 @@ date: 2018-02-22
 banner:
   image: fence.jpg
 ---
-{{page.layout}}
-
 # Why FOSDEM Is Not Your Average Conference
 
 I could get cheeky with semantics and point out that the “M” in

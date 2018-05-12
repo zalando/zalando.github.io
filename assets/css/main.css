@@ -138,7 +138,7 @@ body li {
   min-height: 250px;
   max-height: 250px;
   padding: var(--page-side-padding);
-  background: url(../img/zalando-people.jpg);
+  background: url(../img/banners/zalando-people.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
