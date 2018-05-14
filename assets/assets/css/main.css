@@ -1,0 +1,537 @@
+:root {
+  --zalando-orange: #ff8e25;
+  --page-section-header-underline: var(--zalando-orange);
+  --page-section-border: #f7f7f7;
+  --user-icon-background: #66380e;
+  --user-icon-size: 200px;
+  --header-element-underline: var(--page-section-header-underline);
+  --primary-font-color: #4a4a4a;
+  --page-side-padding: 15rem;
+  --background-color-secondary: #e1e1e1;
+  --logo-height: 20px;
+  --page-section-header-spacing-bottom: 4rem;
+  --page-section-spacing-bottom: 10rem;
+  --language-label-color: #26aafe;
+  --language-label-color-active: #75c6ff;
+}
+
+body {
+  background: white;
+  font-family: "Arial";
+}
+
+body a {
+  text-decoration: none;
+}
+
+body li {
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  padding: 0 var(--page-side-padding);
+}
+
+.header li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header__logo img {
+  height: var(--logo-height);
+}
+
+.header__logo a {
+  display: flex;
+}
+
+.header li a {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: var(--primary-font-color);
+}
+
+.page {
+  padding: 0 var(--page-side-padding);
+  background: #fff;
+}
+
+.page-section__wrapper {
+  position: relative;
+}
+
+.page-section__wrapper-purpose {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../img/zalando-purpose.jpg);
+  background-size: cover;
+  opacity: 0.06;
+}
+
+.page-section {
+  padding: var(--page-section-spacing-bottom) 0;
+}
+
+.page-section--background-white {
+  background-color: #fff;
+}
+
+.page-section--background-secondary {
+  background-color: var(--background-color-secondary);
+}
+
+.page-section--background-gradient {
+  background: linear-gradient(#e6f4ff, var(--background-color-secondary));
+}
+
+.page-section--padding {
+  padding-left: var(--page-side-padding);
+  padding-right: var(--page-side-padding);
+}
+
+.page-section--padding-small {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.page-section--border-bottom {
+  border-bottom: 1px solid var(--page-section-border);
+}
+
+.page-section__header {
+  position: relative;
+}
+
+.page-section__header--center {
+  text-align: center;
+}
+
+.page-section__header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  background: var(--page-section-header-underline);
+  bottom: -15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  max-height: 250px;
+  padding: var(--page-side-padding);
+  background: url(../img/zalando-people.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner--projects {
+  display: flex;
+  align-items: center;
+  min-height: 250px;
+  max-height: 250px;
+  background: url(../img/laptop.jpg);
+}
+
+.banner__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.6;
+}
+
+.banner__content {
+  position: relative;
+  z-index: 1;
+}
+
+.banner__content .dc-h1 {
+  color: white;
+  font-size: 300%;
+  font-weight: 200;
+}
+
+.banner__content .dc-h2 {
+  color: white;
+  font-size: 200%;
+  font-weight: 200;
+}
+
+.banner--projects .banner__content .dc-h2 {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
+.statistics,
+.projects {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  margin: var(--page-section-header-spacing-bottom) 0;
+}
+
+.statistic__value {
+  font-weight: 400;
+}
+
+.statistic {
+  font-size: 130%
+}
+
+.statistics,
+.statistic {
+  margin-bottom: 0;
+}
+
+.projects__wrapper {
+  min-height: 200px;
+  position: relative;
+}
+
+.projects {
+  margin-top: 0;
+}
+
+.project {
+  flex-grow: 1;
+  min-width: 280px;
+  max-width: calc(33% - 10px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-right: 10px;
+  margin-top: var(--page-section-header-spacing-bottom);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 50%;
+}
+
+.project.dc-card {
+  padding: 0;
+}
+
+.project.dc-card:hover {
+  box-shadow: 0 1px 2px 1px rgba(0,0,0,.06);
+}
+
+.project__header {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 70px;
+}
+
+.project__header-icon,
+.project__header-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 2.2rem;
+}
+
+.project__header-icon {
+  min-width: 110px;
+  max-width: 110px;
+  color: #fff;
+}
+
+.project__header-content {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.project__header-content-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 2.4rem;
+}
+
+.project__language {
+  position: absolute;
+  right: 0;
+  background-color: var(--language-label-color-active);
+  padding: 4px;
+  color: #fff;
+}
+
+.project__content {
+  flex-grow: 1;
+  padding: 0 2.4rem 2.4rem;
+}
+
+.project__description {
+  text-align: left;
+  margin-bottom: 0;
+  height: 72px;
+  overflow: hidden;
+}
+
+.project__header-content-text::first-letter,
+.statistic__key::first-letter {
+  text-transform: capitalize;
+}
+
+.project__metrics {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.project__metric {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.project__metric-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.goal__icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 3rem;
+}
+
+.job {
+  margin: var(--page-section-header-spacing-bottom) 0 0;
+  padding:  0;
+}
+
+.job .dc-p {
+  margin-bottom: var(--page-section-header-spacing-bottom);
+}
+
+.job:last-child .dc-p {
+  margin: 0;
+}
+
+.jobs .dc-divider {
+  margin: 0;
+}
+
+.strategy__subtitle {
+  margin-top: var(--page-section-header-spacing-bottom);
+  margin-bottom: var(--page-section-header-spacing-bottom);
+  font-size: 120%
+}
+
+.blog {
+  margin: 0;
+  border-bottom: 1px solid var(--page-section-border);
+  padding: 2rem 0;
+}
+
+.blog:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.blog:first-child {
+  padding-top: 0;
+}
+
+.blog div {
+  margin-right: 2rem;
+}
+
+.blog .dc-h2, .blog .dc-h3 {
+  margin-bottom: 0;
+}
+
+.job a, .blog a, .project.dc-card a {
+  color: var(--primary-font-color);
+}
+
+.users {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: var(--page-section-header-spacing-bottom);
+}
+
+.user a {
+  color: var(--primary-font-color);
+}
+
+.user__icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--user-icon-size);
+  width: var(--user-icon-size);
+  border-radius: calc(var(--user-icon-size) / 2);
+  margin-bottom: 2.4rem;
+  background-color: var(--user-icon-background);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.user__title {
+  font-size: 2rem;
+}
+
+.filter__panel {
+  text-align: left;
+  margin-top: 4rem;
+}
+
+.filter-labels__wrapper {
+  margin-top: 4rem;
+}
+
+.filter-labels {
+  display: inline-block;
+}
+
+.filter__title {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.filter-label {
+  display: inline-block;
+  margin-left: 4px;
+  line-height: 16px;
+  background-color: var(--language-label-color);
+  padding: 8px 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.filter-label:hover {
+  background-color: var(--language-label-color-active);
+}
+
+.filter-dropdown {
+  width: 400px;
+  height: 40px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem var(--page-side-padding);
+  background: linear-gradient(#ffd1a6, var(--background-color-secondary));
+}
+
+.footer__column {
+  margin-right: 100px;
+}
+
+.footer__title {
+  display: flex;
+  align-items: center;
+}
+
+.footer__icon {
+  display: inline-block;
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.footer__icon object svg path {
+  fill: #fff;
+}
+
+.footer__title h2 {
+  margin-bottom: 0;
+}
+
+.footer__list {
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.footer__list li {
+  padding: 1rem 0;
+}
+
+.footer__list li a {
+  padding-bottom: 1rem;
+  color: var(--primary-font-color);
+  font-size: 1.5rem;
+}
+
+.footer__list--social li {
+  display: flex;
+  align-items: center;
+}
+
+.footer__list--social li a {
+  padding: 0;
+}
+
+.footer__list--social li a:hover {
+  box-shadow: none;
+}
+
+.footer__stamp {
+  padding: 1rem var(--page-side-padding);
+  text-align: center;
+}
+
+.footer__stamp div {
+  display: inline-block;
+}
+
+.footer__stamp a {
+  color: var(--primary-font-color);
+}
+
+.footer__stamp .footer__icon {
+  margin-left: 1rem;
+}
+
+.footer__stamp .footer__icon {
+  width: 50px;
+}
+
+.spinner-overlay {
+  margin: 1rem 0;
+  position: absolute;
+  top: 20px;
+  bottom: -4rem;
+  right: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.footer__list li a:hover,
+.job h3:hover,
+.blog .dc-h2:hover,
+.user__name:hover,
+.footer__stamp div:hover,
+.header li:hover {
+  box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
+}

@@ -1,0 +1,18 @@
+<header id="header">
+  <ul class="dc-tab header">
+    <li class="dc-tab__element dc-tab__element--header header__logo">
+      <a href="/index.html">
+        <img src="/assets/svg/logo.svg" />
+      </a>
+    </li>
+    {% if include.title == "Projects" %}
+    <li class="dc-tab__element dc-tab__element--active"><a href="/index.html#os-projects">Projects</a></li>
+    {% else %}
+    <li class="dc-tab__element"><a href="#os-projects">Projects</a></li>
+    {% endif %}
+    <li class="dc-tab__element"><a href="/index.html#os-goals">Purpose</a></li>
+    <li class="dc-tab__element"><a href="/index.html#os-jobs">Jobs</a></li>
+    <li class="dc-tab__element"><a href="/index.html#os-articles">Articles</a></li>
+    <li class="dc-tab__element"><a href="/index.html#os-team">Team</a></li>
+  </ul>
+</header>
