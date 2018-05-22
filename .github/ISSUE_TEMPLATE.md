@@ -3,18 +3,18 @@
 Issue description and motivation(what and a why)
 
 ### Tasks
-This is the concreate tasks to complete before the task is marked as done
+These are the concrete tasks to complete before the issue is marked as done:
 
 - [ ] task 1
 - [ ] task 2
 
 ### Expected delivery
 
-What is the concrete outcome of this task. 
+What is the concrete outcome of this work: 
 
 
 ## Stakeholders
-Who do we need to colloborate with to make this happen? - add the deparment to get in touch with
+Who do we need to align with to make this happen? - add the deparment to get in touch with
 
 - [ ] Department name
 
