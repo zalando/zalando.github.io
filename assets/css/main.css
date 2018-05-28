@@ -13,6 +13,7 @@
   --page-section-spacing-bottom: 10rem;
   --language-label-color: #26aafe;
   --language-label-color-active: #75c6ff;
+  --article-content-padding: 6rem;
 }
 
 body {

@@ -23,9 +23,9 @@ Speaking of talks you really wanted to see…
 
 Zalando did not come here to play. At this year’s FOSDEM we presented three talks on a wide variety of topics:
 
-- “[Nakadi Event Broker](https://fosdem.org/2018/schedule/event/nakadi/),” Lionel Montrieux (Software Engineer). Watch it here.
-- “[Blue elephant on-demand: Postgres + Kubernetes](https://fosdem.org/2018/schedule/event/blue_elephant_on_demand_postgres_kubernetes/),” Jan Mußler (Database as Service), Oleksii Kliukin (Database Engineer). Watch it here.
-- “[Automating style guide documentation](https://fosdem.org/2018/schedule/event/documentjs_to_document_a_styleguide_and_source_code/),” Ferit Topcu (Software Engineer). Watch it here.
+- “[Nakadi Event Broker](https://fosdem.org/2018/schedule/event/nakadi/)”, Lionel Montrieux (Software Engineer). Watch it here.
+- “[Blue elephant on-demand: Postgres + Kubernetes](https://fosdem.org/2018/schedule/event/blue_elephant_on_demand_postgres_kubernetes/)”, Jan Mußler (Database as Service), Oleksii Kliukin (Database Engineer). Watch it here.
+- “[Automating style guide documentation](https://fosdem.org/2018/schedule/event/documentjs_to_document_a_styleguide_and_source_code/)”, Ferit Topcu (Software Engineer). Watch it here.
 
 Every Zalando talk was “sold out”. We care about giving back to open source at Zalando and teaching others about the work we do; our open source projects are an important aspect of that. It was great to see so much interest! (Thanks for queuing for so long, folks!)
 
