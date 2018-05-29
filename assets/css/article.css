@@ -71,11 +71,11 @@
 
 .article__sidebar__block {
   padding: 2rem 4rem;
+  margin-top: -4px;
 }
 
 .article__sidebar__block--border-bottom {
   border-bottom: 1px solid var(--background-color-secondary);
-  margin-bottom: -4px;
 }
 
 .share-icons {
