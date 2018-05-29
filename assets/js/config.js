@@ -22,7 +22,7 @@ const team = [
     title: 'Open Source Community Manager',
     name: 'Per Ploug',
     html_url: 'https://github.com/perploug',
-    avatar_url: 'https://avatars1.githubusercontent.com/u/1492043?v=4',
+    avatar_url: 'https://pbs.twimg.com/profile_images/478813023021195264/v3LTAz2Z_400x400.png',
     bio: 'Open source enabler | Tinker | Community Builder | Teacher | Semi-Pro Bio writer'
   },
   {
