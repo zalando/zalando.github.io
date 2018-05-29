@@ -12,7 +12,11 @@
     {% endif %}
     <li class="dc-tab__element"><a href="/index.html#os-goals">Purpose</a></li>
     <li class="dc-tab__element"><a href="/index.html#os-jobs">Jobs</a></li>
-    <li class="dc-tab__element"><a href="/index.html#os-articles">Articles</a></li>
+    {% if page.layout == "article" %}
+    <li class="dc-tab__element dc-tab__element--active"><a href="/index.html#os-articles">Articles</a></li>
+    {% else %}
+    <li class="dc-tab__element"><a href="#os-articles">Articles</a></li>
+    {% endif %}    
     <li class="dc-tab__element"><a href="/index.html#os-team">Team</a></li>
   </ul>
 </header>

@@ -13,6 +13,7 @@
   --page-section-spacing-bottom: 10rem;
   --language-label-color: #26aafe;
   --language-label-color-active: #75c6ff;
+  --article-content-padding: 6rem;
 }
 
 body {
@@ -138,7 +139,7 @@ body li {
   min-height: 250px;
   max-height: 250px;
   padding: var(--page-side-padding);
-  background: url(../img/zalando-people.jpg);
+  background: url(../img/banners/zalando-people.jpg);
   background-size: cover;
   background-position: center;
   position: relative;

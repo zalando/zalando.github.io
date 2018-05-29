@@ -91,41 +91,7 @@ banner:
   </div>
 </section>
 
-<section class="dc-container dc--text-center page-section page-section--padding page-section--background-secondary" id="os-articles">
-  <h1 class="dc-h1 page-section__header">Articles</h1>
-  <div class="dc-row blog">
-    <div class="dc-h2">
-      <a href="https://jobs.zalando.com/tech/blog/fosdem-not-average-conference/" target="_blank">
-        Zalando @ FOSDEM
-      </a>
-    </div>
-    <div class="dc-h3">by Paul Adams, 22 Feb 2018</div>
-  </div>
-  <div class="dc-row blog">
-    <div class="dc-h2">
-      <a href="https://jobs.zalando.com/tech/blog/faces-behind-fashion-mnist/" target="_blank">
-        The faces behind the FASHION-MNIST</div>
-      </a>
-    <div class="dc-h3">by Nana Yamazaki, 11 Jan 2018</div>
-  </div>
-  <div class="dc-row blog">
-    <div class="dc-h2">
-      <a href="https://jobs.zalando.com/tech/blog/a-plea-for-small-pull-requests/" target="_blank">
-        A Plea For Small Pull Requests
-      </a>
-    </div>
-    <div class="dc-h3">by Paulo Renato Campos de Siqueira, 17 Oct 2017</div>
-  </div>
-  <div class="dc-row blog">
-    <div class="dc-h2">
-      <a href="https://jobs.zalando.com/tech/blog/innersource-dos-and-donts-out-of-dortmund/" target="_blank">
-        InnerSource Do’s and Don’ts out of Dortmund
-      </a>
-    </div>
-    <div class="dc-h3">by Martin Schwitalla, 30 Aug 2017</div>
-  </div>
-  </div>
-</section>
+{% include recent-posts.html %}
 
 <section class="dc-container dc--text-center page-section page-section--padding page-section--background-white team" id="os-team">
   <h1 class="dc-h1 page-section__header">The Team</h1>
