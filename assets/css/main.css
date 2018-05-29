@@ -34,7 +34,6 @@ body li {
   justify-content: flex-end;
   align-items: center;
   height: 60px;
-  padding: 0 var(--page-side-padding);
 }
 
 .header li {
@@ -59,6 +58,10 @@ body li {
   font-size: 1.5rem;
   padding: 1rem;
   color: var(--primary-font-color);
+}
+
+.dc-tab.header {
+  box-shadow: none;
 }
 
 .page {
@@ -433,16 +436,15 @@ body li {
   height: 40px;
 }
 
+.footer__wrapper {
+  background: linear-gradient(#ffd1a6, var(--background-color-secondary));
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 4rem var(--page-side-padding);
-  background: linear-gradient(#ffd1a6, var(--background-color-secondary));
-}
-
-.footer__column {
-  margin-right: 100px;
+  padding: 4rem 0;
 }
 
 .footer__title {
