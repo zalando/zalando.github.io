@@ -53,7 +53,6 @@
   position: relative;
   margin-bottom: 2rem;
   font-size: 2rem;
-  line-height: 3.6rem;
   text-align: center;
 }
 
@@ -64,7 +63,7 @@
   width: 50px;
   height: 4px;
   background: var(--page-section-header-underline);
-  bottom: -1px;
+  bottom: -4px;
   left: 0;
   right: 0;
   margin: auto;
@@ -76,6 +75,7 @@
 
 .article__sidebar__block--border-bottom {
   border-bottom: 1px solid var(--background-color-secondary);
+  margin-bottom: -4px;
 }
 
 .share-icons {
