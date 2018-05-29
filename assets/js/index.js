@@ -1,6 +1,11 @@
 async function getData(url) {
-  const response = await fetch(url);
-  return await response.json();
+  try {
+    const response = await fetch(url);
+    return await response.json();
+  } catch (e) {
+    hideSpinner();
+    console.log(e);
+  }
 }
 
 async function getProjects(organisation, language) {
@@ -46,7 +51,13 @@ function renderProjects(projects, isShowAll = true) {
     });
   }
 
-  render('catwatch-projects', [...projectsToDisplay].join(''));
+  if (projectsToDisplay.size > 0) {
+    render('catwatch-projects', [...projectsToDisplay].join(''));
+  } else {
+    render('catwatch-projects', 'We could not fetch projects at the moment. Please try again later!');
+    const projectsWrapper = document.getElementById('projectsWrapper');
+    projectsWrapper.style.minHeight = '50px';
+  }
   hideSpinner();
 }
 
@@ -140,12 +151,15 @@ function hideSpinner() {
 
 async function displayStatistics() {
   const response = await getData(api.statistics);
-  const data = response[0];
-  store.totalProjects = data.publicProjectCount;
+  if (response) {
+    const data = response[0];
 
-  const statistics = [];
-  statistics.push(statistic(data));
-  render('catwatch-statistics', statistics.join(''));
+    store.totalProjects = data.publicProjectCount;
+
+    const statistics = [];
+    statistics.push(statistic(data));
+    render('catwatch-statistics', statistics.join(''));
+  }
 };
 
 async function displayTeam() {
