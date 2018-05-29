@@ -1,12 +1,11 @@
 .article {
   display: flex;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 .article__content {
   flex-grow: 2;
   margin-right: 4rem;
-  padding: var(--article-content-padding);
 }
 
 .article__content h1 {
@@ -25,33 +24,76 @@
 .article__content li {
   margin-top: 0;
   margin-bottom: 1.5rem;
+  color: var(--primary-font-color);
+}
+
+.article__content li,
+.tree__list li {
   padding-left: 20px;
   background-image: url('/assets/img/zalando-bullet.png');
   background-position: 0 6px;
   background-repeat: no-repeat;
   background-size: 8px 8px;
-  color: var(--primary-font-color);
 }
 
-.article__content a {
+.article a {
   color: var(--zalando-orange);
 }
 
-.article__content a:hover {
+.article a:hover {
   box-shadow: inset 0 -2px 0 0 var(--primary-font-color);
 }
 
 .article__sidebar {
   min-width: 300px;
-  padding-top: var(--article-content-padding);
+  border: 1px solid var(--background-color-secondary);
 }
 
-.share-links {
+.article__sidebar__header {
+  position: relative;
   margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 3.6rem;
+  text-align: center;
+}
+
+.article__sidebar__header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  background: var(--page-section-header-underline);
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.article__sidebar__block {
+  padding: 2rem 4rem;
+}
+
+.article__sidebar__block--border-bottom {
+  border-bottom: 1px solid var(--background-color-secondary);
+}
+
+.share-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-flow: nowrap;
+  height: 3.6rem;
 }
 
 .share-icon {
-  margin-right: 2rem;
+  background-color: var(--background-color-secondary);
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .share-icon img {
@@ -60,14 +102,8 @@
   height: 20px;
 }
 
-.share-icon:hover {
+a.share-icon:hover {
   box-shadow: inset 0 -2px 0 0 var(--zalando-orange);
-}
-
-.history-links h2,
-.history-links h3,
-.history-links ul {
-  margin: 0;
 }
 
 .accordion {
@@ -80,7 +116,7 @@
   transition: 0.2s;
   background-image: url('/assets/svg/down-open.svg');
   background-repeat: no-repeat;
-  background-size: 20px 20px;
+  background-size: 12px 12px;
   background-position: right;
 }
 
@@ -90,7 +126,6 @@
 }
 
 .accordion:hover {
-  color: var(--zalando-orange);
 }
 
 .accordion-panel {
@@ -99,6 +134,24 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.tree__heading {
+  font-size: 2rem;
+}
+
+.tree__list + .tree__heading {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: 1px solid var(--background-color-secondary);
+}
+
+.tree__sub-heading {
+  font-weight: bold;
+}
+
+.tree__list {
+  margin: 0;
 }
 
 @media (max-width: 1100px) {
