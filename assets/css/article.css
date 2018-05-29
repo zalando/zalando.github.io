@@ -64,27 +64,38 @@
   box-shadow: inset 0 -2px 0 0 var(--zalando-orange);
 }
 
+.history-links h2,
+.history-links h3,
+.history-links ul {
+  margin: 0;
+}
+
 .accordion {
-  background-color: #eee;
-  color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 1rem;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
-  transition: 0.4s;
+  transition: 0.2s;
+  background-image: url('/assets/svg/down-open.svg');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: right;
 }
 
-.accordion--active,
+.accordion--active {
+  transition: 0.2s;
+  background-image: url('/assets/svg/up-open.svg');
+}
+
 .accordion:hover {
-  background-color: #ccc;
+  color: var(--zalando-orange);
 }
 
 .accordion-panel {
-  padding: 0 18px;
-  background-color: white;
+  padding: 0 4rem;
+  background-color: #fff;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
