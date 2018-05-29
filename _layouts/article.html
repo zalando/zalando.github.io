@@ -1,18 +1,16 @@
 ---
 layout: default
 ---
-<section class="dc-container page-section page-section--padding">
-  <div class="dc-row">
-    <div class="dc-column dc-column--small-8">
-      <div class="dc-column__contents dc-column__contents--center">
-        {{content}}
-      </div>
+<section class="dc-container page-section page-section--padding article">
+  <div class="article__content">
+    <div class="dc-column__contents dc-column__contents--center">
+      {{content}}
     </div>
-    <div class="dc-column dc-column--small-4">
-      <div class="dc-column__contents dc-column__contents--center">
-        {% include sharing.html %}
-        {% include history.html %}
-      </div>
+  </div>
+  <div class="article__sidebar">
+    <div class="dc-column__contents dc-column__contents--center">
+      {% include sharing.html %}
+      {% include history.html %}
     </div>
   </div>
 </section>
