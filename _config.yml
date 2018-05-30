@@ -16,12 +16,22 @@ kramdown:
   input: GFM
   hard_wrap: false
 
+collections:
+  docs:
+    output: true
+    permalink: pretty
+
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "article"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "documentation"
 
 plugins:
   - jekyll-paginate
@@ -33,3 +43,4 @@ exclude:
 include:
   - '_pages'
   - '_posts'
+  - '_docs'
