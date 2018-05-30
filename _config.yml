@@ -19,7 +19,7 @@ kramdown:
 collections:
   docs:
     output: true
-    permalink: pretty
+    permalink: /:collection/:name
 
 defaults:
   - scope:

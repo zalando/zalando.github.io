@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 permalink: /
 banner:
   height: 450px

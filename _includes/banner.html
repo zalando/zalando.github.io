@@ -1,27 +1,27 @@
 {% assign imgroot = "/assets/img/banners/" %}
 
-    {% if page.banner.image and page.banner.height %}
-    <section class="dc-container dc--text-center banner" style="background-image: url('{{imgroot}}{{page.banner.image}}'); max-height: {{page.banner.height}}; min-height: {{page.banner.height}}">
-    {% elsif page.banner.image %}
-    <section class="dc-container dc--text-center banner" style="background-image: url('{{imgroot}}{{page.banner.image}}')">
-    {% elsif page.banner.height %}
-    <section class="dc-container dc--text-center banner" style="max-height: {{page.banner.height}}; min-height: {{page.banner.height}}">
-    {% else %}
-    <section class="dc-container dc--text-center banner">
-    {% endif %}
-      <div class="banner__overlay"></div>
+{% if page.banner.image and page.banner.height %}
+  <section class="dc-container dc--text-center banner" style="background-image: url('{{imgroot}}{{page.banner.image}}'); max-height: {{page.banner.height}}; min-height: {{page.banner.height}}">
+{% elsif page.banner.image %}
+  <section class="dc-container dc--text-center banner" style="background-image: url('{{imgroot}}{{page.banner.image}}')">
+{% elsif page.banner.height %}
+  <section class="dc-container dc--text-center banner" style="max-height: {{page.banner.height}}; min-height: {{page.banner.height}}">
+{% else %}
+  <section class="dc-container dc--text-center banner">
+{% endif %}
+    <div class="banner__overlay"></div>
       <div class="banner__content">
-        {% if page.title %}
+      {% if page.title %}
         <h1 class="dc-h1">{{page.title}}</h1>
-        {% else %}
+      {% else %}
         <h1 class="dc-h1">{{site.title}}</h1>
-        {% endif %}
-        {% if page.description %}
+      {% endif %}
+      {% if page.description %}
         <h2 class="dc-h2">{{page.description}}</h2>
-	{% elsif page.author %}
-	<h2 class="dc-h2">{{page.author}}, {{page.date | date_to_long_string}}</h2>
-        {% else %}
+	    {% elsif page.author %}
+	       <h2 class="dc-h2">{{page.author}}, {{page.date | date_to_long_string}}</h2>
+      {% else %}
         <h2 class="dc-h2">{{site.description}}</h2>
-        {% endif %}
-      </div>
-    </section>
+      {% endif %}
+    </div>
+  </section>
