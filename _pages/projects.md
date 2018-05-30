@@ -21,7 +21,7 @@ banner:
       </div>
     </div>
 
-    <div class="projects__wrapper">
+    <div class="projects__wrapper" id="projectsWrapper">
       <div class="spinner-overlay" id="spinner">
         <div class="dc-spinner"></div>
       </div>
