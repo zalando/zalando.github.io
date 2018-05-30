@@ -8,7 +8,7 @@ The Zalando Open Source Team is responsible for nurturing and growing Open Sourc
 We work across departments as internal consultants to remove barriers for contributing, producing and consuming Open
 Source code. 
 
-We advice and assist on:
+We advise and assist on:
 
 - Creating and nurturing Open Source communities around Zalando Open Source projects
 - Align community interests with Zalando business interests
