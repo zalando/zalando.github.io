@@ -6,7 +6,7 @@ permalink: /docs
 banner:
   image: laptop.jpg
 ---
-<section class="dc--text-center page-section page-section--padding page-section--background-secondary" id="os-articles">
+<section class="dc--text-center page-section page-section--padding" id="os-articles">
   <div class="dc-container dc-container--limited">
   <h1 class="dc-h1 page-section__header">Documentation</h1>
     {% for entry in site.docs %}

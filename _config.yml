@@ -19,7 +19,12 @@ kramdown:
 collections:
   docs:
     output: true
-    permalink: /:collection/:name
+    using:
+      output: true
+      permalink: /:collection/:name
+    releasing:
+      output: true
+      permalink: /:collection/:name
 
 defaults:
   - scope:
