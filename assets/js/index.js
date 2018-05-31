@@ -171,3 +171,22 @@ async function displayTeam() {
 
   render('os-team-data', users.join(''));
 };
+
+function addEventListeners() {
+  const accordion = document.getElementsByClassName('accordion');
+
+  for (let i = 0; i < accordion.length; i++) {
+    accordion[i].addEventListener('click', function() {
+      const panel = this.nextElementSibling;
+      const getComputedStyle = window.getComputedStyle(panel);
+      const getComputedMaxHeight = getComputedStyle.maxHeight;
+
+      this.classList.toggle('accordion--active');
+      if (!getComputedMaxHeight || getComputedMaxHeight === '0px'){
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+      } else {
+        panel.style.maxHeight = 0;
+      }
+    });
+  }
+}

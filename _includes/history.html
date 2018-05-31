@@ -9,7 +9,7 @@
   {% if forloop.first %}
   <div id="{{ this_year }}-ref" class="tree__heading">{{this_year}}</div>
   <div id="{{ this_year }}-{{ this_month }}-ref" class="tree__sub-heading accordion">{{ this_month }}</div>
-  <ul class="tree__list accordion-panel">
+  <ul class="tree__list accordion-panel accordion-panel--default">
   {% endif %}
     <li class="tree__text"><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% if forloop.last %}
@@ -19,31 +19,14 @@
     </ul>
     <div id="{{ next_year }}-ref" class="tree__heading">{{next_year}}</div>
     <div id="{{ next_year }}-{{ next_month }}-ref" class="tree__sub-heading accordion">{{ next_month }}</div>
-    <ul class="tree__list accordion-panel">
+    <ul class="tree__list accordion-panel accordion-panel--default">
     {% else %}
       {% if this_month != next_month %}
       </ul>
       <div id="{{ this_year }}-{{ next_month }}-ref" class="tree__sub-heading accordion">{{ next_month }}</div>
-      <ul class="tree__list accordion-panel">
+      <ul class="tree__list accordion-panel accordion-panel--default">
       {% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}
 </div>
-
-<script>
-  const accordion = document.getElementsByClassName('accordion');
-
-  for (let i = 0; i < accordion.length; i++) {
-    accordion[i].addEventListener('click', function() {
-      const panel = this.nextElementSibling;
-
-      this.classList.toggle('accordion--active');
-      if (panel.style.maxHeight){
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + 'px';
-      }
-    });
-  }
-</script>
