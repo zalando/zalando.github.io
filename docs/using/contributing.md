@@ -2,6 +2,15 @@
 
 We encourage participation in open source projects and strive to have as few rules for this as possible, we expect Zalandos to follow common sense on what code and information they contribute - if in doubt, contact the open source team, or talk to your lead.
 
+### _tl;dr_
+
+* We encourage contributions upstream
+* Make sure you don't share confidential information
+* Don't contribute code which gives us an edge over competitors
+* Find projects to contribute to on the [Zalando Tech Radar](https://opensource.zalando.com/tech-radar/)
+
+---
+
 ## Common contribution rules
 
 * Do not share customer data or confidential Zalando information
@@ -21,7 +30,7 @@ These activities are all sanctioned and encouraged as part of your employment at
 ## Code contributions
 
 Upstream code contributions are also encouraged and is a natural extension of our dependency of
-open source projects in our tech stack. Code contributions can generally be devided into 2 categories:
+open source projects in our tech stack. Code contributions can generally be divided into 2 categories:
 
 * Contributions triggered by a work task: eg. a dependency have a bug or shortcoming which block your work
 * Contributions on your own initiative

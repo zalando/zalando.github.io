@@ -2,6 +2,16 @@
 
 For both using and releasing Open source Software, there is the challenge of understanding and respecting the licenses of your project dependencies. The purpose of this document is to outline what licenses to avoid, which ones you can freely use and which licenses comes with special requirements.
 
+### _tl:dr_
+
+* Any dependency with a permissive license can be used
+* Only use Copyleft licensed code if you plan NOT to distribute outside Zalando
+* Make sure to investigate the specific terms of the copyleft licenses
+* You cannot use AGPL licensed code
+* You cannot use unlicensed code
+
+---
+
 Overall there are 3 types of licenses which you can use:
 
 * [Permissive licenses](#permissive-licenses)
@@ -48,7 +58,7 @@ Code dependency which require you to license **all** your code under the same li
 Dependency can therefore be used for internal projects, but not for projects which will be distributed outside of Zalando.
 
 * You are free to: **use** commercially, **modify** and **distribute**
-* You must include: **copyright**, **license**, **source code**, **Changelog**, **original source** and **install instructions**
+* You must include: **copyright**, **license**, **source code**, **changelog**, **original source** and **install instructions**
 * You cannot hold the author liable or sublicense
 * If distributed, you must license your code under the same license.
 
@@ -56,7 +66,7 @@ Dependency can therefore be used for internal projects, but not for projects whi
 
 Code licensed under AGPL (Affero General Public License) may not be used at Zalando.
 
-Code dependency which triggers the copyleft provision even when it is not distributed. If AGPL code is used to deliver a webservice such as zalando.de, all code and code linked to the service must be licensed and distributed under AGPL.
+Code dependency which triggers the copyleft provision even when it is not distributed. If AGPL code is used to deliver a web-service such as Zalando.de, all code and code linked to the service must be licensed and distributed under AGPL.
 
 Use of software licensed under AGPL represents a big risk for Zalando, so even for projects which is not directly linked to any of our services, it must not be used as the benefits compared to the risk is small.
 
@@ -64,7 +74,7 @@ Use of software licensed under AGPL represents a big risk for Zalando, so even f
 
 Code which does not include a license or have to clear ownership cannot be used at Zalando.
 
-As per standard copyright law, any code wich is not explicitedly licensed, is the property
+As per standard copyright law, any code which is not explicitly licensed, is the property
 of the author and cannot be used without permission.
 
 However if you wish to use a library which have no license, first of all check with the author to see if the license is simple not distributed with the source code. If the project author has not included a license open a pull request and suggest a license such as MIT.
