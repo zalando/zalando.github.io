@@ -68,28 +68,3 @@ As per standard copyright law, any code wich is not explicitedly licensed, is th
 of the author and cannot be used without permission.
 
 However if you wish to use a library which have no license, first of all check with the author to see if the license is simple not distributed with the source code. If the project author has not included a license open a pull request and suggest a license such as MIT.
-
-Copyleft: Copyleft is a legal obligation that Zalando must fulfill when you modify and/or distribute and/or make third party material publicly available (so-called “copyleft trigger”).
-
-Examples: changing the program code, uploading to public GitHub, sending it to someone else from another company. Copyleft may oblige Zalando to license its modifications also under the license whose copyleft was triggered. In legal terms, “modification” can be interpreted very broadly—e.g. whole libraries or code that you added (so-called “scope of copyleft”).
-
-For Modification + Internal and/or Publishing, do not use reciprocal licenses that trigger the copyleft already during internal modification—e.g. RPL or APSL 2.1, AGPLv3.
-
-For Modification + Publishing:
-
-See above (RPL, ASPL 2.1, AGPLv3, etc.).
-Do not use licenses with strict copyleft, e.g. GPLv2, GLPLv3, unless you have clearance from Legal.
-If you use licenses with limited copyleft (e.g. LGPLv2.1, LGPLv3, MPLv2, CPL), please make sure you can fulfill their specific requirements to restrict the copyleft from taking over Zalando’s or other third-party’s code. → reach out to Legal.
-
-License Template for Multi-Licensed Projects without Copyleft
-
-“This {name} Project is in general licensed under the following MIT license except the files named underneath (see corresponding notice files below)
-
-(Insert Zalando MIT from Appendix 6 above)
-Notice file for (path)/(other file)
-
-(Insert license text & copyright notice from the original file here)
-Notice file for (path)/(other file)
-
-(Insert license text & copyright notice from the original file here)
-(...)
