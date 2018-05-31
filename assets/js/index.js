@@ -164,12 +164,14 @@ function addEventListeners() {
   for (let i = 0; i < accordion.length; i++) {
     accordion[i].addEventListener('click', function() {
       const panel = this.nextElementSibling;
+      const getComputedStyle = window.getComputedStyle(panel);
+      const getComputedMaxHeight = getComputedStyle.maxHeight;
 
       this.classList.toggle('accordion--active');
-      if (panel.style.maxHeight){
-        panel.style.maxHeight = null;
-      } else {
+      if (!getComputedMaxHeight || getComputedMaxHeight === '0px'){
         panel.style.maxHeight = panel.scrollHeight + 'px';
+      } else {
+        panel.style.maxHeight = 0;
       }
     });
   }

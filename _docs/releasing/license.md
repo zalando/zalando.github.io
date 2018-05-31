@@ -4,7 +4,7 @@ author: OST
 date: 2017-08-30
 banner:
   image: coding.jpg
-grouped_by: releasing
+category: Releasing
 ---
 At Zalando, we have many teams working on their respective systems and domains where they operate like small startups. They take responsibility for these systems and have a feeling of ownership, constantly engaging with other teams to solve bigger challenges and enable new features.
 

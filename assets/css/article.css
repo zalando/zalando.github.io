@@ -40,7 +40,8 @@
   color: var(--zalando-orange);
 }
 
-.article a:hover {
+.article a:hover,
+.tree__list-item--active a {
   box-shadow: inset 0 -2px 0 0 var(--primary-font-color);
 }
 
@@ -125,15 +126,24 @@ a.share-icon:hover {
   background-image: url('/assets/svg/up-open.svg');
 }
 
-.accordion:hover {
-}
-
 .accordion-panel {
   padding: 0 4rem;
   background-color: #fff;
-  max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.accordion-panel--default {
+  max-height: 0;
+}
+
+.documentation .accordion {
+  background-image: url('/assets/svg/up-open.svg');
+}
+
+.documentation .accordion--active {
+  transition: 0.2s;
+  background-image: url('/assets/svg/down-open.svg');
 }
 
 .tree__heading {
