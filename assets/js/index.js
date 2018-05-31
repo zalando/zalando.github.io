@@ -157,3 +157,20 @@ async function displayTeam() {
 
   render('os-team-data', users.join(''));
 };
+
+function addEventListeners() {
+  const accordion = document.getElementsByClassName('accordion');
+
+  for (let i = 0; i < accordion.length; i++) {
+    accordion[i].addEventListener('click', function() {
+      const panel = this.nextElementSibling;
+
+      this.classList.toggle('accordion--active');
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+      }
+    });
+  }
+}
