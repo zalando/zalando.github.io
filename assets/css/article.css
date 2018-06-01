@@ -49,7 +49,7 @@
 
 .article a:hover,
 .tree__list-item--active a {
-  box-shadow: inset 0 -2px 0 0 var(--primary-font-color);
+  box-shadow: inset 0 -2px 0 0 var(--zalando-orange);
 }
 
 .article__sidebar {
