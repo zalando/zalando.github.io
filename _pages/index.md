@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Zalando Open Source Team
 permalink: /
 banner:
   height: 450px
