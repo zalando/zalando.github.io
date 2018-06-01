@@ -114,6 +114,10 @@ body li {
   border-bottom: 1px solid var(--page-section-border);
 }
 
+.page-section--border-top {
+  border-top: 1px solid var(--page-section-border);
+}
+
 .page-section__header {
   position: relative;
 }
