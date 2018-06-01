@@ -3,4 +3,4 @@ docs/node_modules/
 _site
 .jekyll-metadata
 Gemfile.lock
-.vscode/settings.json
+.vscode
