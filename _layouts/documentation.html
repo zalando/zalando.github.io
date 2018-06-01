@@ -1,5 +1,5 @@
----
-layout: default
+--- 
+layout: default 
 ---
 <section class="page-section page-section--padding page-section--border-top">
   <div class="dc-container dc-container--limited article documentation">
@@ -8,6 +8,14 @@ layout: default
         <h1>{{ page.title }}</h1>
 
         {{content}}
+
+        <hr>
+
+        <small>
+          Licensed under the MIT license -   
+          <a href="{{site.github.repository_url}}/blob/master/{{page.path}}">Edit this page on github</a>
+        </small>  
+        
       </div>
     </div>
     <div class="article__sidebar">
