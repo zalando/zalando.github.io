@@ -1,8 +1,15 @@
-# Github
+---
+title: Github
+author: OST
+date: 2017-08-30
+banner:
+  image: coding.jpg
+category: Releasing
+---
 
 _All Zalandos open source projects are hosted on GitHub under one of the Zalando organizations. We have a number of guidelines for how to use GitHub and what the different organizations are used for._
 
-### _tl;dr_
+### Summary
 
 * The incubator is where all new open source projects start
 * You join the Github organizations via [people.Zalando.net](http://people.zalando.net

@@ -1,10 +1,17 @@
-# Accepting contributions
+---
+title: Accepting contributions
+author: OST
+date: 2017-08-30
+banner:
+  image: coding.jpg
+category: Releasing
+---
 
 After your project is released you may wish to accept contributions from fellow Zalandos or the
 wider open source community. This is highly encouraged and each individual project
 team decides on which contributions go into their project.
 
-### _tl;dr_
+### Summary
 
 * Make sure all commits are signed
 * Make sure at least 2 Zalando employees have reviewed the changes

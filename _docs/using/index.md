@@ -1,4 +1,11 @@
-# Adopting open source software
+---
+title: Adopting open source software
+author: OST
+date: 2017-08-30
+banner:
+  image: coding.jpg
+category: Using
+---
 
 ## [Contributing](contributing.md)
 

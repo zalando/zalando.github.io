@@ -15,6 +15,10 @@ permalink: /articles/:year/:month/:title/
 kramdown:
   input: GFM
   hard_wrap: false
+relative_links:
+  enabled:     true
+  collections: true
+
 
 collections:
   docs:
@@ -49,3 +53,6 @@ include:
   - '_pages'
   - '_posts'
   - '_docs'
+
+gems:
+  - jekyll-relative-links
