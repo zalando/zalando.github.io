@@ -7,11 +7,10 @@ banner:
 category: Releasing
 ---
 
-_This is the process for how Zalando employees release a new open source project on the [Zalando-Incubator](github.md). The process is simple and the open source team is ready to help you every step of the way._
+#### This is the process for how Zalando employees release a new open source project on the [Zalando-Incubator](../github). The process is simple and the open source team is ready to help you every step of the way.
 
-#### [Request a review](link)
 
-When you've gone through the points below, open a review request to the open source review team.
+[Request a review](link)
 
 ---
 
@@ -19,9 +18,9 @@ When you've gone through the points below, open a review request to the open sou
 
 Releasing a new open source project is a simple and fast process if you are already following Zalandos rules of play:
 
-* [Compliance](#Compliance) You ensure your project is compliant with rules of play and can be open sourced
-* [Preparing your repository](#Preparing-your-repository) Clean up and refactor your code to work outside the Zalando environment.
-* [Review](#Review) The Zalando open source review group is responsible for reviewing your
+* [Compliance](#compliance) You ensure your project is compliant with rules of play and can be open sourced
+* [Preparing your repository](#preparing-your-repository) Clean up and refactor your code to work outside the Zalando environment.
+* [Review](#review) The Zalando open source review group is responsible for reviewing your project
 
 ### What cannot be open sourced?
 
@@ -47,7 +46,7 @@ All open source projects must comply with Zalandos [Rules Of Play](https://rules
 
 #### Include the required assets
 
-Use [new-project](https://github.com/perploug/new-project)(TODO: move to zalando org) as a boilerplate for the files required for your project. These files are needed to correctly communicate ownership and guidelines for the project.
+Use [new-project](https://github.com/perploug/new-project)(TODO: move to zalando org) as a boilerplate for the files required for your project. These files are needed to correctly communicate ownership and guidelines for the project:
 
 1.  Create a meaningful `README.md` file, this is your most important piece of documentation
 2.  Include a `MAINTAINERS.md` file with contact information
@@ -78,7 +77,7 @@ Besides the rules of play, there is also a set of best practices which we highly
 ### Copyright and ownership
 
 Default ownership of all code released by Zalando employees are copyright Zalando SE and must be released under the Zalando GitHub organizations.  
-Due to standards of European copyright law, any work by employees are the property of the employer. However, there can be made exceptions to this for unrelated projects, made out-of-hours and on a private laptop.
+Due to the European copyright law, any work by employees are the property of the employer. However, there can be made exceptions to this for unrelated projects, made out-of-hours and on a private laptop.
 It is a legal grey area, so get in touch with the open source team for guidance, before releasing any private code.
 
 ## Preparing your repository
@@ -89,6 +88,7 @@ Preparing a repository for open sourcing goes beyond ensuring it is in complianc
 * Ensure the code doesn't require any Zalando-specific infrastructure or access, so users can use in their own environment
 * Ensure your code is clear and commented so newcomers can see what is going on
 * Ensure your dependencies are updated and does not have any known security issues
+* Ensure that it is easy to get up and running, not just on your machine
 
 ## Review
 

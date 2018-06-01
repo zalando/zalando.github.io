@@ -7,9 +7,7 @@ banner:
 category: Releasing
 ---
 
-After your project is released you may wish to accept contributions from fellow Zalandos or the
-wider open source community. This is highly encouraged and each individual project
-team decides on which contributions go into their project.
+#### After your project is released you may wish to accept contributions from fellow Zalandos or the wider open source community. This is highly encouraged and each individual project team decides on which contributions go into their project.
 
 ### Summary
 

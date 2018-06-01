@@ -1,5 +1,5 @@
 ---
-title: Github
+title: Github structure
 author: OST
 date: 2017-08-30
 banner:
@@ -7,7 +7,7 @@ banner:
 category: Releasing
 ---
 
-_All Zalandos open source projects are hosted on GitHub under one of the Zalando organizations. We have a number of guidelines for how to use GitHub and what the different organizations are used for._
+#### All Zalandos open source projects are hosted on GitHub under one of the Zalando organizations. We have a number of guidelines for how to use GitHub and what the different organizations are used for.
 
 ### Summary
 

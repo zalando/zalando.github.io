@@ -7,7 +7,7 @@ banner:
 category: Using
 ---
 
-We encourage participation in open source projects and strive to have as few rules for this as possible, we expect Zalandos to follow common sense on what code and information they contribute - if in doubt, contact the open source team, or talk to your lead.
+#### We encourage participation in open source projects and strive to have as few rules for this as possible, we expect Zalandos to follow common sense on what code and information they contribute - if in doubt, contact the open source team, or talk to your lead.
 
 ### Summary
 
