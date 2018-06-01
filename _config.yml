@@ -44,7 +44,8 @@ defaults:
 
 plugins:
   - jekyll-paginate
-
+  - jekyll-relative-links
+  
 exclude:
   - 'Gemfile'
   - 'Gemfile.lock'
@@ -53,6 +54,3 @@ include:
   - '_pages'
   - '_posts'
   - '_docs'
-
-gems:
-  - jekyll-relative-links
