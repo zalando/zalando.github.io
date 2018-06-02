@@ -78,7 +78,7 @@
 }
 
 .article__sidebar__block {
-  padding: 2rem 1rem 0rem 0rem;
+  padding: 4rem 2rem;
   margin-top: -4px;
 }
 
@@ -116,7 +116,7 @@ a.share-icon:hover {
 
 .accordion {
   cursor: pointer;
-  padding: 1rem;
+  padding: 1rem 0rem;
   width: 100%;
   border: none;
   text-align: left;
@@ -134,7 +134,7 @@ a.share-icon:hover {
 }
 
 .accordion-panel {
-  padding: 0 4rem;
+  padding: 0 2rem;
   background-color: #fff;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
