@@ -6,10 +6,25 @@ permalink: /blog/
 banner:
   image: laptop.jpg
 ---
+{% assign imgroot = "/assets/img/banners/" %}
 {% for post in paginator.posts %}
-  {% if forloop.first %}
-  <h1>{{ post.title }}</h1>
-  {% else %}
-  <h2>{{ post.title }}</h2>
-  {% endif %}
+  <div>
+    {% if forloop.first %}
+    <img src="{{ imgroot }}{{ post.banner.image }}" />
+    <h1>{{ post.title }}</h1>
+    <p>by {{ post.author }} on {{ post.date | date_to_long_string }}</p>
+    <p>
+      {{ post.content | truncate }}
+      <a href="{{ post.url }}">Read More</a>
+    </p>
+    {% else %}
+    <img src="{{ imgroot }}{{ post.banner.image }}" />
+    <h2>{{ post.title }}</h2>
+    <p>by {{ post.author }} on {{ post.date | date_to_long_string }}</p>
+    <p>
+      {{ post.content | truncate }}
+      <a href="{{ post.url }}">Read More</a>
+    </p>
+    {% endif %}
+  </div>
 {% endfor %}
