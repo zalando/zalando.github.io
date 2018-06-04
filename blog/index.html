@@ -14,7 +14,7 @@ banner:
     <h1>{{ post.title }}</h1>
     <p>by {{ post.author }} on {{ post.date | date_to_long_string }}</p>
     <p>
-      {{ post.content | truncate }}
+      {{ post.content | truncatewords: 40 }}
       <a href="{{ post.url }}">Read More</a>
     </p>
     {% else %}
@@ -22,7 +22,7 @@ banner:
     <h2>{{ post.title }}</h2>
     <p>by {{ post.author }} on {{ post.date | date_to_long_string }}</p>
     <p>
-      {{ post.content | truncate }}
+      {{ post.content | truncatewords: 40 }}
       <a href="{{ post.url }}">Read More</a>
     </p>
     {% endif %}
