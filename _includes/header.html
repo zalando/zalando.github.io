@@ -15,7 +15,7 @@
       {% endif %}
       <li class="dc-tab__element"><a href="/index.html#os-goals">Purpose</a></li>
       <li class="dc-tab__element"><a href="/index.html#os-jobs">Jobs</a></li>
-      {% if page.layout == "article" %}
+      {% if page.layout == "article" or page.title == "Blog" %}
       <li class="dc-tab__element dc-tab__element--active"><a href="/index.html#os-articles">Blog</a></li>
       {% else %}
       <li class="dc-tab__element"><a href="/index.html#os-articles">Blog</a></li>
