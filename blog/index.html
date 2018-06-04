@@ -1,0 +1,15 @@
+---
+layout: landing
+title: Blog
+description: Thoughts From Zalando's Open Source Maintainers
+permalink: /blog/
+banner:
+  image: laptop.jpg
+---
+{% for post in paginator.posts %}
+  {% if forloop.first %}
+  <h1>{{ post.title }}</h1>
+  {% else %}
+  <h2>{{ post.title }}</h2>
+  {% endif %}
+{% endfor %}
