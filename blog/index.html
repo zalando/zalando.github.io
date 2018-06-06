@@ -7,24 +7,28 @@ banner:
 ---
 {% assign imgroot = "/assets/img/banners/" %}
 {% for post in paginator.posts %}
-  <div>
-    {% if forloop.first %}
-    <img src="{{ imgroot }}{{ post.banner.image }}" />
-    <h1>{{ post.title }}</h1>
-    <p>by {{ post.author }} on {{ post.date | date_to_long_string }}</p>
-    <p>
-      {{ post.content | markdownify | truncatewords: 40 }}
-      <a href="{{ post.url }}">Read More</a>
-    </p>
-    {% else %}
-    <img src="{{ imgroot }}{{ post.banner.image }}" />
-    <h2>{{ post.title }}</h2>
-    <p>by {{ post.author }} on {{ post.date | date_to_long_string }}</p>
-    <p>
-      {{ post.content | markdownify | truncatewords: 40 }}
-      <a href="{{ post.url }}">Read More</a>
-    </p>
-    {% endif %}
+  {% if forloop.first %}
+  <div class="blog-box blog-box--big">
+  {% else %}
+  <div class="blog-box">
+  {% endif %}
+    <div class="blog-box__image">
+      <a href="{{ post.url }}">
+        <img class="blog-box__image" src="{{ imgroot }}{{ post.banner.image }}" />
+      </a>
+    </div>
+    <div class="blog-box__content">
+      <a href="{{ post.url }}" class="blog-box__title">{{ post.title }}</a>
+      <div class="blog-box__sub-title">by {{ post.author }} on {{ post.date | date_to_long_string }}</div>
+      <div class="blog-box__text">
+        {% if forloop.first %}
+        {{ post.content | markdownify | truncatewords: 40 }}
+        {% else %}
+        {{ post.content | markdownify | truncatewords: 20 }}
+        {% endif %}
+        <a href="{{ post.url }}">Read More</a>
+      </div>
+    </div>
   </div>
 {% endfor %}
 
