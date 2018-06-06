@@ -1,15 +1,34 @@
 <section class="dc--text-center page-section page-section--padding page-section--background-secondary" id="os-articles">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">Blog</h1>
-      {% for article in site.posts limit:4 %}
-      <div class="dc-row blog">
-        <div class="dc-h2">
-          <a href="{{article.url}}">
-            {{article.title}}
-          </a>
+      <div class="blogs">
+        {% assign imgroot = "/assets/img/banners/" %}
+        {% for article in site.posts limit:4 %}
+
+          {% if forloop.last %}
+          <div class="blog blog--last">
+          {% else %}
+          <div class="blog">
+          {% endif %}
+
+            <div class="blog__image">
+              <a href="{{ article.url }}">
+                <img class="blog-box__image" src="{{ imgroot }}{{ article.banner.image }}" />
+              </a>
+            </div>
+            <div class="blog__content">
+              <div class="dc-h2">
+                <a href="{{article.url}}">
+                  {{article.title}}
+                </a>
+              </div>
+              <div class="dc-h3">by {{article.author}}, {{article.date | date_to_long_string}}</div>
+            </div>
+          </div>
+          {% endfor %}
+        <div class="blogs__footer">
+          <a class="dc-btn" href="/blog">All Posts</a>
         </div>
-        <div class="dc-h3">by {{article.author}}, {{article.date | date_to_long_string}}</div>
       </div>
-      {% endfor %}
     </div>
 </section>

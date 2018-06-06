@@ -189,8 +189,6 @@ a.share-icon:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .blog-box__content {

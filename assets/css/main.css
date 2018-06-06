@@ -347,10 +347,45 @@ body li {
   font-size: 120%
 }
 
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogs__footer {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
 .blog {
-  margin: 0;
+  display: flex;
+  width: 100%;
   border-bottom: 1px solid var(--page-section-border);
+  margin: 0;
   padding: 2rem 0;
+}
+
+.blog--last {
+
+}
+
+.blog__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog__image img {
+  height: 60px;
+}
+
+.blog__content {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: left;
 }
 
 .blog:last-child {
