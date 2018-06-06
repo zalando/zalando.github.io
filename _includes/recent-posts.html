@@ -3,14 +3,9 @@
     <h1 class="dc-h1 page-section__header">Blog</h1>
       <div class="blogs">
         {% assign imgroot = "/assets/img/banners/" %}
+
         {% for article in site.posts limit:4 %}
-
-          {% if forloop.last %}
-          <div class="blog blog--last">
-          {% else %}
           <div class="blog">
-          {% endif %}
-
             <div class="blog__image">
               <a href="{{ article.url }}">
                 <img class="blog-box__image" src="{{ imgroot }}{{ article.banner.image }}" />
@@ -25,7 +20,8 @@
               <div class="dc-h3">by {{article.author}}, {{article.date | date_to_long_string}}</div>
             </div>
           </div>
-          {% endfor %}
+        {% endfor %}
+
         <div class="blogs__footer">
           <a class="dc-btn" href="/blog">All Posts</a>
         </div>
