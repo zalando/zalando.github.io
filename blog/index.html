@@ -7,7 +7,7 @@ banner:
 ---
 {% assign imgroot = "/assets/img/banners/" %}
 {% for post in paginator.posts %}
-  {% if forloop.first %}
+  {% if paginator.page == 1 and forloop.first %}
   <div class="blog-box blog-box--big">
   {% elsif forloop.last %}
   <div class="blog-box blog-box--last">
