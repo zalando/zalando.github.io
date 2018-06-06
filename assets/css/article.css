@@ -181,7 +181,7 @@ a.share-icon:hover {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.14);
 }
 
-.blog-box:last-child {
+.blog-box--last {
   border-bottom: 0;
 }
 
@@ -250,6 +250,33 @@ a.blog-box__title {
 .blog-box__text h2,
 .blog-box__text p {
   margin: 0;
+}
+
+.pagination {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.pagination__link {
+  margin-right: 1rem;
+  border: 1px solid var(--page-section-border);
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.14);
+  padding: 4px 8px;
+  color: var(--primary-font-color);
+  font-style: normal;
+}
+
+.pagination__link--active {
+  border: 0;
+  box-shadow: none;
+}
+
+.pagination__link:hover {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.35);
+}
+
+.pagination__link--active:hover {
+  box-shadow: none;
 }
 
 @media (max-width: 1100px) {

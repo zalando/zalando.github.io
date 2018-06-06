@@ -9,6 +9,8 @@ banner:
 {% for post in paginator.posts %}
   {% if forloop.first %}
   <div class="blog-box blog-box--big">
+  {% elsif forloop.last %}
+  <div class="blog-box blog-box--last">
   {% else %}
   <div class="blog-box">
   {% endif %}
