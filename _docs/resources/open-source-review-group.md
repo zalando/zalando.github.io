@@ -23,7 +23,7 @@ Diversity is a central component of Zalando, as an organization of over 100 diff
 
 With that said, we are very much aware that especially the technology roles at Zalando and even more so open source participation in general has a very low degree of diversity. The group is therefore currently not diverse, but is tasked with a clear objective of changing this.   
 
-**The Open Source Group is committed to attract, mentor and advance any individual, regardless of their race, sexual orientation, religion, age, gender, disability status or any other dimension of diversity.** 
+**The Open Source Group is committed to attract, mentor and advance any individuals open source participation, regardless of their race, sexual orientation, religion, age, gender, disability status or any other dimension of diversity.** 
 
 
 
