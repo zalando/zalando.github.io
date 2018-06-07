@@ -1,5 +1,5 @@
 const api = {
-  statistics: 'https://catwatch.opensource.zalan.do/statistics?organizations=zalando',
+  statistics: 'https://catwatch.opensource.zalan.do/statistics?organizations=zalando,zalando-incubator,zalandoresearch,zalando-stups,zalando-nakadi,zalando-zmon',
   projects: 'https://catwatch.opensource.zalan.do/projects?sortBy=-stars',
   team: 'https://api.github.com/users'
 };
