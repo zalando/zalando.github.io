@@ -67,10 +67,9 @@ Use [new-project](https://github.com/perploug/new-project)(TODO: move to zalando
 Besides the rules of play, there is also a set of best practices which we highly recommend you implement.
 
 1.  Have a code of conduct and enforce it to create a safe environment for collaboration
-2.  Have a clear vision and scope of your project
-3.  Set clear expectations for responses - let users know if your time is limited
-4.  Ask for help and be open to what kind of contributions would help your project
-5.  Be mindful of your documentation
+2.  Set clear expectations for responses - let users know if your time is limited
+3.  Ask for help and be open to what kind of contributions would help your project
+4.  Be mindful of your documentation
 
 [opensource.guide](https://opensource.guide/building-community/) has plenty more resources and recommendations for maintainers.
 
