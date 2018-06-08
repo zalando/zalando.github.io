@@ -4,7 +4,7 @@ author: OST
 date: 2017-08-30
 banner:
   image: coding.jpg
-category: Using
+category: Resources
 ---
 
 #### For both using and releasing Open source Software, there is the challenge of understanding and respecting the licenses of your project dependencies. The purpose of this document is to outline what licenses to avoid, which ones you can freely use and which licenses comes with special requirements.
