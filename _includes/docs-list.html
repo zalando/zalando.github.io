@@ -31,4 +31,19 @@
       <a href="{{doc.url}}">{{ doc.title }}</a>
     </li>{% endif %} {% endfor %}
   </ul>
+
+  <div class="tree__sub-heading accordion">
+    Resources
+  </div>
+  <ul class="tree__list accordion-panel">
+    {% assign resources_docs = (site.docs | where: 'category', 'Resources' | sort: 'name') %} 
+    {% for doc in resources_docs%}
+    {% if doc.url == nav_url %}
+    <li class="tree__list-item--active">
+      <a href="{{doc.url}}">{{ doc.title }}</a>
+    </li>{% else %}
+    <li>
+      <a href="{{doc.url}}">{{ doc.title }}</a>
+    </li>{% endif %} {% endfor %}
+  </ul>
 </section>
