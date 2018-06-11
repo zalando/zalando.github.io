@@ -1,0 +1,39 @@
+---
+layout: landing
+title: Blog
+description: Thoughts From Zalando's Open Source Maintainers
+banner:
+  image: laptop.jpg
+---
+{% assign imgroot = "/assets/img/banners/" %}
+{% for post in paginator.posts %}
+  {% if paginator.page == 1 and forloop.first %}
+  <div class="blog-box blog-box--big">
+  {% elsif forloop.last %}
+  <div class="blog-box blog-box--last">
+  {% else %}
+  <div class="blog-box">
+  {% endif %}
+    <div class="blog-box__image">
+      <a href="{{ post.url }}">
+        <img class="blog-box__image" src="{{ imgroot }}{{ post.banner.image }}" />
+      </a>
+    </div>
+    <div class="blog-box__content">
+      <a href="{{ post.url }}" class="blog-box__title">{{ post.title }}</a>
+      <div class="blog-box__sub-title">by {{ post.author }} on {{ post.date | date_to_long_string }}</div>
+      <div class="blog-box__text">
+        {% if forloop.first %}
+        {{ post.content | markdownify | truncatewords: 40 }}
+        {% else %}
+        {{ post.content | markdownify | truncatewords: 20 }}
+        {% endif %}
+        <a href="{{ post.url }}">Read More</a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+  {% include pagination.html %}
+{% endif %}
