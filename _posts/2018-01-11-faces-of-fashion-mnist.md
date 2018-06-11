@@ -6,8 +6,8 @@ banner:
   image: lights.jpg
 ---
 ## We talk to Han and Kashif from Zalando Research
-*Employer Branding Specialist Data Science, Nana Yamazaki catches up with the
-team using literal fashion icons in Deep Learning.*
+Employer Branding Specialist Data Science, Nana Yamazaki catches up with the
+team using literal fashion icons in Deep Learning.
 
 ## Tell us about Fashion-MNIST. What did you want to accomplish?
 

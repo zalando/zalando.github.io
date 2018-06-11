@@ -36,12 +36,14 @@
   background-size: 8px 8px;
 }
 
-.article a {
+.article a,
+.blog-box a {
   color: var(--zalando-orange);
 }
 
 .article a:hover,
-.tree__list-item--active a {
+.tree__list-item--active a,
+.blog-box a:hover {
   box-shadow: inset 0 -2px 0 0 var(--zalando-orange);
 }
 
@@ -162,6 +164,117 @@ a.share-icon:hover {
 
 .tree__list {
   margin: 0;
+}
+
+.blog-box {
+  display: flex;
+  padding-left: 4rem;
+  border-bottom: 1px solid var(--page-section-border);
+  transition: all 0.4s ease-out;
+}
+
+.blog-box:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+.blog-box--big {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.14);
+}
+
+.blog-box--last {
+  border-bottom: 0;
+}
+
+.blog-box__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-box__content {
+  flex-grow: 1;
+  padding: 4rem;
+}
+
+.blog-box__image img {
+  height: 80px;
+}
+
+.blog-box--big .blog-box__image img {
+  height: 120px;
+}
+
+.blog-box--big .blog-box__title {
+  font-size: 2.8rem;
+  line-height: 4rem;
+}
+
+.blog-box--big .blog-box__sub-title {
+  font-size: 2.2rem;
+}
+
+.blog-box--big .blog-box__sub-title,
+.blog-box--big .blog-box__text {
+  margin-top: 1rem;
+}
+
+a.blog-box__title {
+  font-size: 2rem;
+  color: var(--primary-font-color);
+}
+
+.blog-box__sub-title {
+  font-size: 1.8rem;
+}
+
+.blog-box__title,
+.blog-box__sub-title {
+  line-height: 3.6rem;
+  font-style: normal;
+}
+
+.blog-box__text {
+  line-height: 2.4rem;
+  font-style: normal;
+}
+
+.blog-box__text h1,
+.blog-box__text h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.blog-box__text h1,
+.blog-box__text h2,
+.blog-box__text p {
+  margin: 0;
+}
+
+.pagination {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.pagination__link {
+  margin-right: 1rem;
+  border: 1px solid var(--page-section-border);
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.14);
+  padding: 4px 8px;
+  color: var(--primary-font-color);
+  font-style: normal;
+}
+
+.pagination__link--active {
+  border: 0;
+  box-shadow: none;
+}
+
+.pagination__link:hover {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.35);
+}
+
+.pagination__link--active:hover {
+  box-shadow: none;
 }
 
 @media (max-width: 1100px) {
