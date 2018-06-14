@@ -30,10 +30,18 @@
 .article__content li,
 .tree__list li {
   padding-left: 20px;
-  background-image: url('/assets/img/zalando-bullet.png');
+  background-image: url("/assets/img/zalando-bullet.png");
   background-position: 0 6px;
   background-repeat: no-repeat;
   background-size: 8px 8px;
+}
+
+
+.article__content hr {
+  border: none;
+  height: 2px;
+  background: #efefef;
+  margin: 50px 0px;
 }
 
 .article a,
@@ -60,7 +68,7 @@
 }
 
 .article__sidebar__header:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 50px;
@@ -73,7 +81,7 @@
 }
 
 .article__sidebar__block {
-  padding: 2rem 4rem;
+  padding: 4rem 2rem;
   margin-top: -4px;
 }
 
@@ -111,13 +119,13 @@ a.share-icon:hover {
 
 .accordion {
   cursor: pointer;
-  padding: 1rem;
+  padding: 1rem 0rem;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
   transition: 0.2s;
-  background-image: url('/assets/svg/down-open.svg');
+  background-image: url("/assets/svg/down-open.svg");
   background-repeat: no-repeat;
   background-size: 12px 12px;
   background-position: right;
@@ -125,11 +133,11 @@ a.share-icon:hover {
 
 .accordion--active {
   transition: 0.2s;
-  background-image: url('/assets/svg/up-open.svg');
+  background-image: url("/assets/svg/up-open.svg");
 }
 
 .accordion-panel {
-  padding: 0 4rem;
+  padding: 0 2rem;
   background-color: #fff;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -140,12 +148,12 @@ a.share-icon:hover {
 }
 
 .documentation .accordion {
-  background-image: url('/assets/svg/up-open.svg');
+  background-image: url("/assets/svg/up-open.svg");
 }
 
 .documentation .accordion--active {
   transition: 0.2s;
-  background-image: url('/assets/svg/down-open.svg');
+  background-image: url("/assets/svg/down-open.svg");
 }
 
 .tree__heading {

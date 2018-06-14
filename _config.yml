@@ -16,6 +16,10 @@ permalink: /blog/:year/:month/:title/
 kramdown:
   input: GFM
   hard_wrap: false
+relative_links:
+  enabled:     true
+  collections: true
+
 
 collections:
   docs:
@@ -41,7 +45,8 @@ defaults:
 
 plugins:
   - jekyll-paginate
-
+  - jekyll-relative-links
+  
 exclude:
   - 'Gemfile'
   - 'Gemfile.lock'

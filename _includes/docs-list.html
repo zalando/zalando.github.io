@@ -1,32 +1,49 @@
 <section class="article__sidebar__block">
-  <div class="article__sidebar__header">Docs</div>
-
-  <div class="tree__sub-heading accordion">Using</div>
+  <div class="article__sidebar__header">
+    Docs
+  </div>
+  <div class="tree__sub-heading accordion">
+    Using
+  </div>
 
   {% assign nav_url = page.url | remove: 'index.html' %}
-
   <ul class="tree__list accordion-panel">
-    {% assign using_docs = site.docs | where: 'category', 'Using' %}
-
-    {% for doc in using_docs%}
-      {% if doc.url == nav_url %}
-        <li class="tree__list-item--active"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% else %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
-    {% endfor %}
+    {% assign using_docs = (site.docs | where: 'category', 'Using' | sort: 'title') %} {% for doc in using_docs%} {% if doc.url
+    == nav_url %}
+    <li class="tree__list-item--active">
+      <a href="{{doc.url}}">{{ doc.title }}</a>
+    </li>{% else %}
+    <li>
+      <a href="{{doc.url}}">{{ doc.title }}</a>
+    </li>{% endif %} {% endfor %}
   </ul>
 
-  <div class="tree__sub-heading accordion">Releasing</div>
+  <div class="tree__sub-heading accordion">
+    Releasing
+  </div>
   <ul class="tree__list accordion-panel">
-    {% assign releasing_docs = site.docs | where: 'category', 'Releasing' %}
+    {% assign releasing_docs = (site.docs | where: 'category', 'Releasing' | sort: 'name') %} {% for doc in releasing_docs%}
+    {% if doc.url == nav_url %}
+    <li class="tree__list-item--active">
+      <a href="{{doc.url}}">{{ doc.title }}</a>
+    </li>{% else %}
+    <li>
+      <a href="{{doc.url}}">{{ doc.title }}</a>
+    </li>{% endif %} {% endfor %}
+  </ul>
 
-    {% for doc in releasing_docs%}
-      {% if doc.url == nav_url %}
-        <li class="tree__list-item--active"><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% else %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
-    {% endfor %}
+  <div class="tree__sub-heading accordion">
+    Resources
+  </div>
+  <ul class="tree__list accordion-panel">
+    {% assign resources_docs = (site.docs | where: 'category', 'Resources' | sort: 'name') %} 
+    {% for doc in resources_docs%}
+    {% if doc.url == nav_url %}
+    <li class="tree__list-item--active">
+      <a href="{{doc.url}}">{{ doc.title }}</a>
+    </li>{% else %}
+    <li>
+      <a href="{{doc.url}}">{{ doc.title }}</a>
+    </li>{% endif %} {% endfor %}
   </ul>
 </section>

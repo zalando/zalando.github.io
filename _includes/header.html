@@ -3,37 +3,17 @@
     <ul class="dc-tab header">
 
       <li class="dc-tab__element dc-tab__element--header header__logo">
-        <a href="/index.html">
+        <a href="/">
           <img src="/assets/svg/logo.svg" />
         </a>
       </li>
-
-      {% if page.permalink == "/" %}
-      <li class="dc-tab__element dc-tab__element"><a href="/#os-projects">Projects</a></li>
-      {% elsif include.title == "Projects" %}
-      <li class="dc-tab__element dc-tab__element--active"><a href="/projects">Projects</a></li>
-      {% else %}
-      <li class="dc-tab__element dc-tab__element"><a href="/projects">Projects</a></li>
-      {% endif %}
-
+      
+      <li class="dc-tab__element {% if page.path == '_pages/projects.md' %}dc-tab__element--active {% endif %}"><a href="/projects">Projects</a></li>
+      <li class="dc-tab__element {% if page.collection == "docs" %}dc-tab__element--active{% endif %}"><a href="/docs">Docs</a></li>
+      
+      <li class="dc-tab__element {% if page.collection == "posts" %}dc-tab__element--active{% endif %}"><a href="/blog">Blog</a></li>
       <li class="dc-tab__element"><a href="/#os-goals">Purpose</a></li>
       <li class="dc-tab__element"><a href="/#os-jobs">Jobs</a></li>
-
-      {% if page.permalink == "/" %}
-      <li class="dc-tab__element dc-tab__element"><a href="/#os-articles">Blog</a></li>
-      {% elsif page.layout == "article" or page.title == "Blog" %}
-      <li class="dc-tab__element dc-tab__element--active"><a href="/blog">Blog</a></li>
-      {% else %}
-      <li class="dc-tab__element"><a href="/blog">Blog</a></li>
-      {% endif %}
-
-      <!--
-      {% if include.title == "Docs" or page.layout == 'documentation' %}
-      <li class="dc-tab__element dc-tab__element--active"><a href="/docs">Docs</a></li>
-      {% else %}
-      <li class="dc-tab__element"><a href="/docs">Docs</a></li>
-      {% endif %}
-      -->
 
       <li class="dc-tab__element"><a href="/#os-team">Team</a></li>
     </ul>

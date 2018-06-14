@@ -1,9 +1,11 @@
 ---
 layout: default
+title: Zalando Open Source
 permalink: /
 banner:
   height: 450px
 ---
+
 <section class="dc--text-center page-section page-section--padding page-section--background-white" id="os-projects">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">Projects</h1>
@@ -18,6 +20,7 @@ banner:
     </div>
 
     <a class="dc-btn dc-btn--primary" href="projects/index.html">Explore All Projects</a>
+
   </div>
 </section>
 
@@ -71,6 +74,7 @@ banner:
         </p>
       </div>
     </div>
+
   </div>
 </section>
 
