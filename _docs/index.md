@@ -27,12 +27,12 @@ banner:
       <ul>
        
 
-        <li><a href="using/index">Adopting open source code</a><br>
+      <li><a href="docs/using/index">Adopting open source code</a><br>
       <p>
       Policies on what to be aware of when adopting open source code in a Zalando project. This applies to both adding dependencies and to contributing upstream.</p>
       </li>
 
-       <li><a href="releasing/index">Releasing an open source project</a> <br>
+       <li><a href="docs/releasing/index">Releasing an open source project</a> <br>
         <p>A step by step guide on what to do before you can release a project and guidelines on how to
         maintain a project</p>
         </li>
