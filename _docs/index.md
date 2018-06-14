@@ -14,7 +14,7 @@ banner:
 
       <h1>Documentation</h1>
       
-      <h4>Despite it's widespread use, there are still many misconceptions and uncertainties
+      <h4>Despite widespread use, there are still many misconceptions and uncertainties
       for Zalando employees engaging in Open Source. Questions on legal issues, licensing and what is 
       deemed confidential or internal information is common. 
       </h4>
