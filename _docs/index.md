@@ -15,12 +15,11 @@ banner:
       <h1>Documentation</h1>
       
       <h4>Despite it's widespread use, there are still many misconceptions and uncertainties
-      for employees engaging in Open Source. Questions on legal issues, licensing and what is 
+      for Zalando employees engaging in Open Source. Questions on legal issues, licensing and what is 
       deemed confidential or internal information is common. 
       </h4>
 
-      <p>This website is therefore a guide, primarily for Zalando employees, on how to adopt, modify and release Open Source code. There are references to internal Zalando sites or
-      services, but with an effort to limit our use of internal lingo or acronyms.
+      <p>This website is therefore a guide, primarily for Zalando employees, on how to adopt, modify and release Open Source code. There are a few references to internal Zalando sites or services, but with an effort to limit our use of internal lingo or acronyms.
       </p> 
 
       <h4>Topics</h4>

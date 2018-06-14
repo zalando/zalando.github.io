@@ -1,7 +1,7 @@
 ---
 title: Releasing a new open source project
 author: OST
-date: 2017-08-30
+date: 2018-06-14
 banner:
   image: coding.jpg
 category: Releasing
@@ -16,11 +16,20 @@ category: Releasing
 
 ## Overview
 
-Releasing a new open source project is a simple and fast process if you are already following Zalandos rules of play:
+Releasing a new open source project is a simple and fast process when you are already following Zalandos rules of play:
 
-* [Compliance](#compliance) You ensure your project is compliant with rules of play and can be open sourced
-* [Preparing your repository](#preparing-your-repository) Clean up and refactor your code to work outside the Zalando environment.
-* [Review](#review) The Zalando open source review group is responsible for reviewing your project
+* [Sign-off](#sign-off): Ensure you have organizational buy-in from your lead and that your project is possible to open source   
+* [Compliance](#compliance): You ensure your project is compliant with rules of play and can be open sourced
+* [Preparing your repository](#preparing-your-repository): Clean up and refactor your code to work outside the Zalando environment.
+* [Review](#review): The Zalando open source review group is responsible for reviewing your project
+
+
+## Sign-off  
+Ensure your lead and team are onboard with open sourcing your project, that everyone understand the time and effort required, and that there is no competitive disadvantages to Zalando.
+
+### Get sign-off from your lead
+
+Make sure your team lead (Zalando level C8 employee) is informed about open sourcing a project, and that your lead is supportive of this. Open sourcing code is a process which requires time and effort, so make sure your lead and your team understand that some of your work hours will be spend maintaining this project and the community around it.
 
 ### What cannot be open sourced?
 
@@ -30,7 +39,8 @@ Anything that risks Zalando’s competitive advantage is not permissible for pub
 * recommendation algorithms
 * search functionalities that give us an edge over competitors
 
-If you are in doubt, reach out to the Zalando Open Source Team.
+If you are in doubt, reach out to the Zalando Open Source Team or talk to your lead.
+
 
 ## Compliance
 
