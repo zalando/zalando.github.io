@@ -8,6 +8,7 @@
   --primary-font-color: #4a4a4a;
   --page-side-padding: 15rem;
   --background-color-secondary: #e1e1e1;
+  --background-color-highlight: #ff8e25;
   --logo-height: 20px;
   --page-section-header-spacing-bottom: 4rem;
   --page-section-spacing-bottom: 10rem;
@@ -95,6 +96,15 @@ body li {
 .page-section--background-gradient {
   background: linear-gradient(#e6f4ff, var(--background-color-secondary));
 }
+
+.page-section--background-highlight {
+  background-color: var(--background-color-highlight);
+  color: #fff;
+}
+.page-section--background-highlight * {
+  color: #fff;
+}
+
 
 .page-section--padding {
   padding-left: var(--page-side-padding);
@@ -203,6 +213,21 @@ body li {
 .statistics,
 .statistic {
   margin-bottom: 0;
+}
+
+.statistics--chart  {
+  height: 30rem;
+  vertical-align: bottom;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.statistics--chart .statistics--chart-bar{
+  width: 50%;
+  background: var(--background-color-highlight);
+  margin: 0 auto;
 }
 
 .projects__wrapper {
