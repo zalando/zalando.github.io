@@ -8,7 +8,6 @@
   --primary-font-color: #4a4a4a;
   --page-side-padding: 15rem;
   --background-color-secondary: #e1e1e1;
-  --background-color-highlight: #ff8e25;
   --logo-height: 20px;
   --page-section-header-spacing-bottom: 4rem;
   --page-section-spacing-bottom: 10rem;
@@ -98,7 +97,7 @@ body li {
 }
 
 .page-section--background-highlight {
-  background-color: var(--background-color-highlight);
+  background-color: var(--zalando-orange);
   color: #fff;
 }
 .page-section--background-highlight * {
@@ -226,9 +225,16 @@ body li {
 
 .statistics--chart .statistics--chart-bar{
   width: 50%;
-  background: var(--background-color-highlight);
+  background: var(--zalando-orange);
   margin: 0 auto;
 }
+
+.statistics--horizontal-chart-bar{
+  padding: 4px;
+  background: #fff;
+  color: var(--background-color-secondary);
+}
+
 
 .projects__wrapper {
   min-height: 200px;
@@ -414,6 +420,11 @@ body li {
   background-position: center;
   color: #fff;
   font-size: 3rem;
+}
+
+.user__icon--contributors{
+  height: 100px;
+  width: 100px;
 }
 
 .user__title {
