@@ -33,8 +33,8 @@ banner:
           <h4 class="dc-h4">Commits</h4>
       </div>
       <div class="dc-column">
-          <h1 class="dc-h1">10</h1>
-          <h4 class="dc-h4">Languages</h4>
+          <h1 class="dc-h1">733</h1>
+          <h4 class="dc-h4">Contributors</h4>
       </div>
     </div>
     <small>key figures for all our open source projects</small>
@@ -63,27 +63,27 @@ page-section--background-highlight" id="os-projects">
     <div class="dc-row dc-center dc-row--align-bottom">
       <div class="dc-column statistics--chart">
         4
-        <div class="statistics--chart-bar" style="height: 4%"></div>
+        <div class="chart-bar" style="height: 4%"></div>
         <h4 class="dc-h4">2014</h4>
       </div>
       <div class="dc-column statistics--chart">
         90
-        <div class="statistics--chart-bar" style="height: 90%"></div>
+        <div class="chart-bar" style="height: 90%"></div>
        <h4 class="dc-h4">2015</h4>
       </div>
       <div class="dc-column statistics--chart">
         57
-        <div class="statistics--chart-bar" style="height: 57%"></div>
+        <div class="chart-bar" style="height: 57%"></div>
         <h4 class="dc-h4">2016</h4>
       </div>
       <div class="dc-column statistics--chart">
         15
-        <div class="statistics--chart-bar" style="height: 15%"></div>
+        <div class="chart-bar" style="height: 15%"></div>
         <h4 class="dc-h4">2017</h4>
       </div>
       <div class="dc-column statistics--chart">
         10
-        <div class="statistics--chart-bar" style="height: 10%"></div>
+        <div class="chart-bar" style="height: 10%"></div>
         <h4 class="dc-h4">2018</h4>
       </div>
     </div>
@@ -97,7 +97,7 @@ page-section--background-highlight" id="os-projects">
     <h1 class="dc-h1 page-section__header dc--text-center">Top 5 contributors</h1>
 
     <p class="dc-p strategy__subtitle dc--text-center">
-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis gravida ornare. Etiam posuere sit amet neque id congue. Vestibulum mollis velit eros, ac rutrum diam lacinia faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
     </p>
 
     <div class="dc-row dc-center">
@@ -108,14 +108,14 @@ page-section--background-highlight" id="os-projects">
         </a>
       </div>
       <div class="dc-column dc-column--small-5">
-        <h3 class="dc-h3" style="margin-bottom: 0px">hjacobs</h3>
-        <div class="statistics--horizontal-chart-bar" style="width: 100%">4212 commits</div>
+        <h2 class="dc-h2" style="margin-bottom: 0px">Henning Jacobs</h2>
+        <div class="horizontal-chart-bar horizontal-chart-bar--right" style="width: 100%">4212 commits</div>
       </div>
 
 
       <div class="dc-column dc-column--small-5 dc--text-right">
-        <h3 class="dc-h3" style="margin-bottom: 0px">whiskeysierra</h3>
-        <div class="statistics--horizontal-chart-bar" style="width: 60%; float: right">2541 commits</div>
+        <h2 class="dc-h2" style="margin-bottom: 0px">Willi Schönborn</h2>
+        <div class="horizontal-chart-bar horizontal-chart-bar--left" style="width: 60%; float: right">2541 commits</div>
       </div>
       <div class="dc-column dc-column--small-2 dc--text-center">
         <a href="https://github.com/whiskeysierra">
@@ -130,17 +130,17 @@ page-section--background-highlight" id="os-projects">
         </a>
       </div>
       <div class="dc-column dc-column--small-5">
-        <h3 class="dc-h3" style="margin-bottom: 0px">Jan-M</h3>
-        <div class="statistics--horizontal-chart-bar" style="width: 47%">1969 commits</div>
+        <h3 class="dc-h2" style="margin-bottom: 0px">Jan Mussler</h3>
+        <div class="horizontal-chart-bar horizontal-chart-bar--right" style="width: 47%">1969 commits</div>
       </div>
 
 
       <div class="dc-column dc-column--small-5 dc--text-right">
-        <h3 class="dc-h3" style="margin-bottom: 0px">jbellman</h3>
-        <div class="statistics--horizontal-chart-bar" style="width: 40%; float: right">1710 commits</div>
+        <h3 class="dc-h2" style="margin-bottom: 0px">Jörg Bellmann</h3>
+        <div class="horizontal-chart-bar horizontal-chart-bar--left" style="width: 40%; float: right">1710 commits</div>
       </div>
       <div class="dc-column dc-column--small-2 dc--text-center">
-        <a href="https://github.com/jbellman">
+        <a href="https://github.com/jbellmann">
           <div class="user__icon user__icon--contributors" style="background-image: url(https://avatars3.githubusercontent.com/u/58709?s=400&v=4)"></div>
         </a>
       </div>
@@ -151,8 +151,8 @@ page-section--background-highlight" id="os-projects">
         </a>
       </div>
       <div class="dc-column dc-column--small-5">
-        <h3 class="dc-h3" style="margin-bottom: 0px">harti2006</h3>
-        <div class="statistics--horizontal-chart-bar" style="width: 32%">1369 commits</div>
+        <h3 class="dc-h3" style="margin-bottom: 0px">André Hartmann</h3>
+        <div class="horizontal-chart-bar horizontal-chart-bar--right" style="width: 32%">1369 commits</div>
       </div>
 
     </div>
@@ -380,17 +380,27 @@ page-section--background-highlight" id="os-projects">
     <br>
 
     <div class="dc-row">
-      <div class="dc-column">
-          <p class="dc-p strategy__subtitle">
-            Longer strategy explaination: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium urna sed massa hendrerit egestas. Sed semper a lacus quis faucibus. Sed porta massa mauris. Maecenas mi arcu, 
-            dignissim ut sapien sit amet, feugiat dictum sapien. Donec at diam tellus. Quisque placerat euismod commodo. Cras non sollicitudin mauris. 
-          </p>
+      <div class="dc-column dc-column--small-8">
+            <div class="dc-row">
+                <div class="dc-column dc-column--small-6">
+                number
+                </div>
+                <div class="dc-column dc-column--small-6">
+                number
+                </div>
+                <div class="dc-column dc-column--small-6">
+                number
+                </div>
+                <div class="dc-column dc-column--small-6">
+                number
+                </div>
+            </div>
+          
       </div>
 
-      <div class="dc-column">
-          <h3>Open Source Team Strategy objective #1</h3>
-          <h3>Open Source Team Strategy objective #2</h3>
-          <h3>Open Source Team Strategy objective #3</h3>
+      <div class="dc-column dc-column--small-4">
+          <h3 class="dc-h1">85 Hours</h3>
+          <p>Average time to get a pull request merged</p>
       </div>
     </div>
 
@@ -425,11 +435,3 @@ page-section--background-highlight" id="os-projects">
   </div>
 </section>
 
-
-
-<section class="dc--text-center page-section page-section--padding page-section--background-white team" id="os-team">
-  <div class="dc-container dc-container--limited">
-    <h1 class="dc-h1 page-section__header">The Team</h1>
-    <div id="os-team-data" class="users"></div>
-  </div>
-</section>

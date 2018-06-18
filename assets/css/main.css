@@ -223,17 +223,43 @@ body li {
   flex-direction: column;
 }
 
-.statistics--chart .statistics--chart-bar{
+.statistics--chart .chart-bar{
   width: 50%;
   background: var(--zalando-orange);
   margin: 0 auto;
 }
 
-.statistics--horizontal-chart-bar{
+.horizontal-chart-bar{
   padding: 4px;
   background: #fff;
-  color: var(--background-color-secondary);
+  color: var(--zalando-orange);
+  position: relative;
 }
+
+.horizontal-chart-bar--left::after {
+  content:"";
+  position: absolute;
+  top:0; 
+  right:100%; 
+  height:0; 
+  width:0; 
+  border: medium solid white;
+  border-width: 16px 16px 16px 0px;
+  border-color: transparent white transparent transparent;
+}
+
+.horizontal-chart-bar--right::after {
+  content:"";
+  position: absolute;
+  top:0; 
+  left:100%; 
+  height:0; 
+  width:0; 
+  border: medium solid white;
+  border-width: 16px 0 16px 16px;
+  border-color: transparent transparent transparent white;
+}
+
 
 
 .projects__wrapper {
