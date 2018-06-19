@@ -2,7 +2,7 @@
 layout: default
 title: State Of Open Source @ Zalando
 description: How Far We've Come And Our Plans For The Future Of Zalando Open Source 
-permalink: /
+permalink: /report
 banner:
   image: lights.jpg
   height: 400px
@@ -94,10 +94,10 @@ page-section--background-highlight" id="os-projects">
 
 <section class="page-section page-section--padding page-section--background-secondary">
   <div class="dc-container dc-container--limited">
-    <h1 class="dc-h1 page-section__header dc--text-center">Top 5 contributors</h1>
+    <h1 class="dc-h1 page-section__header dc--text-center">Top contributors</h1>
 
     <p class="dc-p strategy__subtitle dc--text-center">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis gravida ornare. Etiam posuere sit amet neque id congue. Vestibulum mollis velit eros, ac rutrum diam lacinia faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+      While open source is encoraged at Zalando, it is a small number of contributors which drives the majority of all open source contributions. Just <b>17 Zalando employees are responsible for 50%</b> of all commits made, and <b>80% of all open sourced Zalando code is contributed by 50 employees</b>. 
     </p>
 
     <div class="dc-row dc-center">
@@ -368,7 +368,7 @@ page-section--background-highlight" id="os-projects">
 </section>
 
 
-<section class="dc--text-center page-section page-section--padding page-section--background page-section--background-gradient strategy">
+<section class="dc--text-center page-section page-section--padding page-section--background page-section--background-gradient">
   <div class="dc-container dc-container--limited">
     
     <h1 class="dc-h1 page-section__header">Activity</h1>
@@ -380,58 +380,108 @@ page-section--background-highlight" id="os-projects">
     <br>
 
     <div class="dc-row">
-      <div class="dc-column dc-column--small-8">
+      <div class="dc-column dc-column--small-8 dc-column-offset--small-2">
+
             <div class="dc-row">
+
                 <div class="dc-column dc-column--small-6">
-                number
+                  <h1 class="dc-h1">45%</h1>
+                  <h4 class="dc-h4">Of our members are contributing</h4>
                 </div>
+
                 <div class="dc-column dc-column--small-6">
-                number
+                    <h1 class="dc-h1">12,308</h1>
+                    <h4 class="dc-h4">Pull requests submitted</h4>
                 </div>
+
                 <div class="dc-column dc-column--small-6">
-                number
+                    <h1 class="dc-h1">187</h1>
+                    <h4 class="dc-h4">Contributions made to techradar projects</h4>
                 </div>
+
                 <div class="dc-column dc-column--small-6">
-                number
+                  <h1 class="dc-h1">85 Hours</h1>
+                  <h4 class="dc-h4">Average time to get a pull request merged</h4>
                 </div>
             </div>
           
       </div>
 
-      <div class="dc-column dc-column--small-4">
-          <h3 class="dc-h1">85 Hours</h3>
-          <p>Average time to get a pull request merged</p>
-      </div>
     </div>
 
   </div>
 </section>
 
+<section class="dc--text-center page-section page-section--padding stats-overview">
+  <div class="dc-container dc-container--limited">
+    <div class="dc-row dc--text-center">
+      <div class="dc-column dc-column--small-12" 
+        style="background: url(/assets/img/report/pr-chart.png) no-repeat bottom; background-size: contain; height: 400px">
+      </div>
+      <div class="dc-column dc-column--small-1">Jan</div>
+      <div class="dc-column dc-column--small-1">Feb</div>
+      <div class="dc-column dc-column--small-1">Mar</div>
+      <div class="dc-column dc-column--small-1">Apr</div>
+      <div class="dc-column dc-column--small-1">May</div>
+      <div class="dc-column dc-column--small-1">Jun</div>
+      <div class="dc-column dc-column--small-1">Jul</div>
+      <div class="dc-column dc-column--small-1">Aug</div>
+      <div class="dc-column dc-column--small-1">Sep</div>
+      <div class="dc-column dc-column--small-1">Oct</div>
+      <div class="dc-column dc-column--small-1">Nov</div>
+      <div class="dc-column dc-column--small-1">Dec</div>
+    </div>
+
+    <p class="dc-p strategy__subtitle">
+     There is a general high level of open source activity over the whole year, with a constant flow of opened and completed pull requests. However, we see a substantial increase of developer activity in Q2. The root cause of this is unknown but will be investigated further.
+    </p>
+
+</section>
 
 
 <section class="dc--text-center page-section page-section--padding page-section--background-white" id="os-projects">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">Roadmap</h1>
-    <div class="dc-row">
-      <div class="dc-column">
-          <h2 classs="dc-h2">Open Source Team Strategy objective #1</h2>
-          <p class="dc-p"asdhaskj dkasdkhas kjdakshd kjasdhaksjhkjadskj</p>
-      </div>
-      <div class="dc-column">
-          <h2 classs="dc-h2">Open Source Team Strategy objective #2</h2>
-          <p class="dc-p"asdhaskj dkasdkhas kjdakshd kjasdhaksjhkjadskj</p>
-      </div>
-    </div>
-    <div class="dc-row">
-      <div class="dc-column">
-          <h2 classs="dc-h2">Open Source Team Strategy objective #3</h2>
-          <p class="dc-p"asdhaskj dkasdkhas kjdakshd kjasdhaksjhkjadskj</p>
-      </div>
-      <div class="dc-column">
-          <h2 classs="dc-h2">Open Source Team Strategy objective #4</h2>
-          <p class="dc-p"asdhaskj dkasdkhas kjdakshd kjasdhaksjhkjadskj</p>
-      </div>
-    </div>      
+    <p class="dc-p strategy__subtitle">
+      asldkjh kajsdkjashd akjhsd jkasjkdasjhdkjah kjdajkdkadkjhasd
+    </p>
+      <div class="timeline">
+            <ul>
+              <li>
+                <div>
+                  <h4 class="dc-h4">Single source of truth</h4>
+                  Restructure and clearify process and policy documents to remove any uncertainty 
+                  of Zalandos open source strategy.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h4 class="dc-h4">GitHub restructure</h4>
+                  Focus on clear project ownership, compliant workflows and a simpler organisation of
+                  project maintainers.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h4 class="dc-h4">Onboarding program</h4>
+                  Deliver open source onboarding program for all new tech hires
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h4 class="dc-h4">Maintainer training</h4>
+                  Project maintainer training on building community and being a great open source citizen
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h4 class="dc-h4">Policy and Rules Of Play</h4>
+                  Align our policies to remove barriers and uncertainty. Work with legal, compliance and
+                  Zonar teams to improve our polices and legal contracts. 
+                </div>
+              </li>
+            </ul>
+      </div>      
   </div>
 </section>
 
