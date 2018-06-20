@@ -463,7 +463,7 @@ page-section--background-highlight" id="os-projects">
   <div class="dc-container dc-container--limited">
     <div class="dc-row dc--text-center">
       <div class="dc-column dc-column--small-12" 
-        style="background: url(/assets/img/report/pr-chart.png) no-repeat bottom; background-size: contain; height: 400px">
+        style="background: url(assets/img/report/pr-chart.png) no-repeat bottom; background-size: contain; height: 400px">
       </div>
       <div class="dc-column dc-column--small-1">Jan</div>
       <div class="dc-column dc-column--small-1">Feb</div>
