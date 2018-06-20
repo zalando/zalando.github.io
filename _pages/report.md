@@ -419,7 +419,8 @@ page-section--background-highlight" id="os-projects">
 </section>
 
 
-<section class="dc--text-center page-section page-section--padding page-section--background page-section--background-gradient">
+<section class="dc--text-center page-section page-section--padding page-section--background 
+  page-section--background-gradient">
   <div class="dc-container dc-container--limited">
     
     <h1 class="dc-h1 page-section__header">Activity</h1>
@@ -430,29 +431,38 @@ page-section--background-highlight" id="os-projects">
 
     <br>
 
-    <div class="dc-row">
-      <div class="dc-column dc-column--small-8 dc-column-offset--small-2">
+    <div class="dc-row report-activity">
+      <div class="dc-column dc-column--small-10 dc-column-offset--small-1">
 
             <div class="dc-row">
 
                 <div class="dc-column dc-column--small-6">
                   <h1 class="dc-h1">45%</h1>
                   <h4 class="dc-h4">Of our members are contributing</h4>
+                  <p class="dc-p">Out of the current 426 people in Zalando organisations on GitHub, 
+                    nearly half of them have made an accepted code contribution to a Zalando open source 
+                    project
+                  </p>
                 </div>
 
                 <div class="dc-column dc-column--small-6">
                     <h1 class="dc-h1">12,308</h1>
                     <h4 class="dc-h4">Pull requests submitted</h4>
+                    <p class="dc-p">For all current projects, there has been made a total of 12.308 contributions, there are currently 200 open requests which are awaiting review from project owners</p>
                 </div>
 
                 <div class="dc-column dc-column--small-6">
                     <h1 class="dc-h1">187</h1>
                     <h4 class="dc-h4">Contributions made to techradar projects</h4>
+                    <p class="dc-p">Zalandos contribute to <a href="https://opensource.zalando.com/tech-radar/">Techradar projects on the Adopt tier</a>, which have a high strategic value to Zalando</p>
                 </div>
 
                 <div class="dc-column dc-column--small-6">
                   <h1 class="dc-h1">85 Hours</h1>
                   <h4 class="dc-h4">Average time to get a pull request merged</h4>
+                  <p class="dc-p">
+                    The average merge time is low compared to the wider open source community. It is a strong indicator our maintainers are responsive and available to contributors. 
+                  </p>
                 </div>
             </div>
           
@@ -496,9 +506,18 @@ page-section--background-highlight" id="os-projects">
 <section class="dc--text-center page-section page-section--padding page-section--background-white">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">Roadmap</h1>
+
     <p class="dc-p strategy__subtitle">
-      asldkjh kajsdkjashd akjhsd jkasjkdasjhdkjah kjdajkdkadkjhasd
+      Our goal is to grow and professionalise Zalandos open source efforts, to increase our community 
+      reach and thereby increase the pool of potential high-quality hires. To do so, we must have high quality
+      open source offerings and dedicated maintainers.   
     </p>
+
+    <p class="dc-p strategy__subtitle">
+      The next 6 months, the Open Source team is focused on <b>creating clearity</b> of Zalando open source policies, 
+      <b>remove barriers</b> of entry and <b>spread the culture</b> of open source among current maintainers and new hires.
+    </p>
+   
       <div class="timeline">
             <ul>
               <li>
@@ -523,8 +542,16 @@ page-section--background-highlight" id="os-projects">
               </li>
               <li>
                 <div>
+                  <h4 class="dc-h4">Increase our presence</h4>
+                  Systematic approach to introducing new open source projects with the world 
+                  and promote current high profile initiatives.
+                </div>
+              </li>
+              <li>
+                <div>
                   <h4 class="dc-h4">Maintainer training</h4>
-                  Project maintainer training on building community and being a great open source citizen
+                  Project maintainer training on building community and being a great open 
+                  source citizen
                 </div>
               </li>
               <li>

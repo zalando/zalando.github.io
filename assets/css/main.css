@@ -348,6 +348,10 @@ body li {
 }
 .insights ul li h4{margin-bottom: 2px}
 
+.report-activity .dc-h1{
+  font-size: 6rem
+}
+
 .projects__wrapper {
   min-height: 200px;
   position: relative;
