@@ -425,10 +425,6 @@ page-section--background-highlight" id="os-projects">
     
     <h1 class="dc-h1 page-section__header">Activity</h1>
 
-    <p class="dc-p strategy__subtitle">
-      Lipsum
-    </p>
-
     <br>
 
     <div class="dc-row report-activity">
@@ -495,7 +491,10 @@ page-section--background-highlight" id="os-projects">
     </div>
 
     <p class="dc-p strategy__subtitle">
-      There is a general high level of open source activity over the whole year, with a constant flow of opened and completed pull requests. However, we see a substantial increase of developer activity in Q2. The root cause of this is unknown but will be investigated further.
+      There is a general high level of open source activity over the whole year, 
+      with a constant flow of opened and completed pull requests. 
+      However, we see a substantial increase of developer activity in Q2. 
+      The root cause of this is unknown but will be investigated further.
     </p>
     
     </div>
@@ -543,15 +542,15 @@ page-section--background-highlight" id="os-projects">
               <li>
                 <div>
                   <h4 class="dc-h4">Increase our presence</h4>
-                  Systematic approach to introducing new open source projects with the world 
-                  and promote current high profile initiatives.
+                  Systematic approach to introducing new open source projects to the world 
+                  and promote current initiatives and the teams behind them.
                 </div>
               </li>
               <li>
                 <div>
                   <h4 class="dc-h4">Maintainer training</h4>
                   Project maintainer training on building community and being a great open 
-                  source citizen
+                  source citizen.
                 </div>
               </li>
               <li>
