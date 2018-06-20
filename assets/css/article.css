@@ -30,7 +30,7 @@
 .article__content li,
 .tree__list li {
   padding-left: 20px;
-  background-image: url("/assets/img/zalando-bullet.png");
+  background-image: url("../img/zalando-bullet.png");
   background-position: 0 6px;
   background-repeat: no-repeat;
   background-size: 8px 8px;
