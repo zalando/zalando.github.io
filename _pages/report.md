@@ -7,7 +7,8 @@ banner:
   image: lights.jpg
   height: 400px
 ---
-<section class="dc--text-center page-section page-section--padding stats-overview">
+<section class="dc--text-center page-section page-section--padding stats-overview" 
+style="padding-bottom: 0">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">
       Summary
@@ -55,6 +56,8 @@ banner:
     </div>
   </div>
 </section>
+
+<hr>
 
 <section class="dc--text-center page-section page-section--padding stats-overview">
   <div class="dc-container dc-container--limited">
