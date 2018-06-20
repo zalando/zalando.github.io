@@ -125,7 +125,7 @@ a.share-icon:hover {
   text-align: left;
   outline: none;
   transition: 0.2s;
-  background-image: url("/assets/svg/down-open.svg");
+  background-image: url("../svg/down-open.svg");
   background-repeat: no-repeat;
   background-size: 12px 12px;
   background-position: right;
@@ -133,7 +133,7 @@ a.share-icon:hover {
 
 .accordion--active {
   transition: 0.2s;
-  background-image: url("/assets/svg/up-open.svg");
+  background-image: url("../svg/up-open.svg");
 }
 
 .accordion-panel {
@@ -148,12 +148,12 @@ a.share-icon:hover {
 }
 
 .documentation .accordion {
-  background-image: url("/assets/svg/up-open.svg");
+  background-image: url("../svg/up-open.svg");
 }
 
 .documentation .accordion--active {
   transition: 0.2s;
-  background-image: url("/assets/svg/down-open.svg");
+  background-image: url("../svg/down-open.svg");
 }
 
 .tree__heading {
