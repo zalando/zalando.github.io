@@ -12,7 +12,7 @@ banner:
     <div class="article__content">
       <div class="dc-column__contents dc-column__contents--center">
 
-      <h1>Documentation</h1>
+      <h1 class="dc-h1">Documentation</h1>
       
       <h4>Despite widespread use, there are still many misconceptions and uncertainties
       for Zalando employees engaging in Open Source. Questions on legal issues, licensing and what is 
