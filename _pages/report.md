@@ -14,7 +14,7 @@ style="padding-bottom: 0">
       Summary
     </h1>
     <p class="dc-p strategy__subtitle">
-     This report serves as a snapshot of the current open source efforts by Zalando engineering teams and gives us insight into the current state of our projects, contributions and usage of open source inside Zalando. 
+     This report serves as a snapshot of the current open source efforts by Zalando engineering teams and gives us insight into the current state of our projects, contributions and usage of open source inside Zalando as of June 2018. 
     </p>
     <h2 class="dc-h2">
       Key insights
@@ -56,8 +56,6 @@ style="padding-bottom: 0">
     </div>
   </div>
 </section>
-
-<hr>
 
 <section class="dc--text-center page-section page-section--padding stats-overview">
   <div class="dc-container dc-container--limited">
