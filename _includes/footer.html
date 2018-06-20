@@ -29,7 +29,7 @@
           <ul class="footer__list footer__list--social">
             <li>
               <span class="footer__icon">
-                <object data="/assets/svg/mail-alt.svg" type="image/svg+xml"></object>
+                <object data="{{ '/assets/svg/mail-alt.svg' | relative_url }}" type="image/svg+xml"></object>
               </span>
               <a href="mailto:{{site.email}}">
                 {{site.email}}
@@ -37,7 +37,7 @@
             </li>
             <li>
               <span class="footer__icon">
-                <object data="/assets/svg/twitter.svg" type="image/svg+xml"></object>
+                <object data="{{ '/assets/svg/twitter.svg' | relative_url }}" type="image/svg+xml"></object>
               </span>
               <a href="https://twitter.com/{{site.twitter}}" target="_blank">
                 @{{site.twitter}}
@@ -45,7 +45,7 @@
             </li>
             <li>
               <span class="footer__icon">
-                <object data="/assets/svg/rss.svg" type="image/svg+xml"></object>
+                <object data="{{ '/assets/svg/rss.svg' | relative_url }}" type="image/svg+xml"></object>
               </span>
               <a href="https://jobs.zalando.com/tech/blog/?tags=open%20source" target="_blank">
                 Blog
