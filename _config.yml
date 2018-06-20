@@ -10,18 +10,48 @@ baseurl: "/"
 
 markdown: kramdown
 destination: '_site'
-paginate: 5
-permalink: /:year/:month/:title/
+paginate: 4
+paginate_path: /blog/page:num/
+permalink: /blog/:year/:month/:title/
 kramdown:
   input: GFM
   hard_wrap: false
+relative_links:
+  enabled:     true
+  collections: true
+
+
+collections:
+  docs:
+    output: true
+    using:
+      output: true
+      permalink: /:collection/:name
+    releasing:
+      output: true
+      permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "documentation"
 
 plugins:
   - jekyll-paginate
-
+  - jekyll-relative-links
+  
 exclude:
   - 'Gemfile'
   - 'Gemfile.lock'
 
 include:
   - '_pages'
+  - '_posts'
+  - '_docs'

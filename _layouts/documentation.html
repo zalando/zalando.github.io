@@ -1,0 +1,27 @@
+--- 
+layout: default 
+---
+<section class="page-section page-section--padding page-section--border-top">
+  <div class="dc-container dc-container--limited article documentation">
+    <div class="article__content">
+      <div class="dc-column__contents dc-column__contents--center">
+        <h1>{{ page.title }}</h1>
+
+        {{content}}
+
+        <hr>
+
+        <small>
+          Licensed under the MIT license -   
+          <a href="{{site.github.repository_url}}/blob/master/{{page.path}}">Edit this page on github</a>
+        </small>  
+        
+      </div>
+    </div>
+    <div class="article__sidebar">
+      <div class="dc-column__contents dc-column__contents--center">
+        {% include docs-list.html %}
+      </div>
+    </div>
+  </div>
+</section>

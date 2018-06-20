@@ -13,6 +13,7 @@
   --page-section-spacing-bottom: 10rem;
   --language-label-color: #26aafe;
   --language-label-color-active: #75c6ff;
+  --article-content-padding: 6rem;
 }
 
 body {
@@ -33,7 +34,6 @@ body li {
   justify-content: flex-end;
   align-items: center;
   height: 60px;
-  padding: 0 var(--page-side-padding);
 }
 
 .header li {
@@ -58,6 +58,10 @@ body li {
   font-size: 1.5rem;
   padding: 1rem;
   color: var(--primary-font-color);
+}
+
+.dc-tab.header {
+  box-shadow: none;
 }
 
 .page {
@@ -119,6 +123,10 @@ body li {
   border-bottom: 1px solid var(--page-section-border);
 }
 
+.page-section--border-top {
+  border-top: 1px solid var(--page-section-border);
+}
+
 .page-section__header {
   position: relative;
 }
@@ -147,7 +155,7 @@ body li {
   min-height: 250px;
   max-height: 250px;
   padding: var(--page-side-padding);
-  background: url(../img/zalando-people.jpg);
+  background: url(../img/banners/zalando-people.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -474,10 +482,45 @@ body li {
   font-size: 120%
 }
 
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogs__footer {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
 .blog {
-  margin: 0;
+  display: flex;
+  width: 100%;
   border-bottom: 1px solid var(--page-section-border);
+  margin: 0;
   padding: 2rem 0;
+}
+
+.blog--last {
+
+}
+
+.blog__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog__image img {
+  height: 60px;
+}
+
+.blog__content {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: left;
 }
 
 .blog:last-child {
@@ -572,16 +615,15 @@ body li {
   height: 40px;
 }
 
+.footer__wrapper {
+  background: linear-gradient(#ffd1a6, var(--background-color-secondary));
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 4rem var(--page-side-padding);
-  background: linear-gradient(#ffd1a6, var(--background-color-secondary));
-}
-
-.footer__column {
-  margin-right: 100px;
+  padding: 4rem 0;
 }
 
 .footer__title {
