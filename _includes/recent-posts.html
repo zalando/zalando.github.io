@@ -8,7 +8,7 @@
           <div class="blog">
             <div class="blog__image">
               <a href="{{ article.url }}">
-                <img class="blog-box__image" src="{{ imgroot }}{{ article.banner.image }}" />
+                <img class="blog-box__image" src="{{ imgroot | relative_url }}{{ article.banner.image }}" />
               </a>
             </div>
             <div class="blog__content">
@@ -23,7 +23,7 @@
         {% endfor %}
 
         <div class="blogs__footer">
-          <a class="dc-btn" href="/blog">All Posts</a>
+          <a class="dc-btn dc-btn--primary" href="{{ "/blog" | relative_url }}">All Posts</a>
         </div>
       </div>
     </div>
