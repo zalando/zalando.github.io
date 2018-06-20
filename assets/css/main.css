@@ -314,6 +314,31 @@ body li {
 }
 .timeline ul li h4{margin-bottom: 2px}
 
+.insights ul{padding: 0}
+.insights ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-bottom: 20px
+}
+
+.insights ul li div {
+  position: relative;
+  bottom: 0px;
+  width: 500px;
+  padding: 15px;
+}
+
+.insights ul li:nth-child(odd) div {
+  left: -40px;
+  text-align: left
+}
+.insights ul li:nth-child(even) div {
+  left: -460px;
+  text-align: right
+}
+.insights ul li h4{margin-bottom: 2px}
 
 .projects__wrapper {
   min-height: 200px;

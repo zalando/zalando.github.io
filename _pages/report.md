@@ -7,7 +7,54 @@ banner:
   image: lights.jpg
   height: 400px
 ---
-
+<section class="dc--text-center page-section page-section--padding stats-overview">
+  <div class="dc-container dc-container--limited">
+    <h1 class="dc-h1 page-section__header">
+      Summary
+    </h1>
+    <p class="dc-p strategy__subtitle">
+     This report serves as a snapshot of the current open source efforts by Zalando engineering teams and gives us insight into the current state of our projects, contributions and usage of open source inside Zalando. 
+    </p>
+    <h2 class="dc-h2">
+      Key insights
+    </h2>
+    <div class="insights">
+    <ul>
+      <li>
+        <div>
+        <h4 class="dc-h4">We take responsibility for our releases</h4>
+        <p class="dc-p">
+        Number of released projects are decreasing compared to 2015 and 2016 and is expected to stay at 15 new projects per year, this is a deliberate strategy of mastery over open sourcing everything
+        </div>
+      </li>
+      <li>
+        <div>
+        <h4 class="dc-h4">A core group of employees are driving contribution</h4>
+        <p class="dc-p">
+        The number of Zalando employees responsible for 80% of all contribution is low, sitting at 50 employees. It is however normal that a small core group is responsible for the majority of the work. However, we wish to increase the size and diversity of this group.
+        </p>
+        </div>
+      </li>
+      <li>
+        <div>
+        <h4 class="dc-h4">Projects are healthy and compliant</h4>
+        <p class="dc-p">
+        Overall health and compliance of released projects are acceptable, there is a low number of open pull requests and the average time from contribution to acceptance is low at 85 hours. 
+        </p>
+        </div> 
+      </li>
+      <li>
+        <div>
+        <h4 class="dc-h4">We share our infrastructure</h4>
+        <p class="dc-p">
+        Projects released by Zalando are typically developer infrastructure projects released by Digital Foundation teams. Open source engagement for Digital Experience teams are relatively low and we want to grow their engagement.
+        </p>
+        </div>
+      </li>
+    </ul>
+    </div>
+  </div>
+</section>
 
 <section class="dc--text-center page-section page-section--padding stats-overview">
   <div class="dc-container dc-container--limited">
