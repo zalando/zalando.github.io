@@ -4,11 +4,13 @@ title: State Of Open Source @ Zalando
 description: How Far We've Come And Our Plans For The Future Of Zalando Open Source 
 permalink: /report
 banner:
-  image: lights.jpg
+  image: zalando-people.jpg
   height: 400px
 ---
-<section class="dc--text-center page-section page-section--padding stats-overview" 
-style="padding-bottom: 0">
+<section 
+  class="dc--text-center page-section page-section--padding stats-overview" 
+  style="padding-bottom: 0">
+
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">
       Summary
@@ -26,30 +28,31 @@ style="padding-bottom: 0">
         <h4 class="dc-h4">We take responsibility for our releases</h4>
         <p class="dc-p">
         Number of released projects are decreasing compared to 2015 and 2016 and is expected to stay at 15 new projects per year, this is a deliberate strategy of mastery over open sourcing everything
-        </div>
-      </li>
-      <li>
-        <div>
-        <h4 class="dc-h4">A core group of employees are driving contribution</h4>
-        <p class="dc-p">
-        The number of Zalando employees responsible for 80% of all contribution is low, sitting at 50 employees. It is however normal that a small core group is responsible for the majority of the work. However, we wish to increase the size and diversity of this group.
         </p>
         </div>
       </li>
       <li>
         <div>
-        <h4 class="dc-h4">Projects are healthy and compliant</h4>
-        <p class="dc-p">
-        Overall health and compliance of released projects are acceptable, there is a low number of open pull requests and the average time from contribution to acceptance is low at 85 hours. 
-        </p>
+          <h4 class="dc-h4">A core group of employees are driving contribution</h4>
+          <p class="dc-p">
+            The number of Zalando employees responsible for 80% of all contribution is low, sitting at 50 employees. It is however normal that a small core group is responsible for the majority of the work. However, we wish to increase the size and diversity of this group.
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h4 class="dc-h4">Projects are healthy and compliant</h4>
+          <p class="dc-p">
+            Overall health and compliance of released projects are acceptable, there is a low number of open pull requests and the average time from contribution to acceptance is low at 85 hours. 
+          </p>
         </div> 
       </li>
       <li>
         <div>
-        <h4 class="dc-h4">We share our infrastructure</h4>
-        <p class="dc-p">
-        Projects released by Zalando are typically developer infrastructure projects released by Digital Foundation teams. Open source engagement for Digital Experience teams are relatively low and we want to grow their engagement.
-        </p>
+          <h4 class="dc-h4">We share our infrastructure</h4>
+          <p class="dc-p">
+            Projects released by Zalando are typically developer infrastructure projects released by Digital Foundation teams. Open source engagement for Digital Experience teams are relatively low and we want to grow their engagement.
+          </p>
         </div>
       </li>
     </ul>
@@ -218,7 +221,7 @@ page-section--background-highlight" id="os-projects">
     <div class="projects">
 
         <div class="project dc-card">
-        <a href="https://github.com/zalandoresearch/fashion-mnist target="_blank">
+        <a href="https://github.com/zalandoresearch/fashion-mnist" target="_blank">
           <div class="project__header">
             <div class="project__header-content">
               <div class="project__header-content-text">
@@ -462,6 +465,7 @@ page-section--background-highlight" id="os-projects">
 
 <section class="dc--text-center page-section page-section--padding stats-overview">
   <div class="dc-container dc-container--limited">
+  
     <div class="dc-row dc--text-center">
       <div class="dc-column dc-column--small-12" 
         style="background: url(assets/img/report/pr-chart.png) no-repeat bottom; background-size: contain; height: 400px">
@@ -481,13 +485,15 @@ page-section--background-highlight" id="os-projects">
     </div>
 
     <p class="dc-p strategy__subtitle">
-     There is a general high level of open source activity over the whole year, with a constant flow of opened and completed pull requests. However, we see a substantial increase of developer activity in Q2. The root cause of this is unknown but will be investigated further.
+      There is a general high level of open source activity over the whole year, with a constant flow of opened and completed pull requests. However, we see a substantial increase of developer activity in Q2. The root cause of this is unknown but will be investigated further.
     </p>
-
+    
+    </div>
 </section>
 
 
-<section class="dc--text-center page-section page-section--padding page-section--background-white" id="os-projects">
+
+<section class="dc--text-center page-section page-section--padding page-section--background-white">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">Roadmap</h1>
     <p class="dc-p strategy__subtitle">
@@ -532,4 +538,3 @@ page-section--background-highlight" id="os-projects">
       </div>      
   </div>
 </section>
-
