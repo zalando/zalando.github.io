@@ -5,16 +5,22 @@ layout: default
   <div class="dc-container dc-container--limited article documentation">
     <div class="article__content">
       <div class="dc-column__contents dc-column__contents--center">
-        <h1>{{ page.title }}</h1>
+        <h1 class="dc-h1">{{ page.title }} 
+          
+        <a class="github-editbutton dc-btn dc-btn--link" href="{{site.github.repository_url}}/blob/master/{{page.path}}">
+              <img src="{{'assets/svg/github.svg' | relative_url }}" /> Edit on github
+        </a>
+
+        </h1>
 
         {{content}}
 
         <hr>
 
-        <small>
+        <p>
           Licensed under the MIT license -   
-          <a href="{{site.github.repository_url}}/blob/master/{{page.path}}">Edit this page on github</a>
-        </small>  
+          
+        </p>  
         
       </div>
     </div>
