@@ -35,7 +35,10 @@ banner:
         <div>
           <h4 class="dc-h4">A core group of employees are driving contribution</h4>
           <p class="dc-p">
-            The number of Zalando employees responsible for 80% of all contribution is low, sitting at 50 employees. It is however normal that a small core group is responsible for the majority of the work. However, we wish to increase the size and diversity of this group.
+            The number of Zalando employees responsible for 80% of all contribution is low, 
+            sitting at 50 employees. It is however normal that a small core group 
+            is responsible for the majority of the work. 
+            The size and diversity of this group must be increased.
           </p>
         </div>
       </li>
@@ -43,7 +46,11 @@ banner:
         <div>
           <h4 class="dc-h4">Projects are healthy and compliant</h4>
           <p class="dc-p">
-            Overall health and compliance of released projects are acceptable, there is a low number of open pull requests and the average time from contribution to acceptance is low at 85 hours. 
+            Overall health and compliance of released projects are acceptable, 
+            there is a low number of open pull requests and the average time 
+            from contribution to acceptance is low at 85 hours. We do however see a low 
+            number of projects with a code of conduct. We will actively work on making 
+            this a requirement. 
           </p>
         </div> 
       </li>
@@ -51,7 +58,11 @@ banner:
         <div>
           <h4 class="dc-h4">We share our infrastructure</h4>
           <p class="dc-p">
-            Projects released by Zalando are typically developer infrastructure projects released by Digital Foundation teams. Open source engagement for Digital Experience teams are relatively low and we want to grow their engagement.
+            Projects released by Zalando are typically developer infrastructure projects 
+            released by 
+            <abbr title="Teams responsible for our infrastructure and developer tooling">Digital Foundation</abbr> teams. Open source engagement for 
+            <abbr title="Teams responsible for building the zalando fashion store">Digital Experience</abbr> teams are relatively 
+            low and we want to increase their engagement.
           </p>
         </div>
       </li>
@@ -66,9 +77,18 @@ banner:
       At a glance...
     </h1>
     <p class="dc-p strategy__subtitle">
-     There is a strong culture of Open Source at Zalando. Our engineers are expected to participate in open source and our entire tech stack is built on 
-     a foundation of Open Source projects. We therefore see a strong participation in our own projects and a desire among Zalandos to share their work with the wider open source community.
+     There is a strong culture of Open Source at Zalando. Our engineers are expected to participate in 
+     open source and our entire tech stack is built on a foundation of Open Source projects. 
+     
+     We therefore see a strong participation in our own projects and a desire among Zalandos 
+     to share their work with the wider open source community.
     </p>
+
+    <p class="dc-p strategy__subtitle">
+      We also see challenges: not every department at Zalando have equal possibility to participation, 
+      internal process and legal grey areas can limit access, finally we see  
+    </p>
+
     <br>
     <div class="dc-row">
       <div class="dc-column">
@@ -107,9 +127,12 @@ page-section--background-highlight" id="os-projects">
     <h1 class="dc-h1 page-section__header page-section__header--center">From everything to mastery</h1>
     <p class="dc-p strategy__subtitle">
 
-     Our open source strategy has evolved from "open source all the things" to a focus of mastery. We wish to set a high standard for the projects we release, both in terms of code quality, but also how we take ownership and responsibility for the community and health of a project long term.
-     Any project that Zalando open sources have clear ownership and a long term vision for it's development and maintance. 
+     Our open source strategy has evolved from "open source all the things" to a focus of mastery. 
+     We set a high standard for the projects we release, both in terms of code quality, 
+     but also how we take ownership and responsibility for the community and health of a project long term.
      
+     Any project that Zalando open sources have clear ownership and a long term vision for it's 
+     development and maintance. 
     </p>
     <div class="dc-row dc-center dc-row--align-bottom">
       <div class="dc-column statistics--chart">
@@ -148,7 +171,11 @@ page-section--background-highlight" id="os-projects">
     <h1 class="dc-h1 page-section__header dc--text-center">Top contributors</h1>
 
     <p class="dc-p strategy__subtitle dc--text-center">
-      While open source is encoraged at Zalando, it is a small number of contributors which drives the majority of all open source contributions. Just <b>17 Zalando employees are responsible for 50%</b> of all commits made, and <b>80% of all open sourced Zalando code is contributed by 50 employees</b>. 
+      While open source is encouraged at Zalando, it is a small number of contributors who drives 
+      the majority of all open source contributions. 
+
+      Just <b>17 Zalando employees are responsible for 50%</b> of all commits made, and <b>80% of all open 
+      sourced Zalando code is contributed by 50 employees</b>. 
     </p>
 
     <div class="dc-row dc-center">
@@ -215,7 +242,11 @@ page-section--background-highlight" id="os-projects">
   <div class="dc-container dc-container--limited dc--text-center ">
     <h1 class="dc-h1 page-section__header page-section__header--center">What we share</h1>
     <p class="dc-p strategy__subtitle">
-     Zalando engineering share a wide range of projects in areas such as container orchestration with Kubernetes, scalable testing, microservice architecture and datasets for the fashion industry. Below projects are all key parts of Zalando infrastructure and help drive our business forward, and with their growing communities and openness great examples of Zalando culture. 
+     Zalando engineering share a wide range of projects in areas such as container 
+     orchestration with Kubernetes, scalable testing, microservice architecture and datasets 
+     for the fashion industry. Below projects are all key parts of Zalando infrastructure 
+     and help drive our business forward, and with their growing communities and openness 
+     great examples of Zalando culture. 
     </p>
     <div class="projects__wrapper">
     <div class="projects">
@@ -436,28 +467,35 @@ page-section--background-highlight" id="os-projects">
                   <h1 class="dc-h1">45%</h1>
                   <h4 class="dc-h4">Of our members are contributing</h4>
                   <p class="dc-p">Out of the current 426 people in Zalando organisations on GitHub, 
-                    nearly half of them have made an accepted code contribution to a Zalando open source 
-                    project
+                    nearly half of them have made an accepted code contribution to a 
+                    Zalando open source project.
                   </p>
                 </div>
 
                 <div class="dc-column dc-column--small-6">
                     <h1 class="dc-h1">12,308</h1>
                     <h4 class="dc-h4">Pull requests submitted</h4>
-                    <p class="dc-p">For all current projects, there has been made a total of 12.308 contributions, there are currently 200 open requests which are awaiting review from project owners</p>
+                    <p class="dc-p">For all current projects, there has been made a total of 
+                      12.308 contributions, there are currently 200 open requests which 
+                      are awaiting a review from project owners</p>
                 </div>
 
                 <div class="dc-column dc-column--small-6">
                     <h1 class="dc-h1">187</h1>
                     <h4 class="dc-h4">Contributions made to techradar projects</h4>
-                    <p class="dc-p">Zalandos contribute to <a href="https://opensource.zalando.com/tech-radar/">Techradar projects on the Adopt tier</a>, which have a high strategic value to Zalando</p>
+                    <p class="dc-p">Zalandos contribute to projects on the  
+                      <a href="https://opensource.zalando.com/tech-radar/">Techradar 
+                       "Adopt" tier</a>, which are part of our tech stack and have a high strategic 
+                       value to Zalando</p>
                 </div>
 
                 <div class="dc-column dc-column--small-6">
                   <h1 class="dc-h1">85 Hours</h1>
                   <h4 class="dc-h4">Average time to get a pull request merged</h4>
                   <p class="dc-p">
-                    The average merge time is low compared to the wider open source community. It is a strong indicator our maintainers are responsive and available to contributors. 
+                    The average merge time is low compared to the wider open source 
+                    community. It is a strong indicator our maintainers are 
+                    responsive and available to contributors. 
                   </p>
                 </div>
             </div>
@@ -564,3 +602,19 @@ page-section--background-highlight" id="os-projects">
       </div>      
   </div>
 </section>
+
+<section class="dc--text-center page-section page-section--padding page-section--background-white team" id="os-team">
+    <div class="dc-container dc-container--limited">
+      <h1 class="dc-h1 page-section__header">Published By The Zalando Open Source Team</h1>
+      <div id="os-team-data" class="users"></div>
+    </div>
+  </section>
+  
+  <script src="{{ 'components/user.js' | relative_url }}" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    async function init() {
+      displayTeam();
+    }
+    init();
+  </script>
