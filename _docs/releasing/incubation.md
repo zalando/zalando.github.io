@@ -7,14 +7,13 @@ banner:
 category: Releasing
 ---
 
-#### This section describes all the minimum requirements that all new projects must meet before they will be fully accepted into the main Zalando Github organisation.
+#### This section describes all the minimum requirements that all new projects must meet before they will be fully accepted into the main Zalando Github organization.
 
 ### Summary
 
-- Quality indicators for incubator projects
-- Review of activity
-- Review assessment
-- Graduation
+- be a good open source citizen by meeting the project requirements
+- All projects will be reviewed by the open source review group during incubation
+- Incubator projects will get a maturity assessment to determine if they are ready for graduation
 
 ---
 
@@ -23,14 +22,14 @@ category: Releasing
 Before your start thinking about graduation, you need to make sure you are ready and meet the following requirements.
 
 - Have a clear vision and a long term plan for your project
-- Commit to be part of the Zalando Github organisation
+- Commit to be part of the Zalando Github organization
 - Project is used and benefits to Zalando
 - Have multiple maintainers from diverse background and URM (under represented minority)
 - Project is compliant and has all the necessary documentation
 
 All these acts have an influence on your project getting graduated.
 
-### Review of activity
+### Review of incubation activity
 
 Each project in the incubator shall undergo a regular review of progress by the Review Group. Such reviews shall occur at least quarterly. The Review Group may choose to review individual projects with greater frequency. At least one week prior to each review, the Mentor must produce a report for the Review Group detailing overall progress with a focus on the preceding review period.
 
@@ -41,7 +40,7 @@ The Review Group will be interested in the following points for the status check
 - Accepts contributions
 - Responds to Issues, Pull Requests etc.
 
-### Review assessment
+### Incubation assessment
 
 After each review, the Review Group shall produce an assessment of the project. The assessment shall contain one of three recommendations:
 
