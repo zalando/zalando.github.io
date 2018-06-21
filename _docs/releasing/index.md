@@ -36,7 +36,7 @@ Anything that risks Zalando’s competitive advantage is not permissible for pub
 * recommendation algorithms
 * search functionalities that give us an edge over competitors
 
-If you are in doubt, reach out to the Zalando Open Source Team or talk to your lead.
+If you are in doubt, reach out to the Zalando [Open Source Team](/docs/resources/open-source-team/) or talk to your lead.
 
 
 ## Compliance
@@ -99,7 +99,7 @@ Preparing a repository for open sourcing goes beyond ensuring it is in complianc
 
 ## Review
 
-When you have checked off the compliance checklist and prepared your code for release, request a review from the Open Source Review Group who will help you setup a Github repository and sign off on open sourcing your code.
+When you have checked off the compliance checklist and prepared your code for release, request a review from the [Open Source Review Group](/docs/resources/open-source-review-group/) who will help you setup a Github repository and sign off on open sourcing your code.
 
 
 ## Release
