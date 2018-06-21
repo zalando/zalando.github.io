@@ -124,7 +124,7 @@ a.share-icon:hover {
 }
 .github-editbutton:hover{
   border: 1px solid black;
-  box-shadow: none;
+  box-shadow: none !important;
 }
 .github-editbutton img{width: 13px; height: 13px}
 
