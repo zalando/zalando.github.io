@@ -9,9 +9,9 @@
       </li>
       
       <li class="dc-tab__element {% if page.path == '_pages/projects.md' %}dc-tab__element--active {% endif %}"><a href="/projects">Projects</a></li>
-      <!-- li class="dc-tab__element {% if page.collection == "docs" %}dc-tab__element--active{% endif %}"><a href="/docs">Docs</a></li -->
+      <li class="dc-tab__element {% if page.collection == "docs" %}dc-tab__element--active{% endif %}"><a href="/docs">Docs</a></li>
       
-      <li class="dc-tab__element {% if page.collection == "posts" %}dc-tab__element--active{% endif %}"><a href="/blog">Blog</a></li>
+      <li class="dc-tab__element {% if page.collection == "posts" or page.path == 'blog/index.html'  %}dc-tab__element--active{% endif %}"><a href="/blog">Blog</a></li>
       <li class="dc-tab__element"><a href="/#os-goals">Purpose</a></li>
       <li class="dc-tab__element"><a href="/#os-jobs">Jobs</a></li>
 

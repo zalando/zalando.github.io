@@ -25,7 +25,7 @@ There are 2 primary organizations which act as the central source for Zalando op
 
 * [Zalando-Incubator](https://github.com/zalando-incubator) - Incubator of new projects which have not yet matured enough to be on the main org.
 * [Zalando](https://github.com/zalando) - The primary organization hosting mature projects already graduated from the incubator
-* [Zalando-Research](https://github.com/zalandoresearch) - Organization hosting data and projects released by the Zalando research team
+* [ZalandoResearch](https://github.com/zalandoresearch) - Organization hosting data and projects released by the Zalando research team
 * [Zalando-Nakadi](https://github.com/zalando-nakadi) - Projects related to Nakadi - a distributed event bus
 * [Zalando-ZMON](https://github.com/zalando-zmomn) - Projects related to ZMON - Our realtime monitoring project
 * [Zalando-STUPS](https://github.com/zalando-stups) - Projects related to the Zalando STUPS platform

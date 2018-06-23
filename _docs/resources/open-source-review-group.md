@@ -13,7 +13,7 @@ Help developers understand the security, compliance, and reputation risks around
 Act as a mentorship program for new incubator projects to ensure they grow and mature. Ensure that the group of project maintainers grows in size and in diversity. [Guidelines for the review group]() is publicly available.
 
 ## Get in touch
-The review group consists of members of multiple teams at Digital Experience at Zalando and can be reached via [oss-review@zalando.de](mailto:oss-review@zalando.de) or via the team discussions forum on [github.com/zalando](https://github.com/zalando).
+The review group consists of members of multiple engineering teams at Zalando and can be reached via [oss-review@zalando.de](mailto:oss-review@zalando.de) or via the team discussions forum on [github.com/zalando](https://github.com/zalando).
 
 ---
 

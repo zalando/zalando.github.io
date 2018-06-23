@@ -9,9 +9,6 @@ category: Releasing
 
 #### This is the process for how Zalando employees release a new open source project on the [Zalando-Incubator](../github). The process is simple and the open source team is ready to help you every step of the way.
 
-
-[Request a review](link)
-
 ---
 
 ## Overview
@@ -39,7 +36,7 @@ Anything that risks Zalando’s competitive advantage is not permissible for pub
 * recommendation algorithms
 * search functionalities that give us an edge over competitors
 
-If you are in doubt, reach out to the Zalando Open Source Team or talk to your lead.
+If you are in doubt, reach out to the Zalando [Open Source Team](/docs/resources/open-source-team/) or talk to your lead.
 
 
 ## Compliance
@@ -48,7 +45,7 @@ Compliance covers the area of ensuring that we follow a safe and consistent prac
 
 ### Rules of play
 
-All open source projects must comply with Zalandos [Rules Of Play](https://rulesofplay.docs.zalando.net/)(internal link), as well as the open source specific rules of play, which applies to code that any Zalando employee releases. There are 2 areas which the rules cover:
+All open source projects must comply with Zalandos [Rules Of Play](https://rulesofplay.docs.zalando.net/)(internal link), as well as the open source specific rules of play, which applies to code that any Zalando employee releases. There are 3 areas which the rules cover:
 
 * Including the right files for licensing, documentation and ownership of the project
 * Following the right procedure for how you create and release code
@@ -63,7 +60,7 @@ Use [new-project](https://github.com/perploug/new-project)(TODO: move to zalando
 3.  Include a `CONTRIBUTION.md` file with guidelines on how to contribute
 4.  Include a `SECURITY.md` file
 5.  Add a `LICENSE.md` file, license must be the MIT license with the copyright set to Zalando SE
-6.  Ensure you only use license-compatible code/dependencies (see [licensing](../using/licensing.md)
+6.  Ensure you only use license-compatible code/dependencies (see [licensing](../../resources/licensing)))
 
 #### Use proper procedure for collaboration
 
@@ -71,7 +68,8 @@ Use [new-project](https://github.com/perploug/new-project)(TODO: move to zalando
 2.  Sign every commit, as per the [CDO](https://developercertificate.org/) - PGP signing is not required
 3.  Ensure that no credentials, private identifiers or personal data is at any time present in your repository
 4.  Enforce code-reviews with at least 2 sets of Zalando eyes on all code to minimize the risk of implanted security backdoors and vulnerable code.
-
+5. Ensure there is an active team of maintainers of at least 2 Zalandos taking ownership of the project
+6. 
 ### Community best practices
 
 Besides the rules of play, there is also a set of best practices which we highly recommend you implement.
@@ -101,10 +99,8 @@ Preparing a repository for open sourcing goes beyond ensuring it is in complianc
 
 ## Review
 
-When you have checked off the compliance checklist and prepared your code for release, request a review from the Open Source Review Group who will help you setup a Github repository and sign off on open sourcing your code.
+When you have checked off the compliance checklist and prepared your code for release, request a review from the [Open Source Review Group](/docs/resources/open-source-review-group/) who will help you setup a Github repository and sign off on open sourcing your code.
 
-
-#### [Request a review](link)
 
 ## Release
 
