@@ -1,0 +1,125 @@
+.horizontal-chart-bar{
+  padding: 4px;
+  background: #fff;
+  color: var(--zalando-orange);
+  position: relative;
+}
+
+.horizontal-chart-bar--left::after {
+  content:"";
+  position: absolute;
+  top:0;
+  right:100%;
+  height:0;
+  width:0;
+  border: medium solid white;
+  border-width: 16px 16px 16px 0px;
+  border-color: transparent white transparent transparent;
+}
+
+.horizontal-chart-bar--right::after {
+  content:"";
+  position: absolute;
+  top:0;
+  left:100%;
+  height:0;
+  width:0;
+  border: medium solid white;
+  border-width: 16px 0 16px 16px;
+  border-color: transparent transparent transparent white;
+}
+
+.timeline ul{padding: 0}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: var(--zalando-orange);
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: -40px;
+  width: 400px;
+  padding: 15px;
+  background: var(--background-color-secondary);
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 40px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 12px 16px 12px 0;
+  border-color: transparent var(--background-color-secondary) transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 12px 0 12px 16px;
+  border-color: transparent transparent transparent var(--background-color-secondary);
+}
+
+.timeline ul li h4{margin-bottom: 2px}
+
+.insights ul{padding: 0}
+
+.insights ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-bottom: 20px
+}
+
+.insights ul li div {
+  position: relative;
+  bottom: 0px;
+  width: 500px;
+  padding: 15px;
+}
+
+.insights ul li:nth-child(odd) div {
+  left: -40px;
+  text-align: left
+}
+
+.insights ul li:nth-child(even) div {
+  left: -460px;
+  text-align: right
+}
+
+.insights ul li h4{margin-bottom: 2px}
+
+.report-activity .dc-h1{
+  font-size: 6rem
+}
