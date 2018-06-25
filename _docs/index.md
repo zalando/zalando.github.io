@@ -37,11 +37,11 @@ banner:
         maintain a project</p>
         </li>
 
-        <li><a href="reports/june-2018">State of open source at Zalando</a> <br>
+        <li><a href="docs/reports/june-2018">State of open source at Zalando</a> <br>
           <p>The latest report on how open source is doing at Zalando with key numbers and insights, as well
             as a roadmap forward. 
           </p>
-          </li>
+        </li>
 
 
       </ul>
