@@ -1,34 +1,3 @@
-.horizontal-chart-bar{
-  padding: 4px;
-  background: #fff;
-  color: var(--zalando-orange);
-  position: relative;
-}
-
-.horizontal-chart-bar--left::after {
-  content:"";
-  position: absolute;
-  top:0;
-  right:100%;
-  height:0;
-  width:0;
-  border: medium solid white;
-  border-width: 16px 16px 16px 0px;
-  border-color: transparent white transparent transparent;
-}
-
-.horizontal-chart-bar--right::after {
-  content:"";
-  position: absolute;
-  top:0;
-  left:100%;
-  height:0;
-  width:0;
-  border: medium solid white;
-  border-width: 16px 0 16px 16px;
-  border-color: transparent transparent transparent white;
-}
-
 .timeline ul{padding: 0}
 
 .timeline ul li {
@@ -91,40 +60,98 @@
 
 .timeline ul li h4{margin-bottom: 2px}
 
-.insights {
+.insights,
+.contributors {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.insight {
-  flex-basis: 100%;
-  display: flex;
-  text-align: left;
-}
-
-.insight__container {
+.insight__container,
+.contributor__container {
   flex-basis: 50%;
 }
 
-.insights .insight:nth-child(even) {
+.insight,
+.contributor {
+  flex-basis: 100%;
+  display: flex;
+  text-align: justify;
+}
+
+.insight:nth-child(even),
+.contributor:nth-child(even) {
   justify-content: flex-end;
 }
 
-.insights .insight:nth-child(odd) {
+.insight:nth-child(odd),
+.contributor:nth-child(odd) {
   justify-content: flex-start;
+}
+
+.insight__title {
+  font-weight: bold;
+}
+
+.contributor__container {
+  display: flex;
+}
+
+.contributor:nth-child(odd) .contributor__container {
+  flex-direction: row-reverse;
+}
+
+.contributor__name {
+  margin-bottom: 0;
+}
+
+.contributor__commits {
+  padding: 4px;
+  background: #fff;
+  color: var(--zalando-orange);
+  position: relative;
+  text-align: center;
 }
 
 .report-activity .dc-h1{
   font-size: 6rem
 }
 
-@media (max-width: 768px) {
-  .insight {
-    text-align: center;
+@media (min-width: 1024px) {
+  .contributor__commits--left::after {
+    content:"";
+    position: absolute;
+    top:0;
+    right:100%;
+    height:0;
+    width:0;
+    border: medium solid white;
+    border-width: 16px 16px 16px 0px;
+    border-color: transparent white transparent transparent;
   }
 
-  .insight__container {
+  .contributor__commits--right::after {
+    content:"";
+    position: absolute;
+    top:0;
+    left:100%;
+    height:0;
+    width:0;
+    border: medium solid white;
+    border-width: 16px 0 16px 16px;
+    border-color: transparent transparent transparent white;
+  }
+}
+
+@media (max-width: 768px) {
+  .insight__container,
+  .contributor__container {
     flex-basis: 100%;
+  }
+
+  .contributor:nth-child(odd) .contributor__container,
+  .contributor__container {
+    flex-direction: column;
+    align-items: center;
   }
 }
