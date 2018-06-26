@@ -26,6 +26,10 @@ body a {
   text-decoration: none;
 }
 
+body ul {
+  padding: 0;
+}
+
 body li {
   list-style-type: none;
 }
