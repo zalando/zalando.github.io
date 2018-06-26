@@ -130,6 +130,14 @@ body li {
   border-top: 1px solid var(--page-section-border);
 }
 
+.page-section--no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.page-section--no-padding-top {
+  padding-top: 0;
+}
+
 .page-section__header {
   position: relative;
 }
@@ -189,14 +197,10 @@ body li {
 
 .banner__content .dc-h1 {
   color: white;
-  font-size: 300%;
-  font-weight: 200;
 }
 
 .banner__content .dc-h2 {
   color: white;
-  font-size: 200%;
-  font-weight: 200;
 }
 
 .banner--projects .banner__content .dc-h2 {
@@ -611,6 +615,10 @@ body li {
     font-size: 20px;
   }
 
+  .banner {
+    padding: 1rem;
+  }
+
   .header li {
     flex-basis: 100%;
   }
@@ -622,6 +630,16 @@ body li {
 }
 
 @media (min-width: 1024px) {
+  .banner__content .dc-h1 {
+    font-size: 300%;
+    font-weight: 200;
+  }
+
+  .banner__content .dc-h2 {
+    font-size: 200%;
+    font-weight: 200;
+  }
+
   .header {
     height: 60px;
   }
