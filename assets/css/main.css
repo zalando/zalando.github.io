@@ -239,7 +239,7 @@ body li {
 }
 
 .statistics--chart .chart-bar{
-  width: 50%;
+  width: 70%;
   background: var(--zalando-orange);
   margin: 0 auto;
 }
@@ -373,6 +373,14 @@ body li {
   margin-top: var(--page-section-header-spacing-bottom);
   margin-bottom: var(--page-section-header-spacing-bottom);
   font-size: 120%
+}
+
+@media (max-width: 768px) { 
+
+  .strategy__subtitle {
+    font-size: 100%
+  }
+
 }
 
 .blogs {
@@ -624,8 +632,8 @@ body li {
   }
 
   .page-section--padding {
-    padding-left: calc(var(--page-side-padding) / 2);
-    padding-right: calc(var(--page-side-padding) / 2);
+    padding-left: calc(var(--page-side-padding) / 5);
+    padding-right: calc(var(--page-side-padding) / 5);
   }
 }
 
