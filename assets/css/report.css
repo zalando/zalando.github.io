@@ -22,13 +22,13 @@
 .insight:nth-child(even),
 .contributor:nth-child(even),
 .timeline__item:nth-child(even) {
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .insight:nth-child(odd),
 .contributor:nth-child(odd),
 .timeline__item:nth-child(odd) {
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .contributor__container,
@@ -37,8 +37,16 @@
   position: relative;
 }
 
-.contributor:nth-child(odd) .contributor__container,
-.timeline__item:nth-child(odd) .timeline__container {
+.insight__container {
+  padding: 2rem;
+}
+
+.insight__title {
+  margin-bottom: 2px;
+}
+
+.contributor:nth-child(even) .contributor__container,
+.timeline__item:nth-child(even) .timeline__container {
   flex-direction: row-reverse;
 }
 
@@ -59,6 +67,10 @@
   background: #fff;
   position: relative;
   text-align: center;
+}
+
+.timeline__title {
+  margin-bottom: 2px;
 }
 
 .timeline__circle {
@@ -138,40 +150,42 @@
   }
 
   .timeline__item:nth-child(odd) .timeline__container {
-    right: -18px;
+    right: 13px;
   }
 
   .timeline__item:nth-child(even) .timeline__container {
-    left: -13px;
+    left: 18px;
   }
 
-  .contributor:nth-child(odd) .contributor__container {
+  .timeline__item:nth-child(odd) .timeline__content {
+    right: -22px;
+    top: 16px;
+  }
+
+  .timeline__item:nth-child(even) .timeline__content {
+    left: -22px;
+    top: 16px;
+  }
+
+  .contributor:nth-child(even) .contributor__container {
     right: -50px;
     text-align: right;
   }
 
-  .contributor:nth-child(even) .contributor__container {
+  .contributor:nth-child(odd) .contributor__container {
     left: -50px;
-  }
-
-  .insight:nth-child(odd) .insight__container {
-    position: relative;
-    right: -68px;
-    text-align: right;
   }
 
   .insight:nth-child(even) .insight__container {
     position: relative;
-    left: -68px;
+    right: -50px;
+    text-align: right;
+  }
+
+  .insight:nth-child(odd) .insight__container {
+    position: relative;
+    left: -50px;
     text-align: left;
-  }
-
-  .timeline__item:nth-child(odd) .timeline__content {
-    right: 22px;
-  }
-
-  .timeline__item:nth-child(even) .timeline__content {
-    left: 22px;
   }
 }
 
