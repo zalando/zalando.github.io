@@ -108,7 +108,6 @@ body li {
   color: #fff;
 }
 
-
 .page-section--padding {
   padding-left: var(--page-side-padding);
   padding-right: var(--page-side-padding);
@@ -610,6 +609,11 @@ body li {
 
   .header li {
     flex-basis: 100%;
+  }
+
+  .page-section--padding {
+    padding-left: calc(var(--page-side-padding) / 2);
+    padding-right: calc(var(--page-side-padding) / 2);
   }
 }
 

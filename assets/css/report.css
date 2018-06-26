@@ -91,35 +91,40 @@
 
 .timeline ul li h4{margin-bottom: 2px}
 
-.insights ul{padding: 0}
-
-.insights ul li {
-  list-style-type: none;
-  position: relative;
-  width: 6px;
-  margin: 0 auto;
-  padding-bottom: 20px
+.insights {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.insights ul li div {
-  position: relative;
-  bottom: 0px;
-  width: 500px;
-  padding: 15px;
+.insight {
+  flex-basis: 100%;
+  display: flex;
+  text-align: left;
 }
 
-.insights ul li:nth-child(odd) div {
-  left: -40px;
-  text-align: left
+.insight__container {
+  flex-basis: 50%;
 }
 
-.insights ul li:nth-child(even) div {
-  left: -460px;
-  text-align: right
+.insights .insight:nth-child(even) {
+  justify-content: flex-end;
 }
 
-.insights ul li h4{margin-bottom: 2px}
+.insights .insight:nth-child(odd) {
+  justify-content: flex-start;
+}
 
 .report-activity .dc-h1{
   font-size: 6rem
+}
+
+@media (max-width: 768px) {
+  .insight {
+    text-align: center;
+  }
+
+  .insight__container {
+    flex-basis: 100%;
+  }
 }
