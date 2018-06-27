@@ -195,6 +195,34 @@
     margin-right: 2rem;
   }
 
+  .contributor__details-width--largest {
+    width: 100%;
+  }
+
+  .contributor__details-width--larger {
+    width: 80%;
+  }
+
+  .contributor__details-width--large {
+    width: 60%;
+  }
+
+  .contributor__details-width--medium {
+    width: 50%;
+  }
+
+  .contributor__details-width--smaller {
+    width: 45%;
+  }
+
+  .contributor__details-width--small {
+    width: 40%;
+  }
+
+  .contributor__details-width--smallest {
+    width: 30%;
+  }
+
   .insight:nth-child(even) .insight__container {
     position: relative;
     right: -50px;

@@ -375,7 +375,7 @@ body li {
   font-size: 120%
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
   .strategy__subtitle {
     font-size: 100%
@@ -635,9 +635,17 @@ body li {
     padding-left: calc(var(--page-side-padding) / 5);
     padding-right: calc(var(--page-side-padding) / 5);
   }
+
+  .footer {
+    justify-content: flex-start;
+  }
+
+  .footer__column {
+    flex-basis: 50%;
+  }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 769px) {
   .banner__content .dc-h1 {
     font-size: 300%;
     font-weight: 200;
