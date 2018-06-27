@@ -1,0 +1,241 @@
+.insights,
+.contributors,
+.timeline__items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.insight,
+.contributor,
+.timeline__item {
+  flex-basis: 100%;
+  display: flex;
+}
+
+.insight__container,
+.contributor__container,
+.timeline__container {
+  flex-basis: 50%;
+}
+
+.insight:nth-child(even),
+.contributor:nth-child(even),
+.timeline__item:nth-child(even) {
+  justify-content: flex-start;
+}
+
+.insight:nth-child(odd),
+.contributor:nth-child(odd),
+.timeline__item:nth-child(odd) {
+  justify-content: flex-end;
+}
+
+.contributor__container,
+.timeline__container {
+  display: flex;
+  position: relative;
+}
+
+.insight__container {
+  padding: 2rem;
+}
+
+.insight__title {
+  margin-bottom: 2px;
+}
+
+.contributor:nth-child(even) .contributor__container,
+.timeline__item:nth-child(even) .timeline__container {
+  flex-direction: row-reverse;
+}
+
+.contributor__name {
+  margin-bottom: 0;
+}
+
+.contributor__commits {
+  padding: 4px;
+  background: #fff;
+  color: var(--zalando-orange);
+  position: relative;
+  text-align: center;
+}
+
+.timeline__content {
+  padding: 2rem;
+  background: #fff;
+  position: relative;
+  text-align: center;
+  max-width: 400px;
+}
+
+.timeline__title {
+  margin-bottom: 2px;
+}
+
+.timeline__circle {
+  display: flex;
+  align-items: center;
+}
+
+.timeline__number {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: var(--zalando-orange);
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline__items {
+  position: relative;
+  z-index: 2;
+}
+
+.timeline__bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 6px;
+  background: var(--page-section-header-underline);
+  z-index: 1;
+}
+
+.activity {
+  margin-top: 4rem;
+}
+
+.activity__number,
+.overview__number {
+  font-size: 4rem;
+}
+
+@media (min-width: 769px) {
+  .activity__number,
+  .overview__number {
+    font-size: 6rem;
+  }
+
+  .contributor__commits--left::after,
+  .timeline__content--left::after,
+  .contributor__commits--right::after,
+  .timeline__content--right::after {
+    content: '';
+    position: absolute;
+    height:0;
+    width:0;
+    border: medium solid white;
+  }
+
+  .contributor__commits--left::after,
+  .timeline__content--left::after {
+    right:100%;
+    border-width: 16px 16px 16px 0px;
+    border-color: transparent white transparent transparent;
+  }
+
+  .contributor__commits--right::after,
+  .timeline__content--right::after {
+    left:100%;
+    border-width: 16px 0 16px 16px;
+    border-color: transparent transparent transparent white;
+  }
+
+  .contributor__commits--left::after,
+  .contributor__commits--right::after {
+    top: 0;
+  }
+
+  .timeline__content--left::after,
+  .timeline__content--right::after {
+    bottom: 50%;
+  }
+
+  .timeline__item:nth-child(odd) .timeline__container {
+    right: 13px;
+  }
+
+  .timeline__item:nth-child(even) .timeline__container {
+    left: 18px;
+  }
+
+  .timeline__item:nth-child(odd) .timeline__content {
+    right: -22px;
+    top: 16px;
+  }
+
+  .timeline__item:nth-child(even) .timeline__content {
+    left: -22px;
+    top: 16px;
+  }
+
+  .contributor:nth-child(even) .contributor__container {
+    right: -50px;
+    text-align: right;
+  }
+
+  .contributor:nth-child(odd) .contributor__container {
+    left: -50px;
+  }
+
+  .contributor:nth-child(odd) .contributor__details {
+    margin-left: 2rem;
+  }
+
+  .contributor:nth-child(even) .contributor__details {
+    margin-right: 2rem;
+  }
+
+  .insight:nth-child(even) .insight__container {
+    position: relative;
+    right: -50px;
+    text-align: right;
+  }
+
+  .insight:nth-child(odd) .insight__container {
+    position: relative;
+    left: -50px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .insight__container,
+  .contributor__container,
+  .timeline__container {
+    flex-basis: 100%;
+  }
+
+  .contributor:nth-child(even) .contributor__container,
+  .contributor__container,
+  .timeline__item:nth-child(even) .timeline__container,
+  .timeline__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline__item,
+  .timeline__content,
+  .contributor {
+    margin-top: 20px;
+  }
+
+  .timeline__circle {
+    left: 3px;
+    position: relative;
+  }
+
+  .contributor__commits {
+    background: transparent;
+    color: var(--primary-font-color);
+  }
+}

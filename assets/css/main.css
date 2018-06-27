@@ -19,10 +19,15 @@
 body {
   background: white;
   font-family: "Arial";
+  font-size: 16px;
 }
 
 body a {
   text-decoration: none;
+}
+
+body ul {
+  padding: 0;
 }
 
 body li {
@@ -31,14 +36,8 @@ body li {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
-  align-items: center;
-  height: 60px;
-}
-
-.header li {
-  height: 100%;
-  display: flex;
   align-items: center;
 }
 
@@ -52,6 +51,11 @@ body li {
 
 .header__logo a {
   display: flex;
+}
+
+.header li {
+  display: flex;
+  align-items: center;
 }
 
 .header li a {
@@ -100,6 +104,14 @@ body li {
   background: linear-gradient(#e6f4ff, var(--background-color-secondary));
 }
 
+.page-section--background-highlight {
+  background-color: var(--zalando-orange);
+  color: #fff;
+}
+.page-section--background-highlight * {
+  color: #fff;
+}
+
 .page-section--padding {
   padding-left: var(--page-side-padding);
   padding-right: var(--page-side-padding);
@@ -116,6 +128,14 @@ body li {
 
 .page-section--border-top {
   border-top: 1px solid var(--page-section-border);
+}
+
+.page-section--no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.page-section--no-padding-top {
+  padding-top: 0;
 }
 
 .page-section__header {
@@ -177,14 +197,10 @@ body li {
 
 .banner__content .dc-h1 {
   color: white;
-  font-size: 300%;
-  font-weight: 200;
 }
 
 .banner__content .dc-h2 {
   color: white;
-  font-size: 200%;
-  font-weight: 200;
 }
 
 .banner--projects .banner__content .dc-h2 {
@@ -213,6 +229,21 @@ body li {
   margin-bottom: 0;
 }
 
+.statistics--chart  {
+  height: 30rem;
+  vertical-align: bottom;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.statistics--chart .chart-bar{
+  width: 70%;
+  background: var(--zalando-orange);
+  margin: 0 auto;
+}
+
 .projects__wrapper {
   min-height: 200px;
   position: relative;
@@ -224,12 +255,9 @@ body li {
 
 .project {
   flex-grow: 1;
-  min-width: 280px;
-  max-width: calc(33% - 10px);
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-right: 10px;
   margin-top: var(--page-section-header-spacing-bottom);
   background-repeat: no-repeat;
   background-position: center;
@@ -347,6 +375,14 @@ body li {
   font-size: 120%
 }
 
+@media (max-width: 768px) { 
+
+  .strategy__subtitle {
+    font-size: 100%
+  }
+
+}
+
 .blogs {
   display: flex;
   flex-wrap: wrap;
@@ -432,6 +468,11 @@ body li {
   background-position: center;
   color: #fff;
   font-size: 3rem;
+}
+
+.user__icon--contributors{
+  height: 100px;
+  width: 100px;
 }
 
 .user__title {
@@ -575,4 +616,43 @@ body li {
 .footer__stamp div:hover,
 .header li:hover {
   box-shadow: inset 0 -3px 0 0 var(--header-element-underline);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .banner {
+    padding: 1rem;
+  }
+
+  .header li {
+    flex-basis: 100%;
+  }
+
+  .page-section--padding {
+    padding-left: calc(var(--page-side-padding) / 5);
+    padding-right: calc(var(--page-side-padding) / 5);
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner__content .dc-h1 {
+    font-size: 300%;
+    font-weight: 200;
+  }
+
+  .banner__content .dc-h2 {
+    font-size: 200%;
+    font-weight: 200;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  .header li {
+    height: 100%;
+  }
 }

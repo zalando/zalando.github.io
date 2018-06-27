@@ -36,8 +36,17 @@ banner:
         <p>A step by step guide on what to do before you can release a project and guidelines on how to
         maintain a project</p>
         </li>
+
+        <li><a href="{{ "docs/reports/june-2018" | relative_url}}">State of open source at Zalando</a> <br>
+          <p>The latest report on how open source is doing at Zalando with key numbers and insights, as well
+            as a roadmap forward. 
+          </p>
+        </li>
+
+
       </ul>
 
+      
       
       </div>
     </div>

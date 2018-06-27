@@ -3,8 +3,8 @@
     <ul class="dc-tab header">
 
       <li class="dc-tab__element dc-tab__element--header header__logo">
-        <a href="/">
-          <img src="/assets/svg/logo.svg" />
+        <a href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/svg/logo.svg' | relative_url }}" />
         </a>
       </li>
       
@@ -15,7 +15,7 @@
       <li class="dc-tab__element"><a href="/#os-goals">Purpose</a></li>
       <li class="dc-tab__element"><a href="/#os-jobs">Jobs</a></li>
 
-      <li class="dc-tab__element"><a href="/#os-team">Team</a></li>
+      <li class="dc-tab__element"><a href="{{ '/index.html#os-team' | relative_url }}">Team</a></li>
     </ul>
   </div>
 </header>

@@ -16,7 +16,7 @@ banner:
   {% endif %}
     <div class="blog-box__image">
       <a href="{{ post.url }}">
-        <img class="blog-box__image" src="{{ imgroot }}{{ post.banner.image }}" />
+        <img class="blog-box__image" src="{{ imgroot | relative_url }}{{ post.banner.image }}" />
       </a>
     </div>
     <div class="blog-box__content">

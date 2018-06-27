@@ -30,7 +30,7 @@
 .article__content li,
 .tree__list li {
   padding-left: 20px;
-  background-image: url("/assets/img/zalando-bullet.png");
+  background-image: url("../img/zalando-bullet.png");
   background-position: 0 6px;
   background-repeat: no-repeat;
   background-size: 8px 8px;
@@ -136,7 +136,7 @@ a.share-icon:hover {
   text-align: left;
   outline: none;
   transition: 0.2s;
-  background-image: url("/assets/svg/down-open.svg");
+  background-image: url("../svg/down-open.svg");
   background-repeat: no-repeat;
   background-size: 12px 12px;
   background-position: right;
@@ -144,7 +144,7 @@ a.share-icon:hover {
 
 .accordion--active {
   transition: 0.2s;
-  background-image: url("/assets/svg/up-open.svg");
+  background-image: url("../svg/up-open.svg");
 }
 
 .accordion-panel {
@@ -159,12 +159,12 @@ a.share-icon:hover {
 }
 
 .documentation .accordion {
-  background-image: url("/assets/svg/up-open.svg");
+  background-image: url("../svg/up-open.svg");
 }
 
 .documentation .accordion--active {
   transition: 0.2s;
-  background-image: url("/assets/svg/down-open.svg");
+  background-image: url("../svg/down-open.svg");
 }
 
 .tree__heading {

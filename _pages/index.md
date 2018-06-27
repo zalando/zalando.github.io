@@ -110,7 +110,7 @@ banner:
   </div>
 </section>
 
-<script src="/components/user.js" type="text/javascript"></script>
+<script src="{{ 'components/user.js' | relative_url }}" type="text/javascript"></script>
 
 <script type="text/javascript">
   async function init() {

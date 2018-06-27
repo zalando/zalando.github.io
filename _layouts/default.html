@@ -1,11 +1,11 @@
 <html>
   <head>
-    <script src="/assets/js/store.js" type="text/javascript"></script>
-    <script src="/assets/js/config.js" type="text/javascript"></script>
-    <script src="/assets/js/index.js" type="text/javascript"></script>
+    <script src="{{ 'assets/js/store.js' | relative_url }}" type="text/javascript"></script>
+    <script src="{{ '/assets/js/config.js' | relative_url }}" type="text/javascript"></script>
+    <script src="{{ '/assets/js/index.js' | relative_url }}" type="text/javascript"></script>
 
-    <script src="/components/project.js" type="text/javascript"></script>
-    <script src="/components/statistic.js" type="text/javascript"></script>
+    <script src="{{ '/components/project.js' | relative_url }}" type="text/javascript"></script>
+    <script src="{{ '/components/statistic.js' | relative_url }}" type="text/javascript"></script>
 
     <!-- Google Analytics -->
     <script>
@@ -16,10 +16,12 @@
     <script async src='https://www.google-analytics.com/analytics.js'></script>
     <!-- End Google Analytics -->
 
+    <meta name="viewport" content="width=device-width" />
     <link href="https://cdn.jsdelivr.net/npm/dress-code@2.4.0/dist/css/dress-code.min.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/zalando.ico">
-    <link href="/assets/css/main.css" rel="stylesheet">
-    <link href="/assets/css/article.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/img/zalando.ico' | relative_url }}">
+    <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/css/article.css' | relative_url }}"" rel="stylesheet">
+    <link href="{{ '/assets/css/report.css' | relative_url }}"" rel="stylesheet">
 
     <meta property="og:url" content="{{site.url}}{{page.url}}" />
     <meta property="og:type" content="website" />
