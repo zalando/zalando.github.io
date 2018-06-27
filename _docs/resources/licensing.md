@@ -99,7 +99,7 @@ Use of software licensed under AGPL represents a big risk for Zalando, so even f
 
 ## Unlicensed code
 
-Code which does not include a license or have to clear ownership cannot be used at Zalando.
+Code which does not include a license or have no clear ownership cannot be used at Zalando.
 
 As per standard copyright law, any code which is not explicitly licensed, is the property
 of the author and cannot be used without permission.
