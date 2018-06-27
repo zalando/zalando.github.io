@@ -40,7 +40,7 @@ banner:
     <br>
 
     <div class="dc-row">
-      <div class="goal dc-column">
+      <div class="goal dc-column dc-column--large-4 dc-column--medium-12 dc-column--small-12">
         <div class="goal__icon">
           <object id="goal-participate" data="assets/svg/slideshare.svg" type="image/svg+xml"></object>
         </div>
@@ -51,7 +51,7 @@ banner:
         </p>
       </div>
 
-      <div class="goal dc-column">
+      <div class="goal dc-column dc-column--large-4 dc-column--medium-12 dc-column--small-12">
         <div class="goal__icon">
           <object id="goal-share" data="assets/svg/handshake-o.svg" type="image/svg+xml"></object>
         </div>
@@ -62,7 +62,7 @@ banner:
         </p>
       </div>
 
-      <div class="goal dc-column">
+      <div class="goal dc-column dc-column--large-4 dc-column--medium-12 dc-column--small-12">
         <div class="goal__icon">
           <object id="goal-promote" data="assets/svg/gg.svg" type="image/svg+xml"></object>
         </div>
