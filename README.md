@@ -36,7 +36,9 @@ Please read [CONTRIBUTING.md] for details on our code of conduct, and the proces
 
 * **Paul Adams** - paul.adams@zalando.de - [@therealpadams](https://github.com/therealpadams)
 * **Per Ploug** - per.ploug@zalando.de - [@perploug](https://github.com/perploug)
-* **Princiya Sequeira** - princiya.marina.sequeira@zalando.de  - [@princiya](https://github.com/princiya)
+
+### Alumni
+* **Princiya Sequeira** - [@princiya](https://github.com/princiya)
 
 
 ## License
