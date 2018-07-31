@@ -38,11 +38,13 @@ banner:
 
 <script type="text/javascript">
   async function init() {
-    store.setPath('../');
     displayLanguageOptions();
     displayTopProgrammingLanguages();
+
+   
+    repoFilter.showButton = true;
     await displayStatistics();
-    await displayProjects();
+    await displayProjects(repoFilter);
   }
   init();
 </script>
