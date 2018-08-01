@@ -21,6 +21,10 @@ Releasing a new open source project is a simple and fast process when you are al
 * [Get Reviewed](#get-reviewed): The Zalando open source review group is responsible for reviewing your project
 
 
+#### [Submit your project for review (internal)](https://goo.gl/forms/ZuykiWZvYZ4OnfzH2)
+
+----
+
 ## Get Sign-off  
 Ensure your lead and team are onboard with open sourcing your project, that everyone understand the time and effort required, and that there is no competitive disadvantages to Zalando.
 
@@ -66,11 +70,14 @@ The open source team can help you setting this up during a initial review.
 
 #### Use proper procedure for collaboration
 
+When the project has been released as a public project on Github the following workflows are expected of you:
+
 1.  Semantically version project artifacts. You MUST tag all versions in GitHub with the exact version name: e.g., 0.1.0.
 2.  Sign every commit, as per the [CDO](https://developercertificate.org/) - PGP signing is not required
 3.  Ensure that no credentials, private identifiers or personal data is at any time present in your repository
 4.  Enforce code-reviews with at least 2 sets of Zalando eyes on all code to minimize the risk of implanted security backdoors and vulnerable code.
 5. Ensure there is an active team of maintainers of at least 2 Zalandos taking ownership of the project
+
 
 ### Community best practices
 
@@ -102,6 +109,8 @@ Preparing a repository for open sourcing goes beyond ensuring it is in complianc
 ## Get Reviewed
 
 When you have checked off the compliance checklist and prepared your code for release, request a review from the [Open Source Review Group](/docs/resources/open-source-review-group/) who will help you setup a Github repository and sign off on open sourcing your code.
+
+#### [Submit your project for review (internal)](https://goo.gl/forms/ZuykiWZvYZ4OnfzH2)
 
 
 ## Release
