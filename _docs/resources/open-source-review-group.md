@@ -5,15 +5,15 @@ date: 2018-06-07
 category: Resources-teams
 ---
 
-#### The Open Source Review Group consists of all current maintainers in the main Zalando Github organizations and function as a mentor program for new project maintainers, as well as a review committee guiding and helping incubator projects toward graduation into the main Zalando Github organizations. 
+#### The Open Source Review Group is a virtual team consisting of all current maintainers in the main Zalando Github organizations. It functions as a mentor program for new projects and project maintainers, as well as a review committee guiding and helping incubator projects toward graduation into the main Zalando Github organizations. 
 
 ## Purpose
-Provide an effective, responsive support group for techies to get peer feedback on OSS projects before and after publication
-Help developers understand the security, compliance, and reputation risks around their open source projects during the entire project lifecycle.
-Act as a mentorship program for new incubator projects to ensure they grow and mature. Ensure that the group of project maintainers grows in size and in diversity. [Guidelines for the review group]() is publicly available.
+- Provide an effective, responsive support group for techies to get peer feedback on OSS projects before and after publication
+- Help developers understand the security, compliance, and reputation risks around their open source projects during the entire project lifecycle.
+- Act as a mentorship program for new incubator projects to ensure they grow and mature. Ensure that the group of project maintainers grows in size and in diversity.
 
 ## Get in touch
-The review group consists of members of multiple engineering teams at Zalando and can be reached via [oss-review@zalando.de](mailto:oss-review@zalando.de) or via the team discussions forum on [github.com/zalando](https://github.com/zalando).
+The review group consists of members of multiple engineering teams inside Zalando and can be reached via [oss-review@zalando.de](mailto:oss-review@zalando.de). Please exepect responses within a few days.
 
 ---
 
