@@ -21,7 +21,9 @@ Releasing a new open source project is a simple and fast process when you are al
 * [Get Reviewed](#get-reviewed): The Zalando open source review group is responsible for reviewing your project
 
 
-#### [Submit your project for review (internal)](https://goo.gl/forms/ZuykiWZvYZ4OnfzH2)
+<br>
+<a class="dc-btn dc-btn--primary" target="_blank" href="https://goo.gl/forms/ZuykiWZvYZ4OnfzH2">Submit your project for review (internal)</a>
+
 
 ----
 
@@ -93,8 +95,6 @@ Besides the rules of play, there is also a set of best practices which we highly
 ### Copyright and ownership
 
 Default ownership of all code released by Zalando employees are copyright Zalando SE and must be released under the Zalando GitHub organizations.  
-Due to the European copyright law, any work by employees are the property of the employer. However, there can be made exceptions to this for unrelated projects, made out-of-hours and on a private laptop.
-It is a legal grey area, so get in touch with the open source team for guidance, before releasing any private code.
 
 ## Prepare your repository
 
@@ -110,8 +110,8 @@ Preparing a repository for open sourcing goes beyond ensuring it is in complianc
 
 When you have checked off the compliance checklist and prepared your code for release, request a review from the [Open Source Review Group](/docs/resources/open-source-review-group/) who will help you setup a Github repository and sign off on open sourcing your code.
 
-#### [Submit your project for review (internal)](https://goo.gl/forms/ZuykiWZvYZ4OnfzH2)
-
+<br>
+<a class="dc-btn dc-btn--primary" target="_blank" href="https://goo.gl/forms/ZuykiWZvYZ4OnfzH2">Submit your project for review (internal)</a>
 
 ## Release
 
