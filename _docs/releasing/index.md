@@ -73,7 +73,7 @@ The open source team can help you setting this up during a initial review.
 When the project has been released as a public project on Github the following workflows are expected of you:
 
 1.  Semantically version project artifacts. You MUST tag all versions in GitHub with the exact version name: e.g., 0.1.0.
-2.  Sign every commit, as per the [CDO](https://developercertificate.org/) - PGP signing is not required
+2.  Sign-off every commit, as per the [DCO](https://developercertificate.org/) - PGP signing is not required
 3.  Ensure that no credentials, private identifiers or personal data is at any time present in your repository
 4.  Enforce code-reviews with at least 2 sets of Zalando eyes on all code to minimize the risk of implanted security backdoors and vulnerable code.
 5. Ensure there is an active team of maintainers of at least 2 Zalandos taking ownership of the project
