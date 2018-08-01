@@ -51,7 +51,7 @@ async function getProjects(options) {
 
   var numOfItems = repoFilter.maxItems * (repoFilter.page + 1);
   if (numOfItems < response.totalItems) {
-    repos = repos.splice(0, numOfItems);
+    repos = repos.slice(0, numOfItems);
   }
 
   response.data = repos;
