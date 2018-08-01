@@ -22,7 +22,7 @@ Releasing a new open source project is a simple and fast process when you are al
 
 
 <br>
-<a class="dc-btn dc-btn--primary" target="_blank" href="https://goo.gl/forms/ZuykiWZvYZ4OnfzH2">Submit your project for review (internal)</a>
+<a class="dc-btn dc-btn--primary" style="color: white" target="_blank" href="https://goo.gl/forms/ZuykiWZvYZ4OnfzH2">Submit your project for review (internal)</a>
 
 
 ----
@@ -111,7 +111,7 @@ Preparing a repository for open sourcing goes beyond ensuring it is in complianc
 When you have checked off the compliance checklist and prepared your code for release, request a review from the [Open Source Review Group](/docs/resources/open-source-review-group/) who will help you setup a Github repository and sign off on open sourcing your code.
 
 <br>
-<a class="dc-btn dc-btn--primary" target="_blank" href="https://goo.gl/forms/ZuykiWZvYZ4OnfzH2">Submit your project for review (internal)</a>
+<a class="dc-btn dc-btn--primary" style="color: white" target="_blank" href="https://goo.gl/forms/ZuykiWZvYZ4OnfzH2">Submit your project for review (internal)</a>
 
 ## Release
 
