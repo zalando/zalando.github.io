@@ -78,28 +78,30 @@ banner:
   </div>
 </section>
 
+
 <section class="page-section page-section--padding page-section--background-white jobs" id="os-jobs">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header page-section__header--center">Jobs</h1>
+    
+    
     <div class="dc-row job">
+    
       <h3 class="dc-h2">
-        <a href="https://jobs.zalando.com/jobs/965101-open-source-community-manager-senior/" target="_blank">
-          Open Source Community Manager (Senior)
-        </a>
+        Currently no open positions
       </h3>
-      <p class="dc-p">We are looking for a Senior Open Source Community Manager / Evangelist to foster a strong and active community both internally and externally; to continue to drive Zalando’s Open Source strategy, presence, leadership, and contributions; to shepherd teams to contribute to Open Source for the good of themselves, Zalando, and the global Open Source community.</p>
+      
+      <p class="dc-p">
+        We do not currently have any open positions, but don't hesitate getting in touch with us anyway, 
+        we are always interested in hearing from potential candidates - 
+        reach us at <a href="mailto:opensource@zalando.de">opensource@zalando.de</a>  
+      </p>
+      
     </div>
-    <div class="dc-divider"></div>
-    <div class="dc-row job">
-      <h3 class="dc-h2">
-        <a href="https://jobs.zalando.com/jobs/1108784-inner-source-manager/" target="_blank">
-          Inner Source Manager
-        </a>
-      </h3>
-      <p class="dc-p">We are looking for an Inner Source Manager to foster the spirit and best practices of Open Source within Zalando engineering; to continue to drive Zalando’s Open Source strategy, presence, leadership, and contributions; to shepherd teams to contribute to Open Source for the good of themselves, Zalando, and the global Open Source community.</p>
-    </div>
+    
+    
   </div>
 </section>
+
 
 {% include recent-posts.html %}
 
