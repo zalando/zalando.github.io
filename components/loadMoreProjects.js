@@ -1,5 +1,5 @@
-function loadMoreProjects() {
+function loadMoreProjectsButton() {
   return `
-    <button class="dc-btn dc-btn--primary" onclick="displayProjects()">Load More Projects</button>
+    <button class="dc-btn dc-btn--primary" onclick="displayMoreProjects()">Load More Projects</button>
   `;
 }

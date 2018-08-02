@@ -114,10 +114,10 @@ banner:
 
 <script type="text/javascript">
   async function init() {
-    store.setLimit(6);
     await displayStatistics();
     await displayProjects();
     displayTeam();
   }
+  
   init();
 </script>
