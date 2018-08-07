@@ -1,63 +1,65 @@
 ---
-title: Incubation to Graduation
+title: Getting into the incubator
 author: OST
-date: 2018-06-07
-banner:
-  image: coding.jpg
+date: 2018-08-07
+index: 2
 category: Releasing
 ---
 
-#### This section describes all the minimum requirements that all new projects must meet before they will be fully accepted into the main Zalando Github organization.
+#### This section describes all the parameters that all new projects are reviewed on before they will be fully accepted into the Zalando Incubator organization. The formal review process kicks-off when a review request is posted to the group by a project owner. 
+
 
 ### Summary
 
-- be a good open source citizen by meeting the project requirements
-- All projects will be reviewed by the open source review group during incubation
-- Incubator projects will get a maturity assessment to determine if they are ready for graduation
+- The open source review group managers the review process
+- It determines if the project can be sustainable
+- It determines if Zalando has any interest in owning the project 
+- It determines if the project quality and maturity is high enough for inclusion in the incubator
 
 ---
 
-### Quality indicators for incubator projects
+### Review process
 
-Before your start thinking about graduation, you need to make sure you are ready and meet the following requirements.
+All review requests are posted to the Open Source review group discussion on Github. The review group will then in due time review the request and either:
 
-- Have a clear vision and a long term plan for your project
-- Commit to be part of the Zalando Github organization
-- Project is used and benefits to Zalando
-- Have multiple maintainers from diverse background and URM (under represented minority)
-- Project is compliant and has all the necessary documentation
+- Request more information from the project owner
+- Arrange a formal review meeting
+- Decline the request
 
-All these acts have an influence on your project getting graduated.
+All review group members can review and comment on the review request and reach out to the project owner with request for more information and relay this back the review group. The review group meets formally every 2 weeks to process and finalize review requests. 
 
-### Review of incubation activity
+A formal review meeting is then setup to do the final alignment between the project owner and the review group. The successful outcome of this meeting is the creation of a new repository on the Zalando Incubator where the project files are copied to. 
 
-Each project in the incubator shall undergo a regular review of progress by the Review Group. Such reviews shall occur at least quarterly. The Review Group may choose to review individual projects with greater frequency. At least one week prior to each review, the Mentor must produce a report for the Review Group detailing overall progress with a focus on the preceding review period.
 
-The Review Group will be interested in the following points for the status check. The project -
+### Determine sustainability
+All projects entering the incubator should do so with the goal of long term sustainability.
+To achieve this, a project must have considered how it long term will grow and reach a critical mass of users and contributors. The following parameters must be reviewed:
 
-- Has regular activity
-- Seeks and responds to feedback and suggestions
-- Accepts contributions
-- Responds to Issues, Pull Requests etc.
+- There are at least 2 active Zalando maintainers
+- There has been signed off company time to maintain and grow the project
+- The project has the potential to attract non-zalando users and contributors
+- The project is in a state where it is useful to non-Zalando users
+- Project has a unique selling-point
+    
+Sustainability parameters are different for each type of project, some require a larger investment of time and resources, the above parameters should therefore be considered in the context of the type of project being reviewed. 
 
-### Incubation assessment
 
-After each review, the Review Group shall produce an assessment of the project. The assessment shall contain one of three recommendations:
+### Determine need for Zalando ownership
+Projects entering the incubator, does so under the Zalando ownership. If we as an organization release a project, we do so with the intention of being in it for the long term. Therefore consider the following parameters:
 
-- that the project be Terminated;
-- that the project continues in Incubation;
-- that the project be Graduated from Incubation.
+- Zalando currently uses the project internally
+- Zalando have a vested interest in its longterm success
+- Collaborating with external contributors will bring the maintainer team value and this involvement can coexist with Zalando's internal plans for the project 
 
-### Graduation
+To ensure that a project can exist longterm and that the organization does not loose interest in maintaining it, ensure that the project is used and actively maintained by a Zalando team. If there is no long-term usage plans, explore alternative ownership for the project. 
 
-Graduation is the process where your project gets accepted into the main Zalando Github organisation. This is a democratic process, in the end, it comes down to a Vote. The road to graduation is fairly simple but does take time and effort.
+### Determine current project quality and maturity
+While projects included in the incubator is not required to be feature complete, it is required that the project owners have established processes, people and plans for the future:
 
-Prior to graduation, a project must meet the following requirements / quality indicators:
-
-- High activity: The project is highly visible and has good statistics - stars, forks etc., actively used, has regular releases or is well maintained.
-
-- Community driven: The project works to attract external contributors, builds a diverse community and is a source to get new hires for Zalando.
-
-- Promotion: The project has a website, social media channels.
-
-- Never leaves the org
+- The project is compliant with Zalando Rules Of Play.
+- There is project infrastructure in place to facilitate external contribution
+  - A meaningful readme with install, test and contribution instructions
+  - A complete contribution file
+  - A process for triaging issues and pull requests
+- Project have a plan for what to accomplish with either a project roadmap or clear project longterm vision. 
+- The project can build and run without zalando-specific infrastructure or tools.
