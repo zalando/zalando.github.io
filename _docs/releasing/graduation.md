@@ -45,20 +45,17 @@ The Review Group will be interested in the following points for the status check
 
 After each review, the Review Group shall produce an assessment of the project. The assessment shall contain one of three recommendations:
 
-- that the project be Terminated;
+- that the project be transfered to GHE;
 - that the project continues in Incubation;
 - that the project be Graduated from Incubation.
 
 ### Graduation
 
-Graduation is the process where your project gets accepted into the main Zalando Github organisation. This is a democratic process, in the end, it comes down to a Vote. The road to graduation is fairly simple but does take time and effort.
+Graduation is the process where your project gets accepted into the main Zalando Github organisation. The Open Source Review Group votes on the project graduation proposal, based on the criterias below, a project with the majority of votes for graduation is then promoted to the main Zalando organisation.  
 
 Prior to graduation, a project must meet the following requirements / quality indicators:
 
 - High activity: The project is highly visible and has good statistics - stars, forks etc., actively used, has regular releases or is well maintained.
-
 - Community driven: The project works to attract external contributors, builds a diverse community and is a source to get new hires for Zalando.
-
 - Promotion: The project has a website, social media channels.
-
 - Never leaves the org
