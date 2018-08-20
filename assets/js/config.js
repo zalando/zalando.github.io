@@ -22,11 +22,11 @@ const team = [
       "Open source enabler | Tinker | Community Builder | Teacher | Semi-Pro Bio writer"
   },
   {
-    username: "princiya",
-    title: "Open Source Advocate",
-    name: "Princiya Marina Sequeira",
-    html_url: "https://github.com/princiya",
-    avatar_url: "https://avatars3.githubusercontent.com/u/8022693?v=4",
-    bio: "A little extra JavaScript enthusiast."
+    username: "hpdang",
+    title: "Inner Source Manager",
+    name: "Hong Phuc Dang",
+    html_url: "https://github.com/hpdang",
+    avatar_url: "https://avatars1.githubusercontent.com/u/1658742?s=400&u=47f83edbdae3ede5eba1aca10ea3eb378a74b8fd&v=4",
+    bio: "Inner source consultant | Open source specialist | Community leader | Mentor | "
   }
 ];
