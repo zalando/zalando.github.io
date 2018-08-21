@@ -8,7 +8,7 @@
 
   {% assign nav_url = page.url | remove: 'index.html' %}
   <ul class="tree__list accordion-panel">
-    {% assign using_docs = (site.docs | where: 'category', 'Using' | sort: 'title') %} {% for doc in using_docs%} {% if doc.url
+    {% assign using_docs = (site.docs | where: 'category', 'Using' | sort: 'index') %} {% for doc in using_docs%} {% if doc.url
     == nav_url %}
     <li class="tree__list-item--active">
       <a href="{{doc.url}}">{{ doc.title }}</a>
@@ -22,7 +22,7 @@
     Releasing
   </div>
   <ul class="tree__list accordion-panel">
-    {% assign releasing_docs = (site.docs | where: 'category', 'Releasing' | sort: 'name') %} {% for doc in releasing_docs%}
+    {% assign releasing_docs = (site.docs | where: 'category', 'Releasing' | sort: 'index') %} {% for doc in releasing_docs%}
     {% if doc.url == nav_url %}
     <li class="tree__list-item--active">
       <a href="{{doc.url}}">{{ doc.title }}</a>
@@ -36,7 +36,7 @@
     Resources
   </div>
   <ul class="tree__list accordion-panel">
-    {% assign resources_docs = (site.docs | where: 'category', 'Resources' | sort: 'name') %} 
+    {% assign resources_docs = (site.docs | where: 'category', 'Resources' | sort: 'index') %} 
     {% for doc in resources_docs%}
     {% if doc.url == nav_url %}
     <li class="tree__list-item--active">

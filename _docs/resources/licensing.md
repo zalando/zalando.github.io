@@ -2,6 +2,7 @@
 title: Licensing
 author: OST
 date: 2017-08-30
+index: 2
 banner:
   image: coding.jpg
 category: Resources

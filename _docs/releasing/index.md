@@ -2,12 +2,13 @@
 title: Releasing a new open source project
 author: OST
 date: 2018-06-14
+index: 1
 banner:
   image: coding.jpg
 category: Releasing
 ---
 
-#### This is the process for how Zalando employees release a new open source project on the [Zalando-Incubator](../github). The process is simple and the open source team is ready to help you every step of the way.
+#### This is the process for how Zalando employees release a new open source project on the [Zalando-Incubator](../../resources/github). The process is simple and the open source team is ready to help you every step of the way.
 
 ---
 

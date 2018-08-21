@@ -2,6 +2,7 @@
 title: Teams and groups
 author: OST
 date: 2018-06-07
+index: 3
 banner:
   image: coding.jpg
 category: Resources
