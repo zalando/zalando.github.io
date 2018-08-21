@@ -34,3 +34,27 @@ To encourage contributions, you must provide a clear guide for how contributions
 * Document the PR review process
 * Have a clear vision and scope for your project
 * Be responsive to issues and pull requests, even if it's to decline them
+
+### Automatic git sign-off
+Git sign-off can be done by adding the `-s` flag to `git commit` commands. However non-commandline tooling often doesn't support this, in which case you can add a git hook to ensure your commits are signed - in the [global .git-hooks folder](https://github.com/git-hooks/git-hooks/wiki/Get-Started) add a file named `prepare-commit-msg`, add the following and ensure it has rights to execute: 
+
+```
+#!/bin/sh
+
+NAME=$(git config user.name)
+EMAIL=$(git config user.email)
+
+if [ -z "$NAME" ]; then
+    echo "empty git config user.name"
+    exit 1
+fi
+
+if [ -z "$EMAIL" ]; then
+    echo "empty git config user.email"
+    exit 1
+fi
+
+git interpret-trailers --if-exists doNothing --trailer \
+    "Signed-off-by: $NAME <$EMAIL>" \
+    --in-place "$1"
+```
