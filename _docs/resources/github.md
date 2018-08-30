@@ -46,7 +46,7 @@ For all Zalandos the process is simple: go to the **internal** site at [people.Z
 
 * Master branch is protected
 * All pull requests must be reviewed by at least 2 [CODEOWNERS](https://help.github.com/articles/about-codeowners/)
-* Signed commits are required as per the [DCO](https://developercertificate.org/)
+* We recommend having Signed commits as per the [DCO](https://developercertificate.org/)
 
 ## Project ownership
 
