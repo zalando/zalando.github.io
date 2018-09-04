@@ -7,7 +7,7 @@ banner:
 ---
 We are very excited to have [Hong Phuc Dang](https://twitter.com/hpdang) joining our Open Source Team as the new InnerSource Manager. She will be responsible for designing and implementing InnerSource programs and will support the team to execute various open source activities. With her broad experiences, we believe Hong will add a significant value to the open source team.
 
-![The Open Source Team](/assets/img/rsz_osteam.jpg/)
+![The Open Source Team](/assets/img/rsz_osteam.jpg)
 
 Hong Phuc Dang is a founder of [FOSSASIA](https://fossasia.org), one of largest open source organizations in Asia. Previous to this role, Hong worked as a senior consultant for GIZ, UNESCO and most recently  Daimler AG where she developed open source and InnerSource strategies as a part of Daimler’s digital transformation plan. She is also veteran mentor/admin of the global-recognized Google Summer of Code program. She has more than 10 years of experience in leading open source community and managing various projects spanning hardware, software and international tech events and exhibitions. She is known for applying open source best practices to meet business goals. 
 
