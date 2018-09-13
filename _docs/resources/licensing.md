@@ -30,7 +30,7 @@ Overall there are 3 types of licenses which you can use:
 
 And 2 types which you cannot use in any way:
 
-* [AGPL licensed code](#agpl-licensed-code)
+* [AGPL, RPL or variants licensed code](#agpl-&-rpl-licensed-code)
 * [Unlicensed code](#unlicensed-code)
 
 This document is a general overview and does not represent legal advice. Always check the details of each license and if you are in doubt, get in touch with legal.
