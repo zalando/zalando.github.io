@@ -15,7 +15,7 @@ category: Resources
 * Any dependency with a permissive license can be used
 * Copyleft licensed code can only be used if you plan NOT to distribute outside Zalando
 * Make sure to investigate the specific terms of the copyleft licenses
-* You cannot use AGPL licensed code
+* You cannot use AGPL or RPL licensed code
 * You cannot use unlicensed code
 
 ---
@@ -30,7 +30,7 @@ Overall there are 3 types of licenses which you can use:
 
 And 2 types which you cannot use in any way:
 
-* [AGPL licensed code](#agpl-licensed-code)
+* [AGPL, RPL or variants licensed code](#agpl-&-rpl-licensed-code)
 * [Unlicensed code](#unlicensed-code)
 
 This document is a general overview and does not represent legal advice. Always check the details of each license and if you are in doubt, get in touch with legal.
@@ -77,7 +77,6 @@ _[BCL](),
 [GPL](https://www.tldrlegal.com/l/gpl-3.0),
 [LGPL](https://www.tldrlegal.com/l/lgpl-3.0),
 [NPL](<https://tldrlegal.com/license/netscape-public-license-v1.1-(npl-1.1)>),
-[RPL](<https://tldrlegal.com/license/reciprocal-public-license-1.5-(rpl-1.5)>),
 [OSL](<https://tldrlegal.com/license/open-software-license-2.1-(osl-2.1)>),
 [QPL](<https://tldrlegal.com/license/q-public-license-1.0-(qpl-1.0)>) and more_
 
@@ -90,11 +89,11 @@ Dependency can therefore be used for internal projects, but not for projects whi
 * You cannot hold the author liable or sublicense
 * If distributed, you must license your code under the same license.
 
-## AGPL licensed code
+## AGPL & RPL licensed code
 
-Code licensed under [AGPL](https://www.tldrlegal.com/l/agpl3) (Affero General Public License) may not be used at Zalando.
+Code licensed under [AGPL](https://www.tldrlegal.com/l/agpl3) (Affero General Public License) and [RPL](<https://tldrlegal.com/license/reciprocal-public-license-1.5-(rpl-1.5)>), may not be used at Zalando.
 
-Code dependency which triggers the copyleft provision even when it is not distributed. If AGPL code is used to deliver a web-service such as Zalando.de, all code and code linked to the service must be licensed and distributed under AGPL.
+Code dependency which triggers the copyleft provision even when it is not distributed. If AGPL or RPL code is used to deliver a web-service such as Zalando.de, all code and code linked to the service must be licensed and distributed under AGPL.
 
 Use of software licensed under AGPL represents a big risk for Zalando, so even for projects which is not directly linked to any of our services, it must not be used as the benefits compared to the risk is small.
 
