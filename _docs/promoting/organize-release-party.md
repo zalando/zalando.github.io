@@ -1,11 +1,11 @@
 ---
-title: How to organize a release party
+title: Organize a release party
 author: OST
-date: 2018-09-25
+date: 2018-09-27
 index: 1
 banner:
   image: coding.jpg
-category: Resources
+category: Promoting
 ---
 
 Hosting release party or an offline meeting is a great way to promote your open source project. This kind of events provide an opportunity for users and contributors living in the same area to come together as a community. The event format is varied. It can be a small meeting in a local coffee shop, a larger scale event with more people in attendance, an installation party, a serie of workshops presentations, panels etc. Below is a step-by-step guide that aims to help you set-up a simple party in order to establish a closer connection with your colleagues, users and existing or future contributors.
