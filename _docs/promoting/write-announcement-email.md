@@ -29,24 +29,4 @@ Ask audience to test, request for help and feedback, etc. Don’t forget to incl
 ## Closing
 If your audience are techies, you don’t want to be too formal. You could use salutations like “Cheers” or “Best” and make sure to include your team name or your full name with job title.
 
-## Examples 
-Check out a few examples below:
 
-#### #1 
-
-![Email Example](/assets/img/canva.png)
-
-#### #2
-![Email Example](/assets/img/dropbox.jpg)
-
-#### #3
-
-![Email Example](/assets/img/evernote.jpg)
-
-#### #4
-
-![Email Example](/assets/img/instagram.png)
-
-#### #5
-
-![Email Example](/assets/img/launch.jpg)
