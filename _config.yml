@@ -46,10 +46,11 @@ defaults:
 plugins:
   - jekyll-paginate
   - jekyll-relative-links
-  
+
 exclude:
   - 'Gemfile'
   - 'Gemfile.lock'
+  - vendor
 
 include:
   - '_pages'
