@@ -37,12 +37,12 @@ This document is a general overview and does not represent legal advice. Always 
 
 ## Permissive licenses
 
-_[AFL](https://www.tldrlegal.com/l/afl3),
-[Apache](https://www.tldrlegal.com/l/apache2),
-[BSD](https://www.tldrlegal.com/l/bsd3),
-[MIT](https://www.tldrlegal.com/l/mit),
-[MS-PL](https://www.tldrlegal.com/l/mspl),
-[ISC](https://www.tldrlegal.com/l/isc),
+_[AFL](https://tldrlegal.com/l/afl3),
+[Apache](https://tldrlegal.com/l/apache2),
+[BSD](https://tldrlegal.com/l/bsd3),
+[MIT](https://tldrlegal.com/l/mit),
+[MS-PL](https://tldrlegal.com/l/mspl),
+[ISC](https://tldrlegal.com/l/isc),
 [PHP License](https://tldrlegal.com/license/the-php-license-3.0.1),
 and many more_
 
@@ -56,12 +56,12 @@ Permissive licensed dependencies can be used without issues both for internal an
 
 ## Limited copyleft licenses
 
-_[APSL](https://www.tldrlegal.com/l/aspl2),
-[CDDL](https://www.tldrlegal.com/l/cddl),
+_[APSL](https://tldrlegal.com/l/aspl2),
+[CDDL](https://tldrlegal.com/l/cddl),
 [CPL](<https://tldrlegal.com/license/common-public-license-1.0-(cpl-1.0)>),
-[EPL](https://www.tldrlegal.com/l/epl),
-[IPL](https://www.tldrlegal.com/l/ipl),
-[MPL](https://www.tldrlegal.com/l/mpl-2.0)_
+[EPL](https://tldrlegal.com/l/epl),
+[IPL](https://tldrlegal.com/l/ipl),
+[MPL](https://tldrlegal.com/l/mpl-2.0)_
 
 Code dependency which you are free to use and change, but must include the source code, the license and copyright of the dependency. You can license your own code however you want, and you must only share the source code of the reciprocally licensed dependency.
 
@@ -73,9 +73,9 @@ Beware that each individual license has specific clauses, so check the individua
 
 ## Copyleft licenses
 
-_[BCL](),
-[GPL](https://www.tldrlegal.com/l/gpl-3.0),
-[LGPL](https://www.tldrlegal.com/l/lgpl-3.0),
+_BCL,
+[GPL](https://tldrlegal.com/l/gpl-3.0),
+[LGPL](https://tldrlegal.com/l/lgpl-3.0),
 [NPL](<https://tldrlegal.com/license/netscape-public-license-v1.1-(npl-1.1)>),
 [OSL](<https://tldrlegal.com/license/open-software-license-2.1-(osl-2.1)>),
 [QPL](<https://tldrlegal.com/license/q-public-license-1.0-(qpl-1.0)>) and more_
@@ -91,7 +91,7 @@ Dependency can therefore be used for internal projects, but not for projects whi
 
 ## AGPL & RPL licensed code
 
-Code licensed under [AGPL](https://www.tldrlegal.com/l/agpl3) (Affero General Public License) and [RPL](<https://tldrlegal.com/license/reciprocal-public-license-1.5-(rpl-1.5)>), may not be used at Zalando.
+Code licensed under [AGPL](https://tldrlegal.com/l/agpl3) (Affero General Public License) and [RPL](<https://tldrlegal.com/license/reciprocal-public-license-1.5-(rpl-1.5)>), may not be used at Zalando.
 
 Code dependency which triggers the copyleft provision even when it is not distributed. If AGPL or RPL code is used to deliver a web-service such as Zalando.de, all code and code linked to the service must be licensed and distributed under AGPL.
 
