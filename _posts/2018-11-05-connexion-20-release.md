@@ -16,7 +16,7 @@ authentication schemes, supports API versioning and supports automatic serializa
 
 Besides OpenAPI 3 support, this release includes a more streamlined internal structure, better adherence to Swagger 2.0 spec by
 default, and support for basic authentication and apikey authentication. For a more detailed list of changes, check
-[Connexion's Read Me](https://github.com/zalando/connexion/tree/dev-2.0#new-in-connexion-20).
+[Connexion's Read Me](https://github.com/zalando/connexion/#new-in-connexion-20).
 
 Connexion 2.0 would not have been possible without the help of all our 87
 [contributors](https://github.com/zalando/connexion/graphs/contributors), specially our newest maintainer 
