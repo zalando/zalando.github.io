@@ -9,6 +9,8 @@ banner:
 Zalando is known for its commitment to the open source world. Many of our engineers are active contributors of open source projects like [PostgreSQL](https://github.com/zalando/patroni) or [Kubernetes](https://github.com/kubernetes-incubator/external-dns). The Zalando tech department currently consists of more than 2,000 employees that manage over 200 delivery teams and virtual teams. Zalando engineers are from 77 nations and based out of various locations across Europe which makes us super international but also quite distributed. Collaboration and alignment across delivery teams is challenging as the company continues to grow at an incredible speed. Enhancing InnerSource is an approach that could help Zalando to tackle those internal challenges. 
 
 
+
+
 ## What is InnerSource
 
 InnerSource is an adaptation of open source software development practices within organizations. This means to apply the collaborative culture and open source methodologies to internal projects even if the projects are proprietary. At its essence, InnerSource does not only apply software development but also spread out to other business sectors such as Finance, Marketing, HR etc. 
