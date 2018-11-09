@@ -312,3 +312,19 @@ a.blog-box__title {
     margin-top: 4rem;
   }
 }
+
+@media (max-width: 640px) {
+  .blog-box {
+    display: block;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .blog-box, .blog-box:hover {
+    box-shadow: none;
+  }
+  .blog-box__content {
+    padding: 2rem;
+    padding-top: 4rem;
+  }
+}
