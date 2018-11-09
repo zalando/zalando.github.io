@@ -6,6 +6,7 @@
 .article__content {
   flex-grow: 2;
   margin-right: 4rem;
+  overflow: hidden;
 }
 
 .article__content h1 {
