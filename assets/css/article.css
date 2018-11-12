@@ -14,6 +14,11 @@
   line-height: 3.6rem;
 }
 
+.article__content img {
+  max-width: 100%;
+  height: auto;
+}
+
 .article__content h1,
 .article__content p,
 .article__content ul {
