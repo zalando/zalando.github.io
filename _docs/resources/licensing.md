@@ -13,10 +13,11 @@ category: Resources
 ### Summary
 
 * Any dependency with a permissive license can be used
-* Copyleft licensed code can only be used if you plan NOT to distribute outside Zalando
-* Make sure to investigate the specific terms of the copyleft licenses
-* You cannot use AGPL or RPL licensed code
-* You cannot use unlicensed code
+* For internal projects, Permissive, Strong and Weak Copyleft licensed code can be used
+* For Open Source Projects, Strong Copyleft licensed code cannot be used
+* Make sure to investigate the specific terms of the weak copyleft licenses
+* You cannot use AGPL or RPL licensed code anywhere
+* You cannot use unlicensed code anywhere
 
 ---
 
@@ -25,13 +26,15 @@ category: Resources
 Overall there are 3 types of licenses which you can use:
 
 * [Permissive licenses](#permissive-licenses)
-* [Limited copyleft licenses](#limited-copyleft-licenses)
-* [Copyleft licenses](#copyleft-licenses)
+* [Weak copyleft licenses](#weak-copyleft-licenses)
+* [Strong Copyleft licenses](#strong-copyleft-licenses)
 
 And 2 types which you cannot use in any way:
 
 * [AGPL, RPL or variants licensed code](#agpl-&-rpl-licensed-code)
 * [Unlicensed code](#unlicensed-code)
+
+* [Guidance on licenses such as Commons Claus and Server-Side Public license](#Guidance-on-Commons-Clause,-Server-Side-Public-License-and-similiar)
 
 This document is a general overview and does not represent legal advice. Always check the details of each license and if you are in doubt, get in touch with legal.
 
@@ -54,7 +57,7 @@ Permissive licensed dependencies can be used without issues both for internal an
 * You must include: **copyright** and **license**
 * You cannot hold the author liable.
 
-## Limited copyleft licenses
+## Weak copyleft licenses
 
 _[APSL](https://tldrlegal.com/l/aspl2),
 [CDDL](https://tldrlegal.com/l/cddl),
@@ -63,15 +66,15 @@ _[APSL](https://tldrlegal.com/l/aspl2),
 [IPL](https://tldrlegal.com/l/ipl),
 [MPL](https://tldrlegal.com/l/mpl-2.0)_
 
-Code dependency which you are free to use and change, but must include the source code, the license and copyright of the dependency. You can license your own code however you want, and you must only share the source code of the reciprocally licensed dependency.
+Code dependency which you are free to use and change, but must include the source code, the license and copyright of the dependency, but only if you distribute the software. You can license your own code however you want, and you must only share the source code of the reciprocally licensed dependency.
 
-Beware that each individual license has specific clauses, so check the individual license before use.
+Beware that each individual license has specific clauses, so check the individual license before use, generally speaking, weak copyleft licensed libraries can be used for internal and open source projects.
 
 * You are free to: **use** commercially, **modify**, **distribute** and **sublicense**.
 * You must include: **copyright**, **license**, **changelog**, **source code** and **install instructions**
 * You cannot hold the author liable or use authors trademarks
 
-## Copyleft licenses
+## Strong Copyleft licenses
 
 _BCL,
 [GPL](https://tldrlegal.com/l/gpl-3.0),
@@ -82,7 +85,7 @@ _BCL,
 
 Code dependency which require you to license **all** your code under the same license if you want to distribute it. If only used internally, you have no obligation to release neither source nor binary.
 
-Dependency can therefore be used for internal projects, but not for projects which will be distributed outside of Zalando.
+Dependency can therefore only be used for internal projects, but not for projects which will be distributed outside of Zalando.
 
 * You are free to: **use** commercially, **modify** and **distribute**
 * You must include: **copyright**, **license**, **source code**, **changelog**, **original source** and **install instructions**
@@ -96,6 +99,13 @@ Code licensed under [AGPL](https://tldrlegal.com/l/agpl3) (Affero General Public
 Code dependency which triggers the copyleft provision even when it is not distributed. If AGPL or RPL code is used to deliver a web-service such as Zalando.de, all code and code linked to the service must be licensed and distributed under AGPL.
 
 Use of software licensed under AGPL represents a big risk for Zalando, so even for projects which is not directly linked to any of our services, it must not be used as the benefits compared to the risk is small.
+
+## Guidance on Commons Clause, Server-Side Public License and similiar 
+A new breed of licenses for open source projects, such as [Commons Clause](https://commonsclause.com/) and [Server-Side Public License]() are intended to limit use of open source software by cloud providers. While Zalando is not directly affected by these liceses, currently we do not recommend adopting dependencies which use any of these licenses:
+
+1. The licenses are not approved by OSI and is therefore not open source - furthermore, the language of these licenses are unclear in regards to what is proper commercial use, if in breach of any of these licenses, Zalando must publish all associated assets such as interfaces, build systems and modifications made.
+2. We use and support open source under the belief that it is the freedom to use, modify and distribute which have enabled its success. The projects using these licenses still enjoy the full freedoms and benefits from open source, but at the same time limit the freedom of others use of their code - we do not wish to support this development.
+
 
 ## Unlicensed code
 
