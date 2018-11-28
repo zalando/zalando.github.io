@@ -6,7 +6,7 @@ date: 2018-11-28
 
 # Zalando Postgres operator: one year later
 
-[The Postgres operator](https://github.com/zalando-incubator/postgres-operator) provides a managed PostgreSQL service for Kubernetes. It extends the Kubernetes API with a custom “postgresql” resource that describes desired characteristics of a Postgres cluster, monitors updates of this resource and adjusts Postgres clusters accordingly. Zalando successfully uses the operator to manage more than 450 Postgres clusters across a large number of Kubernetes installations.
+[The Postgres operator](https://github.com/zalando-incubator/postgres-operator) provides a managed Postgres service for Kubernetes. It extends the Kubernetes API with a custom “postgresql” resource that describes desired characteristics of a Postgres cluster, monitors updates of this resource and adjusts Postgres clusters accordingly. Zalando successfully uses the operator to manage more than 450 Postgres clusters across a large number of Kubernetes installations.
 
 ## Moving to production
 
@@ -26,4 +26,4 @@ Our efforts culminated in the release of the operator’s [first stable version]
 
 ## Want to delve in ?
 
-If you want to know more, check out [our talks](https://github.com/zalando-incubator/postgres-operator/blob/master/docs/index.md#talks) for a deeper technical perspective on what we are doing. For those of you who are willing to obtain hands-on experience with the hot technologies such as Postgresql, Kubernetes, or golang in the thriving open-source environment, we prepared a list of [good first issues](https://github.com/zalando-incubator/postgres-operator/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22). Finally, we [are always looking](https://jobs.zalando.com/jobs/570376-senior-database-engineer-postgresql/) for new team members who are eager to work with us full-time on the Zalando database infrastructure.
+If you want to know more, check out [our talks](https://github.com/zalando-incubator/postgres-operator/blob/master/docs/index.md#talks) for a deeper technical perspective on what we are doing. For those of you who are willing to obtain hands-on experience with the hot technologies such as Postgres, Kubernetes, or golang in the thriving open-source environment, we prepared a list of [good first issues](https://github.com/zalando-incubator/postgres-operator/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22). Finally, we [are always looking](https://jobs.zalando.com/jobs/570376-senior-database-engineer-postgresql/) for new team members who are eager to work with us full-time on the Zalando database infrastructure.
