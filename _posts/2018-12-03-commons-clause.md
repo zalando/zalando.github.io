@@ -69,6 +69,14 @@ away, a projects erodes trust with its community and raises very serious
 questions about the motives of the founders.
 
 # The Problems of Monetisation
+
+In general, it is very hard to simply take a piece of Open Source software and
+sell it as-is. A certain amount of value-add is required because the software
+itself is freely-available. The "trick" is to focus on what customers _do_ want
+to buy... productisation. This may be anything from documentation, to reliable
+packaging to consulting. MOAR FEATURES!
+
+
 - Can't sell something that is Free/free
 - So what can we sell?
   - Consulting
