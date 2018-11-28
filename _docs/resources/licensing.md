@@ -34,7 +34,7 @@ And 2 types which you cannot use in any way:
 * [AGPL, RPL or variants licensed code](#agpl-&-rpl-licensed-code)
 * [Unlicensed code](#unlicensed-code)
 
-* [Guidance on licenses such as Commons Claus and Server-Side Public license](#Guidance-on-Commons-Clause,-Server-Side-Public-License-and-similiar)
+* [Recommendation on licenses such as Commons Clause and Server-Side Public license](#Recommendation-on-Commons-Clause,-Server-Side-Public-License-and-similar)
 
 This document is a general overview and does not represent legal advice. Always check the details of each license and if you are in doubt, get in touch with legal.
 
@@ -100,7 +100,7 @@ Code dependency which triggers the copyleft provision even when it is not distri
 
 Use of software licensed under AGPL represents a big risk for Zalando, so even for projects which is not directly linked to any of our services, it must not be used as the benefits compared to the risk is small.
 
-## Guidance on Commons Clause, Server-Side Public License and similiar 
+## Recommendation on Commons Clause, Server-Side Public License and similar 
 A new breed of licenses for open source projects, such as [Commons Clause](https://commonsclause.com/) and [Server-Side Public License]() are intended to limit use of open source software by cloud providers. While Zalando is not directly affected by these liceses, currently we do not recommend adopting dependencies which use any of these licenses:
 
 1. The licenses are not approved by OSI and is therefore not open source - furthermore, the language of these licenses are unclear in regards to what is proper commercial use, if in breach of any of these licenses, Zalando must publish all associated assets such as interfaces, build systems and modifications made.
