@@ -46,6 +46,7 @@ defaults:
 plugins:
   - jekyll-paginate
   - jekyll-relative-links
+  - jekyll-sitemap
   
 exclude:
   - 'Gemfile'
