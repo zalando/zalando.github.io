@@ -1,3 +1,9 @@
+---
+title: Zalando Postgres operator: one year later. 
+author: Sergey Dudoladov 
+date: 2018-11-28
+---
+
 # Zalando Postgres operator: one year later
 
 [The Postgres operator](https://github.com/zalando-incubator/postgres-operator) provides a managed PostgreSQL service for Kubernetes. It extends the Kubernetes API with a custom “postgresql” resource that describes desired characteristics of a Postgres cluster, monitors updates of this resource and adjusts Postgres clusters accordingly. Zalando successfully uses the operator to manage more than 450 Postgres clusters across a large number of Kubernetes installations.
