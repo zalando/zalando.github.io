@@ -5,8 +5,9 @@ author: The Open Source Team
 ---
 
 > From today, Zalando is taking a stance against those who would seek to
-> restrict the freedoms at the heart of Open Source by taking a stance against
-> adoption of software with the Commons Clause applied.
+> restrict the freedoms at the heart of Open Source by banning the adoption of
+> any code covered by the Commons Clause, across all of Zalando's software
+> engineering activities.
 
 The license is one of the most crucial artefacts within any software project.
 This is especially so in the case of Open Source; it is the license which
