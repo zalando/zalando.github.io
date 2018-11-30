@@ -25,11 +25,16 @@ banner:
       <h4>Topics</h4>
       
       <ul>
-    
+
 
       <li><a href="{{"docs/using/index" | relative_url }}">Adopting open source code</a><br>
       <p>
       Policies on what to be aware of when adopting open source code in a Zalando project. This applies to both adding dependencies and to contributing upstream.</p>
+      </li>
+
+      <li><a href="{{"docs/resources/licensing" | relative_url }}">Open Source License Guide</a><br>
+      <p>
+      Guidance on what liceses your dependencies can have for internal use and for use in our open source projects.</p>
       </li>
 
        <li><a href="{{"docs/releasing/index" | relative_url }}">Releasing an open source project</a> <br>
