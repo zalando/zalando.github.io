@@ -101,7 +101,8 @@ These licenses trigger the copyleft provision even when it is not distributed. I
 Use of dependencies licensed under these licenses represents a big risk for Zalando, so even for projects which are not directly linked to any of our web services, it must not be used as the benefits compared to the risks are small.
 
 Code licensed under 
-[AGPL](https://tldrlegal.com/l/agpl3), 
+[AGPL](https://tldrlegal.com/l/agpl3),
+[SSPL](https://www.mongodb.com/licensing/server-side-public-license), 
 [RPL](<https://tldrlegal.com/license/reciprocal-public-license-1.5-(rpl-1.5)>),
 [EUPL](https://spdx.org/licenses/EUPL-1.2.html) and 
 [CPAL](https://tldrlegal.com/license/common-public-attribution-license-version-1.0-(cpal-1.0)), may not be used at Zalando.
