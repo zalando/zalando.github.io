@@ -2,6 +2,8 @@
 title: Connexion 2.0 Release
 author: João Santos
 date: 2018-11-05
+banner:
+  image: connected.jpg
 ---
 
 Today we released [Connexion](https://github.com/zalando/connexion) 2.0 with OpenAPI 3 support.
