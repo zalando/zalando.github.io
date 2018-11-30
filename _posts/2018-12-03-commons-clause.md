@@ -6,73 +6,37 @@ author: The Open Source Team
 
 > From today, Zalando is taking a stance against those who would seek to
 > restrict the freedoms at the heart of Open Source by banning the adoption of
-> any code covered by the Commons Clause, across all of Zalando's software
+> any project covered by the Commons Clause, across all of Zalando's software
 > engineering activities.
 
 The license is one of the most crucial artefacts within any software project.
 This is especially so in the case of Open Source; it is the license which
 provides the legal grounds for the project owners' stance of Freedom and
 openness. Simply put, without an OSI or FSF-approved license in place, your
-project can hardly claim to be Open Source / Free Software.
+project can hardly claim to be Open Source.
 
-At the heart of any genuine Open Source license, is the provision of the four
-freedoms. Beyond that, the nuances between licenses really serve to set
-expectations around how you can _contribute_ to the project with one universal
-truth: these license want to encourage contribution.
+At the heart of any genuine Open Source license, is the provision of the [four
+freedoms](https://fsfe.org/freesoftware/basics/4freedoms.en.html). Beyond that,
+the nuances between licenses really serve to set expectations around how you
+can _contribute_ to the project with one universal truth: these licenses want to
+encourage contribution.
 
-Recently, a new document (note, not a complete license) called "Commons Clause"
-was released. The Commons Clause is designed to be applied to existing Open
-Source projects to provide a commercial restriction:
+Recently, a new license called "Commons Clause" was released. The Commons
+Clause is strictly speaking, not a license. Instead it is an addendum designed
+to be applied to existing Open Source licenses to provide a specific
+restriction.
 
-<insert some shit here>
+In short: it restricts your ability to monetise the software.
 
-In short: it restricts your freedom to sell the software.
-
-# The Spirit of Open Source
-
-In practice, the Commons Clause is pretty limited: it allows you to engage in
-pretty much all the most common forms of monetisation of software, but you
-cannot sell a product based upon the software which does not add value (e.g. if
-you rename the software and _then_ host it as a service). 
-
-But this simple restriction is hugely important: applying it means the software
-is no-longer Open Source.
-
-## Freedom 0: The Fundamental Freedom
-
-Ultimately software exists to satisfy some problem. Without the ability to run
-the software, you are disabled from solving your problem. Freedom 0 is simple:
-
-> The freedom to run the program as you wish, for any purpose.
-
-The Commons Clause does not restrict you on purpose. You want to consult on the
-software? Go right ahead. Want to use the software inside weapons? Go right
-ahead. Want to use the software to power life saving hospital equipment? Go
-right ahead! Where Commons Clause _does_ restrict us is on the "as you wish"
-part; but this invalidates the entire Freedom and, thus, stops the whole body
-of the software from being Open Source.
-
-When you launch a project as Open Source you _explicitly_ make this covenant
-towards your community. Even if they never intend to invoke the privilege.
-Meanwhile the community contributes! Their active engagement with the project
-ultimately serves to make the product better. To retro-actively invoke your
-rights as the copyright holder to restrict their freedoms is an insult.
-
-Ask yourself: "Would everyone have contributed to a commnuity if the Commons
-Clause was in place from the start?"
-
-Applying the Commons Clause to a project breaks a special convenant between
-the project's founders and the community. Participants within the community are
-concurrently incentivised and rewarded with Freedom 0. By taking this freedom
-away, a projects erodes trust with its community and raises very serious
-questions about the motives of the founders.
-
-# The Problems of Monetisation
+## The Problems of Monetisation
 
 In general, it is very hard to simply take a piece of Open Source software and
 sell it as-is. A certain amount of value-add is required because the software
 itself is freely-available. The "trick" is to focus on what customers _do_ want
-to buy... productisation. This may be anything from training, to documentation, to reliable packaging to consulting or even adding specific enterprise features.
+to buy... productisation. This may be anything from training, to documentation,
+to reliable packaging to consulting or even adding specific enterprise
+features. Of course, increasingly common, there is the option to run the
+software as a service.
 
 It is a non-trivial problem and the (financial) sustainability of Open Source
 will continue to be a challenge for a long time to come. Yet, there are still a
@@ -80,7 +44,9 @@ significant number of businesses that thrive on Open Source, based upon
 carefully thought-out strategy. While sustainability is a problem, it _can_ be
 solved; just look at the recent RedHat acquisition for proof.
 
-## The Legal Issue With Commons Clause
+<< Add some stuff on trickle down economics for maintainers here >>
+
+# The Legal Issue With Commons Clause
 
 The Commons Clause is undoubtedly a genuine attempt to solve the problem of
 financially sustaining an Open Source project. It is also, however, an affront
@@ -113,10 +79,11 @@ And lawyers.
 > ...a product or service whose value derives, entirely or substantially, from
 > the functionality of the Software.
 
-What does substantially _mean_? Imagine if Zalando was to adopt "Open Source Tech X"
-and it was covered by the Commons Clause; it's a tiny library that constiutes a
-fraction-of-a-fraction of our codebase. Is _that_ substantial? What if that
-code was responsible for delivering a crucial component of the user experience?
+What does substantially _mean_? Imagine if Zalando was to adopt "Open Source
+Tech X" and it was covered by the Commons Clause; it's a tiny library that
+constiutes a fraction-of-a-fraction of our codebase. Is _that_ substantial?
+What if that code was responsible for delivering a crucial component of the
+user experience?
 
 # Taking A Stance
 
@@ -124,11 +91,12 @@ Today, Zalando is [joining others](https://opensource.google.com/docs/thirdparty
 Commons Clause licensed code:
 
 - It can be argued that it disallows and commercial usage of the software;
-- It is an affront the spirit of the underlying license and the goodwill of the
-  wider community around the software.
+- It is contrary to the spirit of the underlying license and the goodwill of
+  the wider community around the software.
 
 Zalando is proud of its history in contributing to Open Source and grateful to
-all who have ever contributed to our projects. We look forwar to working you
-all to address the serious issue of (financial) sustainability in Open Source.
-We wish we had an answer now. We don't. What we do know, is that the Commons
-Clause is not it.
+all who have ever contributed to our projects and the projects we are reliant
+on to build our platform. We look forward to working with the wider Open Source
+ecosystem to address the serious issue of (financial) sustainability in Open
+Source. We wish we had an answer now. We don't. What we do know, is that the
+Commons Clause is not it.
