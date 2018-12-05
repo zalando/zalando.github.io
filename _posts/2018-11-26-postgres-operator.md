@@ -2,6 +2,8 @@
 title: Zalando Postgres operator: one year later. 
 author: Sergey Dudoladov 
 date: 2018-11-28
+banner:
+  image: scale.jpg
 ---
 
 # Zalando Postgres operator: one year later
