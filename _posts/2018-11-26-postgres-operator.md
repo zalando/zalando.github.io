@@ -1,5 +1,5 @@
 ---
-title: Zalando Postgres operator: one year later. 
+title: "Zalando Postgres Operator: One Year Later" 
 author: Sergey Dudoladov 
 date: 2018-11-28
 banner:
