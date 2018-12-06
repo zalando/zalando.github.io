@@ -5,7 +5,7 @@ date: 2018-12-06
 banner:
   image: nov-review.jpg
 ---
-# This is a recap of open source activities and development at Zalando in the month of November
+This is a recap of open source activities and development at Zalando in the month of November
 
 # Project Highlights 
 
@@ -28,7 +28,7 @@ banner:
 
 [**Machine Learning meets Fashion.**](https://www.meetup.com/Zalando-Tech-Events-Berlin/events/256912495/) We are inviting researchers, scientists and anyone who is interested in the field of Machine Learning and AI to join our re-imaging fashion journey. We believe only by working together with the community worldwide, we can bring our technologies and the know-how to the next level. Zalando Research team has released a number of publications around the most exciting research topics, such as Deep Learning, Computer Vision and Natural Language Processing, Large Scale Bayesian Inference, Reinforcement Learning and Causality. And we are very proud to share our work with the community by releasing so far 13 research projects in open source with [Flair](https://jobs.zalando.com/tech/blog/zalando-research-releases-flair/) - a natural language processing library as the most recent one. 
 
-<iframe width="1008" height="567" src="https://www.youtube.com/embed/bgDDfqB5iHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="567" src="https://www.youtube.com/embed/bgDDfqB5iHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 -- *Zalando Research Lab*
 
 
