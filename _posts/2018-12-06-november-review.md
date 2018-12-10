@@ -34,7 +34,7 @@ This is a recap of open source activities and development at Zalando in the mont
 
 # Zalando Open Source Around The World 
 
-- **HighLoad Moscow, November 8 - 9** -- Zalando engineers participated in this conference to connected with local developers and Russian tech communities, at the same time, we had three presentations starting with [Valentine Gogichashvili](https://www.linkedin.com/in/valgog) - our Head of Engineering, speaking about data engineering inside Zalando, [Henning Jacobs](https://twitter.com/try_except) - Head Developer Productivity who gave a lecture on [‘Optimizing Kubernetes Resource Requests’](https://www.slideshare.net/try_except_/optimizing-kubernetes-resource-requestslimits-for-costefficiency-and-latency-highload) and finally [Alexanders Kukushkin](https://github.com/CyberDem0n), our Database Expert, shared his experiences on ‘the migration of a 10 TB PostgreSQL Cluster to AWS’
+- **HighLoad Moscow, November 8 - 9** -- Zalando engineers participated in this conference to connected with local developers and Russian tech communities, at the same time, we had three presentations starting with [Valentine Gogichashvili](https://www.linkedin.com/in/valgog) - our Head of Engineering, speaking about data engineering inside Zalando, [Henning Jacobs](https://twitter.com/try_except_) - Head Developer Productivity who gave a lecture on [‘Optimizing Kubernetes Resource Requests’](https://www.slideshare.net/try_except_/optimizing-kubernetes-resource-requestslimits-for-costefficiency-and-latency-highload) and finally [Alexanders Kukushkin](https://github.com/CyberDem0n), our Database Expert, shared his experiences on ‘the migration of a 10 TB PostgreSQL Cluster to AWS’
 
 ![highload](/assets/img/highload.jpg)
 
