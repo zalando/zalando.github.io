@@ -1,5 +1,5 @@
 ---
-title: October Updates - Hacktoberfest, new releases and more. 
+title: October Review - Hacktoberfest, new releases and more. 
 author: Hong Phuc Dang 
 date: 2018-11-06
 banner:
