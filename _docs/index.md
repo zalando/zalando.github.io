@@ -13,7 +13,6 @@ banner:
 This website is therefore a guide, primarily for Zalando employees, on how to adopt, modify and release Open Source code. There are a few references to internal Zalando sites or services, but with an effort to limit our use of internal lingo or acronyms.
 
 #### Topics
-
 - [Open Source Licensing Guide]({{"docs/resources/licensing" | relative_url }})
   Policies and guidance on which licenses can be used internally at Zalando and in Zalando open source projects
 
@@ -25,4 +24,4 @@ This website is therefore a guide, primarily for Zalando employees, on how to ad
   maintain a project
   
 - [State of open source at Zalando]({{ "docs/reports/june-2018" | relative_url}})
-  The latest report on how open source is doing at Zalando with key numbers and insights, as well as a roadmap forward.
+  The latest report on how open source is doing at Zalando with key numbers and insights, as well as a roadmap forward
