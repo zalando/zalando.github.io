@@ -22,9 +22,7 @@ layout: nil
            <author>
              <name>{{ post.author.name }}</name>
            </author>
-           <content type="html">
-             {{ post.content | truncatewords: 20 }}
-           </content>
+           <content type="html">{{ post.short }}</content>
          </entry>
      {% endif %}
      {% endfor %}
