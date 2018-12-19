@@ -2,6 +2,7 @@
 title: "Zalando Postgres Operator: One Year Later" 
 author: Sergey Dudoladov 
 date: 2018-11-26
+tags: [PostgreSQL]
 banner:
   image: scale.jpg
 ---
