@@ -23,7 +23,7 @@ layout: nil
              <name>{{ post.author.name }}</name>
            </author>
            <content type="html">
-             {{ post.content | markdownify | truncatewords: 20 }}
+             {{ post.content | truncatewords: 20 }}
            </content>
          </entry>
      {% endif %}
