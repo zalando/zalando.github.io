@@ -4,15 +4,6 @@
 */
 const team = [
   {
-    username: "therealpadams",
-    title: "Open Source Lead",
-    name: "Paul Adams",
-    html_url: "https://github.com/therealpadams",
-    avatar_url: "https://avatars2.githubusercontent.com/u/16607448?v=4",
-    bio:
-      "Engineering Leader ■ Certified Scrum Master ■ Team Builder ■ Open Source Advocate ■ Chartered Engineer"
-  },
-  {
     username: "perploug",
     title: "Open Source Community Manager",
     name: "Per Ploug",
