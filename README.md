@@ -34,7 +34,6 @@ Please read [CONTRIBUTING.md] for details on our code of conduct, and the proces
 
 ## Team members
 
-* **Paul Adams** - paul.adams@zalando.de - [@therealpadams](https://github.com/therealpadams)
 * **Per Ploug** - per.ploug@zalando.de - [@perploug](https://github.com/perploug)
 * **Hong Phuc Dang** - hong.dang@zalando.de - [@hpdang](https://github.com/hpdang)
 
