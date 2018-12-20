@@ -68,7 +68,7 @@
   <body>
     {% include header.html title=page.title %}
 
-    {% if include.title != "Docs" and page.layout != 'documentation' %}
+    {% if page.layout != 'documentation' or page.forceBanner == true %}
       {% include banner.html %}
     {% endif %}
 
