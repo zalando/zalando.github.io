@@ -58,3 +58,6 @@ git interpret-trailers --if-exists doNothing --trailer \
     "Signed-off-by: $NAME <$EMAIL>" \
     --in-place "$1"
 ```
+
+### Automatic sign-off on Github.com
+For small changes made to documentation, it can be fast and simple to do this on github.com - unfortunately sign-off is not supported there. However, there is a small Chrome extension which adds automatic sign-off to all commits made though the github ui [available on the chrome webstore](https://chrome.google.com/webstore/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo)
