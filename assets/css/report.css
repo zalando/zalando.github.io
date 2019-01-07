@@ -64,10 +64,14 @@
 
 .timeline__content {
   padding: 2rem;
-  background: #fff;
+  background: var(--background-color-secondary);
   position: relative;
   text-align: center;
   max-width: 400px;
+}
+
+.timeline__white .timeline__content{
+  background: #fff !important
 }
 
 .timeline__title {
@@ -110,6 +114,19 @@
   z-index: 1;
 }
 
+.timeline .done strong{
+  color: #30660a
+}
+
+.timeline .in-progress strong{
+  color: #ff8e25
+}
+
+.timeline .not-done strong{
+  color: #ff4a25
+}
+
+
 .activity {
   margin-top: 4rem;
 }
@@ -140,14 +157,23 @@
   .timeline__content--left::after {
     right:100%;
     border-width: 16px 16px 16px 0px;
-    border-color: transparent white transparent transparent;
+    border-color: transparent var(--background-color-secondary) transparent transparent;
   }
+
+  .timeline__white  .timeline__content--left::after{
+    border-color: transparent white transparent transparent !important
+  }
+
 
   .contributor__commits--right::after,
   .timeline__content--right::after {
     left:100%;
     border-width: 16px 0 16px 16px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent var(--background-color-secondary);
+  }
+
+  .timeline__white  .timeline__content--right::after{
+    border-color: transparent transparent transparent white !important
   }
 
   .contributor__commits--left::after,
