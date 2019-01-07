@@ -6,11 +6,17 @@
 .article__content {
   flex-grow: 2;
   margin-right: 4rem;
+  overflow: hidden;
 }
 
 .article__content h1 {
   font-size: 2.7rem;
   line-height: 3.6rem;
+}
+
+.article__content img {
+  max-width: 100%;
+  height: auto;
 }
 
 .article__content h1,
@@ -309,5 +315,21 @@ a.blog-box__title {
   .article__sidebar {
     flex-grow: 1;
     margin-top: 4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .blog-box {
+    display: block;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .blog-box, .blog-box:hover {
+    box-shadow: none;
+  }
+  .blog-box__content {
+    padding: 2rem;
+    padding-top: 4rem;
   }
 }
