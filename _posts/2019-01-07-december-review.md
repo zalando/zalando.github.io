@@ -22,7 +22,7 @@ Beside Patroni, Zalando also released other PostgreSQL driven projects such as:
 
 # Inside Zalando Open Source 
 
-[**Machine Learning Meetup**](https://www.meetup.com/Zalando-Tech-Events-Berlin/events/256912495/) the Zalando Open Source Guild hosted a Holiday Hack event which brought together researchers, developers and people who are interested in the field of Machine Learning to share knowledge and try out open source framework and solutions developed by Zalando Research and Engineering Teams.
+[**Machine Learning Meetup**](https://www.meetup.com/Zalando-Tech-Events-Berlin/events/256912495/) the Zalando Open Source Guild hosted a Holiday Hack event which brought together 71 researchers, developers and people who are interested in the field of Machine Learning to share knowledge and try out open source framework and solutions developed by Zalando Research and Engineering Teams.
 
 During the event Zalando Open Source Maintainers conducted talks and guided the attendees to complete multiple challenges and hands-on exercises on  two projects 1) [Flair - a natural language processing library](https://github.com/zalandoresearch/flair)  and 2) [Connexion - a Swagger/OpenAPI framework for Python](). 
 
@@ -30,14 +30,14 @@ During the event Zalando Open Source Maintainers conducted talks and guided the 
 
 _- Holiday Hack 2018, Berlin_
 
-**Open Source Contribution Chart of December** despite the busy holiday season, more pull requests and commits are seen across Zalando’s open source projects.
+[**Open Source 2018 Year End Report**](https://opensource.zalando.com/docs/reports/2019/january-2019/) it has been an amazing year for open source at Zalando: 25 new projects, 11.239 commits,  5.000 pull requests, with 31% coming from non-employees. We have seen activities, contributions across Zalando repositories throughout the entire year even in the busy holiday month of December. Click [here](https://opensource.zalando.com/docs/reports/2019/january-2019/) to see the full report.
  
 ![decembercontribution](/assets/img/december.png)
 
 
 # Zalando Open Source Around The World 
 
-[**KubeCon, December 10 - 14**](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/) [Alexanders Kukushkin](https://de.linkedin.com/in/cyberdemn), Zalando's Database Engineer, delivered a speech on 'Building your own PostgreSQL-as-a-Service on Kubernetes'. 
+[**KubeCon, December 10 - 14**](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/) [Alexanders Kukushkin](https://de.linkedin.com/in/cyberdemn), Database Engineer at Zalando, delivered a speech on 'Building your own PostgreSQL-as-a-Service on Kubernetes'. 
 
 <iframe width="800" height="500" src="https://www.youtube.com/embed/G8MnpkbhClc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 _- KubeCon 2018, Seattle_
