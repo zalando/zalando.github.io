@@ -23,5 +23,5 @@ This website is therefore a guide, primarily for Zalando employees, on how to ad
   A step by step guide on what to do before you can release a project and guidelines on how to
   maintain a project
   
-- [State of open source at Zalando]({{ "docs/reports/june-2018" | relative_url}})
+- [State of open source at Zalando]({{ "docs/reports/2018/june-2018" | relative_url}})
   The latest report on how open source is doing at Zalando with key numbers and insights, as well as a roadmap forward
