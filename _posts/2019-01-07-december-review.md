@@ -26,13 +26,13 @@ Beside Patroni, Zalando also released other PostgreSQL driven projects such as:
 
 During the event Zalando Open Source Maintainers conducted talks and guided the attendees to complete multiple challenges and hands-on exercises on  two projects 1) [Flair - a natural language processing library](https://github.com/zalandoresearch/flair)  and 2) [Connexion - a Swagger/OpenAPI framework for Python](). 
 
-![holidayhack](/assets/img/holidayhack.jpg)
+![holidayhack](/assets/img/holidayhack1.jpg)
 
 _- Holiday Hack 2018, Berlin_
 
 [**Open Source 2018 Year End Report**](https://opensource.zalando.com/docs/reports/2019/january-2019/) it has been an amazing year for open source at Zalando: 25 new projects, 11.239 commits,  5.000 pull requests, with 31% coming from non-employees. We have seen activities, contributions across Zalando repositories throughout the entire year even in the busy holiday month of December. Click [here](https://opensource.zalando.com/docs/reports/2019/january-2019/) to see the full report.
  
-![decembercontribution](/assets/img/december.png)
+![decembercontribution](/assets/img/december1.png)
 
 
 # Zalando Open Source Around The World 
@@ -45,12 +45,13 @@ _- KubeCon 2018, Seattle_
 
 [**35c3, December 27 - 30**](https://media.ccc.de) a number of Zalandos participated in the 35th Chaos Communication Congress (35C3) - the annual four-day conference on technology, society and utopia organised by the [Chaos Computer Club](https://www.ccc.de/) (CCC). This was a great opportunity for us to meet and connect with developers, tech communities and hackerspaces across Germany and Europe. [Hong Phuc Dang](https://www.linkedin.com/in/hongphucdang), Zalando Open Source Team, had the honor to speak at the Podium on [Feminist Perspectives on Inclusive and Diverse Spaces and Communities](https://youtu.be/NDcwl3n47ak) where she exchanged lessons learned and ideas with other panelists on how to create and sustain more diversity in the tech community.
 
-![35c3](/assets/img/35c3.jpg)
+![35c3](/assets/img/35c31.jpg)
 
 _- 35c3 2018, Leipzig_
 
 
 # More reading
+- [Zalando Open Source: 2018 Year End Report](https://opensource.zalando.com/docs/reports/2019/january-2019/)
 
 - [November review](https://opensource.zalando.com/blog/2018/12/november-review/)
 
