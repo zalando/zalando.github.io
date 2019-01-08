@@ -30,11 +30,10 @@ If you have general questions around Open Source @ zalando, the quickest way to 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Team members
 
-* **Paul Adams** - paul.adams@zalando.de - [@therealpadams](https://github.com/therealpadams)
 * **Per Ploug** - per.ploug@zalando.de - [@perploug](https://github.com/perploug)
 * **Hong Phuc Dang** - hong.dang@zalando.de - [@hpdang](https://github.com/hpdang)
 
