@@ -51,7 +51,14 @@ Projects entering the incubator, does so under the Zalando ownership. If we as a
 - Zalando have a vested interest in its longterm success
 - Collaborating with external contributors will bring the maintainer team value and this involvement can coexist with Zalando's internal plans for the project 
 
-To ensure that a project can exist longterm and that the organization does not loose interest in maintaining it, ensure that the project is used and actively maintained by a Zalando team. If there is no long-term usage plans, explore alternative ownership for the project. 
+To ensure that a project can exist longterm and that the organization does not loose interest in maintaining it, ensure that the project is used and actively maintained by a Zalando team. If there is no long-term usage plans, explore alternative ownership for the project.
+
+### Required maintainer initiatives during incubation
+While maintaines are free to determine what actions to take to grow the project, there are a number of actions which are required of them during incubation:
+
+- You enroll in the maintainer introduction training - available on [trainings.zalando.net] (Internal link)
+- You present the project on the weekly tech-stand-up (Internal Zalando Event)
+- You write a release blog post for the project to publish on [opensource.zalando.com]
 
 ### Determine current project quality and maturity
 While projects included in the incubator is not required to be feature complete, it is required that the project owners have established processes, people and plans for the future:
