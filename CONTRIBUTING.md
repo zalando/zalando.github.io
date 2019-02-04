@@ -81,7 +81,7 @@ git commit -m "Initial scaffold for the website layout" -s
 
 The `-s` in the above commit message signs your commit.
 
-## Submit a blog article to [Zalando Open Sourc Blog]()
+## Submit a blog article to [Zalando Open Source Blog](https://opensource.zalando.com/blog/)
 The blog is built with [Github Pages](https://help.github.com/articles/what-is-github-pages/). Please set up a local version of your [Jekyll GitHub Pages site](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) to test changes locally before making a pull request
 - Blog articles are stored in folder **/_posts/**
 - To create a new article, create a .md file with [markdown](https://en.wikipedia.org/wiki/Markdown)
