@@ -25,3 +25,6 @@ This website is therefore a guide, primarily for Zalando employees, on how to ad
   
 - [State of open source at Zalando 2018 Report]({{ "docs/reports/2019/january-2019" | relative_url}})
   The 2018 report on how open source is doing at Zalando with key numbers and insights, as well as a roadmap forward
+
+- [Harassment Policy]({{"docs/resources/harassment-policy" | relative_url }})
+  Policy on how we manage online harassment and support our maintainers and contributors as when working with open source as part of their work at Zalando. 
