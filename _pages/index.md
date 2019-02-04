@@ -6,6 +6,20 @@ banner:
   height: 450px
 ---
 
+<section class="dc--text-center page-section
+page-section--background-highlight" style="padding: 30px 0 30px 0" id="os-projects">
+  <div class="dc-container dc-container--limited">
+    <a href="/docs/reports/2019/january-2019/">
+    <h2 class="dc-h2">
+    State of open source at Zalando 2018 Report is now available
+    </h2>
+    <p class="dc-p">
+    A closer look at the numbers, insights and initiatives for open source at Zalando in 2018
+    </p>
+    </a>
+  </div>
+</section>
+
 <section class="dc--text-center page-section page-section--padding page-section--background-white" id="os-projects">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">Projects</h1>
