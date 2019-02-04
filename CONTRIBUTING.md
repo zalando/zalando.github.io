@@ -89,7 +89,6 @@ The blog is built with [Github Pages](https://help.github.com/articles/what-is-g
 - If you include images in the content of the article, please add those into the folder **/assets/img/**. 
 - Please do not forget to test your changes locally before submitting a pull request. 
 - Review process often takes 2 - 4 days. 
-- _Tip_: Provide a screenshot or link of your changes would help to speed up the review process. 
 
 
 # Contact
