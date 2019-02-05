@@ -81,6 +81,16 @@ git commit -m "Initial scaffold for the website layout" -s
 
 The `-s` in the above commit message signs your commit.
 
+## Submit a blog article to [Zalando Open Source Blog](https://opensource.zalando.com/blog/)
+The blog is built with [Github Pages](https://help.github.com/articles/what-is-github-pages/). Please set up a local version of your [Jekyll GitHub Pages site](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) to test changes locally before making a pull request
+- Blog articles are stored in folder **/_posts/**
+- To create a new article, create a .md file with [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- Each blog article requires a banner image which is stored in folder **/assets/img/banners/**. You can add a new banner there or use one of the exisiting ones. 
+- If you include images in the content of the article, please add those into the folder **/assets/img/**. 
+- Please do not forget to test your changes locally before submitting a pull request. 
+- Review process often takes 2 - 4 days. 
+
+
 # Contact
 
 - **Email**: opensource@zalando.de
