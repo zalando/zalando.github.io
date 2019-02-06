@@ -31,7 +31,7 @@ First of all: **proactively** we recommend that employees only engage with proje
 
 Secondly, if an employee do need guidance we **reactively** provide the following options:
 
-- P&O (Zalando HR) can guide you on how to react to abusive behavior and help you determine if legal action is required. Talk to your lead if you need assistance, or reach out directly to the open source team or discrimination@zalando.de.
+- P&O (Zalando HR) can guide you on how to react to abusive behavior and help you determine if legal action is required. Talk to your lead if you need assistance, or reach out directly to the open source team.
 - The open source team will assist you in reporting the abuse to the responsible platform owner (such as Github)
 - Zalando legal will provide legal guidance in case such is required
 - If it is established there is a need to report the incident to law enforcement, P&O (Zalando HR) and Zalando legal will assist you in collecting evidence and file a report
