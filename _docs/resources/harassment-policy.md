@@ -6,9 +6,9 @@ index: 5
 category: Resources
 ---
 
-#### When you as a Zalando employee engage in open source communities as part of your work, you will interact with the wider open source communities outside Zalando - this is generally a good experience and collaborating with many different types of developers with different backgrounds is generally a positive input to your personal development. 
+#### When you as a Zalando employee engage in open source communities as part of your work, you will interact with the wider open source communities outside Zalando - this is generally a good experience and collaborating with many different types of people with diverse backgrounds is generally a positive input to your personal development. 
 
-However, it also means there is a risk that you might encounter abusive or harassing behavior from people in the communities around these projects - it happens very rarely, but if you are ever exposed to such behavior, be aware that Zalando as your employer are here to assist you.
+However, it also means that there is a risk that you might encounter abusive or harassing behavior from people in the communities around these projects - it happens very rarely, but if you are ever exposed to such behavior, be aware that Zalando as your employer are here to assist you.
 
 Zalando takes online harassment seriously and will take the required actions to protect its employees from harm when they engage in open source work on the company's behalf.
 
