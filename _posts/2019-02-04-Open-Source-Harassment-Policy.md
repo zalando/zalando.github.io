@@ -6,7 +6,11 @@ banner:
   image: collaborate.jpg
 ---
 
-The open source community is no different than any other online community, there is a risk of encountering negative or even abusive behavior from its members when you work as an open source contributor or maintainer. As an employer encouraging open source participation, we have decided to devise a [policy](https://opensource.zalando.com/docs/resources/harassment-policy/) for how we as a company can support our employees. 
+When you as a Zalando employee engage in open source communities as part of your work, you will interact with the wider open source communities outside Zalando - this is generally a good experience and collaborating with many different types of developers with different backgrounds is generally a positive input to your personal development.
+
+However, there is also a small risk of encountering negative or even abusive behavior from community members when you act as an open source contributor or maintainer.
+
+As an employer encouraging open source participation, we have decided to devise a [policy](https://opensource.zalando.com/docs/resources/harassment-policy/) for how we as a company can support our employees in case of harassment. 
 
 ### Statistics on harassment in open source
 An extensive [survey by Github](https://opensourcesurvey.org/2017/) in 2017 showed that nearly one out of five have experienced negative behavior personally and 50% have witnessed it between other people - fortunately outright harassment is much less likely with 14% witnessing it and 3% experiencing it personally. 
@@ -15,7 +19,7 @@ Witnessing and experiencing behavior such as name-calling, stereotyping and outr
 
 So, the open source community see an underrepresentation of minorities and those who do participate have a risk of encountering hostile behavior. Is the risk of harassment big? No - generally speaking the risk is low, but the impact of potential harassment is very real.
 
-As an industry we must priorities the topic of diversity in open source, abusive behavior should not be tolerated, and in the case of it happening, companies should be ready to support their employees in dealing with it. 
+As an industry we must prioritize the topic of diversity in open source, abusive behavior should not be tolerated, and in the case of it happening, companies should be ready to support their employees in dealing with it. 
 
 ### Supporting employee participation
 As an employer, Zalando encourages its employees to take active part in open source development. Developers are granted time to maintain the [projects we release](https://github.com/zalando-incubator) and to contribute upstream to [projects which are of strategic importance](https://opensource.zalando.com/tech-radar/) to Zalando. We as a company therefore have an obligation to ensure that we support employees who engage in open source on Zalandos behalf. 
