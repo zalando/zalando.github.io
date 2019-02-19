@@ -22,6 +22,8 @@ banner:
 
 - [Autoscaler](https://github.com/zalando-incubator/autoscaler) is a component that automatically adjusts the size of a Kubernetes Cluster so that all pods have a place to run and there are no unneeded nodes. This is a fork of [Kubernetes Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler). Our goal is to test and deploy the project in a large scale environment at Zalando, then propose upstream contributions, so the whole community can benefit from our experiments. 
 
+In addition to the project highlights, we recently released a [policy](https://opensource.zalando.com/docs/resources/harassment-policy) to handle harassment in open source. At Zalando we encourage our employees to take active part in open source development. And we as a company commit to provide our full support to developers who engage in open source on Zalandos behalf. Find out more details [here](https://opensource.zalando.com/blog/2019/02/Open-Source-Harassment-Policy/)
+
 
 ## Celebrate [I Love Free Software Day](https://www.meetup.com/Zalando-Tech-Events-Berlin/events/258359262)
 Join Zalando this Valentine’s Day to celebrate our love for Free Software. This is a chance for us to show our appreciation to people who contribute to free and open source community. We are delighted to welcome our special guest speakers who devote several years to grow and foster FOSS movement around the world. 
