@@ -35,6 +35,8 @@ Ensure your lead and team are onboard with open sourcing your project, that ever
 
 Make sure your team lead (Zalando level C8 employee) is informed about open sourcing a project, and that your lead is supportive of this. Open sourcing code is a process which requires time and effort, so make sure your lead and your team understand that some of your work hours will be spend maintaining this project and the community around it.
 
+[Sign-off Guide for leads](/docs/releasing/lead-sign-off-guide/)
+
 ### What cannot be open sourced?
 
 Anything that risks Zalando’s competitive advantage is not permissible for publication on GitHub.com. This typically means technologies we build that are intrinsic to generating or reinforcing the uniqueness of our customer experience. This could include (but is not limited to):
