@@ -46,7 +46,8 @@ defaults:
 plugins:
   - jekyll-paginate
   - jekyll-relative-links
-  
+  - jekyll-feed  
+
 exclude:
   - 'Gemfile'
   - 'Gemfile.lock'
