@@ -21,6 +21,17 @@ banner:
 
 ---
 
+## Cloud Native: Bug squashing night! 
+We are inviting users and contributors of Zalando Cloud Native Applications to meet project maintainers at our tech office here in Berlin. We will spend this evening together answering users questions, reviewing pull requests, improving documentations and fixing as many bugs as possible. [Sign up now!](https://www.meetup.com/Zalando-Tech-Events-Berlin/events/259892690)
+
+Participating projects: 
+- [Kubernetes on AWS](https://github.com/zalando-incubator/kubernetes-on-aws)
+- [Skipper](https://github.com/zalando/skipper)
+- [Postgres-operator](https://github.com/zalando/postgres-operator)
+- [External-DNS](https://github.com/kubernetes-incubator/external-dns)
+- [AWS Ingress Controller](https://github.com/zalando-incubator/kube-ingress-aws-controller)
+
+
 ## Zalando Open Source Around The World 
 Meet and connect with Zalando developers and project maintainers at open source events around the world: 
 
@@ -30,9 +41,11 @@ Meet and connect with Zalando developers and project maintainers at open source 
 
 - [Kubernetes Failure Stories and How to Crash Your Clusters](https://kccnceu19.sched.com/event/MPcM/kubernetes-failure-stories-and-how-to-crash-your-clusters-henning-jacobs-zalando-se#): This talk will show Zalando’s approach to Kubernetes provisioning on AWS, operations and developer experience, especially horror stories of operating 100+ clusters, lessons learned from incidents, failures, user reports and general observations. 
 
-[**PostgreSQL Day Italy**](https://2019.pgday.it/en/), Bologna, May 16 - 17: [Dmitry Dolgov](https://twitter.com/erthalion) will deliver a talk about ‘[PostgreSQL at low-level](https://2019.pgday.it/en/schedule/#session-37)’. In this session, he will discuss how much impact different knobs and options of the Linux kernel have on PostgreSQL and why, what would happen if you run databases in virtualized environment or inside a container. Dmitry will share experiences of running PostgreSQL inside Kubernetes, show how to see what's going on inside and how to break something spectacularly. 
+[**PostgreSQL Day Italy**](https://2019.pgday.it/en/), Bologna, May 16 - 17: [Dmitry Dolgov](https://twitter.com/erthalion) will speak about ‘[PostgreSQL at low-level](https://2019.pgday.it/en/schedule/#session-37)’. In this session, he will discuss how much impact different knobs and options of the Linux kernel have on PostgreSQL and why, what would happen if you run databases in virtualized environment or inside a container. Dmitry will share experiences of running PostgreSQL inside Kubernetes, show how to see what's going on inside and how to break something spectacularly. 
 
-[**Devops Gathering**](https://devops-gathering.io/), Bochum, Mar 11 - 13: [Henning Jacobs](https://twitter.com/try_except_) conduct a session on ‘Ensuring Kubernetes Cost Efficiency across (many) Clusters’. His talk provided insights on how Zalando approaches this problem with central cost optimizations (e.g. Spot), cost monitoring/alerting, active measures to reduce resource slack, and automated cluster housekeeping. 
+[**The Microservices & Serverless Conference in Berlin**](http://microxchg.io/2019/index.html), Berlin, Apr 1 - 2: [Oliver Trosien](https://twitter.com/otrosien) and [Mikkel Larsen](https://twitter.com/mikkeloscar) will share how Zalando utilizes Kubernetes to operate large-scale Elasticsearch clusters during their presentation titled 'Operating Elasticsearch in Kubernetes'. 
+
+[**Devops Gathering**](https://devops-gathering.io/), Bochum, Mar 11 - 13: [Henning Jacobs](https://twitter.com/try_except_) conducted a session on ‘Ensuring Kubernetes Cost Efficiency across (many) Clusters’. His talk provided insights on how Zalando approaches this problem with central cost optimizations (e.g. Spot), cost monitoring/alerting, active measures to reduce resource slack, and automated cluster housekeeping. 
 
 <iframe width="800" height="416" src="https://www.youtube.com/embed/4QyecOoPsGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
