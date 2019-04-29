@@ -9,7 +9,7 @@ banner:
 
 ## Project Highlights 
 
-A new operator is added to Zalando’s list of Cloud Native Applications.  [Es-Operator](https://github.com/zalando-incubator/es-operator) - an operator for running Elasticsearch in Kubernetes with focus on operational aspects, like safe draining and offering auto-scaling capabilities for Elasticsearch data nodes, rather than just abstracting manifest definitions.
+A new operator is added to Zalando’s list of Cloud Native Applications.  [Elasticsearch Operator](https://github.com/zalando-incubator/es-operator) - an operator for running Elasticsearch in Kubernetes with focus on operational aspects, like safe draining and offering auto-scaling capabilities for Elasticsearch data nodes, rather than just abstracting manifest definitions.
 
 To make things even simpler for developers, we also released a new framework that helps to build Kubernetes operators in Python. [Kopf - Kubernetes Operator Pythonic Framework](https://github.com/zalando-incubator/kopf) - a  framework and a library to make Kubernetes operators development easier, just in few lines of Python code. The main goal is to bring the Domain-Driven Design to the infrastructure level, with Kubernetes being an orchestrator/database of the domain objects (custom resources), and the operators containing the domain logic (with no or minimal infrastructure logic).
 
