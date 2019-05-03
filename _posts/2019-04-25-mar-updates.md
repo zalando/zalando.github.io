@@ -21,11 +21,13 @@ Meet and connect with Zalando representatives at tech events around the world:
 [GAIA Conference](https://www.gaia.fish), Göteborg, Apr 9: Mikio Braun - our AI expert - gave a keynote on Putting Data Science into Production. Check out his talk below: 
 
 <iframe width="800" height="590" src="https://www.youtube.com/embed/jePTtEFBgLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 --
 
 [Strata Conference](https://conferences.oreilly.com/strata/strata-eu), London, Apr 29 - May 2: Dirk Petzoldt - Head of Engineering will share how Zalando handles big data in our online marketing platform. [More details](https://conferences.oreilly.com/strata/strata-eu/public/schedule/detail/74071)
 
 [Coding Serbia Conference](https://codingserbia.com), Novi Sad, May 15 - 17: [Luis Mineiro](https://de.linkedin.com/in/lmineiro) - Senior Site Reliability Engineer,  will explain how we set up monitoring and alerting at Zalando and go over the basic concepts of Distributed Tracing and OpenTracing. 
+
 [GitHub Satellite](https://githubsatellite.com/), Berlin, May 22 - 23: [Per Ploug](https://www.linkedin.com/in/per-ploug-krogslund/) - Open Source Manager,  will talk about Open Source and security and try to answer the question: who is actually responsible for the security of open source dependencies?. 
 
 ![luis](/assets/img/codingserbia.jpeg)
