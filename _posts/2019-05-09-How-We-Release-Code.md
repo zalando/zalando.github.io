@@ -6,8 +6,8 @@ banner:
   image: mar-banner.jpg
 ---
 > Zalando currently have over 200 open source projects on Github and each month there are approximately 2 new projects proposed for publishing as open source.
-> Over the years we've refined our release process to ensure that it is easy and transparant to publish projects as open source and that we keep
-> our maintainers accountable for the wellbeing of the projects which they oversee.
+> Over the years we've refined our release process to ensure that it is easy and transparent to publish projects as open source and that we keep
+> our maintainers accountable for the well-being of the projects which they oversee.
 
 This blog post is an attempt at describing how we manage the process of proposing, reviewing and approving projects to become open source code while at the same time ensuring that code we release follow our compliance rules and that the maintainers of the projects are aware of the risks and responsibilities involved. 
 
@@ -19,7 +19,7 @@ The process roughly involves 5 steps which takes the project from internal sourc
 2. The project proposal is reviewed by the internal open source review group
 3. If approved, the project is published on the Zalando Incubator on Github
 4. The project activity and health is monitored by the open source team
-5. The project graduates from the incubator and into the main Zalando organsation, or the project is decommission and marked as archived.
+5. The project graduates from the incubator and into the main Zalando organisation, or the project is decommission and marked as archived.
 
 The part where we monitor projects and decide on whether to keep them or archive them will be outlined in greater detail in a later blogpost. 
 
@@ -50,7 +50,7 @@ When a project is proposed, it is automatically shared on an internal mailing-li
 
 
 ### Discussing the why
-The point here is to have as many eyes on the proposal as possible, specifically we are interested in discussing the WHY of releasing a project and the 3 questions below is central in this dicussion:
+The point here is to have as many eyes on the proposal as possible, specifically we are interested in discussing the WHY of releasing a project and the 3 questions below is central in this discussion:
 
 1. Can the project be sustainable?
 2. Do Zalando have any value in taking ownership?
@@ -84,11 +84,11 @@ Finally, after mailing-list discussions and approval in the monthly meeting, the
 
 1. We only transfer the current state of the repository to github, so we do not include the git history, while having the history would be very valuable to track down decisions for code changes, it is simply too big of a security risk and would require the maintainers to audit all commits.
 
-2. We automatically merge project files with our baseline files, so ensure all repositories have a minimal set of files, these are templated with employee names, emails and github names, so contact info and meta data is consistent. 
+2. We automatically merge project files with our baseline files, so ensure all repositories have a minimal set of files, these are templates with employee names, emails and github names, so contact info and meta data is consistent. 
 
 3. The project is setup with a dedicated team assigned to it, with the correct branch protection in place and compliance tooling installed by default (we have a bot called [Zincr](https://github.com/zalando-incubator/zincr) for this)
 
 
-And that is our release process for initially releasing new projects, I hope it gave you an insight into what a company of Zalano's size have to consider before releaing new code and how we have tried to keep the process simple and transparent for the maintainers of our projects. 
+And that is our release process for initially releasing new projects, I hope it gave you an insight into what a company of Zalando's size have to consider before releasing new code and how we have tried to keep the process simple and transparent for the maintainers of our projects. 
 
-In future posts, I will go through how we monitor current projects, how we decide what to keep and what to decommision as the projects evolve.
+In future posts, I will go through how we monitor current projects, how we decide what to keep and what to decommission as the projects evolve.
