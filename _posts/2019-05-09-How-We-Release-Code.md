@@ -78,7 +78,7 @@ Besides discussing the WHY, the open source team looks at compliance-specific ar
 We use a dependency licensing scanning tool, as well as a source code scanner to look for tokens and passwords, to automate this as much as possible.
 
 ### Review Meeting
-Once a month the review group sits down with the maintainers proposing new projects, here the dicussions from the mailing-list will be concluded and a release decision is made. The project is either granted release, rejected, or the maintainers are asked to improve certain aspects of the project before it can be released, depending on the number of proposals these decisions are reached in 30-60 minutes and release meetings are setup to formally prepare the files and publish them on Github.com.
+Once a month the review group sits down with the maintainers proposing new projects. Here, the dicussions from the mailing-list will be concluded and a release decision is made. The project is either granted release, rejected, or the maintainers are asked to improve certain aspects of the project before it can be released. Depending on the number of proposals, these decisions are reached in 30-60 minutes and release meetings are set up to formally prepare the files and publish them on Github.com.
 
 
 ## Publishing the source code
