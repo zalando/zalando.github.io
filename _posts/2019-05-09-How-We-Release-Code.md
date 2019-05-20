@@ -58,7 +58,7 @@ The point here is to have as many eyes on the proposal as possible, specifically
 2. Do Zalando have any value in taking ownership?
 3. Does it have any value to anyone outside Zalando?
 
-When source code is released as open source, you are essentially giving away something of value, you are also taking responsibility for spending time and resources on the additional overhead associated with open sourcing, this loss of value and use of resources should be justified, there are multiple ways to look at this, such as:
+When source code is released as open source, you are essentially giving away something of value, you are also taking responsibility for spending time and resources on the additional overhead associated with open sourcing. This loss of value and use of resources should be justified. There are multiple ways to look at this, such as:
 
 1. The project contributes positively to the employer branding efforts and supports hiring of tech talent
 2. The project helps establish the company as a leader in a certain domain
