@@ -3,13 +3,15 @@ title: How we release open source projects
 author: Per Ploug
 date: 2019-05-09
 banner:
-  image: mar-banner.jpg
+  image: connected.jpg
 ---
 > Zalando currently have over 200 open source projects on Github and each month there are approximately 2 new projects proposed for publishing as open source.
 > Over the years we've refined our release process to ensure that it is easy and transparent to publish projects as open source and that we keep
 > our maintainers accountable for the well-being of the projects which they oversee.
 
-This blog post is an attempt at describing how we manage the process of proposing, reviewing and approving projects to become open source code while at the same time ensuring that code we release follow our compliance rules and that the maintainers of the projects are aware of the risks and responsibilities involved. 
+This blog post is an attempt at describing how we manage the process of proposing, reviewing and approving projects to become open source code while at the same time ensuring that code we release follow our compliance rules and that the maintainers of the projects are aware of the risks and responsibilities involved.
+
+[Our formal release guidelines are available here](https://opensource.zalando.com/docs/releasing/index/)
 
 ## Overview
 
@@ -31,7 +33,7 @@ Anyone inside of Zalando can do this and this step serves 2 purposes:
 - **To collect information required to publish a project**, such as its current location, who will be maintaining it and the long term plan for maintaining it. 
 - **To set expectations for the maintainers**, such as amount of time needed to maintain the project, sign-off from the developers lead and ensuring the project does not require Zalando-specific dependencies
 
-/// FORM PICTURE
+![Project Release Form](assets/img/os-release-form.png)
 
 You can see a public version of the [approval form without validation here](https://goo.gl/forms/9C4xlel5DlIK52Xw1).
 
@@ -44,9 +46,9 @@ We also address the need to have basic project health files in place such as Cod
 
 
 ## The Open Source Review Group
-When a project is proposed, it is automatically shared on an internal mailing-list which consists of everyone at Zalando currently maintaining a approved project - which is currently a group of around 200 people. 
+When a project is proposed, it is automatically shared on an internal mailing-list which consists of everyone at Zalando currently maintaining an approved project - which is currently a group of around 200 people - this structure allows us to spread the decision making process across many different people and viewpoints. 
 
-// MAILING LIST PROPOSAL IMAGE
+![Review Group](assets/img/review-group.png)
 
 
 ### Discussing the why
@@ -59,14 +61,14 @@ The point here is to have as many eyes on the proposal as possible, specifically
 When source code is released as open source, you are essentially giving away something of value, you are also taking responsibility for spending time and resources on the additional overhead associated with open sourcing, this loss of value and use of resources should be justified, there are multiple ways to look at this, such as:
 
 1. The project contributes positively to the employer branding efforts and supports hiring of tech talent
-2. The project establishes the company as a leader in a certain area
+2. The project helps establish the company as a leader in a certain domain
 3. The project will gain features and bugfixes from external community members
 4. The maintainer team could gain valuable knowledge through collaborating with external community members
 
-For Zalando we've seen several projects contribute to our employer branding efforts, it is however a byproduct and should not be the main reason for open sourcing. It is ofcourse nice that Zalando is recognised for its Kubernetes (External-Dns, StacksetController, es-operatpr), PostGres (Patroni and pg-operator) and Machine Learning projects (Flair and Fashion-mnist), but is a value which is hard to measure the effect of and not a long-term motivator. 
+For Zalando we've seen several projects contribute to our employer branding efforts, it is however a byproduct and should not be the main reason for open sourcing. It is ofcourse nice that Zalando is recognised for its Kubernetes ([External-Dns](https://github.com/kubernetes-incubator/external-dns), [Stackset-Controller](https://github.com/zalando-incubator/stackset-controller), [es-operator](https://github.com/zalando-incubator/es-operator), PostGreSQL ([Patroni](https://github.com/zalando/patroni) and [postgres-operator](https://github.com/zalando/postgres-operator) and Machine Learning projects ([Flair](https://github.com/zalandoresearch/flair) and [Fashion-mnist](https://github.com/zalandoresearch/fashion-mnist), but it is a value which is hard to measure the effect of and not a long-term motivator for neither the maintainer or company. 
 
 ### Reviwing project quality
-Besides discussing the WHY, the open source team looks compliance-specific areas which could be a blocker for releasing:
+Besides discussing the WHY, the open source team looks at compliance-specific areas which could be a blocker for releasing:
 
 1. Do we use dependencies which have incompatible licensing
 2. Does the source code contain anything confidential (such as tokens, urls, passwords, etc) 
@@ -76,7 +78,7 @@ Besides discussing the WHY, the open source team looks compliance-specific areas
 We use a dependency licensing scanning tool, as well as a source code scanner to look for tokens and passwords, to automate this as much as possible.
 
 ### Review Meeting
-Once a month the review group sits down with the maintainers proposing new projects, here the dicussions from the mailing-list will be concluded and a release decision is made. The project is either granted release, rejected, or the maintainers are asked to improve certain aspects of the project before it can be released, depending on the number of proposals these decisions are reached in 30-60 minutes and released meetings are setup to formally prepare the files and publish them on Github.com
+Once a month the review group sits down with the maintainers proposing new projects, here the dicussions from the mailing-list will be concluded and a release decision is made. The project is either granted release, rejected, or the maintainers are asked to improve certain aspects of the project before it can be released, depending on the number of proposals these decisions are reached in 30-60 minutes and release meetings are setup to formally prepare the files and publish them on Github.com.
 
 
 ## Publishing the source code
@@ -84,7 +86,7 @@ Finally, after mailing-list discussions and approval in the monthly meeting, the
 
 1. We only transfer the current state of the repository to github, so we do not include the git history, while having the history would be very valuable to track down decisions for code changes, it is simply too big of a security risk and would require the maintainers to audit all commits.
 
-2. We automatically merge project files with our baseline files, so ensure all repositories have a minimal set of files, these are templates with employee names, emails and github names, so contact info and meta data is consistent. 
+2. We automatically merge project files with our baseline files, to ensure all repositories have a minimal set of files, these are templated with employee names, emails and github names, so contact info and meta data is consistent. 
 
 3. The project is setup with a dedicated team assigned to it, with the correct branch protection in place and compliance tooling installed by default (we have a bot called [Zincr](https://github.com/zalando-incubator/zincr) for this)
 
