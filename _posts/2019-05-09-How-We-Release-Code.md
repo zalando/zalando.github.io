@@ -33,7 +33,7 @@ Anyone inside of Zalando can do this and this step serves 2 purposes:
 - **To collect information required to publish a project**, such as its current location, who will be maintaining it and the long term plan for maintaining it. 
 - **To set expectations for the maintainers**, such as amount of time needed to maintain the project, sign-off from the developers lead and ensuring the project does not require Zalando-specific dependencies
 
-![Project Release Form](assets/img/os-release-form.png)
+![Project Release Form](/assets/img/os-release-form.png)
 
 You can see a public version of the [approval form without validation here](https://goo.gl/forms/9C4xlel5DlIK52Xw1).
 
@@ -48,7 +48,7 @@ We also address the need to have basic project health files in place such as Cod
 ## The Open Source Review Group
 When a project is proposed, it is automatically shared on an internal mailing-list which consists of everyone at Zalando currently maintaining an approved project - which is currently a group of around 200 people - this structure allows us to spread the decision making process across many different people and viewpoints. 
 
-![Review Group](assets/img/review-group.png)
+![Review Group](/assets/img/review-group.png)
 
 
 ### Discussing the why
