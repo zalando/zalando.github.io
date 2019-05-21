@@ -31,7 +31,7 @@ First step in getting an internal project published on the Zalando Incubator is 
 Anyone inside of Zalando can do this and this step serves 2 purposes:
 
 - **To collect information required to publish a project**, such as its current location, who will be maintaining it and the long term plan for maintaining it. 
-- **To set expectations for the maintainers**, such as amount of time needed to maintain the project, sign-off from the developers lead and ensuring the project does not require Zalando-specific dependencies
+- **To set expectations for the maintainers**, such as amount of time needed to maintain the project, sign-off from the developers lead and ensuring the project does not require Zalando-specific dependencies.
 
 ![Project Release Form](/assets/img/os-release-form.png)
 
