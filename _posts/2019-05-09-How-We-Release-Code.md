@@ -5,7 +5,7 @@ date: 2019-05-09
 banner:
   image: connected.jpg
 ---
-> Zalando currently have over 200 open source projects on Github and each month there are approximately 2 new projects proposed for publishing as open source.
+> Zalando currently has over 200 open source projects on Github and each month there are approximately 2 new projects proposed for publishing as open source.
 > Over the years we've refined our release process to ensure that it is easy and transparent to publish projects as open source and that we keep
 > our maintainers accountable for the well-being of the projects which they oversee.
 
@@ -42,7 +42,7 @@ Questions addressing who have signed-off on the publishing and how many hours th
 We also address the need to have basic project health files in place such as Code of conduct, ways for users to get in touch in case of security issues and to reach out to the maintainers - we provide maintainers with a [boiler-plate set of files](https://github.com/zalando-incubator/new-project) for guidance. We do this for 2 reasons:
 
 1. Ownership of code should be visible to other teams inside Zalando, and to potential audits, beyond ownership, these files also communicate how to contribute, how to report security issues and our code of conduct. 
-2. Communication channels should be public, so maintainers of a project must be approachable by external contributors, we do not ever intent to just throw code over the wall, so having clear ways to reach our maintainers is a central part of taking active ownership of code. 
+2. Communication channels should be public, so maintainers of a project must be approachable by external contributors. We do not ever intent to just throw code over the wall, so having clear ways to reach our maintainers is a central part of taking active ownership of code. 
 
 
 ## The Open Source Review Group
@@ -65,9 +65,9 @@ When source code is released as open source, you are essentially giving away som
 3. The project will gain features and bugfixes from external community members
 4. The maintainer team could gain valuable knowledge through collaborating with external community members
 
-For Zalando we've seen several projects contribute to our employer branding efforts, it is however a byproduct and should not be the main reason for open sourcing. It is ofcourse nice that Zalando is recognised for its Kubernetes ([External-Dns](https://github.com/kubernetes-incubator/external-dns), [Stackset-Controller](https://github.com/zalando-incubator/stackset-controller), [es-operator](https://github.com/zalando-incubator/es-operator), PostGreSQL ([Patroni](https://github.com/zalando/patroni) and [postgres-operator](https://github.com/zalando/postgres-operator) and Machine Learning projects ([Flair](https://github.com/zalandoresearch/flair) and [Fashion-mnist](https://github.com/zalandoresearch/fashion-mnist), but it is a value which is hard to measure the effect of and not a long-term motivator for neither the maintainer or company. 
+For Zalando we've seen several projects contribute to our employer branding efforts, it is however a byproduct and should not be the main reason for open sourcing. It is of course nice that Zalando is recognised for its Kubernetes ([External-Dns](https://github.com/kubernetes-incubator/external-dns), [Stackset-Controller](https://github.com/zalando-incubator/stackset-controller), [es-operator](https://github.com/zalando-incubator/es-operator), PostgreSQL ([Patroni](https://github.com/zalando/patroni) and [postgres-operator](https://github.com/zalando/postgres-operator) and Machine Learning projects ([Flair](https://github.com/zalandoresearch/flair) and [Fashion-mnist](https://github.com/zalandoresearch/fashion-mnist), but it is a value which is hard to measure the effect of and not a long-term motivator for neither the maintainer or company. 
 
-### Reviwing project quality
+### Reviewing project quality
 Besides discussing the WHY, the open source team looks at compliance-specific areas which could be a blocker for releasing:
 
 1. Do we use dependencies which have incompatible licensing
