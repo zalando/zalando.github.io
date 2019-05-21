@@ -21,7 +21,7 @@ The process roughly involves 5 steps which takes the project from internal sourc
 2. The project proposal is reviewed by the internal open source review group
 3. If approved, the project is published on the Zalando Incubator on GitHub
 4. The project activity and health is monitored by the open source team
-5. The project graduates from the incubator and into the main Zalando organisation, or the project is decommission and marked as archived.
+5. The project graduates from the incubator and into the main Zalando organisation, or the project is decommissioned and marked as archived.
 
 The part where we monitor projects and decide on whether to keep them or archive them will be outlined in greater detail in a later blogpost. 
 
