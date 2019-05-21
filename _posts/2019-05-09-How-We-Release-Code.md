@@ -25,27 +25,27 @@ The process involves five steps that take the project from internal source code,
 How we monitor incubator projects and decide on whether to promote or archive them will be detailed detail in a later blogpost.
 
 ## Proposing a new open source project
-First step in getting an internal project published on the Zalando Incubator is to apply for publication by filling out a google form and understanding our requirements [which are available here](https://opensource.zalando.com/docs/releasing/index/)
+The first step to getting an internal project published on the Zalando Incubator is to fill out a google form and confirm understanding our requirements, [which is available here](https://opensource.zalando.com/docs/releasing/index/)
 
 Anyone inside of Zalando can do this and this step serves 2 purposes:
 
-- **To collect information required to publish a project**, such as its current location, who will be maintaining it and the long term plan for maintaining it. 
-- **To set expectations for the maintainers**, such as amount of time needed to maintain the project, sign-off from the developers lead and ensuring the project does not require Zalando-specific dependencies.
+1. **To collect information required to publish a project**, such as its current location, who will be maintaining it and the long term plan for maintaining it. 
+2. **To set expectations for the maintainers**, such as amount of time needed to maintain the project, sign-off from the developers' engineering lead and ensuring the project does not require internal Zalando dependencies.
 
 ![Project Release Form](/assets/img/os-release-form.png)
 
 You can see a public version of the [approval form without validation here](https://goo.gl/forms/9C4xlel5DlIK52Xw1).
 
-Questions addressing who have signed-off on the publishing and how many hours the developers have been granted to maintain the project serve as a good way to set expectations, both to the lead who sign off and for the maintainers. To run a sustainable project requires time and resources and we do not expect developers to use their private time, instead granting work time should be part of the conversation. 
+Questions addressing who signed-off on publishing the project and how many hours the developers can commit to maintain the project serve as a good way to set expectations, both for the lead who appoved and for the maintainers. To run a sustainable project requires a commitment and we do not expect developers to use their private time—instead ensuring time will be made to work on the project should be part of the conversation.
 
-We also address the need to have basic project health files in place such as Code of conduct, ways for users to get in touch in case of security issues and to reach out to the maintainers - we provide maintainers with a [boiler-plate set of files](https://github.com/zalando-incubator/new-project) for guidance. We do this for 2 reasons:
+We also address the need to have basic project health files in place such as a Code of Conduct, ways for users to get in touch in case of security issues, features or bugs, by providing maintainers with a  [standard set of files](https://github.com/zalando-incubator/new-project) for guidance. We do this for 2 reasons:
 
 1. Ownership of code should be visible to other teams inside Zalando, and to potential audits, beyond ownership, these files also communicate how to contribute, how to report security issues and our code of conduct. 
-2. Communication channels should be public, so maintainers of a project must be approachable by external contributors. We do not ever intent to just throw code over the wall, so having clear ways to reach our maintainers is a central part of taking active ownership of code. 
+2. Communication channels must be public, so maintainers of a project can be approached by external contributors. We want to avoid the throw code over the wall antipattern, so having clear ways to reach our maintainers is a central part of taking active ownership of code.
 
 
 ## The Open Source Review Group
-When a project is proposed, it is automatically shared on an internal mailing-list which consists of everyone at Zalando currently maintaining an approved project - which is currently a group of around 200 people - this structure allows us to spread the decision making process across many different people and viewpoints. 
+When a project is proposed, it is automatically shared on an internal mailing-list that consists of everyone at Zalando currently maintaining an approved project. This group is currently about two hundred people, which allows us to spread the decision making process across many different people and viewpoints. 
 
 ![Review Group](/assets/img/review-group.png)
 
@@ -53,18 +53,20 @@ When a project is proposed, it is automatically shared on an internal mailing-li
 ### Discussing the why
 The point here is to have as many eyes on the proposal as possible, specifically we are interested in discussing the WHY of releasing a project and the 3 questions below is central in this discussion:
 
-1. Can the project be sustainable?
-2. Do Zalando have any value in taking ownership?
+1. Will the project be sustainable?
+2. Do Zalando have any value in open sourcing and maintaing it long term?
 3. Does it have any value to anyone outside Zalando?
 
-When source code is released as open source, you are essentially giving away something of value, you are also taking responsibility for spending time and resources on the additional overhead associated with open sourcing. This loss of value and use of resources should be justified. There are multiple ways to look at this, such as:
+When code is released as open source, you are essentially sharing something of value, and, you are also taking responsibility for committing time to the additional overhead associated with open sourcing. This commitment and exchange of value should be justified. There are multiple ways to look at this, such as:
 
 1. The project contributes positively to the employer branding efforts and supports hiring of tech talent
 2. The project helps establish the company as a leader in a certain domain
 3. The project will gain features and bugfixes from external community members
 4. The maintainer team could gain valuable knowledge through collaborating with external community members
 
-At Zalando we've seen several projects contribute to our employer branding efforts, it is however a side-effect and should not be the main reason for open sourcing. It is of course nice that Zalando is recognised for its Kubernetes  ([External-Dns](https://github.com/kubernetes-incubator/external-dns), [Stackset-Controller](https://github.com/zalando-incubator/stackset-controller), [es-operator](https://github.com/zalando-incubator/es-operator), PostgreSQL ([Patroni](https://github.com/zalando/patroni) and [postgres-operator](https://github.com/zalando/postgres-operator) and Machine Learning projects ([Flair](https://github.com/zalandoresearch/flair) and [Fashion-mnist](https://github.com/zalandoresearch/fashion-mnist). Nonethless it is hard to measure the brand impact of such projects, and not a long-term motivation for the maintainers or Zalando. 
+At Zalando we've seen several projects contribute to our employer branding efforts, it is however a side-effect and should not be the main reason for open sourcing. It is of course nice that Zalando is recognised for its Kubernetes  ([External-Dns](https://github.com/kubernetes-incubator/external-dns), [Stackset-Controller](https://github.com/zalando-incubator/stackset-controller), [es-operator](https://github.com/zalando-incubator/es-operator), PostgreSQL ([Patroni](https://github.com/zalando/patroni) and [postgres-operator](https://github.com/zalando/postgres-operator) and Machine Learning projects ([Flair](https://github.com/zalandoresearch/flair) and [Fashion-mnist](https://github.com/zalandoresearch/fashion-mnist). Nonethless it is hard to measure the brand impact of such projects, and not a long-term motivation for the maintainers or Zalando.
+
+Justifying open sourcing is not easy, a fair amount of guessing is involved since you do not know how people outside the company will receive and adopt your projects. However, making an assesment of possible impact before release will be good guidance for the project maintainers. 
 
 ### Reviewing project quality
 Besides discussing the WHY, the open source team looks at compliance-specific areas which could be a blocker for releasing:
