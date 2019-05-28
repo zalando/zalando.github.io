@@ -1,12 +1,12 @@
 ---
 title: How we release open source projects
 author: Per Ploug
-date: 2019-05-09
+date: 2019-05-27
 banner:
   image: connected.jpg
 ---
 
-> Zalando has over 200 open source projects on Github, with about two new proposed projects a month. Over the years we've refined our process to ensure it is easy and transparent to publish projects as open source, and keep maintainers accountable for the well-being of their projects.
+#### Zalando has over 200 open source projects on Github, with about two new proposed projects a month. Over the years we've refined our process to ensure it is easy and transparent to publish projects as open source, and keep maintainers accountable for the well-being of their projects.
 
 This blog post describes how we manage the process of proposing, reviewing and approving projects to become open source, while at the same time ensuring project code follows our compliance rules, and the maintainers of the projects are aware of their responsibilities.
 
