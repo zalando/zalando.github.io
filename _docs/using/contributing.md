@@ -14,7 +14,7 @@ category: Using
 * We encourage contributions upstream
 * Make sure you don't share confidential information
 * Don't contribute code which gives us an edge over competitors
-* Only sign [whitelisted CLAs](#Whitelisted-CLAs) - ask the open source team or legal for guidance
+* Only sign [whitelisted CLAs](#whitelisted-clas) - ask the open source team or legal for guidance
 * Find projects to contribute to on the [Zalando Tech Radar](https://opensource.zalando.com/tech-radar/)
 
 ---
