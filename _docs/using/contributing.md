@@ -14,6 +14,7 @@ category: Using
 * We encourage contributions upstream
 * Make sure you don't share confidential information
 * Don't contribute code which gives us an edge over competitors
+* Only sign whitelisted CLAs - ask the open source team or legal for guidance
 * Find projects to contribute to on the [Zalando Tech Radar](https://opensource.zalando.com/tech-radar/)
 
 ---
@@ -48,3 +49,16 @@ Both are sanctioned and does not require a review. Simply ensure that the projec
 
 We recommend taking a look at the [Zalando Tech Radar](https://opensource.zalando.com/tech-radar/) to get an overview of the projects we actively use, which would be an obvious starting point
 for contributions.
+
+## Whitelisted CLAs
+If a non-Zalando open source project asks you to sign a contributor agreement, get it cleared with the open source team, unless it is one of the following which have been whitelisted:
+
+- Apache CLA
+- Project Harmony Contributor Agreements
+- Mozilla Comitters Agreement
+- Adobe Open Source Contributor Agreement
+- Google iCLA
+- Developer Certificate Of Origin
+- Pivotal CLA
+
+
