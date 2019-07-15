@@ -19,7 +19,7 @@ banner:
 
 Zalando hosted the launch event of Persian Women In Tech Berlin. This is the first event of  the new Berlin chapter of the international organization of [Persian Women in Tech](http://www.persianwomenintech.com/). [Shery Brauner](https://twitter.com/sherybrauner), spoke about her career path from Iran to Germany, daring to take risks and now leading an engineering team at Zalando. 
 
-![shery](/assets/img/shery.jpeg)
+![shery](/assets/img/shery1.jpeg)
 
 Learn more about Zalando's initiatives around diversity and inclusion topics here: [https://jobs.zalando.com/en/diversity](https://jobs.zalando.com/en/diversity) 
  
