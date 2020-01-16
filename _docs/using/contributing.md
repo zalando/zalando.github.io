@@ -60,5 +60,6 @@ If a non-Zalando open source project asks you to sign a contributor agreement, g
 - Google iCLA
 - Developer Certificate Of Origin
 - Pivotal CLA
+- Lightbend CLA
 
 
