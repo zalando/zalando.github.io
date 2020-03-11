@@ -418,25 +418,6 @@
     "organisation_id": 18533786
   },
   {
-    "id": 28139492,
-    "name": "zmon",
-    "owner": "zalando",
-    "description": "Real-time monitoring of critical metrics & KPIs via elegant dashboards, Grafana3 visualizations & more",
-    "full_name": "zalando/zmon",
-    "language": "Shell",
-    "created_at": "2014-12-17T13:59:06.000Z",
-    "updated_at": "2019-01-30T16:55:06.000Z",
-    "stars": 264,
-    "forks": 38,
-    "size": 5791,
-    "open_issues": 6,
-    "watchers": 264,
-    "type": "internal",
-    "fork": false,
-    "archived": false,
-    "organisation_id": 1564818
-  },
-  {
     "id": 40998919,
     "name": "problem-spring-web",
     "owner": "zalando",
@@ -1425,25 +1406,6 @@
     "organisation_id": 11431876
   },
   {
-    "id": 28918578,
-    "name": "zmon-worker",
-    "owner": "zalando-zmon",
-    "description": "ZMON Python Worker",
-    "full_name": "zalando-zmon/zmon-worker",
-    "language": "Python",
-    "created_at": "2015-01-07T14:47:02.000Z",
-    "updated_at": "2019-01-17T10:56:09.000Z",
-    "stars": 21,
-    "forks": 33,
-    "size": 1112,
-    "open_issues": 33,
-    "watchers": 21,
-    "type": "internal",
-    "fork": false,
-    "archived": false,
-    "organisation_id": 19532842
-  },
-  {
     "id": 64120851,
     "name": "bubuku",
     "owner": "zalando-nakadi",
@@ -1710,25 +1672,6 @@
     "organisation_id": 11431876
   },
   {
-    "id": 28098213,
-    "name": "zmon-docs",
-    "owner": "zalando-zmon",
-    "description": "ZMON Documentation",
-    "full_name": "zalando-zmon/zmon-docs",
-    "language": null,
-    "created_at": "2014-12-16T17:32:26.000Z",
-    "updated_at": "2019-01-31T11:24:45.000Z",
-    "stars": 13,
-    "forks": 28,
-    "size": 973,
-    "open_issues": 8,
-    "watchers": 13,
-    "type": "internal",
-    "fork": false,
-    "archived": false,
-    "organisation_id": 19532842
-  },
-  {
     "id": 44130574,
     "name": "spring-boot-etcd",
     "owner": "zalando-stups",
@@ -1746,25 +1689,6 @@
     "fork": false,
     "archived": false,
     "organisation_id": 11431876
-  },
-  {
-    "id": 28918422,
-    "name": "zmon-controller",
-    "owner": "zalando-zmon",
-    "description": "ZMON UI and REST API",
-    "full_name": "zalando-zmon/zmon-controller",
-    "language": "JavaScript",
-    "created_at": "2015-01-07T14:42:48.000Z",
-    "updated_at": "2019-01-22T22:18:26.000Z",
-    "stars": 18,
-    "forks": 15,
-    "size": 100575,
-    "open_issues": 65,
-    "watchers": 18,
-    "type": "internal",
-    "fork": false,
-    "archived": false,
-    "organisation_id": 19532842
   },
   {
     "id": 60344998,
