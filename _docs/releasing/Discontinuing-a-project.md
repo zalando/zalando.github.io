@@ -34,8 +34,7 @@ Events which typically trigger a project to become discontinued:
 
 ## Options for discontinuing
 
-If the project is deemed fit for discontiuation, the question is in what way this should be done, the options available for 
-Zalando projects are:
+If the project is deemed fit for being discontinued, there are multiple options for executing this change:
 
 #### Discontinue with no succesor
 The project is marked as archived on github, readme is updated to indicate when updates is stopped,
