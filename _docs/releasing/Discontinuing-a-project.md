@@ -28,7 +28,7 @@ usage and no maintainers needs support to [find new internal maintainers]() rath
 
 Events which typically trigger a project to become discontinued:
 
-- Zalando Employee, maintaining the project, is leaving the company
+- The Zalando employee maintaining the project is leaving the company
 - Internal use of project is phased out / replaced
 
 
