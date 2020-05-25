@@ -14,9 +14,11 @@ to maintain, usually due to lack of internal use.**
 ### Summary
 
 - We are obligated to gracefully discontinue projects, which we have no motivation to maintain anymore
-- There are different options to ensure the project lives on
 - Projects can be archived, users directed to a 3rd party fork, or the ownership of such project can be transferred
 - The open source guild can help you make the right choice
+
+
+**Contact the open-source guild (Zalando Internal) for guidance.**
 
 ---
 
@@ -24,7 +26,7 @@ to maintain, usually due to lack of internal use.**
 
 Two factors indicate whether a project is ready for being discontinued. Either the project has no active maintainers, 
 and/or the project has no internal usage. While these two factors typically overlap, a project with internal
-usage and no maintainers needs support to [find new internal maintainers]() rather than being discontinued.
+usage and no maintainers needs support to [find new internal maintainers](https://opensource.zalando.com/docs/promoting/promotion-channels/) rather than being discontinued.
 
 Events which typically trigger a project to become discontinued:
 
@@ -55,5 +57,6 @@ employees.
 
 For all 3 options above, a snapshot of the project must be transferred to the internal GitHub
 for future reference. 
+
 
 Contact the open-source guild (Zalando Internal) for guidance on which option is the right one.
