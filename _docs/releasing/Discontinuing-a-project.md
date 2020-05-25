@@ -13,7 +13,7 @@ to maintain, usually due to lack of internal use.**
 
 ### Summary
 
-- Projects which we have no motivation to maintain, we are obligated to gracefully discontinue
+- We are obligated to gracefully discontinue projects, which we have no motivation to maintain anymore
 - There are different options to ensure the project lives on
 - Projects can be archived, users directed to a 3rd party fork, or the ownership of such project can be transferred
 - The open source guild can help you make the right choice
