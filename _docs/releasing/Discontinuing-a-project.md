@@ -15,7 +15,7 @@ to maintain, usually due to lack of internal use.**
 
 - Projects which we have no motivation to maintain, we are obligated to gracefully discontinue
 - There are different options to ensure the project lives on
-- Projects can be archived, direct users to a 3rd party fork, or transfer ownership
+- Projects can be archived, users directed to a 3rd party fork, or the ownership of such project can be transferred
 - The open source guild can help you make the right choice
 
 ---
@@ -58,4 +58,3 @@ For all 3 options above, a snapshot of the project must be transfered to the int
 for future reference. 
 
 Contact the open-source guild (Zalando Internal) for guidance on which option is the right one.
-
