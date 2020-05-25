@@ -22,9 +22,9 @@ to maintain, usually due to lack of internal use.**
 
 ## What projects should be discontinued?
 
-2 factors indicates if a project is ready for discontinuation. Either the project has no active maintainers, 
-and/or the project have no internal usage. While these 2 factors typically overlap, a project with internal
-usage and no maintainers need support to [find new internal maintainers]() rather than being discontinued.
+Two factors indicate whether a project is ready for being discontinued. Either the project has no active maintainers, 
+and/or the project has no internal usage. While these two factors typically overlap, a project with internal
+usage and no maintainers needs support to [find new internal maintainers]() rather than being discontinued.
 
 Events which typically triggers a project being discontinued:
 
