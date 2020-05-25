@@ -54,7 +54,7 @@ automatically start redirecting old links to a new owner.
 Project ownership cannot be transfered to a current employee, but can be transferred to former
 employees.
 
-For all 3 options above, a snapshot of the project must be transfered to the internal GitHub
+For all 3 options above, a snapshot of the project must be transferred to the internal GitHub
 for future reference. 
 
 Contact the open-source guild (Zalando Internal) for guidance on which option is the right one.
