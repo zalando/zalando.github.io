@@ -48,7 +48,7 @@ Any distribution (such as a package manager) can be transfered, as long as it do
 Zalando name. 
 
 #### Transfer project ownership to 3rd party
-Ownership and maintainership is transfered to a 3rd party via a legal document outlining the
+Ownership and maintainership is transferred to a 3rd party via a legal document outlining the
 conditions of the transfer. The GitHub project is transfered to a new owner and GitHub will
 automatically start redirecting old links to a new owner.
 Project ownership cannot be transfered to a current employee, but can be transferred to former
