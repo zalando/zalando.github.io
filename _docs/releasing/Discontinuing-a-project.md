@@ -26,7 +26,7 @@ Two factors indicate whether a project is ready for being discontinued. Either t
 and/or the project has no internal usage. While these two factors typically overlap, a project with internal
 usage and no maintainers needs support to [find new internal maintainers]() rather than being discontinued.
 
-Events which typically triggers a project being discontinued:
+Events which typically trigger a project to become discontinued:
 
 - Zalando Employee, maintaining the project, is leaving the company
 - Internal use of project is phased out / replaced
