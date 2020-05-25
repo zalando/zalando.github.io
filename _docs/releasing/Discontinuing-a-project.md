@@ -39,7 +39,7 @@ Events which typically trigger a project to become discontinued:
 If the project is deemed fit for being discontinued, there are multiple options for executing this change:
 
 #### Discontinue with no succesor
-The project is marked as archived on github, readme is updated to indicate when updates is stopped,
+The project is marked as archived on github, readme is updated to indicate when maintanance will end,
 no alternative owner is found.
 
 #### Endorse a 3rd party fork
