@@ -41,10 +41,10 @@ The project is marked as archived on github, readme is updated to indicate when 
 no alternative owner is found.
 
 #### Endorse a 3rd party fork
-Project is continued in a fork by a 3rd party, due to copyright law, this 3rd party can not be
-a Zalando employee. The project readme is updated to point users toward this fork for updates.
-Any distribution (such as a package manager) can be transfered, as long as it does not include the 
-Zalando name. 
+The project is continued in a fork by a 3rd party, which due to copyright law can not be
+a Zalando employee. The project's readme is updated to point users toward this fork for updates.
+Any distribution (such as a package manager) can be transferred, as long as it does not include the 
+Zalando name.
 
 #### Transfer project ownership to 3rd party
 Ownership and maintainership is transferred to a 3rd party via a legal document outlining the
