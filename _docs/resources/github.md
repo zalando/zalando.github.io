@@ -22,7 +22,7 @@ category: Resources
 
 ## Organizations
 
-There are 2 primary organizations which act as the central source for Zalando open source projects and 4 project/topic specific organizations. With very few exceptions the Zalando-Incubator is the organization where new projects will initially be published.
+There are 2 primary organizations which act as the central source for Zalando open-source projects and 4 project/topic specific organizations. With very few exceptions the Zalando-Incubator is the organization where new projects will initially be published.
 
 * [Zalando-Incubator](https://github.com/zalando-incubator) - Incubator of new projects which have not yet matured enough to be on the main org.
 * [Zalando](https://github.com/zalando) - The primary organization hosting mature projects already graduated from the incubator
@@ -39,7 +39,7 @@ For all Zalandos the process is simple: go to the **internal** site at [people.Z
 
 * Members cannot create, un-publish, delete or rename repositories
 * The default access to all repositories for members is read-access
-* Project maintainers have write access to the project they maintain
+* Project maintainers have to write access to the project they maintain
 * External collaborators cannot have write access to the master branch
 
 ## Repository requirements
@@ -50,7 +50,7 @@ For all Zalandos the process is simple: go to the **internal** site at [people.Z
 
 ## Project ownership
 
-Each published project have a dedicated team of maintainers. The maintainer team have write access to the repository and are the direct owners of the project. Everyone who is not an active maintainer are free to open a pull request which must be reviewed by at least 2 of the maintainers listed in the Codeowners file.
+Each published project have a dedicated team of maintainers. The maintainer team have to write access to the repository and are the direct owners of the project. Anyone who is not an active maintainer is free to open a pull request which must be reviewed by at least 2 of the maintainers listed in the Codeowners file.
 
 ## External collaborators
 
@@ -62,4 +62,5 @@ Zalando employees leaving Zalando will be converted to external contributors. Ex
 
 ## Process for graduating from Zalando-Incubator
 
-The open source review group acts as the gatekeeper of which projects are ready to be accepted into the Zalando-incubator organization. Furthermore the review group decides which projects are mature to graduate to the main Zalando organization.
+The open-source review group acts as the gatekeeper of which projects are ready to be accepted into the Zalando-incubator organization. Furthermore, the review group decides which projects are mature to graduate to the main Zalando organization.
+
