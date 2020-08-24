@@ -18,7 +18,7 @@ The review group consists of members of multiple engineering teams inside Zaland
 ---
 
 ## Membership
-All active maintainers of projects in the GitHub organizations [Zalando](https://github.com/zalando), [Zalando-Nakadi](https://github.com/zalando-nakadi), [Zalando-Zmon](https://github.com/zalando-zmon) and [Zalando-Stups](https://github.com/zalando-stups) are automatically members of the Review Group. The Open Source team acts as the group facilitator but are not part of the day to day mentorship and review program. 
+All active maintainers of projects in the GitHub organizations [Zalando](https://github.com/zalando), [Zalando-Nakadi](https://github.com/zalando-nakadi) and [Zalando-Stups](https://github.com/zalando-stups) are automatically members of the Review Group. The Open Source team acts as the group facilitator but are not part of the day to day mentorship and review program.
 
 ## Meetings
 The group meets every second week to review projects applying for graduation from the incubator. Project mentorship is an ongoing process which takes place in the GitHub team discussions forum.
