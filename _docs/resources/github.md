@@ -33,7 +33,7 @@ There are 2 primary organizations which act as the central source for Zalando op
 
 ## Joining Zalando on GitHub
 
-For all Zalandos the process is simple: go to the **internal** site at [people.Zalando.net](http://people.zalando.net) and register your GitHub username, you will then automatically be invited into the organizations.
+For all Zalandos the process is simple: go to the **internal** site at [people.Zalando.net](http://people.zalando.net) and register your GitHub username, you will then automatically be invited into the organizations, the sync happens once a day. To get an invite you will need to have two-factor authentication enabled. After you joined the organization you need to change your [membership visibility](https://github.com/orgs/zalando/people) from `Private` to `Public`.
 
 ## Organization permissions
 
