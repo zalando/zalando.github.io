@@ -1,5 +1,5 @@
 ---
-title: Harassment Policy
+title: Anti-Harassment Policy
 author: OST
 date: 2019-01-31
 index: 5
