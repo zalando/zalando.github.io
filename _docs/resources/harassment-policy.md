@@ -15,7 +15,7 @@ Zalando takes online harassment seriously and will take the required actions to 
 ## Proactive measures
 We require all new projects released by Zalando to adopt and enforce a code of conduct and it is the responsibility of all Zalandos to follow this conduct. We also recommend you investigate whether external projects you interact enforces a code of conduct - we recommend using the [contributor covenant](https://www.contributor-covenant.org/) available in our [repository boilerplate](https://github.com/zalando-incubator/new-project/).
 
-All Zalando open source maintainers are obligated to act on and report abusive behavior to the [open source team](opensource@zalando.de). 
+All Zalando open source maintainers are obligated to act on and report abusive behavior to the [open source team](mailto:opensource@zalando.de). 
 
 In cases of harassment in our open source projects we collaborate with the GitHub community team to protect our maintainers and community members.
 
