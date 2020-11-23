@@ -93,29 +93,6 @@ page-section--background-highlight" style="padding: 30px 0 30px 0" id="os-projec
 </section>
 
 
-<section class="page-section page-section--padding page-section--background-white jobs" id="os-jobs">
-  <div class="dc-container dc-container--limited">
-    <h1 class="dc-h1 page-section__header page-section__header--center">Jobs</h1>
-    
-    
-    <div class="dc-row job">
-    
-      <h3 class="dc-h2">
-        Currently no open positions
-      </h3>
-      
-      <p class="dc-p">
-        We do not currently have any open positions, but don't hesitate getting in touch with us anyway, 
-        we are always interested in hearing from potential candidates - 
-        reach us at <a href="mailto:opensource@zalando.de">opensource@zalando.de</a>  
-      </p>
-      
-    </div>
-    
-    
-  </div>
-</section>
-
 
 {% include recent-posts.html %}
 
