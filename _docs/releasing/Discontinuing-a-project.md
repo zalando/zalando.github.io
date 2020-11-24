@@ -1,7 +1,7 @@
 ---
 title: Discontinuing a project
 author: OST
-date: 2020-20-05
+date: 2020-05-20
 index: 3
 category: Releasing
 ---
