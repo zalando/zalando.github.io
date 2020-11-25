@@ -32,8 +32,8 @@ Overall there are 3 types of licenses which you can use:
 
 And 3 types which you cannot use in any way:
 
-* [Code licensed under AGPL or variants thereof](#Code-licensed-under-AGPL-or-variants-thereof)
-* [Commons Clause licensed code](#Guidance-on-Commons-Clause-and-similar)
+* [Code licensed under AGPL or variants thereof](#code-licensed-under-agpl-or-variants-thereof)
+* [Commons Clause licensed code](#guidance-on-commons-clause-and-similar)
 * [Unlicensed code](#unlicensed-code)
 
 
