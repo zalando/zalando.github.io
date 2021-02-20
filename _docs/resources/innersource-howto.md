@@ -49,6 +49,6 @@ The original team.
 There's a growing number of useful resources on InnerSource. Here are a few:
 - O'Reilly/PayPal's [Getting Started With InnerSource](https://www.oreilly.com/ideas/getting-started-with-innersource) booklet
 - [Adopting Open Source Development Practices in Organizations: A Tutorial](http://ieeexplore.ieee.org/document/6809709/) by the IEEE (requires sign-in)
-- [InnerSource Commons](https://paypal.github.io/InnerSourceCommons/) website
+- [InnerSource Commons](http://innersourcecommons.org) website
 - [Inner Source in Platform-Based Product
 Engineering](https://dirkriehle.com/wp-content/uploads/2016/06/riehle-capraro-horn-kips-inner-source-in-product-line-engineering-platform-based-products.pdf) by Drs. Dirk Riehle, Maximilian Capraro, Detlef Kips, Lars Horn
