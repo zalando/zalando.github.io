@@ -30,12 +30,15 @@ Overall there are 3 types of licenses which you can use:
 * [Weak copyleft licenses](#weak-copyleft-licenses)
 * [Strong Copyleft licenses](#strong-copyleft-licenses)
 
-And 3 types which you cannot use in any way:
+3 types which you cannot use in any way:
 
 * [Code licensed under AGPL or variants thereof](#Code-licensed-under-AGPL-or-variants-thereof)
 * [Commons Clause licensed code](#Guidance-on-Commons-Clause-and-similar)
 * [Unlicensed code](#unlicensed-code)
 
+Finally there are licenses which can be used on a case-by-case basis
+
+* [Elastic License](#Elastic-license)
 
 This document is a general overview and does not represent legal advice. Always check the details of each license and if you are in doubt, get in touch with the Open Source Team.
 
@@ -128,3 +131,20 @@ As per standard copyright law, any code which is not explicitly licensed, is the
 of the author and cannot be used without permission.
 
 However if you wish to use a library which have no license, first of all check with the author to see if the license is simple not distributed with the source code. If the project author has not included a license open a pull request and suggest a license such as MIT.
+
+## Elastic license
+
+Elastic License 2.0 is a non open source license used for products distributed by Elastic. It contains clauses to block cloud providers to offer Elastic products as managed services and to circumvent licensing. Before using any product licensed under Elastic License for a new use case, which might go against the licensing, you must have this usecase verified by Zalando Data & IT law. Already known and accepted use cases are: 
+
+- Using Elastic Search as storage and index of internal data - this also includes using the index to power search of public facing sites 
+- Using Kibana as an internal dashboard
+
+**From Elastic Website:**
+The Elastic License 2.0 applies to the distribution and the source code of all of the free and paid features of Elasticsearch and Kibana. The license allows the free right to use, modify, create derivative works, and redistribute, with three simple limitations:
+
+- You may not provide the products to others as a managed service 
+- You may not circumvent the license key functionality or remove/obscure features protected by license keys 
+- You may not remove or obscure any licensing, copyright, or other notices
+
+
+
