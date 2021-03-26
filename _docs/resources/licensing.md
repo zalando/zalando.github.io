@@ -46,7 +46,7 @@ If you wish to use a dependency with a license not listed in this guidance, plea
 
 ## Permissive licenses
 
-Code dependency which you are free to use and change without limitations, but must include the license and copyright of the dependency.
+Code dependency that you are free to use and change without limitations, but must include the license and copyright of the dependency.
 
 Permissive licensed dependencies can be used without issues both for internal and for open source projects.
 
@@ -65,7 +65,7 @@ and many more_
 
 ## Weak copyleft licenses
 
-Code dependency which you are free to use and change, but must include the source code, the license and copyright of the dependency, but only if you distribute the software. You can license your own code however you want, and you must only share the source code of the reciprocally licensed dependency.
+Code dependency that you are free to use and change, but must include the source code, the license and copyright of the dependency, but only if you distribute the software. You can license your own code however you want, and you must only share the source code of the reciprocally licensed dependency.
 
 Beware that each individual license has specific clauses, so check the individual license before use, generally speaking, weak copyleft licensed libraries can be used for internal and open source projects.
 
@@ -82,7 +82,7 @@ _[APSL](https://tldrlegal.com/l/aspl2),
 
 ## Strong Copyleft licenses
 
-Code dependency which require you to license **all** your code under the same license if you want to distribute it. If only used internally, you have no obligation to release neither source nor binary.
+Code dependency that requires you to license **all** your code under the same license if you want to distribute it. If only used internally, you have no obligation to release neither source nor binary.
 
 Dependency can therefore only be used for internal projects, not for projects which will be distributed outside of Zalando, such as open source projects.
 
@@ -125,12 +125,12 @@ are without question commercial, this license is therefore not suitable for us f
 
 ## Unlicensed code
 
-Code which does not include a license or have no clear ownership cannot be used at Zalando.
+Code that does not include a license or has no clear ownership cannot be used at Zalando.
 
-As per standard copyright law, any code which is not explicitly licensed, is the property
+As per standard copyright law, any code that is not explicitly licensed, is the property
 of the author and cannot be used without permission.
 
-However if you wish to use a library which have no license, first of all check with the author to see if the license is simple not distributed with the source code. If the project author has not included a license open a pull request and suggest a license such as MIT.
+However if you wish to use a library that has no license, first of all check with the author to see if the license is simple not distributed with the source code. If the project author has not included a license open a pull request and suggest a license such as MIT.
 
 ## Elastic license
 
