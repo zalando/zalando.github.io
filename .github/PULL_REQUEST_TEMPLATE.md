@@ -27,4 +27,4 @@ _Go over all the following points, and put an `x` in all the boxes that apply:_
 
 ## Screenshots/Videos (OPTIONAL)
 
-Here's a nice PR template - [Link](../../master/CONTRIBUTING.md#example-template-for-pr)
+Here's a sample PR template: [link](../../master/CONTRIBUTING.md#example-template-for-pull-request)
