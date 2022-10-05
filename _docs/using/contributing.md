@@ -62,5 +62,6 @@ If a non-Zalando open source project asks you to sign a contributor agreement, g
 - Pivotal CLA
 - Lightbend CLA
 - OpenID CLA
+- Meta CLA
 
 
