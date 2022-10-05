@@ -136,7 +136,7 @@ However if you wish to use a library which have no license, first of all check w
 
 Elastic License 2.0 is a non open source license used for products distributed by Elastic. It contains clauses to block cloud providers to offer Elastic products as managed services and to circumvent licensing. Before using any product licensed under Elastic License for a new use case, which might go against the licensing, you must have this usecase verified by Zalando Data & IT law. Already known and accepted use cases are: 
 
-- Using Elastic Search as storage and index of internal data - this also includes using the index to power search of public facing sites 
+- Using Elasticsearch as storage and index of internal data - this also includes using the index to power search of public facing sites 
 - Using Kibana as an internal dashboard
 
 **From Elastic Website:**
