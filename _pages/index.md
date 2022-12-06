@@ -92,10 +92,6 @@ page-section--background-highlight" style="padding: 30px 0 30px 0" id="os-projec
   </div>
 </section>
 
-
-
-{% include recent-posts.html %}
-
 <section class="dc--text-center page-section page-section--padding page-section--background-white team" id="os-team">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">The Team</h1>

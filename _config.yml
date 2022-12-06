@@ -54,5 +54,4 @@ exclude:
 
 include:
   - '_pages'
-  - '_posts'
   - '_docs'
