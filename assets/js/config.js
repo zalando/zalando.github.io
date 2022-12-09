@@ -4,15 +4,6 @@
  */
 const team = [
   {
-    username: "perploug",
-    title: "Open Source Community Manager",
-    name: "Per Ploug",
-    html_url: "https://github.com/perploug",
-    avatar_url: "https://avatars1.githubusercontent.com/u/1492043?v=4",
-    bio:
-      "Open source enabler | Tinker | Community Builder | Teacher | Semi-Pro Bio writer"
-  },
-  {
     username: "hpdang",
     title: "Inner Source Manager",
     name: "Hong Phuc Dang",

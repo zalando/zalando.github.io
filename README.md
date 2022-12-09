@@ -34,7 +34,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Team members
 
-* **Per Ploug** - per.ploug@zalando.de - [@perploug](https://github.com/perploug)
 * **Hong Phuc Dang** - hong.dang@zalando.de - [@hpdang](https://github.com/hpdang)
 
 ## License
