@@ -50,13 +50,14 @@ Code dependency that you are free to use and change without limitations, but mus
 
 Permissive licensed dependencies can be used without issues both for internal and for open source projects.
 
-_[AFL](https://tldrlegal.com/l/afl3),
-[Apache](https://tldrlegal.com/l/apache2),
-[BSD](https://tldrlegal.com/l/bsd3),
-[MIT](https://tldrlegal.com/l/mit),
-[MS-PL](https://tldrlegal.com/l/mspl),
-[ISC](https://tldrlegal.com/l/isc),
+_[AFL](https://www.tldrlegal.com/license/academic-free-license-3-0-afl),
+[Apache](https://www.tldrlegal.com/license/apache-license-2-0-apache-2-0),
+[BSD](https://www.tldrlegal.com/license/bsd-3-clause-license-revised),
+[MIT](https://www.tldrlegal.com/license/mit-license),
+[Ms-PL](https://www.tldrlegal.com/license/microsoft-public-license-ms-pl),
+[ISC](https://www.tldrlegal.com/license/isc-license),
 [PHP License](https://tldrlegal.com/license/the-php-license-3.0.1),
+[Blue Oak Model License](https://blueoakcouncil.org/license/1.0.0),
 and many more_
 
 * You are free to: **use** commercially, **modify**, **distribute** and **sublicense**.
@@ -69,12 +70,12 @@ Code dependency that you are free to use and change, but must include the source
 
 Beware that each individual license has specific clauses, so check the individual license before use, generally speaking, weak copyleft licensed libraries can be used for internal and open source projects.
 
-_[APSL](https://tldrlegal.com/l/aspl2),
-[CDDL](https://tldrlegal.com/l/cddl),
-[CPL](<https://tldrlegal.com/license/common-public-license-1.0-(cpl-1.0)>),
-[EPL](https://tldrlegal.com/l/epl),
-[IPL](https://tldrlegal.com/l/ipl),
-[MPL](https://tldrlegal.com/l/mpl-2.0)_
+_[APSL](https://www.tldrlegal.com/license/apple-public-source-license-2-0-apsl),
+[CDDL](https://www.tldrlegal.com/license/common-development-and-distribution-license-cddl-1-0-explained),
+[CPL](https://www.tldrlegal.com/license/common-public-license-1-0-cpl-1-0),
+[EPL](https://www.tldrlegal.com/license/eclipse-public-license-1-0-epl-1-0),
+[IPL](https://www.tldrlegal.com/license/ibm-public-license-1-0-ipl),
+[MPL](https://www.tldrlegal.com/license/mozilla-public-license-2-0-mpl-2)_
 
 * You are free to: **use** commercially, **modify**, **distribute** and **sublicense**.
 * You must include: **copyright**, **license**, **changelog**, **source code** and **install instructions**
@@ -87,11 +88,11 @@ Code dependency that requires you to license **all** your code under the same li
 Dependency can therefore only be used for internal projects, not for projects which will be distributed outside of Zalando, such as open source projects.
 
 _BCL,
-[GPL](https://tldrlegal.com/l/gpl-3.0),
-[LGPL](https://tldrlegal.com/l/lgpl-3.0),
-[NPL](<https://tldrlegal.com/license/netscape-public-license-v1.1-(npl-1.1)>),
-[OSL](<https://tldrlegal.com/license/open-software-license-2.1-(osl-2.1)>),
-[QPL](<https://tldrlegal.com/license/q-public-license-1.0-(qpl-1.0)>) and more_
+[GPL](https://www.tldrlegal.com/license/gnu-general-public-license-v3-gpl-3),
+[LGPL](https://www.tldrlegal.com/license/gnu-lesser-general-public-license-v3-lgpl-3),
+[NPL](https://www.tldrlegal.com/license/netscape-public-license-v1-1-npl-1-1),
+[OSL](https://www.tldrlegal.com/license/open-software-license-2-1-osl-2-1),
+[QPL](https://www.tldrlegal.com/license/q-public-license-1-0-qpl-1-0) and more_
 
 * You are free to: **use** commercially, **modify** and **distribute**
 * You must include: **copyright**, **license**, **source code**, **changelog**, **original source** and **install instructions**
@@ -103,12 +104,12 @@ These licenses trigger the copyleft provision even when it is not distributed. I
 
 Use of dependencies licensed under these licenses represents a big risk for Zalando, so even for projects which are not directly linked to any of our web services, it must not be used as the benefits compared to the risks are small.
 
-Code licensed under 
-[AGPL](https://tldrlegal.com/l/agpl3),
-[SSPL](https://www.mongodb.com/licensing/server-side-public-license), 
-[RPL](<https://tldrlegal.com/license/reciprocal-public-license-1.5-(rpl-1.5)>),
-[EUPL](https://spdx.org/licenses/EUPL-1.2.html) and 
-[CPAL](https://tldrlegal.com/license/common-public-attribution-license-version-1.0-(cpal-1.0)), may not be used at Zalando.
+Code licensed under
+[AGPL](https://www.tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0),
+[SSPL](https://www.mongodb.com/licensing/server-side-public-license),
+[RPL](https://www.tldrlegal.com/license/reciprocal-public-license-1-5-rpl-1-5),
+[EUPL](https://spdx.org/licenses/EUPL-1.2.html) and
+[CPAL](https://www.tldrlegal.com/license/common-public-attribution-license-version-1-0-cpal-1-0), may not be used at Zalando.
 
 
 
@@ -145,6 +146,3 @@ The Elastic License 2.0 applies to the distribution and the source code of all o
 - You may not provide the products to others as a managed service 
 - You may not circumvent the license key functionality or remove/obscure features protected by license keys 
 - You may not remove or obscure any licensing, copyright, or other notices
-
-
-
