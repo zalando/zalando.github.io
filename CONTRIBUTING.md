@@ -81,6 +81,22 @@ git commit -m "Initial scaffold for the website layout" -s
 
 The `-s` in the above commit message signs your commit.
 
+
+# Development
+
+## Running locally
+
+```
+bundle install --path vendor/bundle
+bundle exec jekyll serve
+```
+
+## Updating dependencies
+
+```
+bundle update
+```
+
 # Contact
 
 - **Email**: opensource@zalando.de

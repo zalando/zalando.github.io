@@ -48,10 +48,6 @@ plugins:
   - jekyll-relative-links
   - jekyll-feed  
 
-exclude:
-  - 'Gemfile'
-  - 'Gemfile.lock'
-
 include:
   - '_pages'
   - '_docs'
