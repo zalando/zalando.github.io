@@ -23,15 +23,15 @@ function project(repo) {
             <p class="dc-p project__description">${repo.description}</p>
             <div class="project__metrics">
               <div class="project__metric" title="Stars">
-                <div class="project__metric-icon"><img src="/assets/svg/star.svg" /></div>
+                <div class="project__metric-icon"><img src="/assets/svg/star.svg" alt="Stars" /></div>
                 <div class="project__metric-value">${repo.stars}</div>
               </div>
               <div class="project__metric" title="Forks">
-                <div class="project__metric-icon"><img src="/assets/svg/fork.svg" /></div>
+                <div class="project__metric-icon"><img src="/assets/svg/fork.svg" alt="Forks" /></div>
                 <div class="project__metric-value">${repo.forks}</div>
               </div>
               <div class="project__metric" title="Contributors">
-                <div class="project__metric-icon"><img src="/assets/svg/user.svg" /></div>
+                <div class="project__metric-icon"><img src="/assets/svg/user.svg" alt="Contributors" /></div>
                 <div class="project__metric-value">${repo.watchers}</div>
               </div>
             </div>
