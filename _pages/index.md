@@ -42,7 +42,7 @@ banner:
     <div class="dc-row">
       <div class="goal dc-column dc-column--large-4 dc-column--medium-12 dc-column--small-12">
         <div class="goal__icon">
-          <object id="goal-participate" data="assets/svg/slideshare.svg" type="image/svg+xml" alt="Participate"></object>
+          <object id="goal-participate" data="assets/svg/slideshare.svg" type="image/svg+xml" aria-label="Participate"></object>
         </div>
         <h2 class="dc-h2">Participate</h2>
         <p class="dc-p">
@@ -53,7 +53,7 @@ banner:
 
       <div class="goal dc-column dc-column--large-4 dc-column--medium-12 dc-column--small-12">
         <div class="goal__icon">
-          <object id="goal-share" data="assets/svg/handshake-o.svg" type="image/svg+xml" alt="Share"></object>
+          <object id="goal-share" data="assets/svg/handshake-o.svg" type="image/svg+xml" aria-label="Share"></object>
         </div>
         <h2 class="dc-h2">Share</h2>
         <p class="dc-p">
@@ -64,7 +64,7 @@ banner:
 
       <div class="goal dc-column dc-column--large-4 dc-column--medium-12 dc-column--small-12">
         <div class="goal__icon">
-          <object id="goal-promote" data="assets/svg/gg.svg" type="image/svg+xml" alt="Promote"></object>
+          <object id="goal-promote" data="assets/svg/gg.svg" type="image/svg+xml" aria-label="Promote"></object>
         </div>
         <h2 class="dc-h2">Promote</h2>
         <p class="dc-p">
