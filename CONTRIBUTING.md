@@ -97,6 +97,12 @@ bundle exec jekyll serve
 bundle update
 ```
 
+## Optimizing images
+
+```
+find ./assets -iname "*.jpg" -exec jpegoptim -p --strip-com --strip-iptc -m 90 -o -t {} \;
+```
+
 # Contact
 
 - **Email**: opensource@zalando.de
