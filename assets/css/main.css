@@ -12,8 +12,8 @@
   --logo-height: 20px;
   --page-section-header-spacing-bottom: 4rem;
   --page-section-spacing-bottom: 10rem;
-  --language-label-color: #26aafe;
-  --language-label-color-active: #75c6ff;
+  --language-label-color: #0073e6;
+  --language-label-color-active: #054fb9;
   --article-content-padding: 6rem;
 }
 
@@ -263,6 +263,16 @@ body li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50% 50%;
+}
+
+.dc-btn--primary {
+  border-color: var(--language-label-color);
+  background: var(--language-label-color-active);
+}
+
+.dc-btn--primary:hover {
+  background: var(--language-label-color);
+  color: #fff
 }
 
 .project.dc-card {
