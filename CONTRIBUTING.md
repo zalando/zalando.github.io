@@ -84,6 +84,16 @@ The `-s` in the above commit message signs your commit.
 
 # Development
 
+To build the documentation locally, you need at least:
+
+```
+$ ruby --version
+ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux-gnu]
+
+$ bundler --version
+Bundler version 2.3.26
+```
+
 ## Running locally
 
 ```
