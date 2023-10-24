@@ -32,10 +32,6 @@ If you have general questions around Open Source @ zalando, the quickest way to 
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Team members
-
-* **Hong Phuc Dang** - hong.dang@zalando.de - [@hpdang](https://github.com/hpdang)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
