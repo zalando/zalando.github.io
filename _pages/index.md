@@ -78,12 +78,14 @@ banner:
   </div>
 </section>
 
+<!--
 <section class="dc--text-center page-section page-section--padding page-section--background-white team" id="os-team">
   <div class="dc-container dc-container--limited">
     <h1 class="dc-h1 page-section__header">The Team</h1>
     <div id="os-team-data" class="users"></div>
   </div>
 </section>
+-->
 
 <script src="{{ 'components/user.js' | relative_url }}" type="text/javascript"></script>
 
