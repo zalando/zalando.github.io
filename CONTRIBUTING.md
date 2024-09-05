@@ -101,6 +101,12 @@ bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
 
+In case the installation fails due to issues with installing eventmachine, set the openssl path explicitly:
+
+```
+bundle config build.eventmachine "--with-ssl-dir=$(brew --prefix openssl@1.1)"
+```
+
 ## Updating dependencies
 
 ```
