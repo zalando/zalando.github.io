@@ -14,9 +14,7 @@ function statistic(metric) {
       }</span> different
       <span class="statistic__key">languages</span>,
       with <span class="statistic__value">${metric.stars}</span>
-      <span class="statistic__key">stars</span>
-      and <span class="statistic__value">${metric.contributors}</span> active
-      <span class="statistic__key">contributors</span>.
+      <span class="statistic__key">stars</span>.
     </p>
   `;
 }
