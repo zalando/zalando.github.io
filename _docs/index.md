@@ -18,6 +18,7 @@ Since moving this documentation to an internal documentation site, we extended t
 4. Split release guidelines into two separate guides: *guide for maintainers* who would like to release a new project and a *guide for leads* who are asked for approval of open-sourcing a project.
 5. Moved away from strict incubation and graduation processes to a more flexible approach, where projects are open-sourced on an ongoing basis and archived after a longer period of time of inactivity. We maintain two github organizations for historical reasons only.
 
+### Archived OSS guidelines
 To view the archived content, check the [source code history](https://github.com/zalando/zalando.github.io/tree/ca22fd9dfa96f6a25a6a5ea8b94c9ad815461cb4/_docs) in github. The material includes:
 
 - [Anti-Harassment Policy](https://github.com/zalando/zalando.github.io/blob/ca22fd9dfa96f6a25a6a5ea8b94c9ad815461cb4/_docs/resources/harassment-policy.md)
