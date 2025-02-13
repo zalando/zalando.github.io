@@ -31,7 +31,7 @@ banner:
     </h1>
 
     <p class="dc-p strategy__subtitle">
-      The Open Source Team works across departments at Zalando to scale open culture and
+      The Open Source Community works across departments at Zalando to scale open culture and
       promote best practices of Open Source development. We ensure that Zalando is
       a good Open Source citizen, from understanding and respecting Open Source licensing to enabling
       Zalando employees to take active part in the creation of Open Source.
