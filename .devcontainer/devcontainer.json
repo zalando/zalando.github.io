@@ -1,0 +1,12 @@
+{
+  "name": "Zalando Open Source Site",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
+  "postCreateCommand": "bundle install",
+  "forwardPorts": [4000],
+  "runArgs": ["-p", "4000:4000"],
+  "customizations": {
+    "vscode": {
+      "extensions": ["shopify.ruby-lsp"]
+    }
+  }
+}
