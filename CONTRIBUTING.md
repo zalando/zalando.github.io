@@ -4,28 +4,20 @@
 
 # Development
 
-To build the documentation locally, you need at least:
+### Option 1: GitHub Codespaces
+Click **Code** → **Codespaces** → **New codespace** to launch a ready-to-use environment in your browser.
 
-```
-$ ruby --version
-ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux-gnu]
+### Option 2: VS Code Dev Containers
+1. Install Docker and the [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
+2. Open this repo in VS Code → click "Reopen in Container" when prompted
+3. Run `bundle exec jekyll serve` → site available at http://localhost:4000
 
-$ bundler --version
-Bundler version 2.3.26
+### Option 3: Command line
+Requires devcontainer CLI: `brew install devcontainer`
+```sh
+make serve
 ```
-
-## Running locally
-
-```
-bundle install --path vendor/bundle
-bundle exec jekyll serve
-```
-
-In case the installation fails due to issues with installing eventmachine, set the openssl path explicitly:
-
-```
-bundle config build.eventmachine "--with-ssl-dir=$(brew --prefix openssl@1.1)"
-```
+Site available at http://localhost:4000.
 
 ## Updating dependencies
 
